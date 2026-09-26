@@ -1,0 +1,41 @@
+# Normaliza fim de linha: LF no repositorio, independente do SO
+* text=auto eol=lf
+
+# Markdown e scripts shell usam LF (padrao Unix)
+*.md   text eol=lf
+*.sh   text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+
+# Arquivos do Windows usam CRLF
+*.bat  text eol=crlf
+*.cmd  text eol=crlf
+*.ps1  text eol=crlf
+
+# Imagens são binarias (nao tentar merge linha por linha)
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.webp binary
+*.ico  binary
+
+# SVG e XML 
+*.svg  text
+
+# PDF e binario
+*.pdf  binary
+
+# Arquivos compactados sao binarios
+*.zip  binary
+*.tar  binary
+*.gz   binary
+*.tgz  binary
+*.7z   binary
+
+# Fontes sao binarias
+*.woff  binary
+*.woff2 binary
+*.ttf   binary
+*.otf   binary
