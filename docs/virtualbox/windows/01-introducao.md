@@ -433,7 +433,7 @@ Futuramente, os tutoriais focados no Host em Linux serão adicionados mantendo e
 
 ---
 
-## Considerações Finais
+## Considerações
 
 O objetivo deste guia não é apenas ensinar a instalar um programa, mas sim ajudar a montar uma infraestrutura sólida de estudos que você possa reaproveitar em diversos cursos e projetos.
 
