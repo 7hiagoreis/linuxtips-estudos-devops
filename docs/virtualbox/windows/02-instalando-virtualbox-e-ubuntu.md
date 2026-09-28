@@ -116,7 +116,7 @@ O Windows geralmente salva o arquivo na pasta "Donwloads" conforme representaç�
 
 Execute o arquivo de instalação, primeiramente o Windows pode solicitar a autorização para rodar o instalador. Confirme para iniciar o processo.
 
-![Executando o Oracle VirtualBox](images/05-print-rodando-exe-virtualbox.png04-print-do-local-exe-virtualbox.png)
+![Executando o Oracle VirtualBox](images/05-print-rodando-exe-virtualbox.png)
 *(Imagem 05: Executando a instalação do Oracle VirtualBox)*
 
 ---
