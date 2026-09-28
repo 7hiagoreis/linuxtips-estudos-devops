@@ -101,14 +101,23 @@ Após concluir o download, mantenha o arquivo ISO em um local de fácil acesso. 
 
 ---
 
-## Instalando o VirtualBox
+## Local onde o download do VirtualBox foi salvo
 
-Depois do download, localize o arquivo de instalação e execute.
+Após realizar o download, localize o arquivo de instalação e execute.
 
-O Windows pode pedir autorização para rodar o instalador. Confirme para iniciar o processo.
+O Windows geralmente salva o arquivo na pasta "Donwloads" conforme representação da imagem abaixo.
 
 ![Pasta onde foi salvo o download do Oracle VirtualBox](images/04-print-do-local-exe-virtualbox.png)
 *(Imagem 04: Local onde está o executavel do Oracle VirtualBox)*
+
+---
+
+## Instalando o VirtualBox
+
+Execute o arquivo de instalação, primeiramente o Windows pode solicitar a autorização para rodar o instalador. Confirme para iniciar o processo.
+
+![Executando o Oracle VirtualBox](images/05-print-rodando-exe-virtualbox.png)
+*(Imagem 05: Executando a instalação do Oracle VirtualBox)*
 
 ---
 
@@ -118,6 +127,7 @@ Nesta etapa, o instalador mostra os termos de licença do Oracle VirtualBox.
 
 Leia os termos e marque a opção de aceite para continuar.
 
+![Pasta onde foi salvo o download do Oracle VirtualBox](images/04-print-do-local-exe-virtualbox.png)
 *(Imagem 05: Termos de licença do Oracle VirtualBox)*
 
 ---
