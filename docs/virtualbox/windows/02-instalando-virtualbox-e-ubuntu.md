@@ -116,10 +116,23 @@ O Windows geralmente salva o arquivo na pasta "Donwloads" conforme representaç�
 
 Execute o arquivo de instalação, primeiramente o Windows pode solicitar a autorização para rodar o instalador. Confirme para iniciar o processo.
 
-![Executando o Oracle VirtualBox](images/05-print-rodando-exe-virtualbox.png)
+![Executando o Oracle VirtualBox](images/05-print-rodando-exe-virtualbox.png04-print-do-local-exe-virtualbox.png)
 *(Imagem 05: Executando a instalação do Oracle VirtualBox)*
 
 ---
+
+## Tela de Boas Vindas do VirtualBox
+
+Após confirmar a execução da etapa anterior, o instalador mostra a tela de boas vindas do Oracle VirtualBox.
+
+Nesta tela o instalador informa que será instalado o VirtualBox no computador, é possível também ver a versão utilizada.  
+
+Clique em "Next" para iniciar o processo de instalação.
+
+![Termos de Licença do Oracle VirtualBox](images/06-tela-de-boas-vindas-virtualbox.png)
+*(Imagem 06: Tela de Boas Vindas do Oracle VirtualBox)*
+
+
 
 ### Termos de licença
 
@@ -127,20 +140,8 @@ Nesta etapa, o instalador mostra os termos de licença do Oracle VirtualBox.
 
 Leia os termos e marque a opção de aceite para continuar.
 
-![Pasta onde foi salvo o download do Oracle VirtualBox](images/04-print-do-local-exe-virtualbox.png)
-*(Imagem 05: Termos de licença do Oracle VirtualBox)*
-
----
-
-### Selecionando os componentes
-
-O instalador mostra os componentes que serão instalados junto com o VirtualBox.
-
-Para este laboratório, as opções padrão podem ser mantidas.
-
-Entre os componentes estão os recursos necessários para executar as máquinas virtuais, suporte à rede virtual e integração com alguns dispositivos.
-
-*(Imagem 06: Selecionando os componentes do Oracle VirtualBox)*
+![Termos de Licença do Oracle VirtualBox](images/07-aceite-dos-termos-virtualbox.png)
+*(Imagem 07: Termos de licença do Oracle VirtualBox)*
 
 ---
 
@@ -152,7 +153,25 @@ Para este laboratório, será usado o diretório padrão sugerido pelo instalado
 
 Caso exista uma necessidade específica, o diretório pode ser alterado conforme a organização do sistema.
 
-*(Imagem 07: Definindo o diretório de instalação do Oracle VirtualBox)*
+![Local de instaação do Oracle VirtualBox](images/08-local-de-instalacao-virtualbox.png)
+*(Imagem 08: Definindo o diretório de instalação do Oracle VirtualBox)*
+
+---
+
+### Selecionando os componentes
+
+O instalador mostra os componentes que serão instalados junto com o VirtualBox.
+
+Para este laboratório, as opções padrão podem ser mantidas.
+
+Entre os componentes estão os recursos necessários para executar as máquinas virtuais, suporte à rede virtual e integração com alguns dispositivos.
+
+
+*(Imagem 08: Selecionando os componentes do Oracle VirtualBox)*
+
+---
+
+
 
 ---
 
