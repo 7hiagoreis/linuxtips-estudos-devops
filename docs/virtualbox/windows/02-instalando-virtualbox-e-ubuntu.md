@@ -64,7 +64,7 @@ Antes de começar, vale conferir se o computador tem recursos suficientes para r
 
 A máquina virtual compartilha os recursos do computador físico. Por isso, a quantidade de RAM, capacidade de processamento e espaço em disco devem ser consideradas antes de definir a configuração.
 
-![Imagem 01: Representação do computador físico onde será instalado o Oracle VirtualBox](images/00-print-do-windows.png)
+![Representação do computador físico](images/01-print-do-windows.png)
 *(Imagem 01: Representação do computador físico onde será instalado o Oracle VirtualBox)*
 
 ---
@@ -79,6 +79,7 @@ A versão usada neste laboratório deve ser obtida direto na página oficial do 
 
 Na página de downloads, localize a opção correspondente ao Windows e faça o download do instalador.
 
+![Site oficial do Oracle VirtualBox](images/02-obtendo-o-virtualbox.png)
 *(Imagem 02: Página de download do Oracle VirtualBox)*
 
 ---
