@@ -132,7 +132,7 @@ Clique em "Next" para iniciar o processo de instalação.
 ![Termos de Licença do Oracle VirtualBox](images/06-tela-de-boas-vindas-virtualbox.png)
 *(Imagem 06: Tela de Boas Vindas do Oracle VirtualBox)*
 
-
+---
 
 ### Termos de licença
 
@@ -145,7 +145,16 @@ Leia os termos e marque a opção de aceite para continuar.
 
 ---
 
-### Diretório de instalação
+### Selecionando os componentes
+
+O instalador mostra os componentes que serão instalados junto com o VirtualBox.
+
+Para este laboratório, as opções padrão podem ser mantidas.
+
+Entre os componentes estão os recursos necessários para executar as máquinas virtuais, suporte à rede virtual e integração com alguns dispositivos.
+
+
+## Diretório de instalação
 
 Nesta etapa é possível definir o diretório onde o VirtualBox será instalado.
 
@@ -158,20 +167,14 @@ Caso exista uma necessidade específica, o diretório pode ser alterado conforme
 
 ---
 
-### Selecionando os componentes
+### Dependências ausentes (Missing Dependencies)
 
-O instalador mostra os componentes que serão instalados junto com o VirtualBox.
+O instalador pode exibir um aviso sobre dependências ausentes do Python (Python Core / win32api).
 
-Para este laboratório, as opções padrão podem ser mantidas.
+Esse aviso está relacionado aos bindings Python do VirtualBox, usados para automação via linha de comando. Para este laboratório, clique em **Yes** (Sim) para continuar a instalação normalmente e ignorar o aviso.
 
-Entre os componentes estão os recursos necessários para executar as máquinas virtuais, suporte à rede virtual e integração com alguns dispositivos.
-
-
-*(Imagem 08: Selecionando os componentes do Oracle VirtualBox)*
-
----
-
-
+![Aviso de dependências do Oracle VirtualBox](images/09-aviso-dependencias-virtualbox.png)
+*(Imagem 09: Aviso sobre dependências do Python no Oracle VirtualBox)*
 
 ---
 
@@ -183,17 +186,9 @@ Durante essa etapa, o Windows pode informar que a conexão de rede será tempora
 
 Confirme a instalação para continuar.
 
-*(Imagem 08: Aviso sobre os componentes de rede virtuais)*
 
----
-
-### Dependências ausentes (Missing Dependencies)
-
-O instalador pode exibir um aviso sobre dependências ausentes do Python (Python Core / win32api).
-
-Esse aviso está relacionado aos bindings Python do VirtualBox, usados para automação via linha de comando. Para este laboratório, clique em **Yes** (Sim) para continuar a instalação normalmente e ignorar o aviso.
-
-*(Imagem 09: Aviso sobre dependências do Python)*
+![Aviso sobre a conexão de rede](images/10-aviso-desconectar-rede-virtualbox.png)
+*(Imagem 10: Aviso sobre os componentes de rede virtuais)*
 
 ---
 
@@ -203,7 +198,19 @@ O instalador permite selecionar atalhos e associações de arquivos que serão c
 
 Para este laboratório, as opções padrão podem ser mantidas.
 
-*(Imagem 10: Definindo atalhos e associações de arquivos)*
+![Definindo os Atalhos](images/11-atalhos-instalacao-virtualbox.png)
+*(Imagem 11: Definindo atalhos e associações de arquivos)*
+
+---
+
+### Pronto para instalar
+
+Após definir as configurações do VirtualBox, o instalador aguarda a confirmação para prosseguir.
+
+Clique em "Install" (Instalar) para iniciar este processo.
+
+![Pronto para instalar](images/12-pronto-para-instalar-virtualbox.png)
+*(Imagem 12: Tela de confirmação para iniciar a instalação do Oracle VirtualBox)*
 
 ---
 
@@ -215,7 +222,9 @@ O instalador copiará os arquivos necessários e fará as configurações.
 
 Dependendo da configuração do Windows, o sistema pode pedir autorização para instalar drivers usados pelo VirtualBox para recursos como interfaces de rede e outros dispositivos. Caso isso ocorra, confirme a instalação.
 
-*(Imagem 11: Iniciando a instalação / barra de progresso)*
+![Pronto para instalar](images/13-instalando-virtualbox.png)
+*(Imagem 13: Iniciando a instalação / barra de progresso)*
+
 
 ---
 
