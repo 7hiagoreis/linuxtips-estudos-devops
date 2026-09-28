@@ -96,6 +96,7 @@ Na página, escolha a versão **Ubuntu Server 22.04 LTS** e faça o download.
 
 Após concluir o download, mantenha o arquivo ISO em um local de fácil acesso. Ele será usado durante a criação e configuração da máquina virtual.
 
+![Página oficial de download da ISO Ubuntu Server](images/03-obtendo-o-ubuntu.png)
 *(Imagem 03: Página oficial de download da imagem ISO do Ubuntu Server)*
 
 ---
@@ -106,7 +107,8 @@ Depois do download, localize o arquivo de instalação e execute.
 
 O Windows pode pedir autorização para rodar o instalador. Confirme para iniciar o processo.
 
-*(Imagem 04: Tela de boas-vindas do Oracle VirtualBox)*
+![Pasta onde foi salvo o download do Oracle VirtualBox](images/04-print-do-local-exe-virtualbox.png)
+*(Imagem 04: Local onde está o executavel do Oracle VirtualBox)*
 
 ---
 
