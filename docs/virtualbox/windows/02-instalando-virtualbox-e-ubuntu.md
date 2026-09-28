@@ -134,7 +134,7 @@ Clique em "Next" para iniciar o processo de instalação.
 
 ---
 
-### Termos de licença
+## Termos de licença
 
 Nesta etapa, o instalador mostra os termos de licença do Oracle VirtualBox.
 
@@ -145,7 +145,7 @@ Leia os termos e marque a opção de aceite para continuar.
 
 ---
 
-### Selecionando os componentes
+## Selecionando os componentes
 
 O instalador mostra os componentes que serão instalados junto com o VirtualBox.
 
@@ -154,7 +154,7 @@ Para este laboratório, as opções padrão podem ser mantidas.
 Entre os componentes estão os recursos necessários para executar as máquinas virtuais, suporte à rede virtual e integração com alguns dispositivos.
 
 
-## Diretório de instalação
+### Diretório de instalação
 
 Nesta etapa é possível definir o diretório onde o VirtualBox será instalado.
 
@@ -167,7 +167,7 @@ Caso exista uma necessidade específica, o diretório pode ser alterado conforme
 
 ---
 
-### Dependências ausentes (Missing Dependencies)
+## Dependências ausentes (Missing Dependencies)
 
 O instalador pode exibir um aviso sobre dependências ausentes do Python (Python Core / win32api).
 
@@ -178,7 +178,7 @@ Esse aviso está relacionado aos bindings Python do VirtualBox, usados para auto
 
 ---
 
-### Componentes de rede
+## Componentes de rede
 
 O VirtualBox instala componentes necessários para disponibilizar interfaces de rede virtuais para as máquinas virtuais.
 
@@ -234,7 +234,8 @@ Ao finalizar, o instalador mostra a confirmação de que o Oracle VirtualBox foi
 
 Finalize o instalador e abra o VirtualBox para começar a configuração do ambiente.
 
-*(Imagem 12: Finalizando a instalação)*
+![Finalizando a instalação](images/14-instalacao-finalizada-virtualbox.png)
+*(Imagem 14: Finalizando a instalação)*
 
 ---
 
@@ -244,7 +245,8 @@ Ao abrir o VirtualBox, será apresentada a interface principal do VirtualBox Man
 
 Como é uma instalação nova, inicialmente não haverá máquinas virtuais cadastradas.
 
-*(Imagem 13: Abrindo o VirtualBox / criando a primeira VM)*
+![Tela Principal Oracle VirtualBox](images/15-tela-inicial-virtualbox-primeira-abertura.png)
+*(Imagem 15: Abrindo o VirtualBox / criando a primeira VM)*
 
 ---
 
@@ -264,7 +266,7 @@ Caso o comando não seja reconhecido, feche e abra novamente o Prompt para que o
 
 O comando deve mostrar a versão do VirtualBox instalada.
 
-*(Imagem 14: Verificando a instalação do Oracle VirtualBox pelo Prompt de Comando)*
+*(Imagem 16: Verificando a instalação do Oracle VirtualBox pelo Prompt de Comando)*
 
 ---
 
@@ -274,7 +276,7 @@ Com o VirtualBox instalado, podemos criar a máquina virtual que será usada nes
 
 Na interface principal do VirtualBox, selecione a opção para criar uma nova máquina virtual.
 
-*(Imagem 15: Criando uma nova máquina virtual)*
+*(Imagem 17: Criando uma nova máquina virtual)*
 
 ---
 
@@ -292,7 +294,7 @@ Sistema operacional: Linux
 Distribuição: Ubuntu (64-bit)
 ```
 
-*(Imagem 16: Definindo o nome da máquina virtual e o sistema operacional)*
+*(Imagem 18: Definindo o nome da máquina virtual e o sistema operacional)*
 
 ---
 
@@ -308,7 +310,7 @@ A imagem pode ser obtida direto no site oficial do Ubuntu.
 
 Após o download, selecione a imagem ISO no assistente de criação da máquina virtual.
 
-*(Imagem 17: Selecionando a imagem ISO no Oracle VirtualBox)*
+*(Imagem 19: Selecionando a imagem ISO no Oracle VirtualBox)*
 
 ---
 
@@ -320,7 +322,7 @@ Neste laboratório, será usada a instalação manual do Ubuntu Server, permitin
 
 Caso essa opção seja apresentada, desmarque a instalação não assistida e siga com a configuração manual.
 
-*(Imagem 18: Tela de instalação da máquina virtual, opção de instalação assistida)*
+*(Imagem 20: Tela de instalação da máquina virtual, opção de instalação assistida)*
 
 ---
 
@@ -336,7 +338,7 @@ Neste laboratório, usaremos:
 Memória RAM da máquina virtual: 2048 MB
 ```
 
-*(Imagem 19: Tela de criação da VM, definindo o tamanho da memória RAM)*
+*(Imagem 21: Tela de criação da VM, definindo o tamanho da memória RAM)*
 
 ---
 
@@ -350,7 +352,7 @@ Para este laboratório, usaremos:
 Processadores virtuais: 2
 ```
 
-*(Imagem 20: Tela de criação da VM, configurando os processadores)*
+*(Imagem 22: Tela de criação da VM, configurando os processadores)*
 
 ---
 
@@ -366,7 +368,7 @@ O tamanho pode ser ajustado conforme os recursos disponíveis e a finalidade do 
 Tamanho do disco virtual: 20 GB
 ```
 
-*(Imagem 21: Tela de criação da VM, definindo o tamanho do disco)*
+*(Imagem 23: Tela de criação da VM, definindo o tamanho do disco)*
 
 ---
 
@@ -384,7 +386,7 @@ Disco virtual: 20 GB
 Sistema operacional: Ubuntu Server
 ```
 
-*(Imagem 22: Revisando as configurações da máquina virtual)*
+*(Imagem 24: Revisando as configurações da máquina virtual)*
 
 ---
 
@@ -405,7 +407,7 @@ Entre as configurações disponíveis estão:
 
 Neste laboratório, o foco inicial será a configuração dos recursos necessários para executar o Ubuntu Server.
 
-*(Imagem 23: Configurando a máquina virtual dentro do Oracle VirtualBox)*
+*(Imagem 25: Configurando a máquina virtual dentro do Oracle VirtualBox)*
 
 ---
 
@@ -419,7 +421,7 @@ Para este laboratório inicial, será usada a configuração **NAT**.
 
 O modo NAT permite que a máquina virtual use a conexão de rede do computador hospedeiro para acessar recursos externos.
 
-*(Imagem 24: Configurando a rede da máquina virtual no Oracle VirtualBox)*
+*(Imagem 26: Configurando a rede da máquina virtual no Oracle VirtualBox)*
 
 ---
 
@@ -429,7 +431,7 @@ Com a configuração concluída, inicie a máquina virtual.
 
 Ao iniciar, o VirtualBox abrirá uma janela correspondente ao computador virtual e fará o processo de inicialização.
 
-*(Imagem 25: Iniciando a máquina virtual)*
+*(Imagem 27: Iniciando a máquina virtual)*
 
 ---
 
@@ -439,7 +441,7 @@ Com a imagem ISO montada na máquina virtual, o sistema será iniciado pelo inst
 
 O instalador apresenta as opções necessárias para configurar o sistema operacional.
 
-*(Imagem 26: Iniciando a instalação do Ubuntu Server na máquina virtual)*
+*(Imagem 28: Iniciando a instalação do Ubuntu Server na máquina virtual)*
 
 ---
 
@@ -449,7 +451,7 @@ O instalador pede a escolha do idioma que será usado durante a instalação.
 
 Selecione o idioma desejado e continue.
 
-*(Imagem 27: Definindo o idioma padrão do sistema durante a instalação)*
+*(Imagem 29: Definindo o idioma padrão do sistema durante a instalação)*
 
 ---
 
@@ -459,7 +461,7 @@ Durante a instalação, o Ubuntu Server também pede informações sobre o layou
 
 Selecione a opção correspondente ao teclado que será usado.
 
-*(Imagem 28: Configurando o teclado)*
+*(Imagem 30: Configurando o teclado)*
 
 ---
 
