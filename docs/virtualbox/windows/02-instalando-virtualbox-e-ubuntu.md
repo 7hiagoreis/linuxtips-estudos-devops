@@ -284,6 +284,7 @@ Com o VirtualBox instalado, podemos criar a máquina virtual que será usada nes
 
 Na interface principal do VirtualBox, selecione a opção para criar uma nova máquina virtual.
 
+![Tela Principal Oracle VirtualBox](images/17-criando-nova-maquina-virtual.png)
 *(Imagem 17: Criando uma nova máquina virtual)*
 
 ---
