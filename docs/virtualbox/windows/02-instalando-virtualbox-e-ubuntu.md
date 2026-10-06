@@ -254,18 +254,26 @@ Como é uma instalação nova, inicialmente não haverá máquinas virtuais cada
 
 Além da interface gráfica, o VirtualBox disponibiliza ferramentas de linha de comando.
 
-Uma forma simples de verificar a versão instalada é usar o comando `VBoxManage`:
+Uma forma simples de verificar a versão instalada é usar o comando `VBoxManage`
+
+Para fazer a verificação, abra o Prompt de Comando  (CMD) ou o PowerShell do Windows e acesse a pasta:
+
+```bash
+cd "C:\Program Files\Oracle\VirtualBox"
+```
+
+Após abrir o prompt, digite:
 
 ```bash
 VBoxManage --version
 ```
 
-O comando deve ser executado no Prompt de Comando ou no PowerShell do Windows.
-
 Caso o comando não seja reconhecido, feche e abra novamente o Prompt para que o PATH seja atualizado.
 
 O comando deve mostrar a versão do VirtualBox instalada.
 
+
+![Tela Principal Oracle VirtualBox](images/16-verificando-a-versao-vb-via-cmd.png)
 *(Imagem 16: Verificando a instalação do Oracle VirtualBox pelo Prompt de Comando)*
 
 ---
