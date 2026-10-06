@@ -337,7 +337,7 @@ Neste laboratório, será usada a instalação manual do Ubuntu Server, permitin
 Caso essa opção seja apresentada, desmarque a instalação não assistida e siga com a configuração manual.
 
 
-![Tela Principal Oracle VirtualBox](images/20-tela-de-instalacao-da-vm-instal-nao-assistida.png)
+
 *(Imagem 20: Tela de instalação da máquina virtual, opção de instalação assistida)*
 
 ---
