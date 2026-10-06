@@ -303,6 +303,7 @@ Sistema operacional: Linux
 Distribuição: Ubuntu (64-bit)
 ```
 
+![Tela Principal Oracle VirtualBox](images/18-definindo-o-nome-da-vm.png)
 *(Imagem 18: Definindo o nome da máquina virtual e o sistema operacional)*
 
 ---
@@ -319,6 +320,10 @@ A imagem pode ser obtida direto no site oficial do Ubuntu.
 
 Após o download, selecione a imagem ISO no assistente de criação da máquina virtual.
 
+
+
+
+![Tela Principal Oracle VirtualBox](images/19-selecionando-a-imagem-iso-no-virtualbox.png)
 *(Imagem 19: Selecionando a imagem ISO no Oracle VirtualBox)*
 
 ---
@@ -331,6 +336,8 @@ Neste laboratório, será usada a instalação manual do Ubuntu Server, permitin
 
 Caso essa opção seja apresentada, desmarque a instalação não assistida e siga com a configuração manual.
 
+
+![Tela Principal Oracle VirtualBox](images/20-.png)
 *(Imagem 20: Tela de instalação da máquina virtual, opção de instalação assistida)*
 
 ---
