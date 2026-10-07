@@ -575,7 +575,8 @@ Defina:
 - **Nome de usuário**: o login (por exemplo, `devops`).
 - **Senha**: uma senha para esse usuário.
 
-*(Imagem 40: Configurando usuário e senha do sistema)*
+![Tela Principal Oracle VirtualBox](images/39-configurando-usuario-e-senha.png)
+*(Imagem 39: Configurando usuário e senha do sistema)*
 
 ---
 
@@ -585,7 +586,7 @@ O instalador pede a definição do fuso horário.
 
 Selecione o fuso correspondente à sua região e continue.
 
-*(Imagem 41: Configurando o fuso horário)*
+*(Imagem 40: Configurando o fuso horário)*
 
 ---
 
