@@ -404,7 +404,7 @@ Disco virtual: 20 GB
 Sistema operacional: Ubuntu Server
 ```
 
-![Tela Principal Oracle VirtualBox](images/24-configuracoes-da-maquina virtual.png)
+![Tela Principal Oracle VirtualBox](images/24-configuracoes-da-maquina-virtual.png)
 *(Imagem 24: Revisando as configurações da máquina virtual)*
 
 ---
