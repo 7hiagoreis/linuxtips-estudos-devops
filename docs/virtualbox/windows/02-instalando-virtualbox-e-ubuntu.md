@@ -646,7 +646,7 @@ Após a instalação dos pacotes, o instalador mostra uma tela de conclusão.
 
 Escolha a opção de reiniciar o sistema. A máquina virtual irá reiniciar e o Ubuntu Server será carregado a partir do disco virtual.
 
-![Tela Principal Oracle VirtualBox](images/45-finalizando-a-instalacao.png)
+
 *(Imagem 45: Finalizando a instalação do Ubuntu Server)*
 
 ---
@@ -657,9 +657,13 @@ Após a reinicialização, será apresentada a tela de login em modo texto.
 
 Utilize o usuário e a senha definidos durante a instalação.
 
+![Tela Principal Oracle VirtualBox](images/46-tela-de-login-ubuntu-server.png)
 *(Imagem 46: Tela de login do Ubuntu Server)*
 
-Depois do login, o sistema estará pronto para ser usado como ambiente de laboratório.
+
+
+
+Depois de digitar o seu usuário e senha e pressionar a tecla <Enter>, o sistema estará pronto para ser utilizado como ambiente de laboratório.
 
 *(Imagem 47: Representação do sistema operacional Ubuntu Server)*
 
