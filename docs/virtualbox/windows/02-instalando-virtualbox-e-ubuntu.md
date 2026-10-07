@@ -722,7 +722,8 @@ O comando `df` permite consultar o espaço utilizado e disponível nos sistemas 
 df -h
 ```
 
-*(Imagem 52: Consultando o espaço usado e disponível no sistema via terminal)*
+![Tela Principal Oracle VirtualBox](images/52-df-h.png)
+*(Imagem 52: Consultando o espaço utilizado e disponível no sistema via terminal)*
 
 ---
 
