@@ -601,7 +601,7 @@ Para este laboratório não é necessário selecionar essa opção.
 
 Marque a opção "Skip for now" e clique em "Continue".
 
-![Tela Principal Oracle VirtualBox](images/41-ubuntu-pro.png)
+![Tela Principal Oracle VirtualBox](images/41-tela-ubuntu-pro.png)
 *(Imagem 41: Etapa do processo de instalação / Opção Ubuntu Pro)*
 
 ---
