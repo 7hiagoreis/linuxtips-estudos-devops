@@ -618,23 +618,24 @@ Para este laboratório, marque a opção para instalar o OpenSSH. Isso permite a
 
 ---
 
+### Selecionando Snaps
+
+O Ubuntu Server permite instalar alguns **Snaps** (pacotes de software isolados em containers, projetados para uma instalação simples e segura) pré-configurados durante a instalação.
+
+Para este laboratório, nenhum Snap adicional é necessário. Pule essa etapa.
+
+![Tela Principal Oracle VirtualBox](images/43-selecionando-snaps.png)
+*(Imagem 43: Tela de seleção de Snaps)*
+
+---
+
 ### Instalando o sistema
 
 Depois que as configurações forem definidas, o instalador inicia a instalação dos arquivos do Ubuntu Server no disco virtual.
 
 O tempo necessário depende principalmente do desempenho do computador físico e da configuração da máquina virtual.
 
-*(Imagem 42: Instalando o sistema)*
-
----
-
-### Selecionando snaps
-
-O Ubuntu Server permite instalar alguns snaps pré-configurados durante a instalação.
-
-Para este laboratório, nenhum snap adicional é necessário. Pule essa etapa.
-
-*(Imagem 44: Tela de seleção de snaps)*
+*(Imagem 44: Instalando o sistema)*
 
 ---
 
