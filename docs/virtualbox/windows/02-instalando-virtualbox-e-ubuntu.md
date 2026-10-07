@@ -735,7 +735,8 @@ Para ver as interfaces de rede e os endereços IP configurados:
 ip addr
 ```
 
-*(Imagem 53: Verificando a rede do Ubuntu Server pelo terminal)*
+![Tela Principal Oracle VirtualBox](images/53-ip-addr.png)
+*(Imagem 53: Verificando a rede do Ubuntu Server no terminal)*
 
 Também podemos testar a comunicação com a internet usando o comando `ping`:
 
