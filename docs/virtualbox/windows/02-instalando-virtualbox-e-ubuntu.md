@@ -368,6 +368,7 @@ Para este laboratório, usaremos:
 Processadores virtuais: 2
 ```
 
+![Tela Principal Oracle VirtualBox](images/22-configurando-os-processadores)
 *(Imagem 22: Tela de criação da VM, configurando os processadores)*
 
 ---
