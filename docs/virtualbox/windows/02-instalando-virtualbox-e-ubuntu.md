@@ -606,6 +606,18 @@ Marque a opção "Skip for now" e clique em "Continue".
 
 ---
 
+### Configurando o OpenSSH
+
+Agora o instalador do Ubuntu Server pergunta se você quer instalar o servidor OpenSSH.
+
+Para este laboratório, marque a opção para instalar o OpenSSH. Isso permite acessar a máquina virtual via SSH depois.
+
+
+![Tela Principal Oracle VirtualBox](images/42-configurando-o-ssh.png)
+*(Imagem 42: Tela de configuração do OpenSSH)*
+
+---
+
 ### Instalando o sistema
 
 Depois que as configurações forem definidas, o instalador inicia a instalação dos arquivos do Ubuntu Server no disco virtual.
@@ -613,16 +625,6 @@ Depois que as configurações forem definidas, o instalador inicia a instalaçã
 O tempo necessário depende principalmente do desempenho do computador físico e da configuração da máquina virtual.
 
 *(Imagem 42: Instalando o sistema)*
-
----
-
-### Configurando o OpenSSH
-
-O instalador do Ubuntu Server pergunta se você quer instalar o servidor OpenSSH.
-
-Para este laboratório, marque a opção para instalar o OpenSSH. Isso permite acessar a máquina virtual via SSH depois.
-
-*(Imagem 43: Tela de configuração do OpenSSH)*
 
 ---
 
