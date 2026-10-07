@@ -680,6 +680,7 @@ Para ver as informações sobre o kernel e a arquitetura do sistema, utilize o c
 uname -a
 ```
 
+![Tela Principal Oracle VirtualBox](images/48-uname-a.png)
 *(Imagem 48: Consultando informações do kernel no Ubuntu Server pelo terminal)*
 
 Para ver informações da distribuição instalada:
