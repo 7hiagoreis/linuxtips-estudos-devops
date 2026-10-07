@@ -413,6 +413,10 @@ Sistema operacional: Ubuntu Server
 
 Depois de criar a máquina virtual, ainda é possível alterar várias configurações antes de iniciá-la.
 
+![Tela Principal Oracle VirtualBox](images/25-abrindo-vb-primeiro-acesso.png)
+*(Imagem 25: Painel Inicial do Oracle VirtualBox)*
+
+
 Entre as configurações disponíveis estão:
 
 - Sistema
@@ -426,7 +430,8 @@ Entre as configurações disponíveis estão:
 
 Neste laboratório, o foco inicial será a configuração dos recursos necessários para executar o Ubuntu Server.
 
-*(Imagem 25: Configurando a máquina virtual dentro do Oracle VirtualBox)*
+![Tela Principal Oracle VirtualBox](images/26-configuracoes-vm.png)
+*(Imagem 26: Configurando a máquina virtual dentro do Oracle VirtualBox)*
 
 ---
 
