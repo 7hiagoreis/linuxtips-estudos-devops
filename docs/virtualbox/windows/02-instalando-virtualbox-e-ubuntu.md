@@ -785,6 +785,7 @@ Ao final deste laboratório, temos uma máquina virtual com o sistema operaciona
 
 O ambiente criado pode ser usado como base para outros estudos relacionados à administração de sistemas, redes, servidores, containers e DevOps.
 
+![Tela Principal Oracle VirtualBox](images/55-representacao-ubuntu-cli.png)
 *(Imagem 55: Representação do sistema operacional Ubuntu Server)*
 
 ---
