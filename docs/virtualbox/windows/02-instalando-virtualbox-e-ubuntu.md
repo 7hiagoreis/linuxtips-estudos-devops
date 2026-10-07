@@ -490,7 +490,8 @@ Durante a instalação, o Ubuntu Server também pede informações sobre o layou
 
 Selecione a opção correspondente ao teclado que será usado.
 
-*(Imagem 30: Configurando o teclado)*
+![Tela Principal Oracle VirtualBox](images/31-configurando-teclado.png)
+*(Imagem 31: Configurando o teclado)*
 
 ---
 
@@ -500,7 +501,7 @@ O instalador do Ubuntu Server tenta configurar automaticamente a interface de re
 
 Como a máquina está usando NAT no VirtualBox, o sistema deve receber uma configuração de rede automática através do ambiente virtualizado.
 
-*(Imagem 29: Configurando a rede do sistema durante a instalação)*
+*(Imagem 32: Configurando a rede do sistema durante a instalação)*
 
 ---
 
@@ -508,7 +509,7 @@ Como a máquina está usando NAT no VirtualBox, o sistema deve receber uma confi
 
 As definições de proxy podem ser ignoradas se você não usa proxy na rede local. Configure apenas se necessário.
 
-*(Imagem 30: Tela de configuração de proxy)*
+*(Imagem 33: Tela de configuração de proxy)*
 
 ---
 
@@ -518,7 +519,7 @@ O instalador pede a confirmação do espelho (mirror) do repositório que será 
 
 Escolha o espelho mais próximo da sua região para baixar pacotes mais rápido.
 
-*(Imagem 31: Tela de configuração do espelho do repositório)*
+*(Imagem 34: Tela de configuração do espelho do repositório)*
 
 ---
 
@@ -528,15 +529,15 @@ O instalador pede a configuração de armazenamento. Para um laboratório inicia
 
 Neste passo, o processo de instalação usará o disco virtual criado antes no VirtualBox.
 
-*(Imagem 32: Iniciando o particionador)*
+*(Imagem 35: Iniciando o particionador)*
 
 O particionamento assistido facilita o processo em uma instalação rápida. Neste exemplo, escolhemos o particionamento assistido com uso do disco inteiro.
 
-*(Imagem 33: Definindo o particionamento)*
+*(Imagem 36: Definindo o particionamento)*
 
 Em seguida, é necessário confirmar o processo. Observe que todos os dados do disco virtual serão apagados. Selecione o disco a ser particionado.
 
-*(Imagem 34: Confirmando o disco que será usado na instalação)*
+*(Imagem 37: Confirmando o disco que será usado na instalação)*
 
 ---
 
@@ -544,7 +545,7 @@ Em seguida, é necessário confirmar o processo. Observe que todos os dados do d
 
 O sistema apresenta uma visão geral das partições e pontos de montagem. Selecione a opção de finalizar o particionamento e escrever as mudanças no disco. Confirme as alterações e continue.
 
-*(Imagem 35: Resumo geral das partições e pontos de montagem)*
+*(Imagem 38: Resumo geral das partições e pontos de montagem)*
 
 ---
 
@@ -561,7 +562,7 @@ Defina:
 - **Nome de usuário**: o login (por exemplo, `devops`).
 - **Senha**: uma senha para esse usuário.
 
-*(Imagem 36: Configurando usuário e senha do sistema)*
+*(Imagem 39: Configurando usuário e senha do sistema)*
 
 ---
 
@@ -571,7 +572,7 @@ O instalador pede a definição do fuso horário.
 
 Selecione o fuso correspondente à sua região e continue.
 
-*(Imagem 37: Configurando o fuso horário)*
+*(Imagem 40: Configurando o fuso horário)*
 
 ---
 
@@ -581,7 +582,7 @@ Depois que as configurações forem definidas, o instalador inicia a instalaçã
 
 O tempo necessário depende principalmente do desempenho do computador físico e da configuração da máquina virtual.
 
-*(Imagem 38: Instalando o sistema)*
+*(Imagem 41: Instalando o sistema)*
 
 ---
 
@@ -591,7 +592,7 @@ O instalador do Ubuntu Server pergunta se você quer instalar o servidor OpenSSH
 
 Para este laboratório, marque a opção para instalar o OpenSSH. Isso permite acessar a máquina virtual via SSH depois.
 
-*(Imagem 39: Tela de configuração do OpenSSH)*
+*(Imagem 42: Tela de configuração do OpenSSH)*
 
 ---
 
@@ -601,7 +602,7 @@ O Ubuntu Server permite instalar alguns snaps pré-configurados durante a instal
 
 Para este laboratório, nenhum snap adicional é necessário. Pule essa etapa.
 
-*(Imagem 40: Tela de seleção de snaps)*
+*(Imagem 43: Tela de seleção de snaps)*
 
 ---
 
@@ -611,7 +612,7 @@ Após a instalação dos pacotes, o instalador mostra uma tela de conclusão.
 
 Escolha a opção de reiniciar o sistema. A máquina virtual irá reiniciar e o Ubuntu Server será carregado a partir do disco virtual.
 
-*(Imagem 41: Finalizando a instalação)*
+*(Imagem 44: Finalizando a instalação)*
 
 ---
 
@@ -621,11 +622,11 @@ Após a reinicialização, será apresentada a tela de login em modo texto.
 
 Utilize o usuário e a senha definidos durante a instalação.
 
-*(Imagem 42: Tela de login do Ubuntu Server)*
+*(Imagem 45: Tela de login do Ubuntu Server)*
 
 Depois do login, o sistema estará pronto para ser usado como ambiente de laboratório.
 
-*(Imagem 43: Representação do sistema operacional Ubuntu Server)*
+*(Imagem 46: Representação do sistema operacional Ubuntu Server)*
 
 ---
 
@@ -639,7 +640,7 @@ Para ver informações sobre o kernel e a arquitetura do sistema:
 uname -a
 ```
 
-*(Imagem 44: Consultando informações do kernel no Ubuntu Server pelo terminal)*
+*(Imagem 47: Consultando informações do kernel no Ubuntu Server pelo terminal)*
 
 Para ver informações da distribuição instalada:
 
@@ -647,7 +648,7 @@ Para ver informações da distribuição instalada:
 cat /etc/os-release
 ```
 
-*(Imagem 45: Consultando informações da distribuição Ubuntu pelo terminal)*
+*(Imagem 48: Consultando informações da distribuição Ubuntu pelo terminal)*
 
 ---
 
@@ -659,7 +660,7 @@ Para consultar a memória disponível:
 free -h
 ```
 
-*(Imagem 46: Consultando a quantidade de memória disponível pelo terminal)*
+*(Imagem 49: Consultando a quantidade de memória disponível pelo terminal)*
 
 Para verificar os processadores disponíveis:
 
@@ -667,7 +668,7 @@ Para verificar os processadores disponíveis:
 nproc
 ```
 
-*(Imagem 47: Consultando os processadores disponíveis pelo terminal)*
+*(Imagem 50: Consultando os processadores disponíveis pelo terminal)*
 
 ---
 
@@ -679,7 +680,7 @@ O comando `df` permite consultar o espaço usado e disponível nos sistemas de a
 df -h
 ```
 
-*(Imagem 48: Consultando o espaço usado e disponível no sistema pelo terminal)*
+*(Imagem 51: Consultando o espaço usado e disponível no sistema pelo terminal)*
 
 ---
 
@@ -691,7 +692,7 @@ Para ver as interfaces de rede e os endereços IP configurados:
 ip addr
 ```
 
-*(Imagem 49: Verificando a rede do Ubuntu Server pelo terminal)*
+*(Imagem 52: Verificando a rede do Ubuntu Server pelo terminal)*
 
 Também podemos testar a comunicação com a internet usando o comando `ping`:
 
@@ -701,7 +702,7 @@ ping -c 4 ubuntu.com
 
 Se houver resposta aos pacotes enviados, a máquina virtual tem conectividade com a internet.
 
-*(Imagem 50: Teste de ping no terminal do Ubuntu Server)*
+*(Imagem 53: Teste de ping no terminal do Ubuntu Server)*
 
 ---
 
@@ -739,7 +740,7 @@ Ao final deste laboratório, temos uma máquina virtual com o sistema operaciona
 
 O ambiente criado pode ser usado como base para outros estudos relacionados à administração de sistemas, redes, servidores, containers e DevOps.
 
-*(Imagem 51: Representação do sistema operacional Ubuntu Server)*
+*(Imagem 54: Representação do sistema operacional Ubuntu Server)*
 
 ---
 
@@ -765,7 +766,7 @@ A partir do Ubuntu Server instalado, podemos criar diferentes cenários de estud
 
 Também é possível criar snapshots da máquina virtual antes de fazer alterações importantes. Assim, um estado anterior do laboratório pode ser recuperado caso alguma configuração apresente problemas.
 
-*(Imagem 52: Painel principal do Oracle VirtualBox para gerenciamento das máquinas virtuais)*
+*(Imagem 55: Painel principal do Oracle VirtualBox para gerenciamento das máquinas virtuais)*
 
 ---
 
