@@ -353,7 +353,7 @@ Neste laboratório, usaremos:
 ```
 Memória RAM da máquina virtual: 2048 MB
 ```
-
+![Tela Principal Oracle VirtualBox](images/21-definindo-o-tamanho-da-memoria.png)
 *(Imagem 21: Tela de criação da VM, definindo o tamanho da memória RAM)*
 
 ---
