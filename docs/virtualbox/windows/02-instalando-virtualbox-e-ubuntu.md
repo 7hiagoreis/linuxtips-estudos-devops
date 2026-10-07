@@ -551,18 +551,14 @@ O particionamento assistido facilita o processo em uma instalação rápida. Nes
 *(Imagem 37: Definindo o particionamento)*
 
 
-Em seguida, é necessário confirmar o processo. Observe que todos os dados do disco virtual serão apagados. Selecione o disco a ser particionado.
-
-![Tela Principal Oracle VirtualBox](images/38-confirmando-o-disco-que-sera-usado.png)
-*(Imagem 38: Confirmando o disco que será usado na instalação)*
-
----
-
 #### Finalizando o particionamento
 
 O sistema apresenta uma visão geral das partições e pontos de montagem. Selecione a opção de finalizar o particionamento e escrever as mudanças no disco. Confirme as alterações e continue.
 
-*(Imagem 39: Resumo geral das partições e pontos de montagem)*
+Em seguida, é necessário confirmar o processo. Observe que todos os dados do disco virtual serão apagados. Selecione o disco a ser particionado.
+
+![Tela Principal Oracle VirtualBox](images/38-confirmando-o-disco-que-sera-usado.png)
+*(Imagem 38: Confirmando o disco que será usado na instalação)*
 
 ---
 
