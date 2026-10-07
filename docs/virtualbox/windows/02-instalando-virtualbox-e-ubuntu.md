@@ -445,7 +445,8 @@ Para este laboratório inicial, será usada a configuração **NAT**.
 
 O modo NAT permite que a máquina virtual use a conexão de rede do computador hospedeiro para acessar recursos externos.
 
-*(Imagem 26: Configurando a rede da máquina virtual no Oracle VirtualBox)*
+![Tela Principal Oracle VirtualBox](images/27-configurando-a-rede-da-vm.png)
+*(Imagem 27: Configurando a rede da máquina virtual no Oracle VirtualBox)*
 
 ---
 
@@ -455,7 +456,8 @@ Com a configuração concluída, inicie a máquina virtual.
 
 Ao iniciar, o VirtualBox abrirá uma janela correspondente ao computador virtual e fará o processo de inicialização.
 
-*(Imagem 27: Iniciando a máquina virtual)*
+![Tela Principal Oracle VirtualBox](images/28-iniciando-a-maquina-virtual.png)
+*(Imagem 28: Iniciando a máquina virtual)*
 
 ---
 
@@ -465,7 +467,7 @@ Com a imagem ISO montada na máquina virtual, o sistema será iniciado pelo inst
 
 O instalador apresenta as opções necessárias para configurar o sistema operacional.
 
-*(Imagem 28: Iniciando a instalação do Ubuntu Server na máquina virtual)*
+*(Imagem 29: Iniciando a instalação do Ubuntu Server na máquina virtual)*
 
 ---
 
@@ -475,7 +477,7 @@ O instalador pede a escolha do idioma que será usado durante a instalação.
 
 Selecione o idioma desejado e continue.
 
-*(Imagem 29: Definindo o idioma padrão do sistema durante a instalação)*
+*(Imagem 30: Definindo o idioma padrão do sistema durante a instalação)*
 
 ---
 
