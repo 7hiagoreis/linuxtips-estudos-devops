@@ -635,7 +635,8 @@ Depois que as configurações forem definidas, o instalador inicia a instalaçã
 
 O tempo necessário depende principalmente do desempenho do computador físico e da configuração da máquina virtual.
 
-*(Imagem 44: Instalando o sistema)*
+![Tela Principal Oracle VirtualBox](images/44-instalando-o-sistema.png)
+*(Imagem 44: Instalando o sistema Ubuntu Server)*
 
 ---
 
