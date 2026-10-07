@@ -688,7 +688,7 @@ Para ver informações da distribuição instalada:
 ```bash
 cat /etc/os-release
 ```
-
+![Tela Principal Oracle VirtualBox](images/49-cat-os-release.png)
 *(Imagem 49: Consultando informações da distribuição Ubuntu pelo terminal)*
 
 ---
