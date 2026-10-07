@@ -519,6 +519,7 @@ Como a máquina está usando NAT no VirtualBox, o sistema deve receber uma confi
 
 As definições de proxy podem ser ignoradas se você não usa proxy na rede local. Configure apenas se necessário.
 
+![Tela Principal Oracle VirtualBox](images/34-tela-de-configuracao-proxy.png)
 *(Imagem 34: Tela de configuração de proxy)*
 
 ---
