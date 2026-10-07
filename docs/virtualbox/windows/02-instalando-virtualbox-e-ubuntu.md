@@ -385,6 +385,7 @@ O tamanho pode ser ajustado conforme os recursos disponíveis e a finalidade do 
 Tamanho do disco virtual: 20 GB
 ```
 
+![Tela Principal Oracle VirtualBox](images/23-definindo-o-tamanho-do-disco.png)
 *(Imagem 23: Tela de criação da VM, definindo o tamanho do disco)*
 
 ---
