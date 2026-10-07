@@ -551,7 +551,7 @@ O particionamento assistido facilita o processo em uma instalação rápida. Nes
 *(Imagem 37: Definindo o particionamento)*
 
 
-#### Finalizando o particionamento
+### Finalizando o particionamento
 
 O sistema apresenta uma visão geral das partições e pontos de montagem. Selecione a opção de finalizar o particionamento e escrever as mudanças no disco. Confirme as alterações e continue.
 
@@ -577,6 +577,17 @@ Defina:
 
 ![Tela Principal Oracle VirtualBox](images/39-configurando-usuario-e-senha-vm.png)
 *(Imagem 39: Configurando usuário e senha do sistema)*
+
+---
+
+### Exemplo da criação do usuário
+
+A imagem abaixo é um exemplo de como devemos preencher os campos.
+
+Após definir o nome de usuário e senha, clique em "Concluído".
+
+![Tela Principal Oracle VirtualBox](images/40-exemplo-de-criacao-de-usuario.png)
+*(Imagem 40: Exemplo de criação de usuário no processo de instalação)*
 
 ---
 
