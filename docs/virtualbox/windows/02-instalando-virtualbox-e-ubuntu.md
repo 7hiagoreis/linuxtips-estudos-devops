@@ -553,6 +553,7 @@ O particionamento assistido facilita o processo em uma instalação rápida. Nes
 
 Em seguida, é necessário confirmar o processo. Observe que todos os dados do disco virtual serão apagados. Selecione o disco a ser particionado.
 
+![Tela Principal Oracle VirtualBox](images/38-confirmando-o-disco-que-sera-usado.png)
 *(Imagem 38: Confirmando o disco que será usado na instalação)*
 
 ---
@@ -561,7 +562,7 @@ Em seguida, é necessário confirmar o processo. Observe que todos os dados do d
 
 O sistema apresenta uma visão geral das partições e pontos de montagem. Selecione a opção de finalizar o particionamento e escrever as mudanças no disco. Confirme as alterações e continue.
 
-*(Imagem 38: Resumo geral das partições e pontos de montagem)*
+*(Imagem 39: Resumo geral das partições e pontos de montagem)*
 
 ---
 
@@ -578,7 +579,7 @@ Defina:
 - **Nome de usuário**: o login (por exemplo, `devops`).
 - **Senha**: uma senha para esse usuário.
 
-*(Imagem 39: Configurando usuário e senha do sistema)*
+*(Imagem 40: Configurando usuário e senha do sistema)*
 
 ---
 
@@ -588,7 +589,7 @@ O instalador pede a definição do fuso horário.
 
 Selecione o fuso correspondente à sua região e continue.
 
-*(Imagem 40: Configurando o fuso horário)*
+*(Imagem 41: Configurando o fuso horário)*
 
 ---
 
