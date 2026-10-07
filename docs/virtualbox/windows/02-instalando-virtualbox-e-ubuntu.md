@@ -479,6 +479,7 @@ O instalador pede a escolha do idioma que será usado durante a instalação.
 
 Selecione o idioma desejado e continue.
 
+![Tela Principal Oracle VirtualBox](images/30-definindo-o-idioma-instalacao.png)
 *(Imagem 30: Definindo o idioma padrão do sistema durante a instalação)*
 
 ---
