@@ -665,6 +665,7 @@ Utilize o usuário e a senha definidos durante a instalação.
 
 Depois de digitar o seu usuário e senha e pressionar a tecla <Enter>, o sistema estará pronto para ser utilizado como ambiente de laboratório.
 
+![Tela Principal Oracle VirtualBox](images/47-apos-login.png)
 *(Imagem 47: Representação do sistema operacional Ubuntu Server)*
 
 ---
@@ -673,7 +674,7 @@ Depois de digitar o seu usuário e senha e pressionar a tecla <Enter>, o sistema
 
 Acesse o Ubuntu Server e faça algumas verificações básicas para confirmar que o sistema foi instalado corretamente.
 
-Para ver informações sobre o kernel e a arquitetura do sistema:
+Para ver as informações sobre o kernel e a arquitetura do sistema, utilize o comando:
 
 ```bash
 uname -a
