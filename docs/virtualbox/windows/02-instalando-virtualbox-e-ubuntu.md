@@ -812,6 +812,7 @@ A partir do Ubuntu Server instalado, podemos criar diferentes cenários de estud
 
 Também é possível criar snapshots da máquina virtual antes de fazer alterações importantes. Assim, um estado anterior do laboratório pode ser recuperado caso alguma configuração apresente problemas.
 
+![Tela Principal Oracle VirtualBox](images/56-painel-vb.png)
 *(Imagem 56: Painel principal do Oracle VirtualBox para gerenciamento das máquinas virtuais)*
 
 ---
