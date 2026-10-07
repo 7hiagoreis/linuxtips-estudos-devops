@@ -746,6 +746,7 @@ ping -c 4 ubuntu.com
 
 Se houver resposta aos pacotes enviados, a máquina virtual tem conectividade com a internet.
 
+![Tela Principal Oracle VirtualBox](images/54-teste-ping-0004.png)
 *(Imagem 54: Teste de ping no terminal do Ubuntu Server)*
 
 ---
