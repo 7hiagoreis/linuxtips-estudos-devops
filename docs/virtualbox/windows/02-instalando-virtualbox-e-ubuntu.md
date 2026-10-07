@@ -591,13 +591,18 @@ Após definir o nome de usuário e senha, clique em "Concluído".
 
 ---
 
-### Configurando o fuso horário
+### Ubuntu Pro
 
-O instalador pede a definição do fuso horário.
+Nesta etapa o instalador informa que é possível atualizar para o Ubuntu Pro.
 
-Selecione o fuso correspondente à sua região e continue.
+O Ubuntu Pro é um serviço de assinatura de segurança e conformidade oferecido pela Canonical para estender o suporte ao sistema operacional.
 
-*(Imagem 40: Configurando o fuso horário)*
+Para este laboratório não é necessário selecionar essa opção.
+
+Marque a opção "Skip for now" e clique em "Continue".
+
+![Tela Principal Oracle VirtualBox](images/41-ubuntu-pro.png)
+*(Imagem 41: Etapa do processo de instalação / Opção Ubuntu Pro)*
 
 ---
 
@@ -607,7 +612,7 @@ Depois que as configurações forem definidas, o instalador inicia a instalaçã
 
 O tempo necessário depende principalmente do desempenho do computador físico e da configuração da máquina virtual.
 
-*(Imagem 41: Instalando o sistema)*
+*(Imagem 42: Instalando o sistema)*
 
 ---
 
@@ -617,7 +622,7 @@ O instalador do Ubuntu Server pergunta se você quer instalar o servidor OpenSSH
 
 Para este laboratório, marque a opção para instalar o OpenSSH. Isso permite acessar a máquina virtual via SSH depois.
 
-*(Imagem 42: Tela de configuração do OpenSSH)*
+*(Imagem 43: Tela de configuração do OpenSSH)*
 
 ---
 
@@ -627,7 +632,7 @@ O Ubuntu Server permite instalar alguns snaps pré-configurados durante a instal
 
 Para este laboratório, nenhum snap adicional é necessário. Pule essa etapa.
 
-*(Imagem 43: Tela de seleção de snaps)*
+*(Imagem 44: Tela de seleção de snaps)*
 
 ---
 
@@ -637,7 +642,7 @@ Após a instalação dos pacotes, o instalador mostra uma tela de conclusão.
 
 Escolha a opção de reiniciar o sistema. A máquina virtual irá reiniciar e o Ubuntu Server será carregado a partir do disco virtual.
 
-*(Imagem 44: Finalizando a instalação)*
+*(Imagem 45: Finalizando a instalação)*
 
 ---
 
@@ -647,11 +652,11 @@ Após a reinicialização, será apresentada a tela de login em modo texto.
 
 Utilize o usuário e a senha definidos durante a instalação.
 
-*(Imagem 45: Tela de login do Ubuntu Server)*
+*(Imagem 46: Tela de login do Ubuntu Server)*
 
 Depois do login, o sistema estará pronto para ser usado como ambiente de laboratório.
 
-*(Imagem 46: Representação do sistema operacional Ubuntu Server)*
+*(Imagem 47: Representação do sistema operacional Ubuntu Server)*
 
 ---
 
@@ -665,7 +670,7 @@ Para ver informações sobre o kernel e a arquitetura do sistema:
 uname -a
 ```
 
-*(Imagem 47: Consultando informações do kernel no Ubuntu Server pelo terminal)*
+*(Imagem 48: Consultando informações do kernel no Ubuntu Server pelo terminal)*
 
 Para ver informações da distribuição instalada:
 
@@ -673,7 +678,7 @@ Para ver informações da distribuição instalada:
 cat /etc/os-release
 ```
 
-*(Imagem 48: Consultando informações da distribuição Ubuntu pelo terminal)*
+*(Imagem 49: Consultando informações da distribuição Ubuntu pelo terminal)*
 
 ---
 
@@ -685,7 +690,7 @@ Para consultar a memória disponível:
 free -h
 ```
 
-*(Imagem 49: Consultando a quantidade de memória disponível pelo terminal)*
+*(Imagem 50: Consultando a quantidade de memória disponível pelo terminal)*
 
 Para verificar os processadores disponíveis:
 
@@ -693,7 +698,7 @@ Para verificar os processadores disponíveis:
 nproc
 ```
 
-*(Imagem 50: Consultando os processadores disponíveis pelo terminal)*
+*(Imagem 51: Consultando os processadores disponíveis pelo terminal)*
 
 ---
 
@@ -705,7 +710,7 @@ O comando `df` permite consultar o espaço usado e disponível nos sistemas de a
 df -h
 ```
 
-*(Imagem 51: Consultando o espaço usado e disponível no sistema pelo terminal)*
+*(Imagem 52: Consultando o espaço usado e disponível no sistema pelo terminal)*
 
 ---
 
@@ -717,7 +722,7 @@ Para ver as interfaces de rede e os endereços IP configurados:
 ip addr
 ```
 
-*(Imagem 52: Verificando a rede do Ubuntu Server pelo terminal)*
+*(Imagem 53: Verificando a rede do Ubuntu Server pelo terminal)*
 
 Também podemos testar a comunicação com a internet usando o comando `ping`:
 
@@ -727,7 +732,7 @@ ping -c 4 ubuntu.com
 
 Se houver resposta aos pacotes enviados, a máquina virtual tem conectividade com a internet.
 
-*(Imagem 53: Teste de ping no terminal do Ubuntu Server)*
+*(Imagem 54: Teste de ping no terminal do Ubuntu Server)*
 
 ---
 
@@ -765,7 +770,7 @@ Ao final deste laboratório, temos uma máquina virtual com o sistema operaciona
 
 O ambiente criado pode ser usado como base para outros estudos relacionados à administração de sistemas, redes, servidores, containers e DevOps.
 
-*(Imagem 54: Representação do sistema operacional Ubuntu Server)*
+*(Imagem 55: Representação do sistema operacional Ubuntu Server)*
 
 ---
 
@@ -791,7 +796,7 @@ A partir do Ubuntu Server instalado, podemos criar diferentes cenários de estud
 
 Também é possível criar snapshots da máquina virtual antes de fazer alterações importantes. Assim, um estado anterior do laboratório pode ser recuperado caso alguma configuração apresente problemas.
 
-*(Imagem 55: Painel principal do Oracle VirtualBox para gerenciamento das máquinas virtuais)*
+*(Imagem 56: Painel principal do Oracle VirtualBox para gerenciamento das máquinas virtuais)*
 
 ---
 
