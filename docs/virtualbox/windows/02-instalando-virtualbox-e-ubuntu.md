@@ -541,7 +541,9 @@ O instalador pede a configuração de armazenamento. Para um laboratório inicia
 
 Neste passo, o processo de instalação usará o disco virtual criado antes no VirtualBox.
 
+![Tela Principal Oracle VirtualBox](images/36-iniciando-o-particionador.png)
 *(Imagem 36: Iniciando o particionador)*
+
 
 O particionamento assistido facilita o processo em uma instalação rápida. Neste exemplo, escolhemos o particionamento assistido com uso do disco inteiro.
 
