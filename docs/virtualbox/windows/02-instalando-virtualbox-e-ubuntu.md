@@ -646,7 +646,8 @@ Após a instalação dos pacotes, o instalador mostra uma tela de conclusão.
 
 Escolha a opção de reiniciar o sistema. A máquina virtual irá reiniciar e o Ubuntu Server será carregado a partir do disco virtual.
 
-*(Imagem 45: Finalizando a instalação)*
+![Tela Principal Oracle VirtualBox](images/45-finalizando-a-instalacao.png)
+*(Imagem 45: Finalizando a instalação do Ubuntu Server)*
 
 ---
 
