@@ -702,21 +702,21 @@ free -h
 ```
 
 ![Tela Principal Oracle VirtualBox](images/50-free-h.png)
-*(Imagem 50: Consultando a quantidade de memória disponível através do terminal)*
+*(Imagem 50: Consultando a quantidade de memória disponível utilizando o terminal)*
 
 Para verificar os processadores disponíveis:
 
 ```bash
 nproc
 ```
-
+![Tela Principal Oracle VirtualBox](images/51-nproc.png)
 *(Imagem 51: Consultando os processadores através do terminal)*
 
 ---
 
 ### Verificando o armazenamento
 
-O comando `df` permite consultar o espaço usado e disponível nos sistemas de arquivos:
+O comando `df` permite consultar o espaço utilizado e disponível nos sistemas de arquivos:
 
 ```bash
 df -h
