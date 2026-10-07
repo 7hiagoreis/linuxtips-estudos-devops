@@ -530,6 +530,7 @@ O instalador pede a confirmação do espelho (mirror) do repositório que será 
 
 Escolha o espelho mais próximo da sua região para baixar pacotes mais rápido.
 
+![Tela Principal Oracle VirtualBox](images/35-configuracao-do-espelho.png)
 *(Imagem 35: Tela de configuração do espelho do repositório)*
 
 ---
