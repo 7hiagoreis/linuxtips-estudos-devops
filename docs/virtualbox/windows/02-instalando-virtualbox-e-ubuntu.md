@@ -547,7 +547,9 @@ Neste passo, o processo de instalação usará o disco virtual criado antes no V
 
 O particionamento assistido facilita o processo em uma instalação rápida. Neste exemplo, escolhemos o particionamento assistido com uso do disco inteiro.
 
+![Tela Principal Oracle VirtualBox](images/37-definindo-o-particionamento.png)
 *(Imagem 37: Definindo o particionamento)*
+
 
 Em seguida, é necessário confirmar o processo. Observe que todos os dados do disco virtual serão apagados. Selecione o disco a ser particionado.
 
