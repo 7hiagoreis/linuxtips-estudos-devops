@@ -575,7 +575,7 @@ Defina:
 - **Nome de usuário**: o login (por exemplo, `devops`).
 - **Senha**: uma senha para esse usuário.
 
-![Tela Principal Oracle VirtualBox](images/39-configurando-usuario-e-senha.png)
+![Tela Principal Oracle VirtualBox](images/39-configurando-usuario-e-senha-vm.png)
 *(Imagem 39: Configurando usuário e senha do sistema)*
 
 ---
