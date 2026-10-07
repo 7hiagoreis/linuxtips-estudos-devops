@@ -490,7 +490,7 @@ Durante a instalação, o Ubuntu Server também pede informações sobre o layou
 
 Selecione a opção correspondente ao teclado que será usado.
 
-![Tela Principal Oracle VirtualBox](images/31-configurando-teclado.png)
+![Tela Principal Oracle VirtualBox](images/31-configurando-teclado-vm.png)
 *(Imagem 31: Configurando o teclado)*
 
 ---
