@@ -510,6 +510,7 @@ O instalador do Ubuntu Server tenta configurar automaticamente a interface de re
 
 Como a máquina está usando NAT no VirtualBox, o sistema deve receber uma configuração de rede automática através do ambiente virtualizado.
 
+![Tela Principal Oracle VirtualBox](images/33-configurando-a-rede-do-sistema.png)
 *(Imagem 33: Configurando a rede do sistema durante a instalação)*
 
 ---
@@ -518,7 +519,7 @@ Como a máquina está usando NAT no VirtualBox, o sistema deve receber uma confi
 
 As definições de proxy podem ser ignoradas se você não usa proxy na rede local. Configure apenas se necessário.
 
-*(Imagem 33: Tela de configuração de proxy)*
+*(Imagem 34: Tela de configuração de proxy)*
 
 ---
 
@@ -528,7 +529,7 @@ O instalador pede a confirmação do espelho (mirror) do repositório que será 
 
 Escolha o espelho mais próximo da sua região para baixar pacotes mais rápido.
 
-*(Imagem 34: Tela de configuração do espelho do repositório)*
+*(Imagem 35: Tela de configuração do espelho do repositório)*
 
 ---
 
@@ -538,15 +539,15 @@ O instalador pede a configuração de armazenamento. Para um laboratório inicia
 
 Neste passo, o processo de instalação usará o disco virtual criado antes no VirtualBox.
 
-*(Imagem 35: Iniciando o particionador)*
+*(Imagem 36: Iniciando o particionador)*
 
 O particionamento assistido facilita o processo em uma instalação rápida. Neste exemplo, escolhemos o particionamento assistido com uso do disco inteiro.
 
-*(Imagem 36: Definindo o particionamento)*
+*(Imagem 37: Definindo o particionamento)*
 
 Em seguida, é necessário confirmar o processo. Observe que todos os dados do disco virtual serão apagados. Selecione o disco a ser particionado.
 
-*(Imagem 37: Confirmando o disco que será usado na instalação)*
+*(Imagem 38: Confirmando o disco que será usado na instalação)*
 
 ---
 
