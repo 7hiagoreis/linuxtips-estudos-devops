@@ -495,13 +495,22 @@ Selecione a opção correspondente ao teclado que será usado.
 
 ---
 
+### Escolha o tipo de instalação
+
+Nesta etapa é possível escolher o tipo de instalação para o Ubuntu Server, para o exemplo vamos utilizar a opção padrão.
+
+![Tela Principal Oracle VirtualBox](images/32-tipo-de-instalacao.png)
+*(Imagem 32: Escolha o tipo de instalação para o Ubuntu)*
+
+---
+
 ### Configurando a rede durante a instalação
 
 O instalador do Ubuntu Server tenta configurar automaticamente a interface de rede da máquina virtual.
 
 Como a máquina está usando NAT no VirtualBox, o sistema deve receber uma configuração de rede automática através do ambiente virtualizado.
 
-*(Imagem 32: Configurando a rede do sistema durante a instalação)*
+*(Imagem 33: Configurando a rede do sistema durante a instalação)*
 
 ---
 
