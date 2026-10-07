@@ -663,7 +663,7 @@ Utilize o usuário e a senha definidos durante a instalação.
 
 
 
-Depois de digitar o seu usuário e senha e pressionar a tecla <Enter>, o sistema estará pronto para ser utilizado como ambiente de laboratório.
+Depois de digitar o seu usuário e senha e pressionar a tecla "<Enter>", o sistema estará pronto para ser utilizado como ambiente de laboratório.
 
 ![Tela Principal Oracle VirtualBox](images/47-apos-login.png)
 *(Imagem 47: Representação do sistema operacional Ubuntu Server)*
