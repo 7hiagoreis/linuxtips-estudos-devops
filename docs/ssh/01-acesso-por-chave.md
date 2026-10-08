@@ -99,7 +99,30 @@ Depois de selecionar o recurso para criar um ícone do PuTTY na área de trabalh
 
 <p align="center"> <img src="images/10-feature-icone-definida.png" alt="Ícone do PuTTY na área de trabalho"> </p>
 <p align="right"><i>(Imagem 10: Recursos Extras / Ícone do PuTTY na área de trabalho)</i>
-  
+
+<br></br>
+
+### Confirmação para iniciar
+
+O Windows nesta etapa, após clicar para instalar o PuTTY, pode solicitar a confirmação para continuar. Caso a janela do Controle de Conta de Usuário (UAC) apareça, basta clicar em Sim para autorizar o instalador.
+
+<br></br>
+
+### Instalando...
+
+Agora, aguarde enquanto o instalador copia os arquivos para o seu computador. Assim que a barra de progresso estiver cheia, a tela final será exibida automaticamente.
+
+<p align="center"> <img src="images/11-instalando-putty-progresso.png" alt="Instalando o PuTTY"> </p>
+<p align="right"><i>(Imagem 11: Instalando o PuTTY)</i>
+
+<br></br>
+
+### Instalação finalizada
+
+
+<p align="center"> <img src="images/12-instalacao-finalizada.png" alt="Instalação finalizada"> </p>
+<p align="right"><i>(Imagem 12: Instalação finalizada / PuTTY)</i>
+
 ---
 
 <br></br>
