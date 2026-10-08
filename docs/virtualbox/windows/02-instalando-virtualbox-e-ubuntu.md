@@ -174,6 +174,7 @@ Para este laboratório, as opções padrão podem ser mantidas.
 
 Entre os componentes estão os recursos necessários para executar as máquinas virtuais, suporte à rede virtual e integração com alguns dispositivos.
 
+<br></br>
 
 ### Diretório de instalação
 
