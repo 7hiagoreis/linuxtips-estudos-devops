@@ -8,6 +8,8 @@ Esse tipo de ambiente é útil para estudar Linux, servidores, redes, Docker, De
 
 ---
 
+<br></br>
+
 ## O que é virtualização
 
 Virtualização é uma tecnologia que permite criar computadores virtuais dentro de um computador físico.
@@ -36,6 +38,8 @@ Ubuntu Server
 
 ---
 
+<br></br>
+
 ## O que é o Oracle VirtualBox
 
 O Oracle VirtualBox é uma plataforma de virtualização que permite criar e executar máquinas virtuais em um computador físico.
@@ -51,6 +55,8 @@ Durante este guia, alguns conceitos aparecem com frequência:
 
 ---
 
+<br></br>
+
 ## Pré-requisitos
 
 Antes de começar, vale conferir se o computador tem recursos suficientes para rodar uma máquina virtual.
@@ -65,9 +71,11 @@ Antes de começar, vale conferir se o computador tem recursos suficientes para r
 A máquina virtual compartilha os recursos do computador físico. Por isso, a quantidade de RAM, capacidade de processamento e espaço em disco devem ser consideradas antes de definir a configuração.
 
 ![Representação do computador físico](images/01-print-do-windows.png)
-*(Imagem 01: Representação do computador físico onde será instalado o Oracle VirtualBox)*
+<p align="right"><i>*(Imagem 01: Representação do computador físico onde será instalado o Oracle VirtualBox)*</i>
 
 ---
+
+<br></br>
 
 ## Obtendo o instalador do VirtualBox
 
@@ -83,6 +91,8 @@ Na página de downloads, localize a opção correspondente ao Windows e faça o 
 *(Imagem 02: Página de download do Oracle VirtualBox)*
 
 ---
+
+<br></br>
 
 ## Obtendo a imagem ISO do Ubuntu Server
 
