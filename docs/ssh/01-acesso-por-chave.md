@@ -1,7 +1,5 @@
 # Acesso SSH por chave
 
----
-
 <br></br>
 
 ## 1. Instalação do PuTTY
