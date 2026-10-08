@@ -90,8 +90,8 @@ Antes de avançarmos para a próxima etapa, vamos habilitar o recurso para adici
 
 Clique na opção "Add shortcut to PuTTY on the Desktop" (Adicionar atalho para o PuTTY na área de trabalho), em seguida selecione a opção "Will be installed on local hard drive" (Será instalado no disco rígido local), conforme a imagem abaixo.
 
-<p align="center"> <img src="images/08-selecionando-features.png" alt="Recursos Extras / Instalação do PuTTY"> </p>
-<p align="right"><i>(Imagem 08: Recursos Extras / Instalação do PuTTY)</i>
+<p align="center"> <img src="images/09-definindo-feature-icones-area-de-trabalho.png" alt="Adicionando ícone do PuTTY na área de trabalho"> </p>
+<p align="right"><i>(Imagem 09: Recursos Extras / Adicionando ícone do PuTTY na área de trabalho)</i>
   
 ---
 
