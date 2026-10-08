@@ -55,7 +55,16 @@ O Windows geralmente salva os arquivos baixados da internet na pasta "Downloads"
 
 ### Instalação
 
+Ao executar o instalador do PuTTY, o Windows pode solicitar uma confirmação para continuar, confirme para prosseguir.
+
+Inicialmente, o instalador exibe a tela de boas vindas. Clique em "Next" para começar este processo.
+
+![Site oficial Putty](images/06-tela-de-boas-vindas-putty.png)
+<p align="right"><i>(Imagem 06: Tela de boas vindas / Instalando o PuTTY)</i>
+  
 ---
+
+<br></br>
 
 ## 2. Primeiro acesso ao Ubuntu Server
 ### Descobrindo o IP com ip addr
