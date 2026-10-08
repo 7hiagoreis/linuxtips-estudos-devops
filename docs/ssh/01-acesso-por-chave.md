@@ -30,10 +30,19 @@ Este site é do servidor original hospedado pelo criador e principal desenvolved
 
 Na página de download, o arquivo executável com a instalação padrão fica em Package Files, neste laboratório utilizaremos a versão 64-bit x86.
 
+![Site oficial Putty](images/03-package-files.png)
+<p align="right"><i>(Imagem 03: Package Files / PuTTY)</i>
+
+<br></br>
 
 #### Alternative Binary Files (Putty Portável)
 
 Existe a versão "portable" (portável) do PuTTY, é possível fazer o download desta versão na seção Alternative Binary Files.
+
+![Site oficial Putty](images/04-alternative-binary-files.png)
+<p align="right"><i>(Imagem 04: Alternative Binary Files / PuTTY)</i>
+
+<br></br>
 
 ### Instalação
 
