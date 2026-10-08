@@ -6,7 +6,7 @@ O PuTTY será utilizado como cliente SSH no Windows para acessar a máquina virt
 
 ### Site oficial
 
-O download do PuTTY foi realizado através do site oficial do projeto.
+O download do PuTTY foi realizado através do site oficial do projeto ( https://putty.software )
 
 ![Site oficial Putty](images/01-site-oficial-putty.png)
 <p align="right"><i>(Imagem 01: Site oficial PuTTY)</i></p>
