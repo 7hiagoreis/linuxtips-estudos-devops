@@ -618,13 +618,14 @@ Neste passo, o processo de instalação usará o disco virtual criado antes no V
 ![Tela Principal Oracle VirtualBox](images/36-iniciando-o-particionador.png)
 <p align="right"><i>(Imagem 36: Iniciando o particionador)</i>
 
+<br></br>
 
 O particionamento assistido facilita o processo em uma instalação rápida. Neste exemplo, escolhemos o particionamento assistido com uso do disco inteiro.
 
 ![Tela Principal Oracle VirtualBox](images/37-definindo-o-particionamento.png)
 <p align="right"><i>(Imagem 37: Definindo o particionamento)</i>
 
-<p></p>
+<br></br>
 
 ### Finalizando o particionamento
 
@@ -752,7 +753,7 @@ Utilize o usuário e a senha definidos durante a instalação.
 <p align="right"><i>(Imagem 46: Tela de login do Ubuntu Server)</i>
 
 
-<p></p>
+<br></br>
 
 Depois de digitar o seu usuário e senha e pressionar a tecla "<Enter>", o sistema estará pronto para ser utilizado como ambiente de laboratório.
 
@@ -773,6 +774,8 @@ uname -a
 
 ![Tela Principal Oracle VirtualBox](images/48-uname-a.png)
 <p align="right"><i>Imagem 48: Consultando informações do kernel no Ubuntu Server pelo terminal)</i>
+
+<br></br>
 
 Para ver informações da distribuição instalada:
 
@@ -832,6 +835,8 @@ ip addr
 
 ![Tela Principal Oracle VirtualBox](images/53-ip-addr.png)
 <p align="right"><i>(Imagem 53: Verificando a rede do Ubuntu Server no terminal)</i>
+
+<br></br>
 
 Também podemos testar a comunicação com a internet usando o comando `ping`:
 
