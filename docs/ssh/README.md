@@ -1,4 +1,4 @@
-# SSH
+# Documentação SSH / Estudos
 
 Documentação dos estudos de SSH realizados durante o curso de DevOps da LINUXtips.
 
