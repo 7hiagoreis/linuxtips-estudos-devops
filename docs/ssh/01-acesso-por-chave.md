@@ -59,7 +59,7 @@ Ao executar o instalador do PuTTY, o Windows pode solicitar uma confirmação pa
 
 Inicialmente, o instalador exibe a tela de boas vindas. Clique em "Next" para começar este processo.
 
-![Tela de Boas Vindas do PuTTY](images/06-tela-de-boas-vindas-putty.png)
+<p align="center">![Tela de Boas Vindas do PuTTY](images/06-tela-de-boas-vindas-putty.png)</i>
 <p align="right"><i>(Imagem 06: Tela de boas vindas / Instalando o PuTTY)</i>
   
 ---
