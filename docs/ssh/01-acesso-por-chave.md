@@ -61,6 +61,18 @@ Inicialmente, o instalador exibe a tela de boas vindas. Clique em "Next" para co
 
 <p align="center"> <img src="images/06-tela-de-boas-vindas-putty.png" alt="Tela de Boas Vindas do PuTTY"> </p>
 <p align="right"><i>(Imagem 06: Tela de boas vindas / Instalando o PuTTY)</i>
+
+<br></br>
+
+### Local de instalação
+
+O próximo passo é definir o local de instalação do PuTTY, neste exemplo vamos instalar no diretório padrão ( C:\Program Files\PuTTY\ ), sem fazer nenhuma alteração.
+
+Clique em "Next" para continuar.
+
+<p align="center"> <img src="images/07-local-de-instalacao-putty.png" alt="Local de instalação do PuTTY"> </p>
+<p align="right"><i>(Imagem 07: Local de instalação do PuTTY)</i>
+
   
 ---
 
