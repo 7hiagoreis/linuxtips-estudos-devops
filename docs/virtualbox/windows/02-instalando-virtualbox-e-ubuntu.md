@@ -764,6 +764,8 @@ Depois de digitar o seu usuário e senha e pressionar a tecla <kbd>Enter</kbd>, 
 
 ---
 
+<br></br>
+
 ## Verificando o sistema
 
 Acesse o Ubuntu Server e faça algumas verificações básicas para confirmar que o sistema foi instalado corretamente.
@@ -789,6 +791,8 @@ cat /etc/os-release
 
 ---
 
+<br></br>
+
 ### Verificando a memória e os processadores
 
 Para consultar a memória disponível:
@@ -799,6 +803,8 @@ free -h
 
 ![Tela Principal Oracle VirtualBox](images/50-free-h.png)
 <p align="right"><i>(Imagem 50: Consultando a quantidade de memória disponível utilizando o terminal)</i>
+
+<br></br>
 
 Para verificar os processadores disponíveis:
 
