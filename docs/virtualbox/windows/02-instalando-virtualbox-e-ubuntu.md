@@ -188,6 +188,8 @@ Caso exista uma necessidade específica, o diretório pode ser alterado conforme
 
 ---
 
+<br></br>
+
 ## Dependências ausentes (Missing Dependencies)
 
 O instalador pode exibir um aviso sobre dependências ausentes do Python (Python Core / win32api).
@@ -199,6 +201,8 @@ Esse aviso está relacionado aos bindings Python do VirtualBox, usados para auto
 
 ---
 
+<br></br>
+
 ## Componentes de rede
 
 O VirtualBox instala componentes necessários para disponibilizar interfaces de rede virtuais para as máquinas virtuais.
@@ -209,9 +213,11 @@ Confirme a instalação para continuar.
 
 
 ![Aviso sobre a conexão de rede](images/10-aviso-desconectar-rede-virtualbox.png)
-*(Imagem 10: Aviso sobre os componentes de rede virtuais)*
+<p align="right"><i>(Imagem 10: Aviso sobre os componentes de rede virtuais)</i>
 
 ---
+
+<br></br>
 
 ### Atalhos e associações de arquivos
 
@@ -220,9 +226,11 @@ O instalador permite selecionar atalhos e associações de arquivos que serão c
 Para este laboratório, as opções padrão podem ser mantidas.
 
 ![Definindo os Atalhos](images/11-atalhos-instalacao-virtualbox.png)
-*(Imagem 11: Definindo atalhos e associações de arquivos)*
+<p align="right"><i>(Imagem 11: Definindo atalhos e associações de arquivos)</i>
 
 ---
+
+<br></br>
 
 ### Pronto para instalar
 
@@ -231,9 +239,11 @@ Após definir as configurações do VirtualBox, o instalador aguarda a confirma�
 Clique em "Install" (Instalar) para iniciar este processo.
 
 ![Pronto para instalar](images/12-pronto-para-instalar-virtualbox.png)
-*(Imagem 12: Tela de confirmação para iniciar a instalação do Oracle VirtualBox)*
+<p align="right"><i>(Imagem 12: Tela de confirmação para iniciar a instalação do Oracle VirtualBox)</i>
 
 ---
+
+<br></br>
 
 ### Iniciando a instalação
 
@@ -244,10 +254,12 @@ O instalador copiará os arquivos necessários e fará as configurações.
 Dependendo da configuração do Windows, o sistema pode pedir autorização para instalar drivers usados pelo VirtualBox para recursos como interfaces de rede e outros dispositivos. Caso isso ocorra, confirme a instalação.
 
 ![Pronto para instalar](images/13-instalando-virtualbox.png)
-*(Imagem 13: Iniciando a instalação / barra de progresso)*
+<p align="right"><i>(Imagem 13: Iniciando a instalação / barra de progresso)</i>
 
 
 ---
+
+<br></br>
 
 ### Finalizando a instalação
 
@@ -256,9 +268,11 @@ Ao finalizar, o instalador mostra a confirmação de que o Oracle VirtualBox foi
 Finalize o instalador e abra o VirtualBox para começar a configuração do ambiente.
 
 ![Finalizando a instalação](images/14-instalacao-finalizada-virtualbox.png)
-*(Imagem 14: Finalizando a instalação)*
+<p align="right"><i>(Imagem 14: Finalizando a instalação)</i>
 
 ---
+
+<br></br>
 
 ## Abrindo o VirtualBox
 
@@ -267,9 +281,11 @@ Ao abrir o VirtualBox, será apresentada a interface principal do VirtualBox Man
 Como é uma instalação nova, inicialmente não haverá máquinas virtuais cadastradas.
 
 ![Tela Principal Oracle VirtualBox](images/15-tela-inicial-virtualbox-primeira-abertura.png)
-*(Imagem 15: Abrindo o VirtualBox / criando a primeira VM)*
+<p align="right"><i>(Imagem 15: Abrindo o VirtualBox / criando a primeira VM)</i>
 
 ---
+
+<br></br>
 
 ## Verificando a instalação (opcional)
 
@@ -295,9 +311,11 @@ O comando deve mostrar a versão do VirtualBox instalada.
 
 
 ![Tela Principal Oracle VirtualBox](images/16-verificando-a-versao-vb-via-cmd.png)
-*(Imagem 16: Verificando a instalação do Oracle VirtualBox pelo Prompt de Comando)*
+<p align="right"><i>(Imagem 16: Verificando a instalação do Oracle VirtualBox pelo Prompt de Comando)</i>
 
 ---
+
+<br></br>
 
 ## Criando uma nova máquina virtual
 
@@ -306,9 +324,11 @@ Com o VirtualBox instalado, podemos criar a máquina virtual que será usada nes
 Na interface principal do VirtualBox, selecione a opção para criar uma nova máquina virtual.
 
 ![Tela Principal Oracle VirtualBox](images/17-criando-nova-maquina-virtual.png)
-*(Imagem 17: Criando uma nova máquina virtual)*
+<p align="right"><i>(Imagem 17: Criando uma nova máquina virtual)</i>
 
 ---
+
+<br><br>
 
 ### Definindo o nome e o sistema operacional
 
@@ -325,9 +345,11 @@ Distribuição: Ubuntu (64-bit)
 ```
 
 ![Tela Principal Oracle VirtualBox](images/18-definindo-o-nome-da-vm.png)
-*(Imagem 18: Definindo o nome da máquina virtual e o sistema operacional)*
+<p align="right"><i>(Imagem 18: Definindo o nome da máquina virtual e o sistema operacional)</i>
 
 ---
+
+<br></br>
 
 ### Selecionando a imagem ISO
 
@@ -345,9 +367,11 @@ Após o download, selecione a imagem ISO no assistente de criação da máquina 
 
 
 ![Tela Principal Oracle VirtualBox](images/19-selecionando-a-imagem-iso-no-virtualbox.png)
-*(Imagem 19: Selecionando a imagem ISO no Oracle VirtualBox)*
+<p align="right"><i>(Imagem 19: Selecionando a imagem ISO no Oracle VirtualBox)</i>
 
 ---
+
+<br></br>
 
 ### Instalação não assistida
 
@@ -359,9 +383,11 @@ Caso essa opção seja apresentada, desmarque a instalação não assistida e si
 
 
 ![Tela Principal Oracle VirtualBox](images/20-tela-de-instalacao-vm-instal-nao-assistida.png)
-*(Imagem 20: Tela de instalação da máquina virtual, opção de instalação assistida)*
+<p align="right"><i>(Imagem 20: Tela de instalação da máquina virtual, opção de instalação assistida)</i>
 
 ---
+
+<br></br>
 
 ### Configurando a memória RAM
 
@@ -375,9 +401,11 @@ Neste laboratório, usaremos:
 Memória RAM da máquina virtual: 2048 MB
 ```
 ![Tela Principal Oracle VirtualBox](images/21-definindo-o-tamanho-da-memoria.png)
-*(Imagem 21: Tela de criação da VM, definindo o tamanho da memória RAM)*
+<p align="right"><i>(Imagem 21: Tela de criação da VM, definindo o tamanho da memória RAM)</i>
 
 ---
+
+<br></br>
 
 ### Configurando os processadores
 
@@ -390,9 +418,11 @@ Processadores virtuais: 2
 ```
 
 ![Tela Principal Oracle VirtualBox](images/22-configurando-os-processadores.png)
-*(Imagem 22: Tela de criação da VM, configurando os processadores)*
+<p align="right"><i>(Imagem 22: Tela de criação da VM, configurando os processadores)</i>
 
 ---
+
+<br></br>
 
 ### Definindo o tamanho do disco
 
@@ -407,9 +437,11 @@ Tamanho do disco virtual: 20 GB
 ```
 
 ![Tela Principal Oracle VirtualBox](images/23-definindo-o-tamanho-do-disco.png)
-*(Imagem 23: Tela de criação da VM, definindo o tamanho do disco)*
+<p align="right"><i>(Imagem 23: Tela de criação da VM, definindo o tamanho do disco)</i>
 
 ---
+
+<br></br>
 
 ### Revisando a configuração da máquina virtual
 
@@ -426,16 +458,18 @@ Sistema operacional: Ubuntu Server
 ```
 
 ![Tela Principal Oracle VirtualBox](images/24-resumo-das-configuracoes-da-maquina-virtual.png)
-*(Imagem 24: Revisando as configurações da máquina virtual)*
+<p align="right"><i>(Imagem 24: Revisando as configurações da máquina virtual)</i>
 
 ---
+
+<br></br>
 
 ## Configurando a máquina virtual
 
 Depois de criar a máquina virtual, ainda é possível alterar várias configurações antes de iniciá-la.
 
 ![Tela Principal Oracle VirtualBox](images/25-abrindo-vb-primeiro-acesso.png)
-*(Imagem 25: Painel Inicial do Oracle VirtualBox)*
+<p align="right"><i>(Imagem 25: Painel Inicial do Oracle VirtualBox)</i>
 
 
 Entre as configurações disponíveis estão:
@@ -452,9 +486,11 @@ Entre as configurações disponíveis estão:
 Neste laboratório, o foco inicial será a configuração dos recursos necessários para executar o Ubuntu Server.
 
 ![Tela Principal Oracle VirtualBox](images/26-configuracoes-vm.png)
-*(Imagem 26: Configurando a máquina virtual dentro do Oracle VirtualBox)*
+<p align="right"><i>(Imagem 26: Configurando a máquina virtual dentro do Oracle VirtualBox)</i>
 
 ---
+
+<br></br>
 
 ### Configurando a rede
 
@@ -467,9 +503,11 @@ Para este laboratório inicial, será usada a configuração **NAT**.
 O modo NAT permite que a máquina virtual use a conexão de rede do computador hospedeiro para acessar recursos externos.
 
 ![Tela Principal Oracle VirtualBox](images/27-configurando-a-rede-da-vm.png)
-*(Imagem 27: Configurando a rede da máquina virtual no Oracle VirtualBox)*
+<p align="right"><i>(Imagem 27: Configurando a rede da máquina virtual no Oracle VirtualBox)</i>
 
 ---
+
+<br></br>
 
 ## Iniciando a máquina virtual
 
@@ -478,9 +516,11 @@ Com a configuração concluída, inicie a máquina virtual.
 Ao iniciar, o VirtualBox abrirá uma janela correspondente ao computador virtual e fará o processo de inicialização.
 
 ![Tela Principal Oracle VirtualBox](images/28-iniciando-a-maquina-virtual.png)
-*(Imagem 28: Iniciando a máquina virtual)*
+<p align="right"><i>(Imagem 28: Iniciando a máquina virtual)</i>
 
 ---
+
+<br></br>
 
 ## Iniciando a instalação do Ubuntu Server
 
@@ -489,10 +529,11 @@ Com a imagem ISO montada na máquina virtual, o sistema será iniciado pelo inst
 O instalador apresenta as opções necessárias para configurar o sistema operacional.
 
 ![Tela Principal Oracle VirtualBox](images/29-iniciando-vm-ubuntu.png)
-
-*(Imagem 29: Iniciando a instalação do Ubuntu Server na máquina virtual)*
+<p align="right"><i>(Imagem 29: Iniciando a instalação do Ubuntu Server na máquina virtual)</i>
 
 ---
+
+<br></br>
 
 ### Selecionando o idioma
 
@@ -501,9 +542,11 @@ O instalador pede a escolha do idioma que será usado durante a instalação.
 Selecione o idioma desejado e continue.
 
 ![Tela Principal Oracle VirtualBox](images/30-definindo-o-idioma-instalacao.png)
-*(Imagem 30: Definindo o idioma padrão do sistema durante a instalação)*
+<p align="right"><i>(Imagem 30: Definindo o idioma padrão do sistema durante a instalação)</i>
 
 ---
+
+<br></br>
 
 ### Configurando o teclado
 
@@ -512,18 +555,22 @@ Durante a instalação, o Ubuntu Server também pede informações sobre o layou
 Selecione a opção correspondente ao teclado que será usado.
 
 ![Tela Principal Oracle VirtualBox](images/31-configurando-teclado-vm.png)
-*(Imagem 31: Configurando o teclado)*
+<p align="right"><i>(Imagem 31: Configurando o teclado)</i>
 
 ---
+
+<br></br>
 
 ### Escolha o tipo de instalação
 
 Nesta etapa é possível escolher o tipo de instalação para o Ubuntu Server, para o exemplo vamos utilizar a opção padrão.
 
 ![Tela Principal Oracle VirtualBox](images/32-tipo-de-instalacao.png)
-*(Imagem 32: Escolha o tipo de instalação para o Ubuntu)*
+<p align="right"><i>(Imagem 32: Escolha o tipo de instalação para o Ubuntu)</i>
 
 ---
+
+<br></br>
 
 ### Configurando a rede durante a instalação
 
@@ -532,18 +579,22 @@ O instalador do Ubuntu Server tenta configurar automaticamente a interface de re
 Como a máquina está usando NAT no VirtualBox, o sistema deve receber uma configuração de rede automática através do ambiente virtualizado.
 
 ![Tela Principal Oracle VirtualBox](images/33-configurando-a-rede-do-sistema.png)
-*(Imagem 33: Configurando a rede do sistema durante a instalação)*
+<p align="right"><i>(Imagem 33: Configurando a rede do sistema durante a instalação)</i>
 
 ---
+
+<br></br>
 
 ### Configurando o proxy
 
 As definições de proxy podem ser ignoradas se você não usa proxy na rede local. Configure apenas se necessário.
 
 ![Tela Principal Oracle VirtualBox](images/34-tela-de-configuracao-proxy.png)
-*(Imagem 34: Tela de configuração de proxy)*
+<p align="right"><i>(Imagem 34: Tela de configuração de proxy)</i>
 
 ---
+
+<br></br>
 
 ### Configurando o espelho do repositório
 
@@ -552,9 +603,11 @@ O instalador pede a confirmação do espelho (mirror) do repositório que será 
 Escolha o espelho mais próximo da sua região para baixar pacotes mais rápido.
 
 ![Tela Principal Oracle VirtualBox](images/35-configuracao-do-espelho.png)
-*(Imagem 35: Tela de configuração do espelho do repositório)*
+<p align="right"><i>(Imagem 35: Tela de configuração do espelho do repositório)</i>
 
 ---
+
+<br></br>
 
 ### Configurando o disco
 
@@ -563,14 +616,15 @@ O instalador pede a configuração de armazenamento. Para um laboratório inicia
 Neste passo, o processo de instalação usará o disco virtual criado antes no VirtualBox.
 
 ![Tela Principal Oracle VirtualBox](images/36-iniciando-o-particionador.png)
-*(Imagem 36: Iniciando o particionador)*
+<p align="right"><i>(Imagem 36: Iniciando o particionador)</i>
 
 
 O particionamento assistido facilita o processo em uma instalação rápida. Neste exemplo, escolhemos o particionamento assistido com uso do disco inteiro.
 
 ![Tela Principal Oracle VirtualBox](images/37-definindo-o-particionamento.png)
-*(Imagem 37: Definindo o particionamento)*
+<p align="right"><i>(Imagem 37: Definindo o particionamento)</i>
 
+<p></p>
 
 ### Finalizando o particionamento
 
@@ -579,9 +633,11 @@ O sistema apresenta uma visão geral das partições e pontos de montagem. Selec
 Em seguida, é necessário confirmar o processo. Observe que todos os dados do disco virtual serão apagados. Selecione o disco a ser particionado.
 
 ![Tela Principal Oracle VirtualBox](images/38-confirmando-o-disco-que-sera-usado.png)
-*(Imagem 38: Confirmando o disco que será usado na instalação)*
+<p align="right"><i>(Imagem 38: Confirmando o disco que será usado na instalação)</i>
 
 ---
+
+<br></br>
 
 ### Configurando o usuário
 
@@ -597,9 +653,11 @@ Defina:
 - **Senha**: uma senha para esse usuário.
 
 ![Tela Principal Oracle VirtualBox](images/39-configurando-usuario-e-senha-vm.png)
-*(Imagem 39: Configurando usuário e senha do sistema)*
+<p align="right"><i>(Imagem 39: Configurando usuário e senha do sistema)</i>
 
 ---
+
+<br></br>
 
 ### Exemplo da criação do usuário
 
@@ -608,9 +666,11 @@ A imagem abaixo é um exemplo de como devemos preencher os campos.
 Após definir o nome de usuário e senha, clique em "Concluído".
 
 ![Tela Principal Oracle VirtualBox](images/40-exemplo-de-criacao-de-usuario.png)
-*(Imagem 40: Exemplo de criação de usuário no processo de instalação)*
+<p align="right"><i>(Imagem 40: Exemplo de criação de usuário no processo de instalação)</i>
 
 ---
+
+<br></br>
 
 ### Ubuntu Pro
 
@@ -623,9 +683,11 @@ Para este laboratório não é necessário selecionar essa opção.
 Marque a opção "Skip for now" e clique em "Continue".
 
 ![Tela Principal Oracle VirtualBox](images/41-tela-ubuntu-pro.png)
-*(Imagem 41: Etapa do processo de instalação / Opção Ubuntu Pro)*
+<p align="right"><i>(Imagem 41: Etapa do processo de instalação / Opção Ubuntu Pro)</i>
 
 ---
+
+<br></br>
 
 ### Configurando o OpenSSH
 
@@ -635,9 +697,11 @@ Para este laboratório, marque a opção para instalar o OpenSSH. Isso permite a
 
 
 ![Tela Principal Oracle VirtualBox](images/42-configurando-o-ssh.png)
-*(Imagem 42: Tela de configuração do OpenSSH)*
+<p align="right"><i>(Imagem 42: Tela de configuração do OpenSSH)</i>
 
 ---
+
+<br></br>
 
 ### Selecionando Snaps
 
@@ -646,9 +710,11 @@ O Ubuntu Server permite instalar alguns **Snaps** (pacotes de software isolados 
 Para este laboratório, nenhum Snap adicional é necessário. Pule essa etapa.
 
 ![Tela Principal Oracle VirtualBox](images/43-selecionando-snaps.png)
-*(Imagem 43: Tela de seleção de Snaps)*
+<p align="right"><i>(Imagem 43: Tela de seleção de Snaps)</i>
 
 ---
+
+<br></br>
 
 ### Instalando o sistema
 
@@ -657,9 +723,11 @@ Depois que as configurações forem definidas, o instalador inicia a instalaçã
 O tempo necessário depende principalmente do desempenho do computador físico e da configuração da máquina virtual.
 
 ![Tela Principal Oracle VirtualBox](images/44-instalando-o-sistema.png)
-*(Imagem 44: Instalando o sistema Ubuntu Server)*
+<p align="right"><i>(Imagem 44: Instalando o sistema Ubuntu Server)</i>
 
 ---
+
+<br></br>
 
 ### Finalizando a instalação
 
@@ -668,9 +736,11 @@ Após a instalação dos pacotes, o instalador mostra uma tela de conclusão.
 Escolha a opção de reiniciar o sistema. A máquina virtual irá reiniciar e o Ubuntu Server será carregado a partir do disco virtual.
 
 ![Tela Principal Oracle VirtualBox](images/45-finalizando-a-instalacao.png)
-*(Imagem 45: Finalizando a instalação do Ubuntu Server)*
+<p align="right"><i>(Imagem 45: Finalizando a instalação do Ubuntu Server)</i>
 
 ---
+
+<br></br>
 
 ## Primeiro acesso ao Ubuntu Server
 
@@ -679,15 +749,15 @@ Após a reinicialização, será apresentada a tela de login em modo texto.
 Utilize o usuário e a senha definidos durante a instalação.
 
 ![Tela Principal Oracle VirtualBox](images/46-tela-de-login-ubuntu-server.png)
-*(Imagem 46: Tela de login do Ubuntu Server)*
+<p align="right"><i>(Imagem 46: Tela de login do Ubuntu Server)</i>
 
 
-
+<p></p>
 
 Depois de digitar o seu usuário e senha e pressionar a tecla "<Enter>", o sistema estará pronto para ser utilizado como ambiente de laboratório.
 
 ![Tela Principal Oracle VirtualBox](images/47-apos-login.png)
-*(Imagem 47: Representação do sistema operacional Ubuntu Server)*
+<p align="right"><i>(Imagem 47: Representação do sistema operacional Ubuntu Server)</i>
 
 ---
 
@@ -702,7 +772,7 @@ uname -a
 ```
 
 ![Tela Principal Oracle VirtualBox](images/48-uname-a.png)
-*(Imagem 48: Consultando informações do kernel no Ubuntu Server pelo terminal)*
+<p align="right"><i>Imagem 48: Consultando informações do kernel no Ubuntu Server pelo terminal)</i>
 
 Para ver informações da distribuição instalada:
 
@@ -710,7 +780,7 @@ Para ver informações da distribuição instalada:
 cat /etc/os-release
 ```
 ![Tela Principal Oracle VirtualBox](images/49-cat-os-release.png)
-*(Imagem 49: Consultando informações da distribuição Ubuntu pelo terminal)*
+<p align="right"><i>(Imagem 49: Consultando informações da distribuição Ubuntu pelo terminal)</i>
 
 ---
 
@@ -723,7 +793,7 @@ free -h
 ```
 
 ![Tela Principal Oracle VirtualBox](images/50-free-h.png)
-*(Imagem 50: Consultando a quantidade de memória disponível utilizando o terminal)*
+<p align="right"><i>(Imagem 50: Consultando a quantidade de memória disponível utilizando o terminal)</i>
 
 Para verificar os processadores disponíveis:
 
@@ -731,9 +801,11 @@ Para verificar os processadores disponíveis:
 nproc
 ```
 ![Tela Principal Oracle VirtualBox](images/51-nproc.png)
-*(Imagem 51: Consultando os processadores através do terminal)*
+<p align="right"><i>(Imagem 51: Consultando os processadores através do terminal)</i>
 
 ---
+
+<br></br>
 
 ### Verificando o armazenamento
 
@@ -744,9 +816,11 @@ df -h
 ```
 
 ![Tela Principal Oracle VirtualBox](images/52-df-h.png)
-*(Imagem 52: Consultando o espaço utilizado e disponível no sistema via terminal)*
+<p align="right"><i>(Imagem 52: Consultando o espaço utilizado e disponível no sistema via terminal)</i>
 
 ---
+
+<br></br>
 
 ### Verificando a rede
 
@@ -757,7 +831,7 @@ ip addr
 ```
 
 ![Tela Principal Oracle VirtualBox](images/53-ip-addr.png)
-*(Imagem 53: Verificando a rede do Ubuntu Server no terminal)*
+<p align="right"><i>(Imagem 53: Verificando a rede do Ubuntu Server no terminal)</i>
 
 Também podemos testar a comunicação com a internet usando o comando `ping`:
 
@@ -768,9 +842,11 @@ ping -c 4 ubuntu.com
 Se houver resposta aos pacotes enviados, a máquina virtual tem conectividade com a internet.
 
 ![Tela Principal Oracle VirtualBox](images/54-teste-ping-0004.png)
-*(Imagem 54: Teste de ping no terminal do Ubuntu Server)*
+<p align="right"><i>(Imagem 54: Teste de ping no terminal do Ubuntu Server)</i>
 
 ---
+
+<br></br>
 
 ## Entendendo o ambiente criado
 
@@ -800,6 +876,8 @@ Computador físico
 
 ---
 
+<br></br>
+
 ## Resultado
 
 Ao final deste laboratório, temos uma máquina virtual com o sistema operacional Ubuntu Server funcionando dentro do Windows por meio do Oracle VirtualBox.
@@ -807,9 +885,11 @@ Ao final deste laboratório, temos uma máquina virtual com o sistema operaciona
 O ambiente criado pode ser usado como base para outros estudos relacionados à administração de sistemas, redes, servidores, containers e DevOps.
 
 ![Tela Principal Oracle VirtualBox](images/55-representacao-ubuntu-cli.png)
-*(Imagem 55: Representação do sistema operacional Ubuntu Server)*
+<p align="right"><i>(Imagem 55: Representação do sistema operacional Ubuntu Server)</i>
 
 ---
+
+<br></br>
 
 ## Utilizando a máquina virtual como laboratório
 
@@ -834,9 +914,11 @@ A partir do Ubuntu Server instalado, podemos criar diferentes cenários de estud
 Também é possível criar snapshots da máquina virtual antes de fazer alterações importantes. Assim, um estado anterior do laboratório pode ser recuperado caso alguma configuração apresente problemas.
 
 ![Tela Principal Oracle VirtualBox](images/56-painel-vb.png)
-*(Imagem 56: Painel principal do Oracle VirtualBox para gerenciamento das máquinas virtuais)*
+<p align="right"><i>(Imagem 56: Painel principal do Oracle VirtualBox para gerenciamento das máquinas virtuais)</i>
 
 ---
+
+<br></br>
 
 ## Considerações
 
@@ -849,6 +931,8 @@ O resultado é um ambiente Linux isolado que pode ser usado para desenvolver con
 Além de facilitar os estudos, a virtualização permite reproduzir ambientes, testar configurações e entender melhor a relação entre sistema operacional, hardware, rede e serviços.
 
 ---
+
+<br></br>
 
 ## Referências
 
