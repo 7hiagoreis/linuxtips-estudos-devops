@@ -10,7 +10,7 @@ O download do PuTTY foi realizado através do site oficial do projeto ( https://
 
 ![Site oficial Putty](images/01-site-oficial-putty.png)
 <p align="right"><i>(Imagem 01: Site oficial PuTTY)</i></p>
-
+<br>
 ### Download
 
 Após clicar no link indicado no passo anterior, o site oficial do PuTTY redireciona para o link = 
