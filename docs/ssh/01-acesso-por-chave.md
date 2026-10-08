@@ -6,21 +6,21 @@ O PuTTY será utilizado como cliente SSH no Windows para acessar a máquina virt
 
 ### Site oficial
 
-O download do Putty foi realizado através do site oficial do projeto.
+O download do PuTTY foi realizado através do site oficial do projeto.
 
 ![Site oficial Putty](images/01-site-oficial-putty.png)
-*(Imagem 01: Site oficial Putty)*
+*(Imagem 01: Site oficial PuTTY)*
 
 ### Download
 
-Após clicar no link indicado no passo anterior, o site oficial do Putty redireciona para o link = 
+Após clicar no link indicado no passo anterior, o site oficial do PuTTY redireciona para o link = 
 ( https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html ) 
 
 Este site é do servidor original hospedado pelo criador e principal desenvolvedor do software, Simon Tatham.
 
 
 ![Site oficial Putty](images/02-pagina-download-putty.png)
-*(Imagem 02: Página oficial de download do Putty)*
+*(Imagem 02: Página oficial de download do PuTTY)*
 
 
 Na página de download, o arquivo executável com a instalação padrão fica em Package Files, neste laboratório utilizaremos a versão 64-bit x86.
@@ -28,7 +28,7 @@ Na página de download, o arquivo executável com a instalação padrão fica em
 
 #### Alternative Binary Files (Putty Portável)
 
-Existe a versão "portable" (portável) do Putty, é possível fazer o download desta versão na seção Alternative Binary Files.
+Existe a versão "portable" (portável) do PuTTY, é possível fazer o download desta versão na seção Alternative Binary Files.
 
 ### Instalação
 
