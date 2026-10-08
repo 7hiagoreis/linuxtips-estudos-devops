@@ -13,7 +13,8 @@ O download do Putty foi realizado através do site oficial do projeto.
 
 ### Download
 
-Após clicar no link indicado no passo anterior, o site oficial do Putty redireciona para o link = ( https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html ) 
+Após clicar no link indicado no passo anterior, o site oficial do Putty redireciona para o link = 
+( https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html ) 
 
 Este site é do servidor original hospedado pelo criador e principal desenvolvedor do software, Simon Tatham.
 
