@@ -44,17 +44,32 @@ Existe a versão "portable" (portável) do PuTTY, é possível fazer o download 
 
 <br></br>
 
+#### Local do executável PuTTY 
+
+O Windows geralmente salva os arquivos baixados da internet na pasta "Downloads", acesse o local onde foi salvo o instalador do PuTTY e execute o programa para iniciar o processo de instalação.
+
+![Site oficial Putty](images/05-acessando-o-putty-pasta-download.png)
+<p align="right"><i>(Imagem 05: Local onde foi salvo o instalador do PuTTY)</i>
+
+<br></br>
+
 ### Instalação
+
+---
 
 ## 2. Primeiro acesso ao Ubuntu Server
 ### Descobrindo o IP com ip addr
 ### Configurando o PuTTY
 ### Primeiro login
 
+---
+
 ## 3. Gerando a chave SSH
 ### PuTTYgen
 ### Chave pública
 ### Chave privada
+
+---
 
 ## 4. Instalando a chave no Ubuntu
 ### ssh-copy-id
