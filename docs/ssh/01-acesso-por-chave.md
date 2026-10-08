@@ -119,9 +119,17 @@ Agora, aguarde enquanto o instalador copia os arquivos para o seu computador. As
 
 ### Instalação finalizada
 
+Pronto! O PuTTY foi instalado com sucesso no seu computador. 
 
-<p align="center"> <img src="images/12-instalacao-finalizada.png" alt="Instalação finalizada"> </p>
-<p align="right"><i>(Imagem 12: Instalação finalizada / PuTTY)</i>
+<p align="center"> <img src="images/12-instalacao-finalizada.png" alt="Instalação do PuTTY finalizada"> </p>
+<p align="right"><i>(Imagem 12: Instalação do PuTTY finalizada)</i>
+
+<br></br>
+
+Caso você não queira ler as notas de lançamento do programa, desmarque a opção <kbd>View README file</kbd> e clique no botão <kbd>Finish</kbd> para fechar o instalador.
+
+<p align="center"> <img src="images/13-desmarcando-o-readme.png" alt="Desmarcando o Readme do PuTTY"> </p>
+<p align="right"><i>(Imagem 13: Desmarcando o Readme do PuTTY)</i>
 
 ---
 
