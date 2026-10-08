@@ -472,6 +472,7 @@ Depois de criar a máquina virtual, ainda é possível alterar várias configura
 ![Tela Principal Oracle VirtualBox](images/25-abrindo-vb-primeiro-acesso.png)
 <p align="right"><i>(Imagem 25: Painel Inicial do Oracle VirtualBox)</i>
 
+<br></br>
 
 Entre as configurações disponíveis estão:
 
