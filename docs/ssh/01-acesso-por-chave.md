@@ -1,5 +1,9 @@
 # Acesso SSH por chave
 
+---
+
+<br></br>
+
 ## 1. Instalação do PuTTY
 
 O PuTTY será utilizado como cliente SSH no Windows para acessar a máquina virtual rodando o Ubuntu Server.
@@ -10,20 +14,21 @@ O download do PuTTY foi realizado através do site oficial do projeto ( https://
 
 ![Site oficial Putty](images/01-site-oficial-putty.png)
 <p align="right"><i>(Imagem 01: Site oficial PuTTY)</i></p>
-<br></br>
+
 <br></br>
 
 ### Download
 
-Após clicar no link indicado no passo anterior, o site oficial do PuTTY redireciona para o link = 
-( https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html ) 
+Após clicar no link indicado no passo anterior, o site oficial do PuTTY redireciona para o link =
+<p>( https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html )</p>
 
 Este site é do servidor original hospedado pelo criador e principal desenvolvedor do software, Simon Tatham.
 
 
 ![Site oficial Putty](images/02-pagina-download-putty.png)
-*(Imagem 02: Página oficial de download do PuTTY)*
+<p align="right"><i>(Imagem 02: Página oficial de download do PuTTY)</i>
 
+<br></br>
 
 Na página de download, o arquivo executável com a instalação padrão fica em Package Files, neste laboratório utilizaremos a versão 64-bit x86.
 
