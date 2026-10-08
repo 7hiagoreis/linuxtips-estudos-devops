@@ -71,7 +71,7 @@ Antes de começar, vale conferir se o computador tem recursos suficientes para r
 A máquina virtual compartilha os recursos do computador físico. Por isso, a quantidade de RAM, capacidade de processamento e espaço em disco devem ser consideradas antes de definir a configuração.
 
 ![Representação do computador físico](images/01-print-do-windows.png)
-<p align="right"><i>*(Imagem 01: Representação do computador físico onde será instalado o Oracle VirtualBox)*</i>
+<p align="right"><i>(Imagem 01: Representação do computador físico onde será instalado o Oracle VirtualBox)</i>
 
 ---
 
@@ -88,7 +88,7 @@ A versão usada neste laboratório deve ser obtida direto na página oficial do 
 Na página de downloads, localize a opção correspondente ao Windows e faça o download do instalador.
 
 ![Site oficial do Oracle VirtualBox](images/02-obtendo-o-virtualbox.png)
-*(Imagem 02: Página de download do Oracle VirtualBox)*
+<p align="right"><i>(Imagem 02: Página de download do Oracle VirtualBox)</i>
 
 ---
 
@@ -102,14 +102,17 @@ A imagem pode ser obtida direto no site oficial do Ubuntu:
 
 [Página oficial de download do Ubuntu Server](https://ubuntu.com/download/server)
 
+<br></br>
 Na página, escolha a versão **Ubuntu Server 22.04 LTS** e faça o download.
 
 Após concluir o download, mantenha o arquivo ISO em um local de fácil acesso. Ele será usado durante a criação e configuração da máquina virtual.
 
 ![Página oficial de download da ISO Ubuntu Server](images/03-obtendo-o-ubuntu.png)
-*(Imagem 03: Página oficial de download da imagem ISO do Ubuntu Server)*
+<p align="right"><i>(Imagem 03: Página oficial de download da imagem ISO do Ubuntu Server)</i>
 
 ---
+
+<br></br>
 
 ## Local onde o download do VirtualBox foi salvo
 
@@ -118,18 +121,22 @@ Após realizar o download, localize o arquivo de instalação e execute.
 O Windows geralmente salva o arquivo na pasta "Donwloads" conforme representação da imagem abaixo.
 
 ![Pasta onde foi salvo o download do Oracle VirtualBox](images/04-print-do-local-exe-virtualbox.png)
-*(Imagem 04: Local onde está o executavel do Oracle VirtualBox)*
+<p align="right"><i>(Imagem 04: Local onde está o executavel do Oracle VirtualBox)</i>
 
 ---
+
+<br></br>
 
 ## Instalando o VirtualBox
 
 Execute o arquivo de instalação, primeiramente o Windows pode solicitar a autorização para rodar o instalador. Confirme para iniciar o processo.
 
 ![Executando o Oracle VirtualBox](images/05-print-rodando-exe-virtualbox.png)
-*(Imagem 05: Executando a instalação do Oracle VirtualBox)*
+<p align="right"><i>(Imagem 05: Executando a instalação do Oracle VirtualBox)</i>
 
 ---
+
+<br></br>
 
 ## Tela de Boas Vindas do VirtualBox
 
@@ -140,9 +147,11 @@ Nesta tela o instalador informa que será instalado o VirtualBox no computador, 
 Clique em "Next" para iniciar o processo de instalação.
 
 ![Termos de Licença do Oracle VirtualBox](images/06-tela-de-boas-vindas-virtualbox.png)
-*(Imagem 06: Tela de Boas Vindas do Oracle VirtualBox)*
+<p align="right"><i>(Imagem 06: Tela de Boas Vindas do Oracle VirtualBox)</i>
 
 ---
+
+<br></br>
 
 ## Termos de licença
 
@@ -151,9 +160,11 @@ Nesta etapa, o instalador mostra os termos de licença do Oracle VirtualBox.
 Leia os termos e marque a opção de aceite para continuar.
 
 ![Termos de Licença do Oracle VirtualBox](images/07-aceite-dos-termos-virtualbox.png)
-*(Imagem 07: Termos de licença do Oracle VirtualBox)*
+<p align="right"><i>(Imagem 07: Termos de licença do Oracle VirtualBox)</i>
 
 ---
+
+<br></br>
 
 ## Selecionando os componentes
 
@@ -173,7 +184,7 @@ Para este laboratório, será usado o diretório padrão sugerido pelo instalado
 Caso exista uma necessidade específica, o diretório pode ser alterado conforme a organização do sistema.
 
 ![Local de instaação do Oracle VirtualBox](images/08-local-de-instalacao-virtualbox.png)
-*(Imagem 08: Definindo o diretório de instalação do Oracle VirtualBox)*
+<p align="right"><i>Imagem 08: Definindo o diretório de instalação do Oracle VirtualBox)</i>
 
 ---
 
@@ -184,7 +195,7 @@ O instalador pode exibir um aviso sobre dependências ausentes do Python (Python
 Esse aviso está relacionado aos bindings Python do VirtualBox, usados para automação via linha de comando. Para este laboratório, clique em **Yes** (Sim) para continuar a instalação normalmente e ignorar o aviso.
 
 ![Aviso de dependências do Oracle VirtualBox](images/09-aviso-dependencias-virtualbox.png)
-*(Imagem 09: Aviso sobre dependências do Python no Oracle VirtualBox)*
+<p align="right"><i>(Imagem 09: Aviso sobre dependências do Python no Oracle VirtualBox)</i>
 
 ---
 
