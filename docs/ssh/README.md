@@ -27,17 +27,11 @@ Computador físico
        v
     Windows
        |
-       v
-   VirtualBox
+       +---------------- PuTTY / SSH ----------------> Ubuntu Server
+       |                                               (Máquina Virtual / VirtualBox)
        |
-       v
-Ubuntu Server
-       |
-       |
-       +---------------- SSH ----------------+
-                                            |
-                                            v
-                                      AWS EC2
+       +---------------- PuTTY / SSH ----------------> AWS EC2
+                                                       (AWS)
 ```
 
 A VM local é utilizada como ambiente de estudos e testes.
