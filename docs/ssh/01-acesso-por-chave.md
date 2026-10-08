@@ -73,6 +73,15 @@ Clique em "Next" para continuar.
 <p align="center"> <img src="images/07-local-de-instalacao-putty.png" alt="Local de instalação do PuTTY"> </p>
 <p align="right"><i>(Imagem 07: Local de instalação do PuTTY)</i>
 
+<br></br>
+
+### Product Features / Recursos do Produto
+
+Agora o instalador do PuTTY vai apresentar a seção "Product Features" (Recursos do Produto), aqui podemos escolher quais componentes e ferramentas extras do PuTTY desejamos instalar ou ativar no computador.
+
+<p align="center"> <img src="images/08-selecionando-features.png" alt="Recursos Extras / Instalação do PuTTY"> </p>
+<p align="right"><i>(Imagem 08: Recursos Extras / Instalação do PuTTY)</i>
+
   
 ---
 
