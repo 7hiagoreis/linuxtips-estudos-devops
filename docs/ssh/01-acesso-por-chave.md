@@ -131,6 +131,7 @@ Caso você não queira ler as notas de lançamento do programa, desmarque a opç
 <p align="center"> <img src="images/13-desmarcando-o-readme.png" alt="Desmarcando o Readme do PuTTY"> </p>
 <p align="right"><i>(Imagem 13: Desmarcando o Readme do PuTTY)</i>
 
+<br></br>
 
 ### Primeira utilização do PuTTY
 
@@ -138,6 +139,15 @@ Para abrir o PuTTY clique no ícone que está em sua área de trabalho, ou digit
 
 <p align="center"> <img src="images/14-putty-na-area-de-trabalho.png" alt="Desmarcando o Readme do PuTTY"> </p>
 <p align="right"><i>(Imagem 14: Representação do PuTTY na área de trabalho no Windows)</i>
+
+<br></br>
+
+### Tela principal do PuTTY
+
+Abaixo imagem da tela principal do PuTTY.
+
+<p align="center"> <img src="images/15-tela-principal-putty.png" alt="Tela principal do PuTTY"> </p>
+<p align="right"><i>(Imagem 15: Tela principal do PuTTY)</i>
 
 ---
 
