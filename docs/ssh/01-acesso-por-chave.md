@@ -37,7 +37,7 @@ Na página de download, o arquivo executável com a instalação padrão fica em
 
 #### Alternative Binary Files (Putty Portável)
 
-Existe a versão "portable" (portável) do PuTTY, é possível fazer o download desta versão na seção Alternative Binary Files.
+Existe a versão "*portable*" (portável) do PuTTY, é possível fazer o download desta versão na seção Alternative Binary Files.
 
 ![Alternative Binary Files](images/04-alternative-binary-files.png)
 <p align="right"><i>(Imagem 04: Alternative Binary Files / PuTTY)</i>
@@ -57,7 +57,7 @@ O Windows geralmente salva os arquivos baixados da internet na pasta "Downloads"
 
 Ao executar o instalador do PuTTY, o Windows pode solicitar uma confirmação para continuar, confirme para prosseguir.
 
-Inicialmente, o instalador exibe a tela de boas vindas. Clique em "Next" para começar este processo.
+Inicialmente, o instalador exibe a tela de boas vindas. Clique em "*Next*" (Avançar) para começar este processo.
 
 <p align="center"> <img src="images/06-tela-de-boas-vindas-putty.png" alt="Tela de Boas Vindas do PuTTY"> </p>
 <p align="right"><i>(Imagem 06: Tela de boas vindas / Instalando o PuTTY)</i>
@@ -68,7 +68,7 @@ Inicialmente, o instalador exibe a tela de boas vindas. Clique em "Next" para co
 
 O próximo passo é definir o local de instalação do PuTTY, neste exemplo vamos instalar no diretório padrão ( C:\Program Files\PuTTY\ ), sem fazer nenhuma alteração.
 
-Clique em "Next" para continuar.
+Clique em "*Next*" (Avançar) para continuar.
 
 <p align="center"> <img src="images/07-local-de-instalacao-putty.png" alt="Local de instalação do PuTTY"> </p>
 <p align="right"><i>(Imagem 07: Local de instalação do PuTTY)</i>
@@ -77,7 +77,7 @@ Clique em "Next" para continuar.
 
 ### Product Features / Recursos do Produto
 
-Agora o instalador do PuTTY vai apresentar a seção "Product Features" (Recursos do Produto), aqui podemos escolher quais componentes e ferramentas extras do PuTTY desejamos instalar ou ativar no computador.
+Agora o instalador do PuTTY vai apresentar a seção "*Product Features*" (Recursos do Produto), aqui podemos escolher quais componentes e ferramentas extras do PuTTY desejamos instalar ou ativar no computador.
 
 <p align="center"> <img src="images/08-selecionando-features.png" alt="Recursos Extras / Instalação do PuTTY"> </p>
 <p align="right"><i>(Imagem 08: Recursos Extras / Instalação do PuTTY)</i>
@@ -88,10 +88,17 @@ Agora o instalador do PuTTY vai apresentar a seção "Product Features" (Recurso
 
 Antes de avançarmos para a próxima etapa, vamos habilitar o recurso para adicionar um atalho do PuTTY a área de trabalho do Windows.
 
-Clique na opção "Add shortcut to PuTTY on the Desktop" (Adicionar atalho para o PuTTY na área de trabalho), em seguida selecione a opção "Will be installed on local hard drive" (Será instalado no disco rígido local), conforme a imagem abaixo.
+Clique na opção "*Add shortcut to PuTTY on the Desktop*" (Adicionar atalho para o PuTTY na área de trabalho), em seguida selecione a opção "*Will be installed on local hard drive*" (Será instalado no disco rígido local), conforme a imagem abaixo.
 
 <p align="center"> <img src="images/09-definindo-feature-icones-area-de-trabalho.png" alt="Adicionando ícone do PuTTY na área de trabalho"> </p>
 <p align="right"><i>(Imagem 09: Recursos Extras / Adicionando ícone do PuTTY na área de trabalho)</i>
+
+<br></br>
+
+Depois de selecionar o recurso para criar um ícone do PuTTY na área de trabalho, clique em "*Install*" (Instalar) para iniciar o processo.
+
+<p align="center"> <img src="images/10-feature-icone-definida.png" alt="Ícone do PuTTY na área de trabalho"> </p>
+<p align="right"><i>(Imagem 10: Recursos Extras / Ícone do PuTTY na área de trabalho)</i>
   
 ---
 
