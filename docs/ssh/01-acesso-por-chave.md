@@ -10,7 +10,7 @@ O PuTTY será utilizado como cliente SSH no Windows para acessar a máquina virt
 
 O download do PuTTY foi realizado através do site oficial do projeto ( https://putty.software )
 
-![Site oficial Putty](images/01-site-oficial-putty.png)
+![Site oficial PuTTY](images/01-site-oficial-putty.png)
 <p align="right"><i>(Imagem 01: Site oficial PuTTY)</i></p>
 
 <br></br>
@@ -23,14 +23,14 @@ Após clicar no link indicado no passo anterior, o site oficial do PuTTY redirec
 Este site é do servidor original hospedado pelo criador e principal desenvolvedor do software, Simon Tatham.
 
 
-![Site oficial Putty](images/02-pagina-download-putty.png)
+![Página de download do PuTTY](images/02-pagina-download-putty.png)
 <p align="right"><i>(Imagem 02: Página oficial de download do PuTTY)</i>
 
 <br></br>
 
 Na página de download, o arquivo executável com a instalação padrão fica em Package Files, neste laboratório utilizaremos a versão 64-bit x86.
 
-![Site oficial Putty](images/03-package-files.png)
+![Package Files](images/03-package-files.png)
 <p align="right"><i>(Imagem 03: Package Files / PuTTY)</i>
 
 <br></br>
@@ -39,7 +39,7 @@ Na página de download, o arquivo executável com a instalação padrão fica em
 
 Existe a versão "portable" (portável) do PuTTY, é possível fazer o download desta versão na seção Alternative Binary Files.
 
-![Site oficial Putty](images/04-alternative-binary-files.png)
+![Alternative Binary Files](images/04-alternative-binary-files.png)
 <p align="right"><i>(Imagem 04: Alternative Binary Files / PuTTY)</i>
 
 <br></br>
@@ -48,7 +48,7 @@ Existe a versão "portable" (portável) do PuTTY, é possível fazer o download 
 
 O Windows geralmente salva os arquivos baixados da internet na pasta "Downloads", acesse o local onde foi salvo o instalador do PuTTY e execute o programa para iniciar o processo de instalação.
 
-![Site oficial Putty](images/05-acessando-putty-pasta-download.png)
+![Acessando a pasta Downloads](images/05-acessando-putty-pasta-download.png)
 <p align="right"><i>(Imagem 05: Local onde foi salvo o instalador do PuTTY)</i>
 
 <br></br>
@@ -59,7 +59,7 @@ Ao executar o instalador do PuTTY, o Windows pode solicitar uma confirmação pa
 
 Inicialmente, o instalador exibe a tela de boas vindas. Clique em "Next" para começar este processo.
 
-![Site oficial Putty](images/06-tela-de-boas-vindas-putty.png)
+![Tela de Boas Vindas do PuTTY](images/06-tela-de-boas-vindas-putty.png)
 <p align="right"><i>(Imagem 06: Tela de boas vindas / Instalando o PuTTY)</i>
   
 ---
