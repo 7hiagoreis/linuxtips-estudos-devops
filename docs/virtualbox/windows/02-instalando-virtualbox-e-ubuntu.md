@@ -60,7 +60,7 @@ Durante este guia, alguns conceitos aparecem com frequência:
 ## Pré-requisitos
 
 Antes de começar, vale conferir se o computador tem recursos suficientes para rodar uma máquina virtual.
-
+<br></br>
 - Windows compatível com a versão do VirtualBox utilizada.
 - Processador com suporte à virtualização.
 - Memória RAM disponível para o sistema convidado.
