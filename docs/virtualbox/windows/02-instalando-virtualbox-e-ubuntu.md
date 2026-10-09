@@ -83,7 +83,8 @@ O primeiro passo é baixar o instalador do Oracle VirtualBox.
 
 A versão usada neste laboratório deve ser obtida direto na página oficial do projeto.
 
-<a href="https://www.virtualbox.org/wiki/Downloads" target="_blank">Página oficial de download do Oracle VirtualBox</a>
+<a href="https://www.virtualbox.org/wiki/Downloads">Página oficial de download do Oracle VirtualBox</a>
+
 
 Na página de downloads, localize a opção correspondente ao Windows e faça o download do instalador.
 
