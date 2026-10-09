@@ -86,7 +86,6 @@ A versão usada neste laboratório deve ser obtida direto na página oficial do 
 <a href="https://www.virtualbox.org/wiki/Downloads">Página oficial de download do Oracle VirtualBox</a>
 
 <br></br>
-
 Na página de downloads, localize a opção correspondente ao Windows e faça o download do instalador.
 
 ![Site oficial do Oracle VirtualBox](images/02-obtendo-o-virtualbox.png)
@@ -102,7 +101,7 @@ Além do VirtualBox, será necessária uma imagem ISO do Ubuntu Server para inst
 
 A imagem pode ser obtida direto no site oficial do Ubuntu:
 
-[Página oficial de download do Ubuntu Server](https://ubuntu.com/download/server)
+<a href="https://ubuntu.com/download/server">Página oficial de download do Ubuntu Server</a>
 
 <br></br>
 Na página, escolha a versão **Ubuntu Server 22.04 LTS** e faça o download.
