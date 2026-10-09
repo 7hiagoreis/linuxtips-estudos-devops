@@ -85,6 +85,7 @@ A versão usada neste laboratório deve ser obtida direto na página oficial do 
 
 <a href="https://www.virtualbox.org/wiki/Downloads">Página oficial de download do Oracle VirtualBox</a>
 
+<br></br>
 
 Na página de downloads, localize a opção correspondente ao Windows e faça o download do instalador.
 
