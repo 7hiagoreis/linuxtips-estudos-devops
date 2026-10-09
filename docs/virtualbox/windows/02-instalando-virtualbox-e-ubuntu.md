@@ -70,7 +70,7 @@ Antes de começar, vale conferir se o computador tem recursos suficientes para r
 
 <p></p>
 
-A máquina virtual compartilha os recursos do computador físico. Por isso, a quantidade de RAM, capacidade de processamento e espaço em disco devem ser consideradas antes de definir a configuração.
+<p>A máquina virtual compartilha os recursos do computador físico. Por isso, a quantidade de RAM, capacidade de processamento e espaço em disco devem ser consideradas antes de definir a configuração.</p>
 
 ![Representação do computador físico](images/01-print-do-windows.png)
 <p align="right"><i>(Imagem 01: Representação do computador físico onde será instalado o Oracle VirtualBox)</i>
