@@ -68,6 +68,8 @@ Antes de começar, vale conferir se o computador tem recursos suficientes para r
 - Permissão para instalar programas no Windows.
 - Conexão com a internet para baixar os instaladores e a imagem ISO do Ubuntu Server.
 
+<p></p>
+
 A máquina virtual compartilha os recursos do computador físico. Por isso, a quantidade de RAM, capacidade de processamento e espaço em disco devem ser consideradas antes de definir a configuração.
 
 ![Representação do computador físico](images/01-print-do-windows.png)
