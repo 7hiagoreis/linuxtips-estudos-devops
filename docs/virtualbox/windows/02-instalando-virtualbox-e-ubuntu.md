@@ -96,6 +96,13 @@ Antes de começar, vale conferir se o computador tem recursos suficientes para r
   <li><strong>Processadores AMD:</strong> Procure por <em>SVM Mode</em> (Secure Virtual Machine) ou <em>AMD-V</em> e mude para <strong>Enabled</strong>.</li>
 </ul>
 
+<br></br>
+
+A imagem abaixo é um exemplo de ativação do Hypervisor na Bios. Após habilitar o Hypervisor aperte a tecla F10 para sair e salvar a alteração. Observe que a tecla para salvar e sair da Bios depende do modelo da sua placa-mãe.
+
+![Representação do computador físico](images/01b-ativando-hypervisor-na-bios-exemp-001.png)
+<p align="right"><i>(Imagem: Ativando Hypervisor na Bios)</i>
+
 <hr size="1" color="gray">
 
 <h3>Mensagem de Erro (Caso a Virtualização esteja Desativada):</h3>
