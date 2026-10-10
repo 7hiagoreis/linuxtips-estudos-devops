@@ -79,20 +79,19 @@ Antes de começar, vale conferir se o computador tem recursos suficientes para r
 
 ### Ativação do Hypervisor na BIOS (em desenvolvimento)
 
-Para executa a máquina virtual é necessário ativar o Hypervisor na BIOS. 
+<p>Para executar a máquina virtual (<strong>Nome da VM: ubuntu-lab</strong>), é necessário ativar o Hypervisor / Virtualização nas configurações da sua BIOS.</p>
 
+<hr size="1" color="gray">
 
-Mensagem de Erro caso não ative o Hypervisor
-Nome da VM: ubuntu-lab
+<h3>Mensagem de Erro (Caso a Virtualização esteja Desativada):</h3>
 
+<pre>
 Not in a hypervisor partition (HVP=0) (VERR_NEM_NOT_AVAILABLE).
 VT-x is disabled in the BIOS for all CPU modes (VERR_VMX_MSR_ALL_VMX_DISABLED).
-Código de Resultado: 
-E_FAIL (0x80004005)
-Componente: 
-ConsoleWrap
-Interface: 
-IConsole {6ac83d89-6ee7-4e33-8ae6-b257b2e81be8}
+Código de Resultado: E_FAIL (0x80004005)
+Componente: ConsoleWrap
+Interface: IConsole {6ac83d89-6ee7-4e33-8ae6-b257b2e81be8}
+</pre>
 
 
 ---
