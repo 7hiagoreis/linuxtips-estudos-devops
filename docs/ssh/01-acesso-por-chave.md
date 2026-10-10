@@ -189,9 +189,9 @@ Ubuntu Server
 Servidor SSH
 ```
 
-<br></br>
-
 Nesse cenário, a conexão seria configurada no PuTTY utilizando `127.0.0.1` como endereço e `2222` como porta, desde que a regra de redirecionamento esteja configurada.
+
+<br></br>
 
 #### Bridge (Placa em modo Bridge)
 
