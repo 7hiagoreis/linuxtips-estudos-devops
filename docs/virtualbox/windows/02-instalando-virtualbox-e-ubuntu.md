@@ -109,7 +109,7 @@ Interface: IConsole {6ac83d89-6ee7-4e33-8ae6-b257b2e81be8}
 </pre>
 
 ![Erro no VirtualBox Hypervisior](images/01a-erro-bios-vb.png)
-<p align="right"><i>(Imagem 02: Representação do computador físico onde será instalado o Oracle VirtualBox)</i>
+<p align="right"><i>(Imagem 02: Mensagem de Erro no VirtualBox / Hypervisor)</i>
 
 ---
 
