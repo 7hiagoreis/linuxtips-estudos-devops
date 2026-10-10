@@ -75,6 +75,26 @@ Antes de começar, vale conferir se o computador tem recursos suficientes para r
 ![Representação do computador físico](images/01-print-do-windows.png)
 <p align="right"><i>(Imagem 01: Representação do computador físico onde será instalado o Oracle VirtualBox)</i>
 
+<br></br>
+
+### Ativação do Hypervisor na BIOS (em desenvolvimento)
+
+Para executa a máquina virtual é necessário ativar o Hypervisor na BIOS. 
+
+
+Mensagem de Erro caso não ative o Hypervisor
+Nome da VM: ubuntu-lab
+
+Not in a hypervisor partition (HVP=0) (VERR_NEM_NOT_AVAILABLE).
+VT-x is disabled in the BIOS for all CPU modes (VERR_VMX_MSR_ALL_VMX_DISABLED).
+Código de Resultado: 
+E_FAIL (0x80004005)
+Componente: 
+ConsoleWrap
+Interface: 
+IConsole {6ac83d89-6ee7-4e33-8ae6-b257b2e81be8}
+
+
 ---
 
 <br></br>
