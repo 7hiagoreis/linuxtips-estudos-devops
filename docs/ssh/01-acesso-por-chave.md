@@ -154,6 +154,66 @@ Abaixo imagem da tela principal do PuTTY.
 <br></br>
 
 ## 2. Primeiro acesso ao Ubuntu Server
+
+### Configuração da Rede na Máquina Virtual
+
+Inicialmente, a máquina virtual estava configurada com a opção NAT no VirtualBox.
+
+O NAT permite que a máquina virtual acesse a internet utilizando a conexão de rede do computador físico. Nesse modo, a máquina virtual (VM) fica atrás de uma camada de tradução de endereços de rede, e as conexões iniciadas de fora para dentro não são encaminhadas automaticamente.
+
+Durante a configuração do laboratório, o Ubuntu Server conseguia acessar a internet, mas não consegue estabelecer uma conexão via SSH diretamente do Windows para a máquina virtual utilizando o seu endereço IP.
+
+#### NAT (Network Address Translation)
+
+No modo NAT, o VirtualBox permite que a máquina virtual utilize a conexão de rede do computador físico para acessar outros dispositivos e serviços.
+
+Porém, para iniciar uma conexão SSH do Windows para a máquina virtual (VM), é necessário configurar o redirecionamento de portas no VirtualBox.
+
+Por exemplo, seria possível encaminhar a porta `2222` do computador físico para a porta `22` da máquina virtual:
+
+```text
+Windows
+   |
+   | SSH para localhost:2222
+   v
+VirtualBox
+   |
+   | Redirecionamento de porta
+   v
+Ubuntu Server
+   |
+   | Porta 22
+   v
+Servidor SSH
+```
+
+Nesse cenário, a conexão seria configurada no PuTTY utilizando `127.0.0.1` como endereço e `2222` como porta, desde que a regra de redirecionamento esteja configurada.
+
+#### Bridge (Placa em modo Bridge)
+
+Para este laboratório, foi alterada a interface de rede da máquina virtual de NAT para Bridge, também chamado de modo bridge ou placa em modo bridge no VirtualBox.
+
+Nesse modo, a máquina virtual pode participar diretamente da rede local, como outro dispositivo na rede conectado, e com endereço IP próprio.
+
+Isso permite que o Windows estabeleça uma conexão SSH diretamente com o endereço IP da máquina virtual, desde que a rede, o firewall e o servidor SSH permitam a conexão.
+
+Após alteração, é possível estabelecer a conexão de acesso remoto via SSH no Ubuntu Server.
+
+#### Comparação entre NAT e Bridge
+
+| Característica | NAT | Bridge |
+|---|---|---|
+| Acesso da VM à internet | Sim | Sim, se a rede permitir |
+| IP próprio na rede local | Normalmente não, fica atrás do NAT do VirtualBox | Sim, normalmente obtido por DHCP |
+| SSH do Windows para a VM | Geralmente exige redirecionamento de portas | Pode usar diretamente o IP da VM |
+| Configuração para este laboratório | Exige uma etapa adicional | Mais direta para acesso pela rede local |
+
+O NAT também permite outras formas de acesso, dependendo da configuração. A principal diferença é que o redirecionamento de portas precisa ser configurado quando desejar receber conexões externas na VM.
+
+Neste laboratório, o modo Bridge foi utilizado para simplificar o acesso SSH do Windows ao Ubuntu Server.
+
+<br></br>
+
 ### Descobrindo o IP com ip addr
 ### Configurando o PuTTY
 ### Primeiro login
