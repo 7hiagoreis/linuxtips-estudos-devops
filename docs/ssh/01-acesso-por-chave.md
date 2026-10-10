@@ -163,6 +163,8 @@ O NAT permite que a máquina virtual acesse a internet utilizando a conexão de 
 
 Durante a configuração do laboratório, o Ubuntu Server conseguia acessar a internet, mas não consegue estabelecer uma conexão via SSH diretamente do Windows para a máquina virtual utilizando o seu endereço IP.
 
+<br></br>
+
 #### NAT (Network Address Translation)
 
 No modo NAT, o VirtualBox permite que a máquina virtual utilize a conexão de rede do computador físico para acessar outros dispositivos e serviços.
@@ -187,6 +189,8 @@ Ubuntu Server
 Servidor SSH
 ```
 
+<br></br>
+
 Nesse cenário, a conexão seria configurada no PuTTY utilizando `127.0.0.1` como endereço e `2222` como porta, desde que a regra de redirecionamento esteja configurada.
 
 #### Bridge (Placa em modo Bridge)
@@ -198,6 +202,8 @@ Nesse modo, a máquina virtual pode participar diretamente da rede local, como o
 Isso permite que o Windows estabeleça uma conexão SSH diretamente com o endereço IP da máquina virtual, desde que a rede, o firewall e o servidor SSH permitam a conexão.
 
 Após alteração, é possível estabelecer a conexão de acesso remoto via SSH no Ubuntu Server.
+
+<br></br>
 
 #### Comparação entre NAT e Bridge
 
