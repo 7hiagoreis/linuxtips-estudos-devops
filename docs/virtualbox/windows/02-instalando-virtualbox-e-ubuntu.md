@@ -77,7 +77,7 @@ Antes de começar, vale conferir se o computador tem recursos suficientes para r
 
 <br></br>
 
-### Ativação do Hypervisor na BIOS (em desenvolvimento)
+### Ativação do Hypervisor na BIOS (obrigatório)
 
 <p>Para executar a máquina virtual (<strong>Nome da VM: ubuntu-lab</strong>), é necessário ativar o Hypervisor / Virtualização nas configurações da sua BIOS.</p>
 
