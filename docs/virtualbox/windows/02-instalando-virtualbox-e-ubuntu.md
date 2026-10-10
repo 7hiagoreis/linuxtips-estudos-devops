@@ -81,6 +81,21 @@ Antes de começar, vale conferir se o computador tem recursos suficientes para r
 
 <p>Para executar a máquina virtual (<strong>Nome da VM: ubuntu-lab</strong>), é necessário ativar o Hypervisor / Virtualização nas configurações da sua BIOS.</p>
 
+<h3>Como acessar a BIOS</h3>
+
+<p>Reinicie o computador e fique pressionando a tecla de acesso da sua placa-mãe. As mais comuns são:</p>
+<ul>
+  <li><strong>DEL</strong> ou <strong>F2</strong> (Na grande maioria das placas-mãe como ASUS, Gigabyte, ASRock)</li>
+  <li><strong>F1</strong> ou <strong>F12</strong> (Comum em notebooks e computadores da Lenovo, Dell ou HP)</li>
+</ul>
+
+<h3>Onde encontrar a opção (Geralmente na aba "Advanced" ou "CPU Configuration")</h3>
+<p>O nome da função muda de acordo com o fabricante do seu processador:</p>
+<ul>
+  <li><strong>Pocessadores Intel:</strong> Procure por <em>Intel Virtualization Technology</em>, <em>Intel VT-x</em> ou <em>VT-d</em> e mude para <strong>Enabled</strong>.</li>
+  <li><strong>Processadores AMD:</strong> Procure por <em>SVM Mode</em> (Secure Virtual Machine) ou <em>AMD-V</em> e mude para <strong>Enabled</strong>.</li>
+</ul>
+
 <hr size="1" color="gray">
 
 <h3>Mensagem de Erro (Caso a Virtualização esteja Desativada):</h3>
@@ -92,7 +107,6 @@ Código de Resultado: E_FAIL (0x80004005)
 Componente: ConsoleWrap
 Interface: IConsole {6ac83d89-6ee7-4e33-8ae6-b257b2e81be8}
 </pre>
-
 
 ---
 
