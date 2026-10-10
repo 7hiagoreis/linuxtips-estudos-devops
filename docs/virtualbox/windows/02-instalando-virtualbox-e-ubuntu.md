@@ -569,7 +569,9 @@ Com a imagem ISO montada na máquina virtual, o sistema será iniciado pelo inst
 
 O instalador apresenta as opções necessárias para configurar o sistema operacional.
 
-![Tela Principal Oracle VirtualBox](images/29-iniciando-vm-ubuntu.png)
+<p align="center">
+  <img src="images/29-iniciando-vm-ubuntu.png" alt="Tela Principal Oracle VirtualBox">
+</p>
 <p align="right"><i>(Imagem 30: Iniciando a instalação do Ubuntu Server na máquina virtual)</i>
 
 ---
