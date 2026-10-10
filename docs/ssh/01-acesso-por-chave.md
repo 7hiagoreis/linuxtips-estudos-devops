@@ -214,6 +214,20 @@ Neste laboratório, o modo Bridge foi utilizado para simplificar o acesso SSH do
 
 <br></br>
 
+#### Problemas de conectividade no modo Bridge
+
+Durante os testes em outro computador, um Dell XPS 8700, encontrei dificuldades para estabelecer a conexão com a máquina virtual utilizando o modo Bridge.
+
+O computador possui interfaces de rede Ethernet e Wi-Fi. Uma das possibilidades que pretendo investigar é se a seleção do adaptador de rede no VirtualBox está relacionada ao problema.
+
+Também tentei configurar um endereço IP manualmente, mas a conexão não funcionou como esperado.
+
+A causa ainda não foi identificada. Pretendo realizar novos testes para verificar a configuração das interfaces de rede, a seleção do adaptador utilizado pelo VirtualBox e os parâmetros de rede da máquina virtual.
+
+Após os testes, esta seção será atualizada com os resultados e a solução encontrada, caso seja possível identificar a causa.
+
+<br></br>
+
 ### Descobrindo o IP com ip addr
 ### Configurando o PuTTY
 ### Primeiro login
