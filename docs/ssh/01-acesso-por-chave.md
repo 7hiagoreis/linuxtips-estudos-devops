@@ -156,31 +156,29 @@ Abaixo imagem da tela principal do PuTTY.
 ## 2. Primeiro acesso ao Ubuntu Server
 
 ### Configuração da Rede na Máquina Virtual
-
 Inicialmente, a máquina virtual estava configurada com a opção NAT no VirtualBox.
 
 O NAT permite que a máquina virtual acesse a internet utilizando a conexão de rede do computador físico. Nesse modo, a máquina virtual (VM) fica atrás de uma camada de tradução de endereços de rede, e as conexões iniciadas de fora para dentro não são encaminhadas automaticamente.
 
-Durante a configuração do laboratório, o Ubuntu Server conseguia acessar a internet, mas não consegue estabelecer uma conexão via SSH diretamente do Windows para a máquina virtual utilizando o seu endereço IP.
+Durante a configuração do laboratório, o Ubuntu Server conseguia acessar a internet, mas não conseguia estabelecer uma conexão via SSH diretamente do Windows para a máquina virtual utilizando o seu endereço IP.
 
-<br></br>
+---
 
-#### NAT (Network Address Translation)
+### Solução 1: Utilizando o Modo NAT com Redirecionamento de Portas
+No modo NAT padrão, o VirtualBox esconde a máquina virtual (VM) atrás de uma sub-rede isolada. Para iniciar uma conexão SSH do Windows para a máquina virtual sem alterar o tipo de placa, é obrigatório configurar uma regra de **Redirecionamento de Portas (Port Forwarding)**.
 
-No modo NAT, o VirtualBox permite que a máquina virtual utilize a conexão de rede do computador físico para acessar outros dispositivos e serviços.
+Essa regra instrui o VirtualBox a escutar uma porta específica na máquina física (Host) e repassar todo o tráfego para a porta do SSH (`22`) dentro da máquina virtual.
 
-Porém, para iniciar uma conexão SSH do Windows para a máquina virtual (VM), é necessário configurar o redirecionamento de portas no VirtualBox.
-
-Por exemplo, seria possível encaminhar a porta `2222` do computador físico para a porta `22` da máquina virtual:
+Por exemplo, encaminhando a porta `2222` do Windows para a porta `22` do Ubuntu Server:
 
 ```text
 Windows
    |
    | SSH para localhost:2222
    v
-VirtualBox
+VirtualBox (Mapeamento de Porta)
    |
-   | Redirecionamento de porta
+   | Redirecionamento de tráfego
    v
 Ubuntu Server
    |
@@ -189,48 +187,91 @@ Ubuntu Server
 Servidor SSH
 ```
 
-Nesse cenário, a conexão seria configurada no PuTTY utilizando `127.0.0.1` como endereço e `2222` como porta, desde que a regra de redirecionamento esteja configurada.
+### Passo a Passo da Configuração do NAT:
+1. Com a VM desligada, abra as **Configurações** dela no VirtualBox.
+2. Vá na aba **Rede** > **Adaptador 1** (Garantir que está "Conectado a: NAT").
+3. Clique na seta para expandir as opções **Avançadas**.
+4. Clique no botão **Redirecionamento de Portas**.
+5. Adicione uma nova regra com os seguintes parâmetros:
+   * **IP do Hospedeiro:** `127.0.0.1`
+   * **Porta do Hospedeiro:** `2222`
+   * **IP do Convidado:** (Pode deixar em branco ou preencher com o IP interno da VM, ex: `10.0.2.15`)
+   * **Porta do Convidado:** `22`
+6. Clique em **OK** e inicie a máquina virtual.
+7. **No PuTTY:** No campo *Host Name (or IP address)*, utilize o endereço `127.0.0.1` e no campo *Port*, altere para `2222`.
 
-<br></br>
+---
 
-#### Bridge (Placa em modo Bridge)
+### Solução 2: Utilizando a Placa em Modo Bridge
+Como alternativa para simplificar o acesso e não depender de mapeamento de portas individuais para cada novo serviço, a interface de rede da máquina virtual pode ser alterada de NAT para **Bridge** (Placa em modo Bridge).
 
-Para este laboratório, foi alterada a interface de rede da máquina virtual de NAT para Bridge, também chamado de modo bridge ou placa em modo bridge no VirtualBox.
+Nesse modo, o VirtualBox faz com que a máquina virtual participe diretamente da rede local física, comportando-se como se fosse outro computador real conectado ao roteador, recebendo um endereço IP próprio na mesma faixa do computador hospedeiro.
 
-Nesse modo, a máquina virtual pode participar diretamente da rede local, como outro dispositivo na rede conectado, e com endereço IP próprio.
+#### Passo a Passo da Configuração do Bridge:
+1. Nas configurações de **Rede** da VM, mude o campo "Conectado a:" de NAT para **Placa em modo Bridge**.
+2. No campo **Nome**, selecione a placa de rede ativa do seu computador físico (ex: sua placa Ethernet por cabo).
+3. Inicie a máquina virtual.
+4. No terminal do Ubuntu Server, execute o comando `ip a` ou `ifconfig` para identificar o endereço IP recebido via DHCP (ex: `192.168.1.50`).
+5. **No PuTTY:** Digite diretamente o IP próprio da VM e mantenha a porta padrão `22`.
 
-Isso permite que o Windows estabeleça uma conexão SSH diretamente com o endereço IP da máquina virtual, desde que a rede, o firewall e o servidor SSH permitam a conexão.
+---
 
-Após alteração, é possível estabelecer a conexão de acesso remoto via SSH no Ubuntu Server.
+### Comparação entre NAT e Bridge
 
-<br></br>
+| Característica | NAT (Com Redirecionamento) | Bridge |
+| :--- | :--- | :--- |
+| **Acesso da VM à internet** | Sim | Sim, se a rede local permitir |
+| **IP próprio na rede local** | Não, fica oculta atrás do VirtualBox | Sim, obtido via roteador (DHCP) |
+| **Acesso via PuTTY** | Através de `127.0.0.1` na porta `2222` | Diretamente pelo IP da VM na porta `22` |
+| **Acesso a novos serviços (ex: Web)** | Exige criar novas regras para cada porta | Livre, basta acessar o IP da VM |
 
-#### Comparação entre NAT e Bridge
+---
 
-| Característica | NAT | Bridge |
-|---|---|---|
-| Acesso da VM à internet | Sim | Sim, se a rede permitir |
-| IP próprio na rede local | Normalmente não, fica atrás do NAT do VirtualBox | Sim, normalmente obtido por DHCP |
-| SSH do Windows para a VM | Geralmente exige redirecionamento de portas | Pode usar diretamente o IP da VM |
-| Configuração para este laboratório | Exige uma etapa adicional | Mais direta para acesso pela rede local |
+## Problemas de Conectividade no Modo Bridge (Identificado e Resolvido)
+Durante os testes em outro computador, um Dell XPS 8700, foram encontradas dificuldades para estabelecer a conexão com a máquina virtual utilizando o modo Bridge. O Ubuntu Server não recebia um endereço IP válido da rede local ou, mesmo recebendo, o Windows não conseguia pingar ou conectar via PuTTY.
 
-O NAT também permite outras formas de acesso, dependendo da configuração. A principal diferença é que o redirecionamento de portas precisa ser configurado quando desejar receber conexões externas na VM.
+* **Causa Raiz:** O computador físico estava conectado à rede exclusivamente via **Wi-Fi**. O padrão técnico de redes sem fio (IEEE 802.11) foi projetado para associar apenas **um endereço MAC por conexão**. Quando o VirtualBox tenta simular um segundo endereço MAC (da máquina virtual / VM) através da placa Wi-Fi do hospedeiro, a maioria dos roteadores residenciais e placas de rede rejeita essa requisição por segurança ou limitação de hardware, impedindo a comunicação direta em Modo Bridge.
 
-Neste laboratório, o modo Bridge foi utilizado para simplificar o acesso SSH do Windows ao Ubuntu Server.
+---
 
-<br></br>
+### Solução Adotada no Laboratório
+Para contornar o problema de conectividade sem abrir mão da facilidade do acesso direto via IP (sem redirecionamento de portas), a solução adotada foi corrigir a seleção do adaptador de rede físico dentro do VirtualBox, garantindo que a ponte (Bridge) fosse feita exclusivamente através da conexão cabeada.
 
-#### Problemas de conectividade no modo Bridge
+```
+                  +---------------------------------------+
 
-Durante os testes em outro computador, um Dell XPS 8700, encontrei dificuldades para estabelecer a conexão com a máquina virtual utilizando o modo Bridge.
+                  |           Máquina Virtual             |
+                  |           (Ubuntu Server)             |
+                  +-------------------+-------------------+
+                                      |
+                                      v
+                        +---------------------------+
 
-O computador possui interfaces de rede Ethernet e Wi-Fi. Uma das possibilidades que pretendo investigar é se a seleção do adaptador de rede no VirtualBox está relacionada ao problema.
+                        |   Placa em modo Bridge    |
+                        +-------------+-------------+
+                                      |
+                                      v
+                        +---------------------------+
 
-Também tentei configurar um endereço IP manualmente, mas a conexão não funcionou como esperado.
+                        | Adaptador Físico Realtek  |
+                        |      (Cabo de Rede)       |
+                        +-------------+-------------+
+                                      |
+                                      v
+                            [ Roteador Local ]
+                                      |
+                     +----------------+----------------+
 
-A causa ainda não foi identificada. Pretendo realizar novos testes para verificar a configuração das interfaces de rede, a seleção do adaptador utilizado pelo VirtualBox e os parâmetros de rede da máquina virtual.
+                     |                                 |
+                     v                                 v
+          [ Saída para Internet ]              [ Windows Host ]
+         (Apt, Docker Pull etc.)         (PuTTY, Ansible, Jenkins)
+```
 
-Após os testes, esta seção será atualizada com os resultados e a solução encontrada, caso seja possível identificar a causa.
+### Configuração com o Adaptador Correto no VirtualBox:
+1. **Modo de Conexão:** A máquina virtual foi configurada mantendo o anexo em **Placa em modo Bridge**, permitindo que ela opere como um dispositivo autônomo e visível na rede local física.
+
+2. **Seleção do Adaptador (Nome):** Foi selecionada manualmente a placa de rede física **Realtek (Ethernet)** que estava conectada via cabo. Essa alteração evitou as restrições e incompatibilidades de pacotes que ocorrem ao tentar forçar o Modo Bridge usando a interface Wi-Fi do computador.
 
 <br></br>
 
