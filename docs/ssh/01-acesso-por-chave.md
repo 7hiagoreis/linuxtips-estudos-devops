@@ -262,6 +262,11 @@ A imagem abaixo é um exemplo de como preencher os campos da Regra de Redirecion
 ### Solução 2: Utilizando a Placa em Modo Bridge
 Como alternativa para simplificar o acesso e não depender de mapeamento de portas individuais para cada novo serviço, a interface de rede da máquina virtual pode ser alterada de NAT para **Bridge** (Placa em modo Bridge).
 
+<p align="center"> <img src="images/modo-bridge-01.png" alt="Tela de configuração da rede no VirtualBox"> </p>
+<p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
+
+<br></br>
+
 Nesse modo, o VirtualBox faz com que a máquina virtual participe diretamente da rede local física, comportando-se como se fosse outro computador real conectado ao roteador, recebendo um endereço IP próprio na mesma faixa do computador hospedeiro.
 
 #### Passo a Passo da Configuração do Bridge:
