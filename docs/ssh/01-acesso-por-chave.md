@@ -224,6 +224,12 @@ Servidor SSH
 <br></br>
 
 5. Adicione uma nova regra com os seguintes parâmetros:
+
+<p align="center"> <img src="images/18-redirecionamento-portas-06.png" alt="Tela de configuração da rede no VirtualBox"> </p>
+<p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
+
+<br></br>
+
    * **IP do Hospedeiro:** `127.0.0.1`
    * **Porta do Hospedeiro:** `2222`
    * **IP do Convidado:** (Pode deixar em branco ou preencher com o IP interno da VM, ex: `10.0.2.15`)
