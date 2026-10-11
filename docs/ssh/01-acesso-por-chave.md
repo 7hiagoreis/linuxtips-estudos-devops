@@ -198,8 +198,15 @@ Servidor SSH
 <p align="center"> <img src="images/17-redirecionamento-portas-02.png" alt="Tela de configuração da rede no VirtualBox"> </p>
 <p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
 
+<br></br>
 
 2. Vá na aba **Rede** > **Adaptador 1** (Garantir que está "Conectado a: NAT").
+
+<p align="center"> <img src="images/18-redirecionamento-portas-03.png" alt="Tela de configuração da rede no VirtualBox"> </p>
+<p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
+
+<br></br>
+
 3. Clique na seta para expandir as opções **Avançadas**.
 4. Clique no botão **Redirecionamento de Portas**.
 5. Adicione uma nova regra com os seguintes parâmetros:
