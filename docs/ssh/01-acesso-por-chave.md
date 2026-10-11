@@ -215,15 +215,29 @@ Servidor SSH
 <br></br>
 
 4. Clique no botão **Redirecionamento de Portas**.
+
+<p align="center"> <img src="images/18-redirecionamento-portas-05.png" alt="Tela de configuração da rede no VirtualBox"> </p>
+<p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
+
+<br></br>
+
 5. Adicione uma nova regra com os seguintes parâmetros:
    * **IP do Hospedeiro:** `127.0.0.1`
    * **Porta do Hospedeiro:** `2222`
    * **IP do Convidado:** (Pode deixar em branco ou preencher com o IP interno da VM, ex: `10.0.2.15`)
    * **Porta do Convidado:** `22`
+
+<br></br>
+   
 6. Clique em **OK** e inicie a máquina virtual.
+
+<br></br>
+
 7. **No PuTTY:** No campo *Host Name (or IP address)*, utilize o endereço `127.0.0.1` e no campo *Port*, altere para `2222`.
 
 ---
+
+<br></br>
 
 ### Solução 2: Utilizando a Placa em Modo Bridge
 Como alternativa para simplificar o acesso e não depender de mapeamento de portas individuais para cada novo serviço, a interface de rede da máquina virtual pode ser alterada de NAT para **Bridge** (Placa em modo Bridge).
