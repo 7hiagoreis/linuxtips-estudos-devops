@@ -156,7 +156,7 @@ Abaixo imagem da tela principal do PuTTY.
 ## 2. Primeiro acesso ao Ubuntu Server
 
 ### Configuração da Rede na Máquina Virtual
-Inicialmente, a máquina virtual estava configurada com a opção NAT no VirtualBox.
+Inicialmente, a máquina virtual estava configurada com a opção NAT nas configurações de rede do VirtualBox.
 
 <p align="center"> <img src="images/16-redirecionamento-portas-01.png" alt="Tela de configuração da rede no VirtualBox"> </p>
 <p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
@@ -194,6 +194,11 @@ Servidor SSH
 
 ### Passo a Passo da Configuração do NAT:
 1. Com a VM desligada, abra as **Configurações** dela no VirtualBox.
+
+<p align="center"> <img src="images/17-redirecionamento-portas-02.png" alt="Tela de configuração da rede no VirtualBox"> </p>
+<p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
+
+
 2. Vá na aba **Rede** > **Adaptador 1** (Garantir que está "Conectado a: NAT").
 3. Clique na seta para expandir as opções **Avançadas**.
 4. Clique no botão **Redirecionamento de Portas**.
