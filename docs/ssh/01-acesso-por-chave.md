@@ -158,7 +158,7 @@ Abaixo imagem da tela principal do PuTTY.
 ### Configuração da Rede na Máquina Virtual
 Inicialmente, a máquina virtual estava configurada com a opção NAT no VirtualBox.
 
-<p align="center"> <img src="images/redirecionamento-portas-01.png" alt="Tela de configuração da rede no VirtualBox"> </p>
+<p align="center"> <img src="images/16-redirecionamento-portas-01.png" alt="Tela de configuração da rede no VirtualBox"> </p>
 <p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
 
 <br></br>
