@@ -271,6 +271,12 @@ Nesse modo, o VirtualBox faz com que a máquina virtual participe diretamente da
 
 #### Passo a Passo da Configuração do Bridge:
 1. Nas configurações de **Rede** da VM, mude o campo "Conectado a:" de NAT para **Placa em modo Bridge**.
+
+<p align="center"> <img src="images/modo-bridge-02.png" alt="Tela de configuração da rede no VirtualBox"> </p>
+<p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
+
+<br></br>
+
 2. No campo **Nome**, selecione a placa de rede ativa do seu computador físico (ex: sua placa Ethernet por cabo).
 3. Inicie a máquina virtual.
 4. No terminal do Ubuntu Server, execute o comando `ip a` ou `ifconfig` para identificar o endereço IP recebido via DHCP (ex: `192.168.1.50`).
