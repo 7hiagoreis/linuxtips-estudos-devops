@@ -230,6 +230,7 @@ Servidor SSH
 
 <br></br>
 
+**Regras de Redirecionamento de Portas**
    * **IP do Hospedeiro:** `127.0.0.1`
    * **Porta do Hospedeiro:** `2222`
    * **IP do Convidado:** (Pode deixar em branco ou preencher com o IP interno da VM, ex: `10.0.2.15`)
