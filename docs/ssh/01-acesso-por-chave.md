@@ -244,6 +244,9 @@ A imagem abaixo é um exemplo de como preencher os campos da Regra de Redirecion
    
 6. Clique em **OK** e inicie a máquina virtual.
 
+<p align="center"> <img src="images/18-redirecionamento-portas-08.png" alt="Tela de configuração da rede no VirtualBox"> </p>
+<p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
+
 <br></br>
 
 7. **No PuTTY:** No campo *Host Name (or IP address)*, utilize o endereço `127.0.0.1` e no campo *Port*, altere para `2222`.
