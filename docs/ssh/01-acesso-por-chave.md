@@ -235,6 +235,11 @@ Servidor SSH
    * **IP do Convidado:** (Pode deixar em branco ou preencher com o IP interno da VM, ex: `10.0.2.15`)
    * **Porta do Convidado:** `22`
 
+A imagem abaixo é um exemplo de como preencher os campos da Regra de Redirecionamento.   
+
+<p align="center"> <img src="images/18-redirecionamento-portas-07.png" alt="Tela de configuração da rede no VirtualBox"> </p>
+<p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
+
 <br></br>
    
 6. Clique em **OK** e inicie a máquina virtual.
