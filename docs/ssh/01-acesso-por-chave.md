@@ -200,14 +200,15 @@ Servidor SSH
 
 <br></br>
 
-2. Vá na aba **Rede** > **Adaptador 1** (Garantir que está "Conectado a: NAT").
+2. Após clicar em configurações o VirtualBox exibe uma nova janela com as opções da máquina virtual do lado esquerdo da tela...
 
 <p align="center"> <img src="images/18-redirecionamento-portas-03.png" alt="Tela de configuração da rede no VirtualBox"> </p>
 <p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
 
 <br></br>
 
-3. Clique na seta para expandir as opções **Avançadas**.
+3. Clique na aba **Rede** > **Adaptador 1** (Garantir que a opção "Ligado a: NAT" está selecionada).
+
 4. Clique no botão **Redirecionamento de Portas**.
 5. Adicione uma nova regra com os seguintes parâmetros:
    * **IP do Hospedeiro:** `127.0.0.1`
