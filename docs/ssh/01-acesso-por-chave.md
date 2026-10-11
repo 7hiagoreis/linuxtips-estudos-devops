@@ -158,6 +158,11 @@ Abaixo imagem da tela principal do PuTTY.
 ### Configuração da Rede na Máquina Virtual
 Inicialmente, a máquina virtual estava configurada com a opção NAT no VirtualBox.
 
+<p align="center"> <img src="images/redirecionamento-portas-01.png" alt="Tela de configuração da rede no VirtualBox"> </p>
+<p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
+
+<br></br>
+
 O NAT permite que a máquina virtual acesse a internet utilizando a conexão de rede do computador físico. Nesse modo, a máquina virtual (VM) fica atrás de uma camada de tradução de endereços de rede, e as conexões iniciadas de fora para dentro não são encaminhadas automaticamente.
 
 Durante a configuração do laboratório, o Ubuntu Server conseguia acessar a internet, mas não conseguia estabelecer uma conexão via SSH diretamente do Windows para a máquina virtual utilizando o seu endereço IP.
