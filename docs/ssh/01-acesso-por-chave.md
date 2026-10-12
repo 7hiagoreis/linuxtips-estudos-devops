@@ -291,14 +291,14 @@ Nesse modo, o VirtualBox faz com que a máquina virtual participe diretamente da
 
 <br></br>
 
-4. No terminal do Ubuntu Server, execute o comando `ip addr` ou `ip a` para identificar o endereço IP recebido via DHCP (ex: `192.168.1.50`).
+4. No terminal do Ubuntu Server, execute o comando `ip addr` ou `ip a` para identificar o endereço IP recebido via DHCP (ex: `192.168.15.4`).
 
 <p align="center"> <img src="images/modo-bridge-05.png" alt="Tela de configuração da rede no VirtualBox"> </p>
 <p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
 
 <br></br>
 
-5. **No PuTTY:** Digite diretamente o IP próprio da VM e mantenha a porta padrão `22`.
+5. **No PuTTY:** Digite o IP da máquina virtual (VM), obtido com o comando `ip addr` e mantenha a porta padrão `22`. Clique em "Open" para conectar a máquina virtual.
 
 ---
 
