@@ -426,13 +426,18 @@ Para contornar o problema de conectividade sem abrir mão da facilidade do acess
 ### Configuração com o Adaptador Correto no VirtualBox:
 1. **Modo de Conexão:** A máquina virtual foi configurada mantendo o anexo em **Placa em modo Bridge**, permitindo que ela opere como um dispositivo autônomo e visível na rede local física.
 
-2. **Seleção do Adaptador (Nome):** Foi selecionada manualmente a placa de rede física **Realtek (Ethernet)** que estava conectada via cabo. Essa alteração evitou as restrições e incompatibilidades de pacotes que ocorrem ao tentar forçar o Modo Bridge usando a interface Wi-Fi do computador.
+<p align="center"> <img src="images/seleciona-placa-de-rede-001.png" alt="Tela de configuração da rede no VirtualBox"> </p>
+<p align="right"><i>(Imagem: Representação do Terminal / Ubuntu Server)</i>
 
 <br></br>
 
-### Descobrindo o IP com ip addr
-### Configurando o PuTTY
-### Primeiro login
+2. **Seleção do Adaptador (Nome):** Foi selecionada manualmente a placa de rede física **Realtek (Ethernet)** que estava conectada via cabo. Essa alteração evitou as restrições e incompatibilidades de pacotes que ocorrem ao tentar forçar o Modo Bridge usando a interface Wi-Fi do computador.
+
+<p align="center"> <img src="images/seleciona-placa-de-rede-002.png.png" alt="Tela de configuração da rede no VirtualBox"> </p>
+<p align="right"><i>(Imagem: Representação do Terminal / Ubuntu Server)</i>
+
+<br></br>
+
 
 ---
 
