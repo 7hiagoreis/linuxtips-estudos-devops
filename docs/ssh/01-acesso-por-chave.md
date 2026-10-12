@@ -355,6 +355,13 @@ Pronto! A conexão SSH foi estabelecida no Ubuntu Server.
 
 <br></br>
 
+Abaixo, a imagem é uma representação do terminal com o comando `ls -lha` para listar todo o conteúdo do diretório incluindo os arquivos ocultos.
+
+<p align="center"> <img src="images/modo-bridge-12.png" alt="Tela de configuração da rede no VirtualBox"> </p>
+<p align="right"><i>(Imagem: Representação do Terminal / Ubuntu Server)</i>
+
+<br></br>
+
 ---
 
 ### Comparação entre NAT e Bridge
