@@ -483,11 +483,27 @@ Para contornar o problema de conectividade sem abrir mão da facilidade do acess
 
 <p align="center"> <img src="images/seleciona-placa-de-rede-002.png" alt="Tela de configuração da rede no VirtualBox"> </p>
 <p align="right"><i>(Imagem: Representação do Terminal / Ubuntu Server)</i>
-
+---
+   
 <br></br>
 
+### NAT e Bridge no VirtualBox
+
+Durante a configuração da máquina virtual, foram testados os modos de rede NAT e Bridge disponíveis no VirtualBox.
+
+**NAT:** permite que a máquina virtual acesse redes externas utilizando a conexão do computador físico. Para iniciar uma conexão SSH do Windows diretamente para a máquina virtual (VM) nesse modo, é necessário configurar o redirecionamento de portas.
+
+**Bridge (Placa em modo Bridge):** conecta a máquina virtual à rede física, permitindo que ela receba um endereço IP próprio da rede local, desde que a rede disponibilize essa configuração.
+
+### Modo utilizado no laboratório
+
+Para este laboratório, foi utilizado o modo Bridge, acesso o Ubuntu Server por SSH a partir do Windows, utilizando o endereço IP da máquina virtual.
+
+O teste com NAT ajudou a entender a diferença entre os dois modos e os requisitos de conectividade para o acesso SSH.
 
 ---
+
+<br></br>
 
 ## 3. Gerando a chave SSH
 ### PuTTYgen
