@@ -382,6 +382,11 @@ Durante os testes em outro computador, um Dell XPS 8700, foram encontradas dific
 
 * **Causa Raiz:** O computador físico estava conectado à rede exclusivamente via **Wi-Fi**. O padrão técnico de redes sem fio (IEEE 802.11) foi projetado para associar apenas **um endereço MAC por conexão**. Quando o VirtualBox tenta simular um segundo endereço MAC (da máquina virtual / VM) através da placa Wi-Fi do hospedeiro, a maioria dos roteadores residenciais e placas de rede rejeita essa requisição por segurança ou limitação de hardware, impedindo a comunicação direta em Modo Bridge.
 
+<p align="center"> <img src="images/desativa-rede-wi-fi-001.png" alt="Tela de configuração da rede no VirtualBox"> </p>
+<p align="right"><i>(Imagem: Representação do Terminal / Ubuntu Server)</i>
+
+<br></br>
+
 ---
 
 ### Solução Adotada no Laboratório
