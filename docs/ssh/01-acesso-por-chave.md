@@ -322,7 +322,9 @@ Isso acontece porque o PuTTY ainda não conhece a chave de identificação cript
    * **Accept (Aceitar):** Salva a chave no registro do seu computador. O PuTTY confiará nesta VM e o alerta **não aparecerá nos próximos acessos**. (Recomendado para este tutorial).
    * **Connect Once (Conectar uma vez):** Permite o acesso apenas para a sessão atual, perguntando novamente no próximo login.
    * **Cancel (Cancelar):** Aborta a conexão se você desconfiar da origem do servidor.
-   
+
+<br></br>
+
 ---
 
 ### Comparação entre NAT e Bridge
