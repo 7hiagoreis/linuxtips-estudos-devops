@@ -307,6 +307,17 @@ Nesse modo, o VirtualBox faz com que a máquina virtual participe diretamente da
 
 ---
 
+6. **Primeiro Acesso ao PuTTY e Alerta de Segurança (PuTTY Security Alert)**
+
+Na primeira conexão ao servidor, o PuTTY exibirá um aviso de segurança chamado **PuTTY Security Alert**. 
+
+Isso acontece porque o PuTTY ainda não conhece a chave de identificação criptográfica (*host key*) da máquina virtual (VM). Esse comportamento é padrão e serve para garantir que a conexão está correta ao servidor.
+
+<p align="center"> <img src="images/modo-bridge-07.png" alt="Tela de configuração da rede no VirtualBox"> </p>
+<p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
+
+<br></br>
+
 ### Comparação entre NAT e Bridge
 
 | Característica | NAT (Com Redirecionamento) | Bridge |
@@ -317,6 +328,8 @@ Nesse modo, o VirtualBox faz com que a máquina virtual participe diretamente da
 | **Acesso a novos serviços (ex: Web)** | Exige criar novas regras para cada porta | Livre, basta acessar o IP da VM |
 
 ---
+
+<br></br>
 
 ## Problemas de Conectividade no Modo Bridge (Identificado e Resolvido)
 Durante os testes em outro computador, um Dell XPS 8700, foram encontradas dificuldades para estabelecer a conexão com a máquina virtual utilizando o modo Bridge. O Ubuntu Server não recebia um endereço IP válido da rede local ou, mesmo recebendo, o Windows não conseguia pingar ou conectar via PuTTY.
