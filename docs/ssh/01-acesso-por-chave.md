@@ -325,6 +325,22 @@ Isso acontece porque o PuTTY ainda não conhece a chave de identificação cript
 
 <br></br>
 
+7. **Digite o nome de usuário e senha**
+
+Sempre que conectar ao PuTTY neste método, ele vai solicitar o nome de usuario e senha cadastrados no Ubuntu Server.
+
+<p align="center"> <img src="images/modo-bridge-08.png" alt="Tela de configuração da rede no VirtualBox"> </p>
+<p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
+
+<br></br>
+
+Primeiramente, digite o nome de usuário.
+
+<p align="center"> <img src="images/modo-bridge-09.png" alt="Tela de configuração da rede no VirtualBox"> </p>
+<p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
+
+<br></br>
+
 ---
 
 ### Comparação entre NAT e Bridge
