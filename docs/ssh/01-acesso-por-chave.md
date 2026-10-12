@@ -507,18 +507,113 @@ O teste com NAT ajudou a entender a diferença entre os dois modos e os requisit
 <br></br>
 
 ## 3. Gerando a chave SSH
-### PuTTYgen
+
+### OpenSSH no Windows
+
+O Windows possui o cliente OpenSSH, que permite gerar chaves SSH pelo PowerShell. Para este laboratório, será utilizado o algoritmo Ed25519.
+
+Abra o PowerShell e execute:
+
+    ssh-keygen -t ed25519
+
+Quando for solicitado o caminho para salvar a chave, pressione `Enter` para aceitar o caminho padrão, dentro do perfil do usuário atual. Por exemplo:
+
+    C:\Users\SEU_USUARIO\.ssh\id_ed25519
+
+O nome `SEU_USUARIO` é apenas um exemplo. O Windows utilizará automaticamente o nome do usuário atual.
+
+Em seguida, será solicitada uma senha (*passphrase*) para proteger a chave privada. É possível definir uma senha ou pressionar `Enter` duas vezes para continuar sem ela.
+
+<br></br>
+
 ### Chave pública
+
+Após a geração, será criado o arquivo `id_ed25519.pub`, que contém a chave pública.
+
+Essa chave poderá ser instalada nos servidores Ubuntu e AWS, permitindo a autenticação por chave SSH.
+
+A chave pública pode ser compartilhada para configurar o acesso aos servidores.
+
+<br></br>
+
 ### Chave privada
+
+O arquivo `id_ed25519` contém a chave privada, utilizada pelo cliente SSH durante a autenticação.
+
+Esse arquivo deve permanecer protegido no computador local e nunca deve ser compartilhado ou enviado ao GitHub.
+
+<br></br>
+
+### Conferindo os arquivos gerados
+
+Para verificar se as chaves foram criadas, execute o comando no PowerShell:
+
+    Get-ChildItem "$env:USERPROFILE\.ssh"
+
+O diretório deverá conter os arquivos `id_ed25519` e `id_ed25519.pub`, além de quaisquer outros arquivos SSH que já existam.
 
 ---
 
 ## 4. Instalando a chave no Ubuntu
+
 ### ssh-copy-id
+
+O comando `ssh-copy-id` permite copiar a chave pública para um servidor remoto, facilitando a configuração da autenticação por chave SSH.
+
+O comando não está disponível nativamente no PowerShell deste ambiente. Será necessário utilizar um ambiente que tenha esse utilitário, como o Ubuntu, para realizar a instalação da chave pública.
+
 ### authorized_keys
+
+No servidor Ubuntu, as chaves públicas autorizadas para login ficam normalmente no arquivo:
+
+    ~/.ssh/authorized_keys
+
+Esse arquivo permite que o servidor identifique quais chaves públicas podem autenticar conexões para o usuário correspondente.
+
+---
 
 ## 5. Testando o acesso por chave
 
+Após instalar a chave pública no Ubuntu, será realizado um novo acesso SSH para verificar se a autenticação por chave está funcionando.
+
+O objetivo é confirmar que o acesso pode ser feito sem precisar informar a senha do usuário do Ubuntu a cada conexão. Se a chave privada estiver protegida por uma *passphrase*, ela ainda poderá ser solicitada.
+
+---
+
 ## 6. Configurando o ~/.ssh/config
 
+O arquivo `config`, localizado no diretório `.ssh` do usuário, permite definir configurações e aliases para conexões SSH.
+
+No Windows, o caminho padrão é:
+
+    C:\Users\SEU_USUARIO\.ssh\config
+
+Exemplo de configuração para a máquina virtual Ubuntu:
+
+    Host ubuntu-lab
+        HostName 192.168.15.4
+        User SEU_USUARIO
+        IdentityFile ~/.ssh/id_ed25519
+
+Substitua `192.168.15.4` pelo endereço IP real da máquina virtual e `SEU_USUARIO` pelo usuário existente no Ubuntu Server.
+
+Com essa configuração, a conexão poderá ser iniciada utilizando o alias:
+
+    ssh ubuntu-lab
+
+O arquivo poderá receber também um alias para a instância EC2 após a sua criação e configuração.
+
+---
+
 ## 7. Resultado
+
+Ao concluir as etapas, o laboratório deverá ter:
+
+- Uma chave SSH Ed25519 gerada no Windows.
+- A chave pública instalada no Ubuntu Server.
+- A autenticação por chave SSH testada.
+- Um alias configurado no arquivo `~/.ssh/config`.
+- O acesso à máquina virtual realizado utilizando o alias definido.
+
+
+
