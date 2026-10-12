@@ -483,10 +483,11 @@ Para contornar o problema de conectividade sem abrir mão da facilidade do acess
 
 <p align="center"> <img src="images/seleciona-placa-de-rede-002.png" alt="Tela de configuração da rede no VirtualBox"> </p>
 <p align="right"><i>(Imagem: Representação do Terminal / Ubuntu Server)</i>
----
-   
-<br></br>
 
+---
+
+<br></br>
+---
 ### NAT e Bridge no VirtualBox
 
 Durante a configuração da máquina virtual, foram testados os modos de rede NAT e Bridge disponíveis no VirtualBox.
