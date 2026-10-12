@@ -343,7 +343,7 @@ Digite o nome de usuário.
 
 Digite a senha do usuário. OBS: O campo da senha não exibe caracteres.
 
-<p align="center"> <img src="images/modo-bridge-09.png" alt="Tela de configuração da rede no VirtualBox"> </p>
+<p align="center"> <img src="images/modo-bridge-10.png" alt="Tela de configuração da rede no VirtualBox"> </p>
 <p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
 
 <br></br>
