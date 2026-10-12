@@ -250,10 +250,33 @@ A imagem abaixo é um exemplo de como preencher os campos da Regra de Redirecion
 
 <br></br>
 
-7. **PuTTY:** Abra o PuTTY e digite no campo *Host Name (or IP address)* o endereço `127.0.0.1`, e no campo *Port*, altere para `2222`.
+7. **PuTTY:** Abra o PuTTY e digite no campo *Host Name (or IP address)* o endereço `127.0.0.1`, e no campo *Port*, altere para `2222`. Mantenha a opção padrão no Tipo de Conexão (Connection Type): SSH
+Clique em ´Open´ para conectar a máquina virtual.
 
 <p align="center"> <img src="images/18-redirecionamento-portas-09.png" alt="Tela de configuração da rede no VirtualBox"> </p>
 <p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
+
+<br></br>
+
+8. **Primeiro Acesso ao PuTTY e Alerta de Segurança (PuTTY Security Alert)**
+
+Na primeira conexão ao servidor, o PuTTY exibirá um aviso de segurança chamado **PuTTY Security Alert**. 
+
+Isso acontece porque o PuTTY ainda não conhece a chave de identificação criptográfica (*host key*) da máquina virtual (VM). Esse comportamento é padrão e serve para garantir que a conexão está correta ao servidor.
+
+<p align="center"> <img src="images/primeiro-acesso-putty-red-portas.png" alt="Tela de configuração da rede no VirtualBox"> </p>
+<p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
+
+<br></br>
+
+#### Como proceder:
+**Verifique as informações:** O alerta exibirá o algoritmo (ex: `ssh-ed25519` ou `rsa`) e a impressão digital da chave (**SHA256**).
+**Escolha a opção ideal:**
+   * **Accept (Aceitar):** Salva a chave no registro do seu computador. O PuTTY confiará nesta VM e o alerta **não aparecerá nos próximos acessos**. (Recomendado para este tutorial).
+   * **Connect Once (Conectar uma vez):** Permite o acesso apenas para a sessão atual, perguntando novamente no próximo login.
+   * **Cancel (Cancelar):** Aborta a conexão se você desconfiar da origem do servidor.
+
+<br></br>
 
 ---
 
