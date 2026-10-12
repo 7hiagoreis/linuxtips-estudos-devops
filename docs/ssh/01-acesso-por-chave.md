@@ -423,6 +423,8 @@ Para contornar o problema de conectividade sem abrir mão da facilidade do acess
          (Apt, Docker Pull etc.)         (PuTTY, Ansible, Jenkins)
 ```
 
+<br></br>
+
 ### Configuração com o Adaptador Correto no VirtualBox:
 1. **Modo de Conexão:** A máquina virtual foi configurada mantendo o anexo em **Placa em modo Bridge**, permitindo que ela opere como um dispositivo autônomo e visível na rede local física.
 
