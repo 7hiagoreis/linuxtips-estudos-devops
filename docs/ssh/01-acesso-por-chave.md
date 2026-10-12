@@ -276,6 +276,29 @@ Isso acontece porque o PuTTY ainda não conhece a chave de identificação cript
    * **Connect Once (Conectar uma vez):** Permite o acesso apenas para a sessão atual, perguntando novamente no próximo login.
    * **Cancel (Cancelar):** Aborta a conexão se você desconfiar da origem do servidor.
 
+<p>Para este laboratório foi escolhida a opção Accept (Aceitar).</p>
+
+<br></br>
+
+Ao conectar no Ubuntu Server, digite o nome de usuário.
+
+<p align="center"> <img src="images/primeiro-acesso-putty-red-portas-02.png" alt="Tela de configuração da rede no VirtualBox"> </p>
+<p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
+
+<br></br>
+
+Digite a senha do usuário. OBS: O campo da senha não exibe caracteres. Após digitar a senha pressione <kbd>ENTER</kbd>
+
+<p align="center"> <img src="images/primeiro-acesso-putty-red-portas-03.png" alt="Tela de configuração da rede no VirtualBox"> </p>
+<p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
+
+<br></br>
+
+Pronto! A conexão SSH foi estabelecida no Ubuntu Server.
+
+<p align="center"> <img src="images/primeiro-acesso-putty-red-portas-04.png" alt="Tela de configuração da rede no VirtualBox"> </p>
+<p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
+
 <br></br>
 
 ---
