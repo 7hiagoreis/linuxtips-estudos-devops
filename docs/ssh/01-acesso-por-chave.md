@@ -554,6 +554,8 @@ O diretório deverá conter os arquivos `id_ed25519` e `id_ed25519.pub`, além d
 
 ---
 
+<br></br>
+
 ## 4. Instalando a chave no Ubuntu
 
 ### ssh-copy-id
@@ -572,6 +574,8 @@ Esse arquivo permite que o servidor identifique quais chaves públicas podem aut
 
 ---
 
+<br></br>
+
 ## 5. Testando o acesso por chave
 
 Após instalar a chave pública no Ubuntu, será realizado um novo acesso SSH para verificar se a autenticação por chave está funcionando.
@@ -579,6 +583,8 @@ Após instalar a chave pública no Ubuntu, será realizado um novo acesso SSH pa
 O objetivo é confirmar que o acesso pode ser feito sem precisar informar a senha do usuário do Ubuntu a cada conexão. Se a chave privada estiver protegida por uma *passphrase*, ela ainda poderá ser solicitada.
 
 ---
+
+<br></br>
 
 ## 6. Configurando o ~/.ssh/config
 
@@ -605,6 +611,8 @@ O arquivo poderá receber também um alias para a instância EC2 após a sua cri
 
 ---
 
+<br></br>
+
 ## 7. Resultado
 
 Ao concluir as etapas, o laboratório deverá ter:
@@ -614,6 +622,4 @@ Ao concluir as etapas, o laboratório deverá ter:
 - A autenticação por chave SSH testada.
 - Um alias configurado no arquivo `~/.ssh/config`.
 - O acesso à máquina virtual realizado utilizando o alias definido.
-
-
 
