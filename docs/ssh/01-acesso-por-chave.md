@@ -305,8 +305,6 @@ Nesse modo, o VirtualBox faz com que a máquina virtual participe diretamente da
 
 <br></br>
 
----
-
 6. **Primeiro Acesso ao PuTTY e Alerta de Segurança (PuTTY Security Alert)**
 
 Na primeira conexão ao servidor, o PuTTY exibirá um aviso de segurança chamado **PuTTY Security Alert**. 
@@ -317,6 +315,8 @@ Isso acontece porque o PuTTY ainda não conhece a chave de identificação cript
 <p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
 
 <br></br>
+
+---
 
 ### Comparação entre NAT e Bridge
 
