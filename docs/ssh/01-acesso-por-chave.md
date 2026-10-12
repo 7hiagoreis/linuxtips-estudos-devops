@@ -300,6 +300,11 @@ Nesse modo, o VirtualBox faz com que a máquina virtual participe diretamente da
 
 5. **No PuTTY:** Digite o IP da máquina virtual (VM), obtido com o comando `ip addr` e mantenha a porta padrão `22`. Clique em "Open" para conectar a máquina virtual.
 
+<p align="center"> <img src="images/modo-bridge-06.png" alt="Tela de configuração da rede no VirtualBox"> </p>
+<p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
+
+<br></br>
+
 ---
 
 ### Comparação entre NAT e Bridge
