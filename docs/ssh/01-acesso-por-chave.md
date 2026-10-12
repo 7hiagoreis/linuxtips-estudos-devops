@@ -341,9 +341,16 @@ Digite o nome de usuário.
 
 <br></br>
 
-Digite a senha do usuário. OBS: O campo da senha não exibe caracteres.
+Digite a senha do usuário. OBS: O campo da senha não exibe caracteres. Após digitar a senha pressione <kbd>ENTER</kbd>
 
 <p align="center"> <img src="images/modo-bridge-10.png" alt="Tela de configuração da rede no VirtualBox"> </p>
+<p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
+
+<br></br>
+
+Pronto! A conexão SSH foi estabelecida no Ubuntu Server.
+
+<p align="center"> <img src="images/modo-bridge-11.png" alt="Tela de configuração da rede no VirtualBox"> </p>
 <p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
 
 <br></br>
