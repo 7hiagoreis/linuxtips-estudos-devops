@@ -334,7 +334,14 @@ Sempre que conectar ao PuTTY neste método, ele vai solicitar o nome de usuario 
 
 <br></br>
 
-Primeiramente, digite o nome de usuário.
+Digite o nome de usuário.
+
+<p align="center"> <img src="images/modo-bridge-09.png" alt="Tela de configuração da rede no VirtualBox"> </p>
+<p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
+
+<br></br>
+
+Digite a senha do usuário. OBS: O campo da senha não exibe caracteres.
 
 <p align="center"> <img src="images/modo-bridge-09.png" alt="Tela de configuração da rede no VirtualBox"> </p>
 <p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
