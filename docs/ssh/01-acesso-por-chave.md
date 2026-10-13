@@ -577,6 +577,9 @@ O arquivo `id_ed25519` contém a chave privada, utilizada pelo cliente SSH duran
 
 Esse arquivo deve permanecer protegido no computador local e nunca deve ser compartilhado ou enviado ao GitHub.
 
+<p align="center"> <img src="images/powershell-06.png" alt="Representação das chaves criadas no PowerShell"> </p>
+<p align="right"><i>(Imagem: Representação das chaves criadas no PowerShell / Windows)</i>
+
 <br></br>
 
 ### Conferindo os arquivos gerados
@@ -585,7 +588,17 @@ Para verificar se as chaves foram criadas, execute o comando no PowerShell:
 
     Get-ChildItem "$env:USERPROFILE\.ssh"
 
+<p align="center"> <img src="images/powershell-07.png" alt="Verificando as chaves criadas no PowerShell"> </p>
+<p align="right"><i>(Imagem: Verificando as chaves criadas no PowerShell / Windows)</i>
+
+<br></br>
+
 O diretório deverá conter os arquivos `id_ed25519` e `id_ed25519.pub`, além de quaisquer outros arquivos SSH que já existam.
+
+<p align="center"> <img src="images/powershell-08.png" alt="Chaves criadas PowerShell"> </p>
+<p align="right"><i>(Imagem: Chaves criadas PowerShell / Windows)</i>
+
+<br></br>
 
 ---
 
