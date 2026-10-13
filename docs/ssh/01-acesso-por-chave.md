@@ -647,7 +647,13 @@ Pronto, a chave foi copiada para a máquina virtual.
 
 ### Configurando o ~/.ssh/config com PowerShell no Windows
 
-Agora, vamos editar o arquivo config no Windows, utilizando o PowerShell.
+O arquivo `config`, localizado na pasta `.ssh` do usuário, permite definir configurações e aliases para conexões SSH.
+
+No Windows, o caminho padrão é:
+
+    C:\Users\SEU_USUARIO\.ssh\config
+
+Agora, vamos editar o arquivo config, utilizando o PowerShell.
 
 Digite no PowerShell o seguinte comando:
 
@@ -664,6 +670,27 @@ Após digitar o comando e pressionar a tecla Enter, o Windows pode exibir uma te
 <p align="right"><i>(Imagem: Tela de confirmação para criar um novo arquivo config / Windows)</i>
 
 <br></br>
+
+Exemplo de configuração para a máquina virtual Ubuntu:
+
+    Host ubuntu-lab
+        HostName 192.168.15.4
+        User SEU_USUARIO
+        IdentityFile ~/.ssh/id_ed25519
+
+Substitua `192.168.15.4` pelo endereço IP real da máquina virtual e na opção `SEU_USUARIO` pelo usuário existente no Ubuntu Server.
+
+Com essa configuração, a conexão poderá ser iniciada utilizando o alias:
+
+    ssh ubuntu-lab
+
+<br></br>
+
+<p align="center"> <img src="images/powershell-16.png" alt="Exemplo do arquivo config"> </p>
+<p align="right"><i>(Imagem: Exemplo do arquivo config / Windows)</i>
+
+<br></br>
+
 
 ## 5. Instalando a chave no Ubuntu Server (em desenvolvimento)
 
