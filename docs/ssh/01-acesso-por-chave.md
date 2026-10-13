@@ -610,15 +610,42 @@ No Windows não é possível utilizar o comando `ssh-copy-id` no PowerShell para
 
 Por este motivo, utilizaremos o seguinte comando:
 
-`Get-Content "$env:USERPROFILE\.ssh\id_ed25519.pub" | ssh usuario@ip_do_servidor "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys && chmod 700 ~/.ssh && chmod 600 ~/.ssh/authorized_keys"`
+   Get-Content "$env:USERPROFILE\.ssh\id_ed25519.pub" | ssh usuario@ip_do_servidor "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys && chmod 700 ~/.ssh && chmod 600 ~/.ssh/authorized_keys"
 
 <p align="center"> <img src="images/powershell-09.png" alt="Chaves criadas PowerShell"> </p>
 <p align="right"><i>(Imagem: Copiando a chave no PowerShell / Windows)</i>
 
 <br></br>
 
+Após pressionar Enter , o PowerShell vai perguntar se deseja continuar...
 
-## 4. Instalando a chave no Ubuntu Server
+<p align="center"> <img src="images/powershell-10.png" alt="Chaves criadas PowerShell"> </p>
+<p align="right"><i>(Imagem: Copiando a chave no PowerShell / Windows)</i>
+
+<br></br>
+
+Digite ´yes´ e pressione Enter
+
+<p align="center"> <img src="images/powershell-11.png" alt="Chaves criadas PowerShell"> </p>
+<p align="right"><i>(Imagem: Copiando a chave no PowerShell / Windows)</i>
+
+<br></br>
+
+Em seguida digite a senha do usuário cadastrado na máquina virtual (VM).
+
+<p align="center"> <img src="images/powershell-12.png" alt="Chaves criadas PowerShell"> </p>
+<p align="right"><i>(Imagem: Copiando a chave no PowerShell / Windows)</i>
+
+<br></br>
+
+Pronto, a chave foi copiada para a máquina virtual.
+
+<p align="center"> <img src="images/powershell-13.png" alt="Chaves criadas PowerShell"> </p>
+<p align="right"><i>(Imagem: Copiando a chave no PowerShell / Windows)</i>
+
+<br></br>
+
+## 5. Instalando a chave no Ubuntu Server (em desenvolvimento)
 
 ### ssh-copy-id
 
@@ -638,7 +665,7 @@ Esse arquivo permite que o servidor identifique quais chaves públicas podem aut
 
 <br></br>
 
-## 5. Testando o acesso por chave
+## 6. Testando o acesso por chave
 
 Após instalar a chave pública no Ubuntu, será realizado um novo acesso SSH para verificar se a autenticação por chave está funcionando.
 
@@ -648,7 +675,7 @@ O objetivo é confirmar que o acesso pode ser feito sem precisar informar a senh
 
 <br></br>
 
-## 6. Configurando o ~/.ssh/config
+## 7. Configurando o ~/.ssh/config
 
 O arquivo `config`, localizado no diretório `.ssh` do usuário, permite definir configurações e aliases para conexões SSH.
 
@@ -675,7 +702,7 @@ O arquivo poderá receber também um alias para a instância EC2 após a sua cri
 
 <br></br>
 
-## 7. Resultado
+## 8. Resultado
 
 Ao concluir as etapas, o laboratório deverá ter:
 
