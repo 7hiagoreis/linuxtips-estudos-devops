@@ -711,8 +711,17 @@ Com essa configuração, a conexão poderá ser iniciada utilizando o alias:
 
     ssh ubuntu-lab
 
+<p align="center"> <img src="images/ps-001.png" alt="Acessando o Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: Acessando o Ubuntu via PowerShell / Windows)</i>
+
 <br></br>
 
+Com isso é possivel acessar o Ubuntu Server com o alias e chave.
+
+<p align="center"> <img src="images/ps-002.png" alt="Acessando o Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: Acessando o Ubuntu via PowerShell / Windows)</i>
+
+<br></br>
 
 ## 5. Instalando a chave no Ubuntu Server (em desenvolvimento)
 
