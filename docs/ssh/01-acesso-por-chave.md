@@ -645,6 +645,28 @@ Pronto, a chave foi copiada para a máquina virtual.
 
 <br></br>
 
+### Testando a conexão via PowerShell no Windows
+
+Nesta etapa, vamos testar a conexão SSH utilizando o PowerShell do Windows para acessar a máquina virtual Ubuntu Server.
+
+No PowerShell digite o comando abaixo e pressione Enter.
+
+    ssh seu_usuario@ip_do_servidor
+
+<p align="center"> <img src="images/powershell-13a.png" alt="Conectando via SSH no PowerShell"> </p>
+<p align="right"><i>(Imagem: Conectando via SSH no PowerShell / Windows)</i>
+
+<br></br>
+
+A imagem abaixo é uma representação da conexão estabelecida com sucesso a máquina virtual.
+
+<p align="center"> <img src="images/powershell-13b.png" alt="Conectado via SSH no PowerShell"> </p>
+<p align="right"><i>(Imagem: Conectando via SSH no PowerShell / Windows)</i>
+
+---
+
+<br></br>
+
 ### Configurando o ~/.ssh/config com PowerShell no Windows
 
 O arquivo `config`, localizado na pasta `.ssh` do usuário, permite definir configurações e aliases para conexões SSH.
