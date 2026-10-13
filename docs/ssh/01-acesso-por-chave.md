@@ -604,7 +604,21 @@ O diretório deverá conter os arquivos `id_ed25519` e `id_ed25519.pub`, além d
 
 <br></br>
 
-## 4. Instalando a chave no Ubuntu
+## 4. Instalando a chave no Ubuntu Server com PowerShell (Windows)
+
+No Windows não é possível utilizar o comando `ssh-copy-id` no PowerShell para realizar a cópia da chave.
+
+Por este motivo, utilizaremos o seguinte comando:
+
+`Get-Content "$env:USERPROFILE\.ssh\id_ed25519.pub" | ssh usuario@ip_do_servidor "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys && chmod 700 ~/.ssh && chmod 600 ~/.ssh/authorized_keys"`
+
+<p align="center"> <img src="images/powershell-09.png" alt="Chaves criadas PowerShell"> </p>
+<p align="right"><i>(Imagem: Copiando a chave no PowerShell / Windows)</i>
+
+<br></br>
+
+
+## 4. Instalando a chave no Ubuntu Server
 
 ### ssh-copy-id
 
