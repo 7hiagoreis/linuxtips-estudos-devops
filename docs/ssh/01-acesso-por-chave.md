@@ -697,8 +697,8 @@ Exemplo de configuração para a máquina virtual Ubuntu:
 
     Host ubuntu-lab
         HostName 192.168.15.4
-        User SEU_USUARIO
-        IdentityFile C:\Users\Thiago\.ssh\id_ed25519
+        User SEU_USUARIO_DA_VM
+        IdentityFile C:\Users\SEU_USUARIO_DO_WIN\.ssh\id_ed25519
 
 <p align="center"> <img src="images/config-000.png" alt="Exemplo do arquivo config"> </p>
 <p align="right"><i>(Imagem: Exemplo do arquivo config / Windows)</i>
