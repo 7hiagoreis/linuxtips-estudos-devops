@@ -678,16 +678,16 @@ Exemplo de configuração para a máquina virtual Ubuntu:
         User SEU_USUARIO
         IdentityFile ~/.ssh/id_ed25519
 
+<p align="center"> <img src="images/powershell-16.png" alt="Exemplo do arquivo config"> </p>
+<p align="right"><i>(Imagem: Exemplo do arquivo config / Windows)</i>
+
+<br></br>
+
 Substitua `192.168.15.4` pelo endereço IP real da máquina virtual e na opção `SEU_USUARIO` pelo usuário existente no Ubuntu Server.
 
 Com essa configuração, a conexão poderá ser iniciada utilizando o alias:
 
     ssh ubuntu-lab
-
-<br></br>
-
-<p align="center"> <img src="images/powershell-16.png" alt="Exemplo do arquivo config"> </p>
-<p align="right"><i>(Imagem: Exemplo do arquivo config / Windows)</i>
 
 <br></br>
 
