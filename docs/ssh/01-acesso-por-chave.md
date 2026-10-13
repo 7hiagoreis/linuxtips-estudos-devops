@@ -512,9 +512,36 @@ O teste com NAT ajudou a entender a diferença entre os dois modos e os requisit
 
 O Windows possui o cliente OpenSSH, que permite gerar chaves SSH pelo PowerShell. Para este laboratório, será utilizado o algoritmo Ed25519.
 
-Abra o PowerShell e execute:
+Para abrir o PowerShell, clique no menu iniciar no canto inferior esquerdo. 
+
+<p align="center"> <img src="images/powershell-00.png" alt="Abrindo o PowerShell"> </p>
+<p align="right"><i>(Imagem: Representação para abrir o PowerShell / Windows)</i>
+
+<br></br>
+
+Na lista de programas, vá até a letra "W" e clique em "Windows PowerShell".
+
+<p align="center"> <img src="images/powershell-01.png" alt="Abrindo o PowerShell"> </p>
+<p align="right"><i>(Imagem: Representação para abrir o PowerShell / Windows)</i>
+
+<br></br>
+
+Outra forma de abrir o PowerShell digitando diretamente na barra de Pesquisar do Windows, conforme imagem abaixo:
+
+<p align="center"> <img src="images/powershell-02.png" alt="Abrindo o PowerShell"> </p>
+<p align="right"><i>(Imagem: Representação para abrir o PowerShell / Windows)</i>
+
+<br></br>
+
+No PowerShell execute o comando:
 
     ssh-keygen -t ed25519
+
+
+<p align="center"> <img src="images/powershell-03.png" alt="Executando comando no PowerShell"> </p>
+<p align="right"><i>(Imagem: Executando comando no PowerShell / Windows)</i>
+
+<br></br>
 
 Quando for solicitado o caminho para salvar a chave, pressione `Enter` para aceitar o caminho padrão, dentro do perfil do usuário atual. Por exemplo:
 
@@ -522,7 +549,15 @@ Quando for solicitado o caminho para salvar a chave, pressione `Enter` para acei
 
 O nome `SEU_USUARIO` é apenas um exemplo. O Windows utilizará automaticamente o nome do usuário atual.
 
-Em seguida, será solicitada uma senha (*passphrase*) para proteger a chave privada. É possível definir uma senha ou pressionar `Enter` duas vezes para continuar sem ela.
+<p align="center"> <img src="images/powershell-04.png" alt="Executando comando no PowerShell"> </p>
+<p align="right"><i>(Imagem: Executando comando no PowerShell / Windows)</i>
+
+<br></br>
+
+Em seguida, será solicitada uma senha (*passphrase*) para proteger a chave privada. É possível definir uma senha ou pressionar `Enter` duas vezes para continuar sem ela. Neste laboratório não foi definida uma senha passphrase para a chave privada. Em ambientes de produção é recomendado definir uma senha passphrase.
+
+<p align="center"> <img src="images/powershell-05.png" alt="Representação Passphrase no PowerShell"> </p>
+<p align="right"><i>(Imagem: Representação Passphrase no PowerShell / Windows)</i>
 
 <br></br>
 
