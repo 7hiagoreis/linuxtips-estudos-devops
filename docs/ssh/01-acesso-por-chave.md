@@ -645,6 +645,26 @@ Pronto, a chave foi copiada para a máquina virtual.
 
 <br></br>
 
+### Configurando o ~/.ssh/config com PowerShell no Windows
+
+Agora, vamos editar o arquivo config no Windows, utilizando o PowerShell.
+
+Digite no PowerShell o seguinte comando:
+
+   notepad "$env:USERPROFILE\.ssh\config"
+
+<p align="center"> <img src="images/powershell-14.png" alt="Abrindo o bloco de notas"> </p>
+<p align="right"><i>(Imagem: Abrindo o bloco de notas via PowerShell / Windows)</i>
+
+<br></br>
+
+Após digitar o comando e pressionar a tecla Enter, o Windows pode exibir uma tela de confirmação para criar um novo arquivo, caso o config não exista no sistema. Clique em "Sim" para criar o novo arquivo.
+
+<p align="center"> <img src="images/powershell-15.png" alt="Confirmação do novo arquivo config via PowerShell"> </p>
+<p align="right"><i>(Imagem: Tela de confirmação para criar um novo arquivo config / Windows)</i>
+
+<br></br>
+
 ## 5. Instalando a chave no Ubuntu Server (em desenvolvimento)
 
 ### ssh-copy-id
