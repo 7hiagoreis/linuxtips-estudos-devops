@@ -695,12 +695,12 @@ Após digitar o comando e pressionar a tecla Enter, o Windows pode exibir uma te
 
 Exemplo de configuração para a máquina virtual Ubuntu:
 
-    Host ubuntu-lab
-        HostName 192.168.15.4
-        User SEU_USUARIO
-        IdentityFile ~/.ssh/id_ed25519
+Host ubuntu-lab
+    HostName 192.168.15.4
+    User thiagoreis
+    IdentityFile C:\Users\Thiago\.ssh\id_ed25519
 
-<p align="center"> <img src="images/powershell-16.png" alt="Exemplo do arquivo config"> </p>
+<p align="center"> <img src="images/config-000.png" alt="Exemplo do arquivo config"> </p>
 <p align="right"><i>(Imagem: Exemplo do arquivo config / Windows)</i>
 
 <br></br>
