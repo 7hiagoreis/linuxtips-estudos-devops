@@ -834,7 +834,7 @@ Acesse a pasta .ssh
 
 <br></br>
 
-Localize a sua chave privada, selecione-a e clique em "Abrir".
+Localize a sua chave privada, selecione-a e clique em "Abrir". Se você colocou uma senha (passphrase) na chave lá no começo, ele vai pedir para você digitá-la.
 
 <p align="center"> <img src="images/puttygen-007.png" alt="Convertendo chave com o PuTTYgen"> </p>
 <p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
@@ -848,7 +848,7 @@ Se tudo estiver correto, o PuTTYgen vai exibir uma tela confirmando a importaç�
 
 <br></br>
 
-
+Agora, clique no botão "Save private key" e salve o arquivo com o nome id_ed25519.ppk dentro da mesma pasta.
 
 <p align="center"> <img src="images/puttygen-009.png" alt="Convertendo chave com o PuTTYgen"> </p>
 <p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
@@ -869,6 +869,8 @@ Se tudo estiver correto, o PuTTYgen vai exibir uma tela confirmando a importaç�
 <p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
 
 <br></br>
+
+Abra o PuTTY, vá em Connection -> SSH -> Credentials / Auth, clique em Browse... e selecione esse novo arquivo .ppk gerado pelo PuTTYgen.
 
 <p align="center"> <img src="images/puttygen-013.png" alt="Convertendo chave com o PuTTYgen"> </p>
 <p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
