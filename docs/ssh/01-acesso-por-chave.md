@@ -545,9 +545,9 @@ No PowerShell execute o comando:
 
 Quando for solicitado o caminho para salvar a chave, pressione `Enter` para aceitar o caminho padrão, dentro do perfil do usuário atual. Por exemplo:
 
-    C:\Users\SEU_USUARIO/.ssh/id_ed25519
+    C:\Users\SEU_USUARIO_WIN/.ssh/id_ed25519
 
-O nome `SEU_USUARIO` é apenas um exemplo. O Windows utilizará automaticamente o nome do usuário atual.
+O nome `SEU_USUARIO_WIN` é apenas um exemplo. O Windows utilizará automaticamente o nome do usuário atual.
 
 <p align="center"> <img src="images/powershell-04.png" alt="Executando comando no PowerShell"> </p>
 <p align="right"><i>(Imagem: Executando comando no PowerShell / Windows)</i>
