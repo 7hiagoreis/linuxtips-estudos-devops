@@ -194,7 +194,7 @@ Servidor SSH
 
 <br></br>
 
-### Passo a Passo da Configuração do NAT
+#### Passo a Passo da Configuração do NAT
 1. Com a VM desligada, abra as **Configurações** dela no VirtualBox.
 
 <p align="center"> <img src="images/17-redirecionamento-portas-02.png" alt="Tela de configuração da rede no VirtualBox"> </p>
