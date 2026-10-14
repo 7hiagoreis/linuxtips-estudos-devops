@@ -726,7 +726,9 @@ Com isso é possivel acessar o Ubuntu Server com o alias e chave.
 
 <br></br>
 
-### Possiveis problemas no config com PowerShell
+---
+
+### Possiveis problemas no arquivo config com PowerShell
 
 <p align="center"> <img src="images/config-001.png" alt="Acessando o Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: Acessando o Ubuntu via PowerShell / Windows)</i>
