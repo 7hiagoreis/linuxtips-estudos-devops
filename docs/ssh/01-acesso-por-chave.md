@@ -724,9 +724,9 @@ Com isso é possivel acessar o Ubuntu Server com o alias e chave.
 <p align="center"> <img src="images/ps-002.png" alt="Acessando o Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: Acessando o Ubuntu via PowerShell / Windows)</i>
 
-<br></br>
-
 ---
+
+<br></br>
 
 ### Possiveis problemas no arquivo config com PowerShell
 
