@@ -726,6 +726,35 @@ Com isso é possivel acessar o Ubuntu Server com o alias e chave.
 
 <br></br>
 
+### Possiveis problemas no config com PowerShell
+
+<p align="center"> <img src="images/config-001.png" alt="Acessando o Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: Acessando o Ubuntu via PowerShell / Windows)</i>
+
+<br></br>
+
+<p align="center"> <img src="images/config-002.png" alt="Acessando o Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: Acessando o Ubuntu via PowerShell / Windows)</i>
+
+<br></br>
+
+<p align="center"> <img src="images/config-003.png" alt="Acessando o Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: Acessando o Ubuntu via PowerShell / Windows)</i>
+
+<br></br>
+
+<p align="center"> <img src="images/config-004.png" alt="Acessando o Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: Acessando o Ubuntu via PowerShell / Windows)</i>
+
+<br></br>
+
+<p align="center"> <img src="images/config-005.png" alt="Acessando o Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: Acessando o Ubuntu via PowerShell / Windows)</i>
+
+<br></br>
+
+---
+
 ## 5. Instalando a chave no Ubuntu Server (em desenvolvimento)
 
 ### ssh-copy-id
@@ -746,40 +775,7 @@ Esse arquivo permite que o servidor identifique quais chaves públicas podem aut
 
 <br></br>
 
-## 6. Testando o acesso por chave
-
-Após instalar a chave pública no Ubuntu, será realizado um novo acesso SSH para verificar se a autenticação por chave está funcionando.
-
-O objetivo é confirmar que o acesso pode ser feito sem precisar informar a senha do usuário do Ubuntu a cada conexão. Se a chave privada estiver protegida por uma *passphrase*, ela ainda poderá ser solicitada.
-
----
-
-<br></br>
-
-## 7. Configurando o ~/.ssh/config
-
-O arquivo `config`, localizado no diretório `.ssh` do usuário, permite definir configurações e aliases para conexões SSH.
-
-Exemplo de configuração para a máquina virtual Ubuntu:
-
-    Host ubuntu-lab
-        HostName 192.168.15.4
-        User SEU_USUARIO
-        IdentityFile ~/.ssh/id_ed25519
-
-Substitua `192.168.15.4` pelo endereço IP real da máquina virtual e `SEU_USUARIO` pelo usuário existente no Ubuntu Server.
-
-Com essa configuração, a conexão poderá ser iniciada utilizando o alias:
-
-    ssh ubuntu-lab
-
-O arquivo poderá receber também um alias para a instância EC2 após a sua criação e configuração.
-
----
-
-<br></br>
-
-## 8. Resultado
+## 6. Resultado
 
 Ao concluir as etapas, o laboratório deverá ter:
 
