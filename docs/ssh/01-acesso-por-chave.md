@@ -681,7 +681,7 @@ Agora, vamos editar o arquivo config, utilizando o PowerShell.
 Digite no PowerShell o seguinte comando:
 
 ```bash
-   notepad "$env:USERPROFILE\.ssh\config"
+notepad "$env:USERPROFILE\.ssh\config"
 ```
 
 <p align="center"> <img src="images/powershell-14.png" alt="Abrindo o bloco de notas"> </p>
