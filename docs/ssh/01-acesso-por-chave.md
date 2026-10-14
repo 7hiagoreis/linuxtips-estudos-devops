@@ -755,6 +755,110 @@ Com isso é possivel acessar o Ubuntu Server com o alias e chave.
 
 <br></br>
 
+### Converter Chaves OpenSSH para o Formato PuTTY (.ppk)
+
+Por padrão, chaves criadas via terminal através do comando ssh-keygen (PowerShell, Linux ou macOS) utilizam o formato OpenSSH. No entanto, o cliente PuTTY exige chaves no formato proprietário .ppk. Neste tópico vamos documentar como realizar a conversão.
+
+<p align="center"> <img src="images/puttygen-001.png" alt="Convertendo chave com o PuTTYgen"> </p>
+<p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
+
+<br></br>
+
+<p align="center"> <img src="images/puttygen-002.png" alt="Convertendo chave com o PuTTYgen"> </p>
+<p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
+
+<br></br>
+
+<p align="center"> <img src="images/puttygen-003.png" alt="Convertendo chave com o PuTTYgen"> </p>
+<p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
+
+<br></br>
+
+<p align="center"> <img src="images/puttygen-004.png" alt="Convertendo chave com o PuTTYgen"> </p>
+<p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
+
+<br></br>
+
+<p align="center"> <img src="images/puttygen-005.png" alt="Convertendo chave com o PuTTYgen"> </p>
+<p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
+
+<br></br>
+
+<p align="center"> <img src="images/puttygen-006.png" alt="Convertendo chave com o PuTTYgen"> </p>
+<p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
+
+<br></br>
+
+<p align="center"> <img src="images/puttygen-007.png" alt="Convertendo chave com o PuTTYgen"> </p>
+<p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
+
+<br></br>
+
+<p align="center"> <img src="images/puttygen-008.png" alt="Convertendo chave com o PuTTYgen"> </p>
+<p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
+
+<br></br>
+
+<p align="center"> <img src="images/puttygen-009.png" alt="Convertendo chave com o PuTTYgen"> </p>
+<p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
+
+<br></br>
+
+<p align="center"> <img src="images/puttygen-010.png" alt="Convertendo chave com o PuTTYgen"> </p>
+<p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
+
+<br></br>
+
+<p align="center"> <img src="images/puttygen-011.png" alt="Convertendo chave com o PuTTYgen"> </p>
+<p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
+
+<br></br>
+
+<p align="center"> <img src="images/puttygen-012.png" alt="Convertendo chave com o PuTTYgen"> </p>
+<p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
+
+<br></br>
+
+<p align="center"> <img src="images/puttygen-013.png" alt="Convertendo chave com o PuTTYgen"> </p>
+<p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
+
+<br></br>
+
+<p align="center"> <img src="images/puttygen-014.png" alt="Convertendo chave com o PuTTYgen"> </p>
+<p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
+
+<br></br>
+
+<p align="center"> <img src="images/puttygen-015.png" alt="Convertendo chave com o PuTTYgen"> </p>
+<p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
+
+<br></br>
+
+<p align="center"> <img src="images/puttygen-016.png" alt="Convertendo chave com o PuTTYgen"> </p>
+<p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
+
+<br></br>
+
+<p align="center"> <img src="images/puttygen-017.png" alt="Convertendo chave com o PuTTYgen"> </p>
+<p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
+
+<br></br>
+
+<p align="center"> <img src="images/puttygen-018.png" alt="Convertendo chave com o PuTTYgen"> </p>
+<p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
+
+<br></br>
+
+<p align="center"> <img src="images/puttygen-019.png" alt="Convertendo chave com o PuTTYgen"> </p>
+<p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
+
+<br></br>
+
+<p align="center"> <img src="images/puttygen-020.png" alt="Convertendo chave com o PuTTYgen"> </p>
+<p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
+
+<br></br>
+
 ---
 
 ## 5. Instalando a chave no Ubuntu Server (em desenvolvimento)
