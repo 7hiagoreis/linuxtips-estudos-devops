@@ -859,6 +859,117 @@ Por padrão, chaves criadas via terminal através do comando ssh-keygen (PowerSh
 
 <br></br>
 
+### WSL/Ubuntu no Windows
+
+<p align="center"> <img src="images/wsl-001.png" alt="Acessando o Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
+
+<br></br>
+
+<p align="center"> <img src="images/wsl-002.png" alt="Acessando o Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
+
+<br></br>
+
+Atenção, durante a etapa de instalação do WSL, o sistema operacional Windows vai abrir o controle de conta, solicitando a permissão para continuar. Clique em "Sim".
+
+<p align="center"> <img src="images/wsl-004.png" alt="Acessando o Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
+
+<br></br>
+
+<p align="center"> <img src="images/wsl-005.png" alt="Acessando o Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
+
+<br></br>
+
+Atenção, durante a etapa de instalação do WSL, o sistema operacional Windows vai abrir o controle de conta, solicitando a permissão para continuar. Clique em "Sim".
+
+<p align="center"> <img src="images/wsl-007.png" alt="Acessando o Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
+
+<br></br>
+
+<p align="center"> <img src="images/wsl-008.png" alt="Acessando o Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
+
+<br></br>
+
+<p align="center"> <img src="images/wsl-009.png" alt="Acessando o Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
+
+<br></br>
+
+<p align="center"> <img src="images/wsl-010.png" alt="Acessando o Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
+
+<br></br>
+
+<p align="center"> <img src="images/wsl-011.png" alt="Acessando o Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
+
+<br></br>
+
+<p align="center"> <img src="images/wsl-012.png" alt="Acessando o Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
+
+<br></br>
+
+<p align="center"> <img src="images/wsl-013.png" alt="Acessando o Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
+
+<br></br>
+
+<p align="center"> <img src="images/wsl-014.png" alt="Acessando o Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
+
+<br></br>
+
+<p align="center"> <img src="images/wsl-015.png" alt="Acessando o Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
+
+<br></br>
+
+<p align="center"> <img src="images/wsl-016.png" alt="Acessando o Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
+
+<br></br>
+
+<p align="center"> <img src="images/wsl-017.png" alt="Acessando o Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
+
+<br></br>
+
+<p align="center"> <img src="images/wsl-018.png" alt="Acessando o Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
+
+<br></br>
+
+<p align="center"> <img src="images/wsl-019.png" alt="Acessando o Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
+
+<br></br>
+
+<p align="center"> <img src="images/wsl-020.png" alt="Acessando o Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
+
+<br></br>
+
+<p align="center"> <img src="images/wsl-021.png" alt="Acessando o Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
+
+<br></br>
+
+<p align="center"> <img src="images/wsl-022.png" alt="Acessando o Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
+
+<br></br>
+
+<p align="center"> <img src="images/wsl-023.png" alt="Acessando o Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
+
+<br></br>
+
 ---
 
 ## 5. Instalando a chave no Ubuntu Server (em desenvolvimento)
