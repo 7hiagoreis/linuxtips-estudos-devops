@@ -719,7 +719,7 @@ Com essa configuração, a conexão poderá ser iniciada utilizando o alias:
 
 <br></br>
 
-Com isso é possivel acessar o Ubuntu Server com o alias e chave.
+Agora temos o acesso a máquina virtual Ubuntu Server com o alias e chave.
 
 <p align="center"> <img src="images/ps-002.png" alt="Acessando o Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: Acessando o Ubuntu via PowerShell / Windows)</i>
@@ -728,27 +728,56 @@ Com isso é possivel acessar o Ubuntu Server com o alias e chave.
 
 <br></br>
 
-### Possiveis problemas no arquivo config com PowerShell
+### Possíveis problemas no arquivo config com PowerShell
+
+Durante a configuração do SSH, se houver erros na conexão, remova o arquivo config com o comando:
+
+´´´bash
+Remove-Item "$env:USERPROFILE\.ssh\config*" -force
+´´´
 
 <p align="center"> <img src="images/config-001.png" alt="Acessando o Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: Acessando o Ubuntu via PowerShell / Windows)</i>
 
 <br></br>
 
+´´´bash
+@'
+Host ubuntu-lab
+    HostName 192.168.15.4
+    User SEU_USUARIO_VM
+    IdentityFile C:\Users\SEU_USUARIO_WIN\.ssh\id_ed25519
+'@ | Out-File -FilePath "$env:USERPROFILE\.ssh\config" -Encoding ascii -Force
+´´´
+
 <p align="center"> <img src="images/config-002.png" alt="Acessando o Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: Acessando o Ubuntu via PowerShell / Windows)</i>
 
 <br></br>
+
+Para confirmar que os arquivos foram criados, execute o comando abaixo:
+
+´´´bash
+Get-ChildItem "$env:USERPROFILE\.ssh"
+´´´
 
 <p align="center"> <img src="images/config-003.png" alt="Acessando o Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: Acessando o Ubuntu via PowerShell / Windows)</i>
 
 <br></br>
 
+O PowerShell deve exibir as chaves...
+
 <p align="center"> <img src="images/config-004.png" alt="Acessando o Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: Acessando o Ubuntu via PowerShell / Windows)</i>
 
 <br></br>
+
+Agora vamos enviar a chave para a máquina virtual Ubuntu Server, para isso utilize o comando:
+
+´´´bash
+Get-Content $env:USERPROFILE\.ssh\id_ed25519.pub | ssh ubuntu-lab "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys && chmod 700 ~/.ssh && chmod 600 ~/.ssh/authorized_keys"
+´´´
 
 <p align="center"> <img src="images/config-005.png" alt="Acessando o Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: Acessando o Ubuntu via PowerShell / Windows)</i>
