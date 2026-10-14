@@ -610,8 +610,9 @@ No Windows não é possível utilizar o comando `ssh-copy-id` no PowerShell para
 
 Por este motivo, utilizaremos o seguinte comando:
 
-   Get-Content "$env:USERPROFILE\.ssh\id_ed25519.pub" | ssh usuario@ip_do_servidor "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys && chmod 700 ~/.ssh && chmod 600 ~/.ssh/authorized_keys"
-
+```bash
+Get-Content "$env:USERPROFILE\.ssh\id_ed25519.pub" | ssh usuario@ip_do_servidor "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys && chmod 700 ~/.ssh && chmod 600 ~/.ssh/authorized_keys"
+```
 <p align="center"> <img src="images/powershell-09.png" alt="Chaves criadas PowerShell"> </p>
 <p align="right"><i>(Imagem: Copiando a chave no PowerShell / Windows)</i>
 
@@ -673,7 +674,7 @@ O arquivo `config`, localizado na pasta `.ssh` do usuário, permite definir conf
 
 No Windows, o caminho padrão é:
 
-    C:\Users\SEU_USUARIO\.ssh\config
+    C:\Users\SEU_USUARIO_DO_WIN\.ssh\config
 
 Agora, vamos editar o arquivo config, utilizando o PowerShell.
 
@@ -705,7 +706,7 @@ Exemplo de configuração para a máquina virtual Ubuntu:
 
 <br></br>
 
-Substitua `192.168.15.4` pelo endereço IP real da máquina virtual e na opção `SEU_USUARIO` pelo usuário existente no Ubuntu Server.
+Substitua `192.168.15.4` pelo endereço IP real da máquina virtual e na opção `SEU_USUARIO_DA_VM` pelo usuário existente no Ubuntu Server.
 
 Com essa configuração, a conexão poderá ser iniciada utilizando o alias:
 
@@ -756,10 +757,6 @@ O objetivo é confirmar que o acesso pode ser feito sem precisar informar a senh
 ## 7. Configurando o ~/.ssh/config
 
 O arquivo `config`, localizado no diretório `.ssh` do usuário, permite definir configurações e aliases para conexões SSH.
-
-No Windows, o caminho padrão é:
-
-    C:\Users\SEU_USUARIO\.ssh\config
 
 Exemplo de configuração para a máquina virtual Ubuntu:
 
