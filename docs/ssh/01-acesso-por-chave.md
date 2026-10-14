@@ -813,40 +813,42 @@ Em seguida, clique "Load private key"
 
 <br></br>
 
-<p align="center"> <img src="images/puttygen-004.png" alt="Convertendo chave com o PuTTYgen"> </p>
-<p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
-
-<br></br>
-
 Na caixa de seleção, altere o tipo de arquivo selecionando a opção "All Files"
 
-<p align="center"> <img src="images/puttygen-005.png" alt="Convertendo chave com o PuTTYgen"> </p>
+<p align="center"> <img src="images/puttygen-004.png" alt="Convertendo chave com o PuTTYgen"> </p>
 <p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
 
 <br></br>
 
 Acesse o C:\ e depois a pasta Usuários
 
-<p align="center"> <img src="images/puttygen-006.png" alt="Convertendo chave com o PuTTYgen"> </p>
+<p align="center"> <img src="images/puttygen-005.png" alt="Convertendo chave com o PuTTYgen"> </p>
 <p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
 
 <br></br>
 
 Acesse a pasta .ssh
 
-<p align="center"> <img src="images/puttygen-007.png" alt="Convertendo chave com o PuTTYgen"> </p>
+<p align="center"> <img src="images/puttygen-006.png" alt="Convertendo chave com o PuTTYgen"> </p>
 <p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
 
 <br></br>
 
 Localize a sua chave privada, selecione-a e clique em "Abrir".
 
-<p align="center"> <img src="images/puttygen-008.png" alt="Convertendo chave com o PuTTYgen"> </p>
+<p align="center"> <img src="images/puttygen-007.png" alt="Convertendo chave com o PuTTYgen"> </p>
 <p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
 
 <br></br>
 
 Se tudo estiver correto, o PuTTYgen vai exibir uma tela confirmando a importação da chave.
+
+<p align="center"> <img src="images/puttygen-008.png" alt="Convertendo chave com o PuTTYgen"> </p>
+<p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
+
+<br></br>
+
+
 
 <p align="center"> <img src="images/puttygen-009.png" alt="Convertendo chave com o PuTTYgen"> </p>
 <p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
