@@ -698,10 +698,12 @@ Após digitar o comando e pressionar a tecla Enter, o Windows pode exibir uma te
 
 Exemplo de configuração para a máquina virtual Ubuntu:
 
+```bash
     Host ubuntu-lab
         HostName 192.168.15.4
         User SEU_USUARIO_DA_VM
         IdentityFile C:\Users\SEU_USUARIO_DO_WIN\.ssh\id_ed25519
+```
 
 <p align="center"> <img src="images/config-000.png" alt="Exemplo do arquivo config"> </p>
 <p align="right"><i>(Imagem: Exemplo do arquivo config / Windows)</i>
@@ -712,7 +714,9 @@ Substitua `192.168.15.4` pelo endereço IP real da máquina virtual e na opção
 
 Com essa configuração, a conexão poderá ser iniciada utilizando o alias:
 
+```bash
     ssh ubuntu-lab
+```
 
 <p align="center"> <img src="images/ps-001.png" alt="Acessando o Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: Acessando o Ubuntu via PowerShell / Windows)</i>
@@ -732,23 +736,23 @@ Agora temos o acesso a máquina virtual Ubuntu Server com o alias e chave.
 
 Durante a configuração do SSH, se houver erros na conexão, remova o arquivo config com o comando:
 
-´´´bash
+```bash
 Remove-Item "$env:USERPROFILE\.ssh\config*" -force
-´´´
+```
 
 <p align="center"> <img src="images/config-001.png" alt="Acessando o Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: Acessando o Ubuntu via PowerShell / Windows)</i>
 
 <br></br>
 
-´´´bash
+```bash
 @'
 Host ubuntu-lab
     HostName 192.168.15.4
     User SEU_USUARIO_VM
     IdentityFile C:\Users\SEU_USUARIO_WIN\.ssh\id_ed25519
 '@ | Out-File -FilePath "$env:USERPROFILE\.ssh\config" -Encoding ascii -Force
-´´´
+```
 
 <p align="center"> <img src="images/config-002.png" alt="Acessando o Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: Acessando o Ubuntu via PowerShell / Windows)</i>
@@ -757,9 +761,9 @@ Host ubuntu-lab
 
 Para confirmar que os arquivos foram criados, execute o comando abaixo:
 
-´´´bash
+```bash
 Get-ChildItem "$env:USERPROFILE\.ssh"
-´´´
+```
 
 <p align="center"> <img src="images/config-003.png" alt="Acessando o Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: Acessando o Ubuntu via PowerShell / Windows)</i>
@@ -775,9 +779,9 @@ O PowerShell deve exibir as chaves...
 
 Agora vamos enviar a chave para a máquina virtual Ubuntu Server, para isso utilize o comando:
 
-´´´bash
+```bash
 Get-Content $env:USERPROFILE\.ssh\id_ed25519.pub | ssh ubuntu-lab "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys && chmod 700 ~/.ssh && chmod 600 ~/.ssh/authorized_keys"
-´´´
+```
 
 <p align="center"> <img src="images/config-005.png" alt="Acessando o Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: Acessando o Ubuntu via PowerShell / Windows)</i>
