@@ -819,7 +819,7 @@ Com o PuTTYgen aberto, clique na opção <kbd>File</kbd> que está localizada no
 
 <br></br>
 
-Em seguida, clique <kbd>"Load private key" </kbd>
+Em seguida, clique em <kbd>"Load private key"</kbd>
 
 <p align="center"> <img src="images/puttygen-003.png" alt="Convertendo chave com o PuTTYgen"> </p>
 <p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
