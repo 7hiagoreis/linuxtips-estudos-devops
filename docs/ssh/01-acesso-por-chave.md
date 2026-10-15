@@ -613,7 +613,7 @@ O diretório deverá conter os arquivos `id_ed25519` e `id_ed25519.pub`, além d
 
 ## 4. Instalando a chave no Ubuntu Server com PowerShell (Windows)
 
-No Windows não é possível utilizar o comando `ssh-copy-id` no PowerShell para realizar a cópia da chave.
+Em ambientes Windows, não é possível utilizar o comando `ssh-copy-id` no PowerShell para realizar a cópia da chave.
 
 Por este motivo, utilizaremos o seguinte comando:
 
