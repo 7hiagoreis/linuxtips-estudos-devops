@@ -1,1 +1,1 @@
-
+O Amazon EC2 (Elastic Compute Cloud) é um serviço da AWS que fornece capacidade de computação em uma nuvem segura e redimensionável. No contexto de DevOps, essa definição ganha um peso prático, deixando de ser apenas uma máquina virtual comum e passa a funcionar como infraestrutura automatizada e descartável.
