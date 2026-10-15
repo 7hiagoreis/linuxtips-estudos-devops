@@ -935,10 +935,17 @@ O PuTTY vai conectar a máquina virtual sem a necessidade de senha.
 
 WSL (Windows Subsystem for Linux) permite executar um ambiente Linux diretamente no Windows, sem a necessidade de instalar uma máquina virtual ou configurar um dual-boot.
 
+Vamos, ver agora como instalar o WSL/Ubuntu no Windows, para isso abra o PowerShell.
+
 <p align="center"> <img src="images/wsl-001.png" alt="Acessando o Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
 
 <br></br>
+
+Para iniciar o processo de instalação do WSL, digite o comando:
+
+wsl --install
+
 
 <p align="center"> <img src="images/wsl-002.png" alt="Acessando o Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
@@ -947,17 +954,25 @@ WSL (Windows Subsystem for Linux) permite executar um ambiente Linux diretamente
 
 Atenção, durante a etapa de instalação do WSL, o sistema operacional Windows vai abrir o controle de conta, solicitando a permissão para continuar. Clique em "Sim".
 
+Após a confirmação, o PowerShell vai iniciar a instalação do WSL.
+
 <p align="center"> <img src="images/wsl-004.png" alt="Acessando o Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
 
 <br></br>
+
+Aguarde o processo de instalação. Durante essa fase o Windows pode solicitar a confirmação para continuar.
 
 <p align="center"> <img src="images/wsl-005.png" alt="Acessando o Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
 
 <br></br>
 
-Atenção, durante a etapa de instalação do WSL, o sistema operacional Windows vai abrir o controle de conta, solicitando a permissão para continuar. Clique em "Sim".
+Nesta etapa, durante a instalação do WSL, o sistema operacional Windows vai abrir o controle de conta, solicitando a permissão para continuar. Clique em "Sim".
+
+<br></br>
+
+O sistema vai continuar com a instalação.
 
 <p align="center"> <img src="images/wsl-007.png" alt="Acessando o Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
