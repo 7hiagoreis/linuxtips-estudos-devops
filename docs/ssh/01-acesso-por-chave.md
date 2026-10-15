@@ -133,7 +133,7 @@ Caso você não queira ler as notas de lançamento do programa, desmarque a opç
 
 <br></br>
 
-### Primeira utilização do PuTTY
+### Como abrir o PuTTY
 
 Para abrir o PuTTY clique no ícone que está em sua área de trabalho, ou digite PuTTY na barra de pesquisa do sistema operacional Windows.
 
