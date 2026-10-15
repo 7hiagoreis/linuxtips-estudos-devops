@@ -979,80 +979,125 @@ O sistema vai continuar com a instalação.
 
 <br></br>
 
+Aguarde este processo enquanto o Windows instala o WSL...
+
 <p align="center"> <img src="images/wsl-008.png" alt="Acessando o Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
 
 <br></br>
+
+Abaixo a imagem é uma representação da instalação do WSL/Ubuntu no Windows.
 
 <p align="center"> <img src="images/wsl-009.png" alt="Acessando o Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
 
 <br></br>
 
+Após terminar o processo de instalação, o PowerShell informa para reiniciar o sistema para concluir as alterações.
+
 <p align="center"> <img src="images/wsl-010.png" alt="Acessando o Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
 
 <br></br>
+
+Clique no icone principal do Windows no canto inferior esquerdo do menu iniciar e reinicie o sistema.
 
 <p align="center"> <img src="images/wsl-011.png" alt="Acessando o Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
 
 <br></br>
 
+Após reiniciar o sistema o processo de instalação do WSL é aberto e continua...
+
 <p align="center"> <img src="images/wsl-012.png" alt="Acessando o Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
 
 <br></br>
+
+Quando o processo de instalação finalizar, o Windows vai exibir a tela de boas vindas ao WSL.
 
 <p align="center"> <img src="images/wsl-013.png" alt="Acessando o Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
 
 <br></br>
 
+Neste momento, podemos fechar a tela de boas vindas do WSL.
+
 <p align="center"> <img src="images/wsl-014.png" alt="Acessando o Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
 
 <br></br>
+
+Agora, defina um nome de usuário para o WSL.
 
 <p align="center"> <img src="images/wsl-015.png" alt="Acessando o Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
 
 <br></br>
 
+Digite a senha para o usuário do WSL.
+
 <p align="center"> <img src="images/wsl-016.png" alt="Acessando o Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
 
 <br></br>
+
+Confirme a senha cadastrada.
 
 <p align="center"> <img src="images/wsl-017.png" alt="Acessando o Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
 
 <br></br>
 
+A próxima tela após a criação do usuário no WSL é a respeito de coleta e envio de informações anônimas do sistema operacional.
+
+Neste laboratório, a opção foi definida com "Não"
+
+y = sim
+n = não
+
 <p align="center"> <img src="images/wsl-018.png" alt="Acessando o Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
 
 <br></br>
+
+Digite a opção desejada e pressione enter. Neste exemplo:
+
+n
 
 <p align="center"> <img src="images/wsl-019.png" alt="Acessando o Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
 
 <br></br>
 
+Pronto! O WSL foi instalado com sucesso...
+
 <p align="center"> <img src="images/wsl-020.png" alt="Acessando o Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
 
 <br></br>
+
+### Abrir e testar o WSL
+
+Para utilizar o WSL, abra o PowerShell.
 
 <p align="center"> <img src="images/wsl-021.png" alt="Acessando o Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
 
 <br></br>
 
+No PowerShell digite o comando:
+
+wsl
+
+Após digitar o comando, pressione Enter; o WSL será carregado dentro do PowerShell.
+
 <p align="center"> <img src="images/wsl-022.png" alt="Acessando o Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
 
 <br></br>
+
+Com isso o Windows vai carregar um sistema Linux virtualizado usando como recurso o WSL.
 
 <p align="center"> <img src="images/wsl-023.png" alt="Acessando o Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
