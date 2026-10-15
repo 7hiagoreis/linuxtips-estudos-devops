@@ -904,14 +904,14 @@ A tela de configuração das credenciais deve ficar semelhante a imagem:
 
 <br></br>
 
-Abra o PuTTY
+Agora, no menu lateral do PuTTY, clique em "Session" 
 
 <p align="center"> <img src="images/puttygen-018.png" alt="Convertendo chave com o PuTTYgen"> </p>
 <p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
 
 <br></br>
 
-No campo Host, utilize o usuário e IP da máquina virtual.
+No campo Host, utilize o usuário e IP da máquina virtual (VM).
 
 Por exemplo:
 
