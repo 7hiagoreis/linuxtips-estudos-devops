@@ -931,7 +931,7 @@ O PuTTY vai conectar a máquina virtual sem a necessidade de senha.
 
 <br></br>
 
-## WSL/Ubuntu no Windows
+## 5. WSL/Ubuntu no Windows
 
 <p align="center"> <img src="images/wsl-001.png" alt="Acessando o Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
@@ -1044,7 +1044,7 @@ Atenção, durante a etapa de instalação do WSL, o sistema operacional Windows
 
 ---
 
-## 5. Instalando a chave no Ubuntu Server (em desenvolvimento)
+## 6. Instalando a chave no WSL/Ubuntu Windows (em desenvolvimento)
 
 ### ssh-copy-id
 
@@ -1064,7 +1064,7 @@ Esse arquivo permite que o servidor identifique quais chaves públicas podem aut
 
 <br></br>
 
-## 6. Resultado
+## 7. Resultado
 
 Ao concluir as etapas, o laboratório deverá ter:
 
