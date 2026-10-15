@@ -931,7 +931,7 @@ O PuTTY vai conectar a máquina virtual sem a necessidade de senha.
 
 <br></br>
 
-### WSL/Ubuntu no Windows
+## WSL/Ubuntu no Windows
 
 <p align="center"> <img src="images/wsl-001.png" alt="Acessando o Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
