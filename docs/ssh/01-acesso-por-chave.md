@@ -506,7 +506,7 @@ O teste com NAT ajudou a entender a diferença entre os dois modos e os requisit
 
 <br></br>
 
-## 3. Gerando a chave SSH
+## 3. Gerando as chaves SSH no PowerShell
 
 ### OpenSSH no Windows
 
@@ -1140,7 +1140,9 @@ O arquivo config
 
 Vamos editar o arquivo config com o comando:
 
+```bash
 vim ~/.ssh/config
+```
 
 No arquivo insira:
 
@@ -1155,7 +1157,9 @@ No arquivo insira:
 
 Vamos testar o acesso a máquina virtual (VM) utilizando o WSL/Ubuntu no Windows.
 
+```bash
 ssh ubuntu-lab
+```
 
 <p align="center"> <img src="images/chave-wsl-0014.png" alt="WSL/Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: WSL/Ubuntu via PowerShell)</i>
@@ -1180,14 +1184,18 @@ Ao conectar na máquina virtual, o terminal exibe a mensagem de boas vindas.
 
 Abaixo, segue imagens do terminal do WSL/Ubuntu atualizando a lista de pacotes e versões disponíveis nos repositorios, além de baixar e instalar as novas versões dos pacotes... 
 
+```bash
 apt-get update
+```
 
 <p align="center"> <img src="images/chave-wsl-0017.png" alt="WSL/Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: WSL/Ubuntu via PowerShell)</i>
 
 <br></br>
 
+```bash
 apt-get upgrade
+```
 
 <p align="center"> <img src="images/chave-wsl-0018.png" alt="WSL/Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: WSL/Ubuntu via PowerShell)</i>
