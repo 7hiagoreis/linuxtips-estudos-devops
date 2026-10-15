@@ -932,7 +932,7 @@ Por exemplo:
 
 ```bash
 seu_usuario_vm@IP_da_VM
-```bash
+```
 
 Substitua as informações de `usuário` e `IP` de acordo com seu o ambiente e clique em <kbd>"Open"</kbd>.
 
