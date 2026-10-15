@@ -855,57 +855,76 @@ Agora, clique no botão "Save private key" e salve o arquivo com o nome id_ed255
 
 <br></br>
 
+Quando a chave não tem uma senha (passphrase), o PuTTYgen exige a confirmação se deseja continuar a salvar esta chave sem uma senha para protegê-la.
+
 <p align="center"> <img src="images/puttygen-010.png" alt="Convertendo chave com o PuTTYgen"> </p>
 <p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
 
 <br></br>
+
+Matenha o local padrão para salvar o arquivo e clique em "Salvar".
 
 <p align="center"> <img src="images/puttygen-011.png" alt="Convertendo chave com o PuTTYgen"> </p>
 <p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
 
 <br></br>
 
+Depois de salvar a chave, abra o PuTTY.
+
 <p align="center"> <img src="images/puttygen-012.png" alt="Convertendo chave com o PuTTYgen"> </p>
 <p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
 
 <br></br>
 
-Abra o PuTTY, vá em Connection -> SSH -> Credentials / Auth, clique em Browse... e selecione esse novo arquivo .ppk gerado pelo PuTTYgen.
+No menu lateral a esquerda do PuTTY, vá em Connection -> SSH -> Credentials / Auth, clique em Browse... e selecione esse novo arquivo .ppk gerado pelo PuTTYgen.
 
 <p align="center"> <img src="images/puttygen-013.png" alt="Convertendo chave com o PuTTYgen"> </p>
 <p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
 
 <br></br>
 
+Acesse a pasta C:\Usuários\SEU_USUARIO_WIN\.ssh\
+
 <p align="center"> <img src="images/puttygen-014.png" alt="Convertendo chave com o PuTTYgen"> </p>
 <p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
 
 <br></br>
+
+E selecione a chave convertida através do PuTTYgen
 
 <p align="center"> <img src="images/puttygen-015.png" alt="Convertendo chave com o PuTTYgen"> </p>
 <p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
 
 <br></br>
 
+A tela de configuração das credenciais deve ficar semelhante a imagem:
+
 <p align="center"> <img src="images/puttygen-016.png" alt="Convertendo chave com o PuTTYgen"> </p>
 <p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
 
 <br></br>
 
-<p align="center"> <img src="images/puttygen-017.png" alt="Convertendo chave com o PuTTYgen"> </p>
-<p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
-
-<br></br>
+Abra o PuTTY
 
 <p align="center"> <img src="images/puttygen-018.png" alt="Convertendo chave com o PuTTYgen"> </p>
 <p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
 
 <br></br>
 
+No campo Host, utilize o usuário e IP da máquina virtual.
+
+Por exemplo:
+
+seu_usuario_vm@IP_da_VM
+
+Substitua as informações de usuario e IP de acordo com seu o ambiente e clique em "Open".
+
 <p align="center"> <img src="images/puttygen-019.png" alt="Convertendo chave com o PuTTYgen"> </p>
 <p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
 
 <br></br>
+
+O PuTTY vai conectar a máquina virtual sem a necessidade de senha.
 
 <p align="center"> <img src="images/puttygen-020.png" alt="Convertendo chave com o PuTTYgen"> </p>
 <p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
