@@ -155,7 +155,7 @@ Abaixo imagem da tela principal do PuTTY.
 
 ## 2. Primeiro acesso ao Ubuntu Server (VM) no Windows
 
-### Configuração da Rede na Máquina Virtual
+### Configuração da Rede na Máquina Virtual (NAT)
 Inicialmente, a máquina virtual estava configurada com a opção NAT nas configurações de rede do VirtualBox.
 
 <p align="center"> <img src="images/16-redirecionamento-portas-01.png" alt="Tela de configuração da rede no VirtualBox"> </p>
