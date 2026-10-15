@@ -1046,11 +1046,110 @@ Atenção, durante a etapa de instalação do WSL, o sistema operacional Windows
 
 ### Instalando a chave no WSL/Ubuntu Windows (em desenvolvimento)
 
+#### Criando as chaves no WSL/Ubuntu
+
+Esta etapa demonstra como criar as chaves no WSL (Windows), primeiro abra o PowerShell.
+
+<p align="center"> <img src="images/chave-wsl-0001.png" alt="WSL/Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: WSL/Ubuntu via PowerShell)</i>
+
+<br></br>
+
+No PowerShell digite wsl e pressione Enter.
+
+<p align="center"> <img src="images/chave-wsl-0002.png" alt="WSL/Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: WSL/Ubuntu via PowerShell)</i>
+
+<br></br>
+
+Perceba que o terminal indica que agora está utilizando o WSL.
+
+<p align="center"> <img src="images/chave-wsl-0003.png" alt="WSL/Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: WSL/Ubuntu via PowerShell)</i>
+
+<br></br>
+
+O processo para criar as chaves no WSL/Ubuntu é semelhante a etapa do PowerShell.
+
+No terminal digire o comando:
+
+<p align="center"> <img src="images/chave-wsl-0004.png" alt="WSL/Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: WSL/Ubuntu via PowerShell)</i>
+
+<br></br>
+
+O terminal questina se deseja salvar as chaves no diretório padrão, pressione Enter para avançar sem alterar o caminho.
+
+<p align="center"> <img src="images/chave-wsl-0005.png" alt="WSL/Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: WSL/Ubuntu via PowerShell)</i>
+
+<br></br>
+
+Neste momento o terminal informa se desenha criar uma senha (Passphrase) para acesso a chave. Defina a senha ou deixe em branco e pressione Enter.
+
+<p align="center"> <img src="images/chave-wsl-0006.png" alt="WSL/Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: WSL/Ubuntu via PowerShell)</i>
+
+<br></br>
+
+Confirme a Passphrase e pressione Enter.
+
+<p align="center"> <img src="images/chave-wsl-0007.png" alt="WSL/Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: WSL/Ubuntu via PowerShell)</i>
+
+<br></br>
+
+Com as chaves criadas, o terminal exibe as confirmações...
+
+<p align="center"> <img src="images/chave-wsl-0008.png" alt="WSL/Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: WSL/Ubuntu via PowerShell)</i>
+
+<br></br>
+
 #### ssh-copy-id
 
 O comando `ssh-copy-id` permite copiar a chave pública para um servidor remoto, facilitando a configuração da autenticação por chave SSH.
 
-O comando não está disponível nativamente no PowerShell deste ambiente. Será necessário utilizar um ambiente que tenha esse utilitário, como o Ubuntu, para realizar a instalação da chave pública.
+<p align="center"> <img src="images/chave-wsl-0009.png" alt="WSL/Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: WSL/Ubuntu via PowerShell)</i>
+
+<br></br>
+
+Digite a senha do usuário da máquina virtual (VM) para confirmar o acesso.
+
+<p align="center"> <img src="images/chave-wsl-0010.png" alt="WSL/Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: WSL/Ubuntu via PowerShell)</i>
+
+<br></br>
+
+Pronto, após a cópia da chave o terminal exibe as informações.
+
+<p align="center"> <img src="images/chave-wsl-0011.png" alt="WSL/Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: WSL/Ubuntu via PowerShell)</i>
+
+<br></br>
+
+#### ~/.ssh/config
+
+O arquivo config
+
+<p align="center"> <img src="images/chave-wsl-0012.png" alt="WSL/Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: WSL/Ubuntu via PowerShell)</i>
+
+<br></br>
+
+Vamos editar o arquivo config com o comando:
+
+vim ~/.ssh/config
+
+No arquivo insira:
+
+
+<p align="center"> <img src="images/chave-wsl-0013.png" alt="WSL/Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: WSL/Ubuntu via PowerShell)</i>
+
+<br></br>
+
 
 #### authorized_keys
 
