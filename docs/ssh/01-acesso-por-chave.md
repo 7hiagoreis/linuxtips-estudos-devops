@@ -1044,15 +1044,15 @@ Atenção, durante a etapa de instalação do WSL, o sistema operacional Windows
 
 ---
 
-## 6. Instalando a chave no WSL/Ubuntu Windows (em desenvolvimento)
+### Instalando a chave no WSL/Ubuntu Windows (em desenvolvimento)
 
-### ssh-copy-id
+#### ssh-copy-id
 
 O comando `ssh-copy-id` permite copiar a chave pública para um servidor remoto, facilitando a configuração da autenticação por chave SSH.
 
 O comando não está disponível nativamente no PowerShell deste ambiente. Será necessário utilizar um ambiente que tenha esse utilitário, como o Ubuntu, para realizar a instalação da chave pública.
 
-### authorized_keys
+#### authorized_keys
 
 No servidor Ubuntu, as chaves públicas autorizadas para login ficam normalmente no arquivo:
 
