@@ -537,17 +537,20 @@ Outra forma de abrir o PowerShell digitando diretamente na barra de Pesquisar do
 
 No PowerShell execute o comando:
 
-    ssh-keygen -t ed25519
-
+```bash
+ssh-keygen -t ed25519
+```
 
 <p align="center"> <img src="images/powershell-03.png" alt="Executando comando no PowerShell"> </p>
 <p align="right"><i>(Imagem: Executando comando no PowerShell / Windows)</i>
 
 <br></br>
 
-Quando for solicitado o caminho para salvar a chave, pressione `Enter` para aceitar o caminho padrão, dentro do perfil do usuário atual. Por exemplo:
+Quando for solicitado o caminho para salvar a chave, pressione <kbd>Enter</kbd> para aceitar o caminho padrão, dentro do perfil do usuário atual. Por exemplo:
 
-    C:\Users\SEU_USUARIO_WIN/.ssh/id_ed25519
+```bash
+C:\Users\SEU_USUARIO_WIN/.ssh/id_ed25519
+```
 
 O nome `SEU_USUARIO_WIN` é apenas um exemplo. O Windows utilizará automaticamente o nome do usuário atual.
 
@@ -556,7 +559,7 @@ O nome `SEU_USUARIO_WIN` é apenas um exemplo. O Windows utilizará automaticame
 
 <br></br>
 
-Em seguida, será solicitada uma senha (*passphrase*) para proteger a chave privada. É possível definir uma senha ou pressionar `Enter` duas vezes para continuar sem ela. Neste laboratório não foi definida uma senha passphrase para a chave privada. Em ambientes de produção é recomendado definir uma senha passphrase.
+Em seguida, será solicitada uma senha (*passphrase*) para proteger a chave privada. É possível definir uma senha ou pressionar <kbd>Enter</kbd> duas vezes para continuar sem ela. Neste laboratório não foi definida uma senha passphrase para a chave privada. Em ambientes de produção é recomendado definir uma senha passphrase.
 
 <p align="center"> <img src="images/powershell-05.png" alt="Representação Passphrase no PowerShell"> </p>
 <p align="right"><i>(Imagem: Representação Passphrase no PowerShell / Windows)</i>
@@ -588,7 +591,9 @@ Esse arquivo deve permanecer protegido no computador local e nunca deve ser comp
 
 Para verificar se as chaves foram criadas, execute o comando no PowerShell:
 
-    Get-ChildItem "$env:USERPROFILE\.ssh"
+```bash
+Get-ChildItem "$env:USERPROFILE\.ssh"
+```
 
 <p align="center"> <img src="images/powershell-07.png" alt="Verificando as chaves criadas no PowerShell"> </p>
 <p align="right"><i>(Imagem: Verificando as chaves criadas no PowerShell / Windows)</i>
@@ -620,14 +625,14 @@ Get-Content "$env:USERPROFILE\.ssh\id_ed25519.pub" | ssh usuario@ip_do_servidor 
 
 <br></br>
 
-Após pressionar Enter , o PowerShell vai perguntar se deseja continuar...
+Após pressionar <kbd>Enter</kbd> , o PowerShell vai perguntar se deseja continuar...
 
 <p align="center"> <img src="images/powershell-10.png" alt="Chaves criadas PowerShell"> </p>
 <p align="right"><i>(Imagem: Copiando a chave no PowerShell / Windows)</i>
 
 <br></br>
 
-Digite ´yes´ e pressione Enter
+Digite `yes` e pressione <kbd>Enter</kbd>
 
 <p align="center"> <img src="images/powershell-11.png" alt="Chaves criadas PowerShell"> </p>
 <p align="right"><i>(Imagem: Copiando a chave no PowerShell / Windows)</i>
@@ -652,9 +657,11 @@ Pronto, a chave foi copiada para a máquina virtual.
 
 Nesta etapa, vamos testar a conexão SSH utilizando o PowerShell do Windows para acessar a máquina virtual Ubuntu Server.
 
-No PowerShell digite o comando abaixo e pressione Enter.
+No PowerShell digite o comando abaixo e pressione <kbd>Enter</kbd>.
 
-    ssh seu_usuario@ip_do_servidor
+```bash
+ssh seu_usuario@ip_do_servidor
+```
 
 <p align="center"> <img src="images/powershell-13a.png" alt="Conectando via SSH no PowerShell"> </p>
 <p align="right"><i>(Imagem: Conectando via SSH no PowerShell / Windows)</i>
@@ -676,9 +683,11 @@ O arquivo `config`, localizado na pasta `.ssh` do usuário, permite definir conf
 
 No Windows, o caminho padrão é:
 
-    C:\Users\SEU_USUARIO_DO_WIN\.ssh\config
+```bash
+C:\Users\SEU_USUARIO_DO_WIN\.ssh\config
+```
 
-Agora, vamos editar o arquivo config, utilizando o PowerShell.
+Agora, vamos editar o arquivo `config`, utilizando o PowerShell.
 
 Digite no PowerShell o seguinte comando:
 
@@ -691,7 +700,7 @@ notepad "$env:USERPROFILE\.ssh\config"
 
 <br></br>
 
-Após digitar o comando e pressionar a tecla Enter, o Windows pode exibir uma tela de confirmação para criar um novo arquivo, caso o config não exista no sistema. Clique em "Sim" para criar o novo arquivo.
+Após digitar o comando e pressionar a tecla <kbd>Enter</kbd>, o Windows pode exibir uma tela de confirmação para criar um novo arquivo, caso o `config` não exista no sistema. Clique em <kbd>"Sim"</kbd> para criar o novo arquivo.
 
 <p align="center"> <img src="images/powershell-15.png" alt="Confirmação do novo arquivo config via PowerShell"> </p>
 <p align="right"><i>(Imagem: Tela de confirmação para criar um novo arquivo config / Windows)</i>
@@ -736,7 +745,7 @@ Agora temos o acesso a máquina virtual Ubuntu Server com o alias e chave.
 
 ### Possíveis problemas no arquivo config com PowerShell
 
-Durante a configuração do SSH, se houver erros na conexão, remova o arquivo config com o comando:
+Durante a configuração do SSH, se houver erros na conexão, remova o arquivo `config` com o comando:
 
 ```bash
 Remove-Item "$env:USERPROFILE\.ssh\config*" -force
@@ -792,7 +801,7 @@ Get-Content $env:USERPROFILE\.ssh\id_ed25519.pub | ssh ubuntu-lab "mkdir -p ~/.s
 
 ### Converter Chaves OpenSSH para o Formato PuTTY (.ppk) no Windows
 
-Por padrão, chaves criadas via terminal através do comando ssh-keygen (PowerShell, Linux ou macOS) utilizam o formato OpenSSH. No entanto, o cliente PuTTY exige chaves no formato proprietário .ppk. Neste tópico vamos documentar como realizar a conversão.
+Por padrão, chaves criadas via terminal através do comando `ssh-keygen` no PowerShell, Linux ou macOS, utilizam o formato OpenSSH. No entanto, o cliente PuTTY exige chaves no formato proprietário `.ppk`. Neste tópico vamos documentar como realiza a conversão.
 
 Para converter a chave, abra o PuTTYgen digitando no campo de Pesquisar do sistema operacional Windows, conforme a imagem abaixo.
 
@@ -801,42 +810,42 @@ Para converter a chave, abra o PuTTYgen digitando no campo de Pesquisar do siste
 
 <br></br>
 
-Com o PuTTYgen aberto, clique na opção File que está localizada no menu superior.
+Com o PuTTYgen aberto, clique na opção <kbd>File</kbd> que está localizada no menu superior.
 
 <p align="center"> <img src="images/puttygen-002.png" alt="Convertendo chave com o PuTTYgen"> </p>
 <p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
 
 <br></br>
 
-Em seguida, clique "Load private key" 
+Em seguida, clique <kbd>"Load private key" </kbd>
 
 <p align="center"> <img src="images/puttygen-003.png" alt="Convertendo chave com o PuTTYgen"> </p>
 <p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
 
 <br></br>
 
-Na caixa de seleção, altere o tipo de arquivo selecionando a opção "All Files"
+Na caixa de seleção, altere o tipo de arquivo selecionando a opção <kbd>"All Files"</kbd>
 
 <p align="center"> <img src="images/puttygen-004.png" alt="Convertendo chave com o PuTTYgen"> </p>
 <p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
 
 <br></br>
 
-Acesse o C:\ e depois a pasta Usuários
+Acesse o `C:\` e depois a pasta `Usuários`
 
 <p align="center"> <img src="images/puttygen-005.png" alt="Convertendo chave com o PuTTYgen"> </p>
 <p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
 
 <br></br>
 
-Acesse a pasta .ssh
+Acesse a pasta `.ssh`
 
 <p align="center"> <img src="images/puttygen-006.png" alt="Convertendo chave com o PuTTYgen"> </p>
 <p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
 
 <br></br>
 
-Localize a sua chave privada, selecione-a e clique em "Abrir". Se você colocou uma senha (passphrase) na chave lá no começo, ele vai pedir para você digitá-la.
+Localize a sua chave privada, selecione-a e clique em <kbd>"Abrir"</kbd>. Se você colocou uma senha (passphrase) na chave, o PuTTYgen vai solicitar para você digitá-la.
 
 <p align="center"> <img src="images/puttygen-007.png" alt="Convertendo chave com o PuTTYgen"> </p>
 <p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
@@ -850,21 +859,23 @@ Se tudo estiver correto, o PuTTYgen vai exibir uma tela confirmando a importaç�
 
 <br></br>
 
-Agora, clique no botão "Save private key" e salve o arquivo com o nome id_ed25519.ppk dentro da mesma pasta.
+Agora, clique no botão <kbd>"Save private key"</kbd> e salve o arquivo com o nome `id_ed25519.ppk` dentro da mesma pasta.
 
 <p align="center"> <img src="images/puttygen-009.png" alt="Convertendo chave com o PuTTYgen"> </p>
 <p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
 
 <br></br>
 
-Quando a chave não tem uma senha (passphrase), o PuTTYgen exige a confirmação se deseja continuar a salvar esta chave sem uma senha para protegê-la.
+Quando a chave não tem uma senha (passphrase), o PuTTYgen exige a confirmação se deseja continuar e salvar a chave sem uma senha para protegê-la.
+
+OBS: Recomendação, criar uma `passphrase` para as chaves em ambiente de produção. Nunca envie para o repositório do GitHub chaves privadas!
 
 <p align="center"> <img src="images/puttygen-010.png" alt="Convertendo chave com o PuTTYgen"> </p>
 <p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
 
 <br></br>
 
-Matenha o local padrão para salvar o arquivo e clique em "Salvar".
+Matenha o local padrão para salvar o arquivo e clique em <kbd>"Salvar"</kbd>.
 
 <p align="center"> <img src="images/puttygen-011.png" alt="Convertendo chave com o PuTTYgen"> </p>
 <p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
@@ -878,21 +889,21 @@ Depois de salvar a chave, abra o PuTTY.
 
 <br></br>
 
-No menu lateral a esquerda do PuTTY, vá em Connection -> SSH -> Credentials / Auth, clique em Browse... e selecione esse novo arquivo .ppk gerado pelo PuTTYgen.
+No menu lateral a esquerda do PuTTY, vá em Connection -> SSH -> Credentials / Auth, clique em Browse... e selecione esse novo arquivo `.ppk` gerado pelo PuTTYgen.
 
 <p align="center"> <img src="images/puttygen-013.png" alt="Convertendo chave com o PuTTYgen"> </p>
 <p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
 
 <br></br>
 
-Acesse a pasta C:\Usuários\SEU_USUARIO_WIN\.ssh\
+Acesse a pasta `C:\Usuários\SEU_USUARIO_WIN\.ssh\`
 
 <p align="center"> <img src="images/puttygen-014.png" alt="Convertendo chave com o PuTTYgen"> </p>
 <p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
 
 <br></br>
 
-E selecione a chave convertida através do PuTTYgen
+E selecione a chave convertida através do PuTTYgen.
 
 <p align="center"> <img src="images/puttygen-015.png" alt="Convertendo chave com o PuTTYgen"> </p>
 <p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
@@ -906,7 +917,7 @@ A tela de configuração das credenciais deve ficar semelhante a imagem:
 
 <br></br>
 
-Agora, no menu lateral do PuTTY, clique em "Session" 
+No menu lateral do PuTTY, clique em <kbd>"Session"</kbd> 
 
 <p align="center"> <img src="images/puttygen-018.png" alt="Convertendo chave com o PuTTYgen"> </p>
 <p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
@@ -917,9 +928,11 @@ No campo Host, utilize o usuário e IP da máquina virtual (VM).
 
 Por exemplo:
 
+```bash
 seu_usuario_vm@IP_da_VM
+```bash
 
-Substitua as informações de usuario e IP de acordo com seu o ambiente e clique em "Open".
+Substitua as informações de `usuário` e `IP` de acordo com seu o ambiente e clique em <kbd>"Open"</kbd>.
 
 <p align="center"> <img src="images/puttygen-019.png" alt="Convertendo chave com o PuTTYgen"> </p>
 <p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
@@ -946,7 +959,9 @@ Vamos, ver agora como instalar o WSL/Ubuntu no Windows, para isso abra o PowerSh
 
 Para iniciar o processo de instalação do WSL, digite o comando:
 
+```bash
 wsl --install
+```
 
 
 <p align="center"> <img src="images/wsl-002.png" alt="Acessando o Ubuntu via PowerShell"> </p>
@@ -954,7 +969,7 @@ wsl --install
 
 <br></br>
 
-Atenção, durante a etapa de instalação do WSL, o sistema operacional Windows vai abrir o controle de conta, solicitando a permissão para continuar. Clique em "Sim".
+Atenção, durante a etapa de instalação do WSL, o sistema operacional Windows vai abrir o controle de conta, solicitando a permissão para continuar. Clique em <kbd>"Sim"</kbd>.
 
 Após a confirmação, o PowerShell vai iniciar a instalação do WSL.
 
@@ -970,7 +985,7 @@ Aguarde o processo de instalação. Durante essa fase o Windows pode solicitar a
 
 <br></br>
 
-Nesta etapa, durante a instalação do WSL, o sistema operacional Windows vai abrir o controle de conta, solicitando a permissão para continuar. Clique em "Sim".
+Nesta etapa, durante a instalação do WSL, o sistema operacional Windows vai abrir o controle de conta, solicitando a permissão para continuar. Clique em <kbd>"Sim"</kbd>.
 
 <br></br>
 
@@ -995,7 +1010,7 @@ Abaixo a imagem é uma representação da instalação do WSL/Ubuntu no Windows.
 
 <br></br>
 
-Após terminar o processo de instalação, o PowerShell informa para reiniciar o sistema para concluir as alterações.
+Após terminar o processo de instalação, o PowerShell informa para **reiniciar** o sistema operacional e concluir as alterações.
 
 <p align="center"> <img src="images/wsl-010.png" alt="Acessando o Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
@@ -1030,7 +1045,7 @@ Neste momento, podemos fechar a tela de boas vindas do WSL.
 
 <br></br>
 
-Agora, defina um nome de usuário para o WSL.
+Defina um nome de usuário para o WSL.
 
 <p align="center"> <img src="images/wsl-015.png" alt="Acessando o Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
@@ -1044,28 +1059,32 @@ Digite a senha para o usuário do WSL.
 
 <br></br>
 
-Confirme a senha cadastrada.
+Confirme a senha cadastrada do usuário do WSL.
 
 <p align="center"> <img src="images/wsl-017.png" alt="Acessando o Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
 
 <br></br>
 
-A próxima tela após a criação do usuário no WSL é a respeito de coleta e envio de informações anônimas do sistema operacional.
+A próxima tela após a criação do usuário no WSL é a respeito de coleta e envio de informações anônimas do sistema operacional aos densenvolvedores.
 
 Neste laboratório, a opção foi definida com "Não"
 
+```bash
 y = sim
 n = não
+```
 
 <p align="center"> <img src="images/wsl-018.png" alt="Acessando o Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
 
 <br></br>
 
-Digite a opção desejada e pressione enter. Neste exemplo:
+Digite a opção desejada e pressione <kbd>Enter</kbd>. Neste exemplo:
 
+```bash
 n
+```
 
 <p align="center"> <img src="images/wsl-019.png" alt="Acessando o Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
@@ -1090,9 +1109,11 @@ Para utilizar o WSL, abra o PowerShell.
 
 No PowerShell digite o comando:
 
+```bash
 wsl
+```
 
-Após digitar o comando, pressione Enter; o WSL será carregado dentro do PowerShell.
+Após digitar o comando, pressione <kbd>Enter</kbd>; o WSL será carregado dentro do PowerShell.
 
 <p align="center"> <img src="images/wsl-022.png" alt="Acessando o Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
@@ -1142,7 +1163,7 @@ No terminal digire o comando:
 
 <br></br>
 
-O terminal questina se deseja salvar as chaves no diretório padrão, pressione Enter para avançar sem alterar o caminho.
+O terminal questina se deseja salvar as chaves no diretório padrão, pressione <kbd>Enter</kbd> para avançar sem alterar o caminho.
 
 <p align="center"> <img src="images/chave-wsl-0005.png" alt="WSL/Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: WSL/Ubuntu via PowerShell)</i>
@@ -1156,7 +1177,7 @@ Neste momento o terminal informa se desenha criar uma senha (Passphrase) para ac
 
 <br></br>
 
-Confirme a Passphrase e pressione Enter.
+Confirme a Passphrase e pressione <kbd>Enter</kbd>.
 
 <p align="center"> <img src="images/chave-wsl-0007.png" alt="WSL/Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: WSL/Ubuntu via PowerShell)</i>
