@@ -169,6 +169,8 @@ Durante a configuração do laboratório, o Ubuntu Server conseguia acessar a in
 
 ---
 
+<br></br>
+
 ### Solução 1: Utilizando o Modo NAT com Redirecionamento de Portas
 No modo NAT padrão, o VirtualBox esconde a máquina virtual (VM) atrás de uma sub-rede isolada. Para iniciar uma conexão SSH do Windows para a máquina virtual sem alterar o tipo de placa, é obrigatório configurar uma regra de **Redirecionamento de Portas (Port Forwarding)**.
 
