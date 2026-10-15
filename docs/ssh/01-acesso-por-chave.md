@@ -1131,7 +1131,7 @@ Com isso o Windows vai carregar um sistema Linux virtualizado usando como recurs
 
 ---
 
-### Instalando a chave no WSL/Ubuntu Windows (em desenvolvimento)
+### Instalando a chave no WSL/Ubuntu (Windows)
 
 #### Criando as chaves no WSL/Ubuntu
 
