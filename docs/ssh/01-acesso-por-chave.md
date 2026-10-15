@@ -1158,7 +1158,7 @@ Perceba que o terminal indica que agora está utilizando o WSL.
 
 O processo para criar as chaves no WSL/Ubuntu é semelhante a etapa do PowerShell.
 
-No terminal digire o comando:
+No terminal digite o comando:
 
 <p align="center"> <img src="images/chave-wsl-0004.png" alt="WSL/Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: WSL/Ubuntu via PowerShell)</i>
