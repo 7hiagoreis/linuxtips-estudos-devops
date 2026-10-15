@@ -797,9 +797,9 @@ Get-Content $env:USERPROFILE\.ssh\id_ed25519.pub | ssh ubuntu-lab "mkdir -p ~/.s
 <p align="center"> <img src="images/config-005.png" alt="Acessando o Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: Acessando o Ubuntu via PowerShell / Windows)</i>
 
-<br></br>
-
 ---
+
+<br></br>
 
 ### Converter Chaves OpenSSH para o Formato PuTTY (.ppk) no Windows
 
