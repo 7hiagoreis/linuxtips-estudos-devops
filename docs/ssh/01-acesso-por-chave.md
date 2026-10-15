@@ -528,7 +528,7 @@ Na lista de programas, vá até a letra "W" e clique em "Windows PowerShell".
 
 <br></br>
 
-Outra forma de abrir o PowerShell digitando diretamente na barra de Pesquisar do Windows, conforme imagem abaixo:
+Outra forma de abrir o PowerShell é digitando seu nome diretamente na barra de `Pesquisar` do Windows, conforme imagem abaixo:
 
 <p align="center"> <img src="images/powershell-02.png" alt="Abrindo o PowerShell"> </p>
 <p align="right"><i>(Imagem: Representação para abrir o PowerShell / Windows)</i>
