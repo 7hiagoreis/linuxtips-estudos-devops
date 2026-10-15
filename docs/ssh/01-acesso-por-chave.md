@@ -933,6 +933,8 @@ O PuTTY vai conectar a máquina virtual sem a necessidade de senha.
 
 ## 5. WSL/Ubuntu no Windows
 
+WSL (Windows Subsystem for Linux) permite executar um ambiente Linux diretamente no Windows, sem a necessidade de instalar uma máquina virtual ou configurar um dual-boot.
+
 <p align="center"> <img src="images/wsl-001.png" alt="Acessando o Ubuntu via PowerShell"> </p>
 <p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
 
