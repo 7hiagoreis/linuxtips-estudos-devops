@@ -788,7 +788,7 @@ Get-Content $env:USERPROFILE\.ssh\id_ed25519.pub | ssh ubuntu-lab "mkdir -p ~/.s
 
 <br></br>
 
-### Converter Chaves OpenSSH para o Formato PuTTY (.ppk)
+### Converter Chaves OpenSSH para o Formato PuTTY (.ppk) no Windows
 
 Por padrão, chaves criadas via terminal através do comando ssh-keygen (PowerShell, Linux ou macOS) utilizam o formato OpenSSH. No entanto, o cliente PuTTY exige chaves no formato proprietário .ppk. Neste tópico vamos documentar como realizar a conversão.
 
