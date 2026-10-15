@@ -1151,13 +1151,48 @@ No arquivo insira:
 <br></br>
 
 
-#### authorized_keys
+#### Testando o Acesso
 
-No servidor Ubuntu, as chaves públicas autorizadas para login ficam normalmente no arquivo:
+Vamos testar o acesso a máquina virtual (VM) utilizando o WSL/Ubuntu no Windows.
 
-    ~/.ssh/authorized_keys
+ssh ubuntu-lab
 
-Esse arquivo permite que o servidor identifique quais chaves públicas podem autenticar conexões para o usuário correspondente.
+<p align="center"> <img src="images/chave-wsl-0014.png" alt="WSL/Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: WSL/Ubuntu via PowerShell)</i>
+
+<br></br>
+
+Para o primeiro acesso, digite a senha do usuário da máquina virtual...
+
+<p align="center"> <img src="images/chave-wsl-0015.png" alt="WSL/Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: WSL/Ubuntu via PowerShell)</i>
+
+<br></br>
+
+Ao conectar na máquina virtual, o terminal exibe a mensagem de boas vindas.
+
+<p align="center"> <img src="images/chave-wsl-0016.png" alt="WSL/Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: WSL/Ubuntu via PowerShell)</i>
+
+<br></br>
+
+#### Terminal WSL/Ubuntu
+
+Abaixo, segue imagens do terminal do WSL/Ubuntu atualizando a lista de pacotes e versões disponíveis nos repositorios, além de baixar e instalar as novas versões dos pacotes... 
+
+apt-get update
+
+<p align="center"> <img src="images/chave-wsl-0017.png" alt="WSL/Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: WSL/Ubuntu via PowerShell)</i>
+
+<br></br>
+
+apt-get upgrade
+
+<p align="center"> <img src="images/chave-wsl-0018.png" alt="WSL/Ubuntu via PowerShell"> </p>
+<p align="right"><i>(Imagem: WSL/Ubuntu via PowerShell)</i>
+
+<br></br>
 
 ---
 
