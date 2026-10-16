@@ -8,8 +8,8 @@ Esta documentação é referente a criação de nova conta na AWS (Free Tier).
 
 ## Passo 01. Acesse o site da AWS
 
-Acesse o site da AWS (Free Tier) através do link
-ou pelo seu buscador favorito, conforme a imagem:
+Acesse o site da AWS (Free Tier) através do link https://aws.amazon.com/pt/free/
+ou com seu buscador favorito, conforme a imagem:
 
 <p align="center"> <img src="images/cadastro-aws-free-tier-001.png" alt="Criando uma conta na AWS"> </p>
 <p align="right"><i>(Imagem 01: Representação de pesquisa por, AWS Free Tier)</i>
