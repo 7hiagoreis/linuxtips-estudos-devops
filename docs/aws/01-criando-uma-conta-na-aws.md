@@ -146,8 +146,9 @@ Escolha o plano da conta AWS. Neste caso, escolhemos a opção "Plano Gratuito".
 <p align="center"> <img src="images/cadastro-aws-free-tier-013.png" alt="Criando uma conta na AWS"> </p>
 <p align="right"><i>(Imagem 13: Definição dos planos de conta na AWS)</i>
 
+<br></br>
 
-Definindo o plano gratuito para a conta AWS.
+### Definindo o plano gratuito para a conta AWS.
 
 <p align="center"> <img src="images/cadastro-aws-free-tier-013b.png" alt="Criando uma conta na AWS"> </p>
 <p align="right"><i>(Imagem 14: Confirmação do Plano Gratuito na AWS)</i>
