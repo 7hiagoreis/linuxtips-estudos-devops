@@ -23,9 +23,13 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço da AWS que fornece servidore
 2. Na barra de pesquisa no topo da página, digite `EC2` e selecione o serviço correspondente.
 3. No canto superior direito, verifique e selecione a região onde deseja hospedar o servidor, como Norte da Virgínia (`us-east-1`) ou São Paulo (`sa-east-1`).
 
+<br></br>
+
 ### Passo 2. Iniciar a criação da instância
 
 1. No painel do EC2, clique em **Executar instância** (*Launch instance*).
+
+<br></br>
 
 ### Passo 3. Configurar os atributos principais
 
@@ -37,6 +41,8 @@ Preencha as seções do assistente de criação conforme as orientações abaixo
 | Imagens de aplicativos e sistema operacional (AMI) | Selecione o sistema operacional desejado, como Ubuntu ou Amazon Linux. | Verifique as imagens disponíveis e as condições de elegibilidade para o plano da AWS. |
 | Tipo de instância | Selecione `t2.micro`, conforme solicitado no exercício. | A disponibilidade e as condições de cobrança dependem da região e do plano da conta. |
 | Par de chaves (login) | Clique em **Criar novo par de chaves**, informe um nome e selecione o tipo de chave e o formato do arquivo. | Use `.pem` para OpenSSH ou `.ppk` para PuTTY. Guarde a chave privada em local seguro, pois ela não poderá ser baixada novamente. |
+
+<br></br>
 
 ### Passo 4. Configurar a rede e o grupo de segurança
 
@@ -50,6 +56,8 @@ Os grupos de segurança funcionam como um firewall virtual, controlando o tráfe
 
 Evite liberar o SSH para qualquer endereço IP (`0.0.0.0/0`) sem necessidade, pois isso expõe a porta de acesso remoto à internet.
 
+<br></br>
+
 ### Passo 5. Configurar o armazenamento (volumes EBS)
 
 1. Defina o tamanho do disco virtual e o tipo de volume.
@@ -57,15 +65,17 @@ Evite liberar o SSH para qualquer endereço IP (`0.0.0.0/0`) sem necessidade, po
 
 Os limites e as condições de gratuidade podem variar conforme a data de criação da conta e o plano disponível. Verifique os valores atuais para evitar cobranças inesperadas.
 
+<br></br>
+
 ### Passo 6. Revisar e executar a instância
 
 1. No painel de resumo, confirme as configurações e selecione uma instância.
 2. Clique em **Executar instância** (*Launch instance*).
 3. Após a confirmação, clique em **Visualizar todas as instâncias** para acompanhar o estado da máquina.
 
-<br></br>
-
 ---
+
+<br></br>
 
 ## Como conectar a instância EC2
 
