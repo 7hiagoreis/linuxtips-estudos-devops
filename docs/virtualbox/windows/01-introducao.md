@@ -111,6 +111,8 @@ Esses elementos funcionam para o sistema virtualizado exatamente como funcionari
 
 ---
 
+<br></br>
+
 ## Estrutura do Nosso Laboratório
 
 O ambiente deste projeto será organizado no seguinte fluxo:
