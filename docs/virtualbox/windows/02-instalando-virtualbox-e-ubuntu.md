@@ -408,6 +408,8 @@ A imagem pode ser obtida direto no site oficial do Ubuntu.
 
 [Página oficial de download do Ubuntu Server](https://ubuntu.com/download/server)
 
+<br></br>
+
 Após o download, selecione a imagem ISO no assistente de criação da máquina virtual.
 
 
