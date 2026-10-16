@@ -441,5 +441,5 @@ A partir desta VM Ubuntu, será possível simular servidores reais, testar autom
 Antes de abrir o instalador do VirtualBox, acesse o documento que detalha a parte teórica da virtualização.
 
 Próximo documento:
-`docs/windows/02-virtualizacao.md`
+`docs/windows/02-instalando-virtualbox-e-ubuntu.md`
 
