@@ -533,9 +533,9 @@ Entre as configurações disponíveis estão:
 - USB
 - Pastas compartilhadas
 
-<p></p>
+<br></br>
 
-<p>Neste laboratório, o foco inicial será a configuração dos recursos necessários para executar o Ubuntu Server.</p>
+Neste laboratório, o foco inicial será a configuração dos recursos necessários para executar o Ubuntu Server.
 
 ![Tela Principal Oracle VirtualBox](images/26-configuracoes-vm.png)
 <p align="right"><i>(Imagem 27: Configurando a máquina virtual dentro do Oracle VirtualBox)</i>
