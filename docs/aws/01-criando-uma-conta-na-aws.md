@@ -1,6 +1,8 @@
-# Criando uma conta na AWS
+# Criando uma conta na AWS (Free Tier)
 
-## Passo 01
+Esta documentação é referente a criação de nova conta na AWS (Free Tier).
+
+## Passo 01. Acesse o site da AWS
 
 Acesse o site da AWS (Free Tier) através do link
 ou pelo seu buscador favorito, conforme a imagem:
@@ -11,7 +13,7 @@ ou pelo seu buscador favorito, conforme a imagem:
   
 <br></br>
 
-## Passo 02
+## Passo 02. Criar uma conta gratuita
 
 No site da AWS clique no botão "Criar uma conta gratuita".
 
@@ -21,7 +23,7 @@ No site da AWS clique no botão "Criar uma conta gratuita".
   
 <br></br>
 
-Passo 03
+## Passo 03. E-mail de cadastro e nome de conta AWS
 
 Para ter acesso aos serviços da AWS é necessário informar um e-mail e um nome para a conta.
 
@@ -31,7 +33,7 @@ Para ter acesso aos serviços da AWS é necessário informar um e-mail e um nome
   
 <br></br>
 
-Passo 04
+## Passo 04. Definir e-mail e nome de conta AWS
 
 Digite o e-mail para cadastro e defina um nome para a nova conta AWS.
 
@@ -41,7 +43,7 @@ Digite o e-mail para cadastro e defina um nome para a nova conta AWS.
   
 <br></br>
 
-Passo 05
+## Passo 05. Verificando o e-mail do cadastro
 
 Após preencher os campos Root user email address e AWS account name, clique no botão "Verfiy email address".
 
@@ -51,7 +53,7 @@ Após preencher os campos Root user email address e AWS account name, clique no 
   
 <br></br>
 
-Passo 06
+## Passo 06. Código de segurança CAPTCHA AWS
 
 Digite o código de segurança para avançar...
 
@@ -61,7 +63,7 @@ Digite o código de segurança para avançar...
   
 <br></br>
 
-Passo 07
+## Passo 07. Código de segurança E-mail
 
 Nesta etapa, é necessário digitar o codigo de segurança que foi enviado ao e-mail cadastrado na AWS.
 
@@ -71,7 +73,7 @@ Nesta etapa, é necessário digitar o codigo de segurança que foi enviado ao e-
   
 <br></br>
 
-Passo 08
+## Passo 08. Acesse a caixa de entrada do seu e-mail cadastrado na AWS
 
 Acesse a caixa de entrada do e-mail que foi utilizado para cadastro. Abra o e-mail de "Verificação de Conta" da AWS.
 
@@ -81,7 +83,7 @@ Acesse a caixa de entrada do e-mail que foi utilizado para cadastro. Abra o e-ma
   
 <br></br>
 
-Passo 09
+## Passo 09. Copie o código de Segurança do E-mail
 
 Copie o código de segurança que está no e-mail.
 
@@ -91,7 +93,7 @@ Copie o código de segurança que está no e-mail.
   
 <br></br>
 
-Passo 10
+## Passo 10. Verificação do código de segurança do e-mail
 
 Digite o código de segurança no campo "Verification code" e clique em "Verify".
 
@@ -101,7 +103,7 @@ Digite o código de segurança no campo "Verification code" e clique em "Verify"
   
 <br></br>
 
-Passo 11
+## Passo 11. Código de segurança do e-mail confirmado!
 
 Com a confirmação do código de segurança, a AWS exige a criação de uma senha forte para a nova conta.
 
@@ -111,7 +113,7 @@ Com a confirmação do código de segurança, a AWS exige a criação de uma sen
   
 <br></br>
 
-Passo 12
+## Passo 12. Definindo a senha da conta AWS
 
 Definia uma senha forte para a conta, em seguida, clique em "Continue (Step 1 of 5)"
 
@@ -121,7 +123,7 @@ Definia uma senha forte para a conta, em seguida, clique em "Continue (Step 1 of
   
 <br></br>
 
-Passo 13
+## Passo 13. Escolha do plano da conta AWS
 
 Escolha o plano da conta AWS. Neste caso, escolhemos a opção "Plano Gratuito".
 
@@ -138,7 +140,7 @@ Definindo o plano gratuito para a conta AWS.
   
 <br></br>
 
-Passo 14
+## Passo 14. Informações de Contato da conta AWS
 
 Preencha os campos das Informações de Contato.
 
@@ -148,7 +150,7 @@ Preencha os campos das Informações de Contato.
   
 <br></br>
 
-Passo 15
+## Passo 15. Informações de Faturamento AWS
 
 Preencha os campos com as Informações de Faturamento. É necessário possuir cartão de crédito para finalizar o cadastro. 
 
@@ -158,7 +160,7 @@ Preencha os campos com as Informações de Faturamento. É necessário possuir c
   
 <br></br>
 
-Passo 16
+## Passo 16. Aguarde, instalando
 
 Aguarde enquanto a AWS configura a nova conta...
 
@@ -168,7 +170,7 @@ Aguarde enquanto a AWS configura a nova conta...
   
 <br></br>
 
-Passo 17
+## Passo 17. Finalizando, conta cadastrada na AWS
 
 Pronto! A conta AWS foi criada com sucesso...
 
@@ -180,7 +182,7 @@ Clique em "Acesse o Controle de Gerenciamento da AWS" para acessar o Painel de C
 
 <br></br>
 
-Passo 18
+## Passo 18. Representação do Painel de Controle da AWS
 
 A conta da AWS foi criada, abaixo segue representação do Painel de Controle.
 
