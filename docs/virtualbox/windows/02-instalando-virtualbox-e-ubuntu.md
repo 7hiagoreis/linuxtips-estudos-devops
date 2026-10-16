@@ -606,7 +606,7 @@ Selecione o idioma desejado e continue.
 
 Durante a instalação, o Ubuntu Server também pede informações sobre o layout do teclado.
 
-Selecione a opção correspondente ao teclado que será usado.
+Selecione a opção correspondente ao teclado que será usado. Neste laboratório foi definido o layout "Portuguese (Brazil)".
 
 ![Tela Principal Oracle VirtualBox](images/31-configurando-teclado-vm.png)
 <p align="right"><i>(Imagem 32: Configurando o teclado)</i>
