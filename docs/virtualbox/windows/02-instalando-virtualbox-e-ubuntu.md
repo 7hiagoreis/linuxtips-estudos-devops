@@ -976,6 +976,8 @@ A partir do Ubuntu Server instalado, podemos criar diferentes cenários de estud
 - Magento 2
 - Automação e práticas de DevOps
 
+<br></br>
+
 Também é possível criar snapshots da máquina virtual antes de fazer alterações importantes. Assim, um estado anterior do laboratório pode ser recuperado caso alguma configuração apresente problemas.
 
 ![Tela Principal Oracle VirtualBox](images/56-painel-vb.png)
