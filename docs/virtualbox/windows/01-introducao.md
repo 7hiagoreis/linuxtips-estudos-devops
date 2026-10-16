@@ -417,19 +417,14 @@ A estrutura de arquivos do nosso repositório está dividida entre conceitos ger
 
 ```text
 docs/
-├── 01-introducao.md
-├── 02-virtualizacao.md
+├── aws/
+├── ssh/
 └── windows/
-    ├── 01-instalando-o-virtualbox.md
-    ├── 02-criando-a-maquina-virtual.md
-    ├── 03-configurando-a-maquina-virtual.md
-    ├── 04-instalando-o-ubuntu.md
-    ├── 05-configurando-a-rede.md
-    ├── 06-pastas-compartilhadas.md
-    └── 07-snapshots.md
+    ├── 01-introdução.md
+    └── 02-instalando-virtualbox-e-ubuntu.md
 ```
 
-Futuramente, os tutoriais focados no Host em Linux serão adicionados mantendo esse mesmo padrão de pastas.
+<br></br>
 
 ---
 
