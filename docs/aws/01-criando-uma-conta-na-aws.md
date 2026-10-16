@@ -63,7 +63,7 @@ Digite o código de segurança para avançar...
   
 <br></br>
 
-## Passo 07. Código de segurança E-mail
+## Passo 07. Código de segurança (E-mail)
 
 Nesta etapa, é necessário digitar o codigo de segurança que foi enviado ao e-mail cadastrado na AWS.
 
