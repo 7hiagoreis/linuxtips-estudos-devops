@@ -1,5 +1,7 @@
 # Acesso SSH por chave (Windows)
 
+Guia prático para configurar e conectar o Windows ao Linux. O material demonstra como instalar o PuTTY e fazer o primeiro acesso ao Ubuntu Server usando senha. Depois, foca em segurança avançada ao mostrar como gerar chaves SSH no PowerShell e injetá-las no servidor para eliminar a necessidade de senhas. Por fim, fecha com a instalação do WSL para rodar o Ubuntu nativamente no Windows e como configurar as chaves SSH para acesso ao ambiente.
+
 <br></br>
 
 ## 1. Instalação do PuTTY
