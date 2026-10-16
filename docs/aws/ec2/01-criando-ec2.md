@@ -2,10 +2,18 @@
 
 O Amazon EC2 (Elastic Compute Cloud) é um serviço da AWS que fornece servidores virtuais em uma nuvem segura e redimensionável. No contexto de DevOps, essa definição ganha um peso prático, deixando de ser apenas uma máquina virtual comum e passando a funcionar como parte de uma infraestrutura que pode ser automatizada e recriada conforme a necessidade.
 
+---
+
+<br></br>
+
 ## Pré-requisitos
 
 - Possuir uma conta ativa na [Amazon Web Services (AWS)](https://aws.amazon.com/pt/).
 - Consultar as instruções de [criação de uma conta na AWS](https://github.com/7hiagoreis/linuxtips-estudos-devops/blob/main/docs/aws/01-criando-uma-conta-na-aws.md).
+
+---
+
+<br></br>
 
 ## Configuração da EC2
 
@@ -54,6 +62,10 @@ Os limites e as condições de gratuidade podem variar conforme a data de criaç
 1. No painel de resumo, confirme as configurações e selecione uma instância.
 2. Clique em **Executar instância** (*Launch instance*).
 3. Após a confirmação, clique em **Visualizar todas as instâncias** para acompanhar o estado da máquina.
+
+<br></br>
+
+---
 
 ## Como conectar a instância EC2
 
