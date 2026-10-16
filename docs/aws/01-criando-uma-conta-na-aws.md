@@ -1,4 +1,6 @@
-Passo 01
+# Criando uma conta na AWS
+
+## Passo 01
 
 Acesse o site da AWS (Free Tier) através do link
 ou pelo seu buscador favorito, conforme a imagem:
@@ -9,7 +11,7 @@ ou pelo seu buscador favorito, conforme a imagem:
   
 <br></br>
 
-Passo 02
+## Passo 02
 
 No site da AWS clique no botão "Criar uma conta gratuita".
 
