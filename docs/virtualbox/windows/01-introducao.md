@@ -10,6 +10,8 @@ Neste projeto, utilizaremos o VirtualBox em um computador com Windows 10 para cr
 
 ---
 
+<br></br>
+
 ## Objetivo do Projeto
 
 O objetivo deste projeto é registrar e guiar, de forma prática o passo a passo, a montagem e o uso de uma máquina virtual focada no estudo de Linux, redes, contêineres com Docker, automação e práticas de DevOps.
@@ -30,6 +32,8 @@ Durante a construção e uso do laboratório, cobriremos os seguintes tópicos:
 Começaremos com uma estrutura simples e bem alinhada, onde futuramente usaremos essa mesma máquina como base para laboratórios mais avançados.
 
 ---
+
+<br></br>
 
 ## O que é Virtualização?
 
@@ -62,6 +66,8 @@ Computador Físico
 Cada máquina virtual opera em seu próprio espaço reservado, executando o seu sistema sem interferir nas outras máquinas virtuais.
 
 ---
+
+<br></br>
 
 ## Diferença entre Máquina Física e Máquina Virtual
 
@@ -134,6 +140,8 @@ Usaremos este formato como base para todas as nossas práticas e testes futuros.
 
 ---
 
+<br></br>
+
 ## Vantagens de Usar uma Máquina Virtual
 
 Para quem está estudando, a máquina virtual é excelente porque garante liberdade para testar e errar sem medo de danificar o sistema operacional principal do computador.
@@ -152,6 +160,8 @@ Podemos usar a VM para praticar, por exemplo:
 Se qualquer comando ou alteração quebrar o sistema, basta usar um snapshot para retornar a máquina ao estado correto em poucos segundos.
 
 ---
+
+<br></br>
 
 ## O VirtualBox no Nosso Ambiente de Testes
 
@@ -178,6 +188,8 @@ A quantidade de VMs que você consegue rodar ao mesmo tempo vai depender exclusi
 
 
 ---
+
+<br></br>
 
 ## O Papel do Hypervisor
 
@@ -217,6 +229,8 @@ Esse modelo é diferente dos Hypervisors Tipo 1 (bare-metal), que são instalado
 
 ---
 
+<br></br>
+
 ## Configuração dos Recursos Virtuais
 
 A nossa máquina virtual terá seus recursos mapeados para entregar boa performance de testes sem pesar no computador principal.
@@ -251,6 +265,8 @@ Os detalhes de configuração de rede serão demonstrados nos passos práticos p
 
 ---
 
+<br></br>
+
 ## Especificações da Máquina no Laboratório
 
 A tabela abaixo resume a configuração inicial combinada para a nossa máquina virtual:
@@ -270,6 +286,8 @@ Essa alocação é ideal para iniciar o laboratório e pode ser ajustada conform
 
 ---
 
+<br></br>
+
 ## Recursos Adicionais do VirtualBox
 
 ### Guest Additions (Adicionais para Convidado)
@@ -283,6 +301,8 @@ Dentre as melhorias, destacam-se:
 * Aceleração gráfica básica
 
 Usaremos o Guest Additions principalmente para integrar diretórios entre o Windows e o Ubuntu.
+
+<br></br>
 
 ### Pastas Compartilhadas
 A pasta compartilhada permite mapear um diretório do Windows para ser acessado direto pelo terminal do Linux.
@@ -303,6 +323,8 @@ Isso facilita a troca de arquivos, scripts e códigos entre o Windows e a VM dur
 
 A configuração desse passo está documentada em:
 `docs/windows/06-pastas-compartilhadas.md`
+
+<br></br>
 
 ### Snapshots (Pontos de Restauração) 
 O snapshot funciona como um registro do estado exato da VM em um determinado instante.
@@ -331,6 +353,8 @@ Nota: Snapshots servem para testes e laboratórios, mas não substituem rotinas 
 
 ---
 
+<br></br>
+
 ## Usando a VM para Estudos de DevOps
 
 Com o ambiente Ubuntu pronto e funcional, nossa VM vai servir de base para aprender e exercitar diversas tecnologias de infraestrutura:
@@ -354,6 +378,8 @@ Isso nos permite explorar um ecossistema completo usando apenas um computador pe
 
 ---
 
+<br></br>
+
 ## Criando Ambientes Isolados para Teste
 
 A maior vantagem da virtualização no aprendizado é o isolamento completo do ambiente.
@@ -376,6 +402,8 @@ Windows
 Esse formato dá tranquilidade para explorar configurações complexas e refazer o ambiente quantas vezes forem necessárias.
 
 ---
+
+<br></br>
 
 ## O que Será Construído neste Projeto
 
@@ -411,6 +439,8 @@ Ao final dessa sequência, teremos um laboratório limpo e funcional para os pr�
 
 ---
 
+<br></br>
+
 ## Organização dos Arquivos de Documentação
 
 A estrutura de arquivos do nosso repositório está dividida entre conceitos gerais e os passos práticos por sistema operacional:
@@ -424,9 +454,9 @@ docs/
     └── 02-instalando-virtualbox-e-ubuntu.md
 ```
 
-<br></br>
-
 ---
+
+<br></br>
 
 ## Considerações
 
@@ -435,6 +465,8 @@ O objetivo deste guia não é apenas ensinar a instalar um programa, mas sim aju
 A partir desta VM Ubuntu, será possível simular servidores reais, testar automações e criar documentações de forma organizada.
 
 ---
+
+<br></br>
 
 ## Próximos Passos
 
