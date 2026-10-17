@@ -17,11 +17,68 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço da AWS que fornece servidore
 
 ## Configuração da EC2
 
-### Passo 1. Acessar o painel do EC2
+### Passo 1. Acessar o Painel do EC2
 
-1. Faça login no [AWS Management Console](https://console.aws.amazon.com/).
-2. Na barra de pesquisa no topo da página, digite `EC2` e selecione o serviço correspondente.
-3. No canto superior direito, verifique e selecione a região onde deseja hospedar o servidor, como Norte da Virgínia (`us-east-1`) ou São Paulo (`sa-east-1`).
+1. Acesse o site da AWS [AWS Management Console]([https://console.aws.amazon.com/) e clique no botão, "Faça login no console".
+
+<p align="center"> <img src="images/ec2-img001.png" alt="Acessando o Console da AWS"> </p>
+<p align="right"><i>(Imagem 01: Acessando o Console da AWS)</i>
+  
+<br></br>
+
+2. Na tela de login, clique em "Sign in using root user email".
+
+<p align="center"> <img src="images/ec2-img002.png" alt="Definindo o tipo de usuário"> </p>
+<p align="right"><i>(Imagem 02: Definindo o tipo de usuário para acessar a conta)</i>
+
+<br></br>
+
+3. Nesta parte, Tipo de Usuário (User type), selecione a opção "Root user".
+
+<p align="center"> <img src="images/ec2-img003.png" alt="Tipo de usuário / Root user"> </p>
+<p align="right"><i>(Imagem 03: Tipo de usuário (User type) / Root user)</i>
+
+<br></br>
+
+4. Digite o e-mail cadastrado na AWS com acesso ao Painel de Controle.
+
+<p align="center"> <img src="images/ec2-img004.png" alt="Digite o e-mail de acesso"> </p>
+<p align="right"><i>(Imagem 04: Digite o e-mail de acesso)</i>
+
+<br></br>
+
+5. Digite a senha do e-mail de acesso ao Painel de Controle.
+
+<p align="center"> <img src="images/ec2-img005.png" alt="Digite a senha do e-mail de acesso"> </p>
+<p align="right"><i>(Imagem 05: Digite a senha do e-mail de acesso)</i>
+
+<br></br>
+
+6. Após digitar a senha, clique em "Sign in" para entrar no Painel de Controle AWS.
+
+<p align="center"> <img src="images/ec2-img006.png" alt="Entrando no Painel de Controle AWS"> </p>
+<p align="right"><i>(Imagem 06: Entrando no Painel de Controle AWS)</i>
+
+<br></br>
+
+7. Com o Painel de Controle aberto, agora precisamos acessar a área do EC2 para criar o servidor virtual.
+
+<p align="center"> <img src="images/ec2-img007.png" alt="Painel de Controle AWS"> </p>
+<p align="right"><i>(Imagem 07: Painel de Controle AWS)</i>
+
+<br></br>
+
+8. Na barra de pesquisa no topo da página, digite `EC2` e selecione o serviço correspondente.
+
+<p align="center"> <img src="images/ec2-img008.png" alt="Painel de Controle / Pesquisando EC2"> </p>
+<p align="right"><i>(Imagem 08: Painel de Controle / Pesquisando EC2)</i>
+
+<br></br>
+
+
+# ABAIXO (EM DESENVOLVIMENTO) / TESTES
+
+. No canto superior direito, verifique e selecione a região onde deseja hospedar o servidor, como Norte da Virgínia (`us-east-1`) ou São Paulo (`sa-east-1`).
 
 <br></br>
 
