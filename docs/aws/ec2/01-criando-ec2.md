@@ -23,7 +23,9 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço da AWS que fornece servidore
 
 <p align="center"> <img src="images/ec2-img001.png" alt="Acessando o Console da AWS"> </p>
 <p align="right"><i>(Imagem 01: Acessando o Console da AWS)</i>
-  
+
+---
+
 <br></br>
 
 2. Na tela de login, clique em "Sign in using root user email".
@@ -33,12 +35,16 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço da AWS que fornece servidore
 
 <br></br>
 
+---
+
 3. Nesta parte, Tipo de Usuário (User type), selecione a opção "Root user".
 
 <p align="center"> <img src="images/ec2-img003.png" alt="Tipo de usuário / Root user"> </p>
 <p align="right"><i>(Imagem 03: Tipo de usuário (User type) / Root user)</i>
 
 <br></br>
+
+---
 
 4. Digite o e-mail cadastrado na AWS com acesso ao Painel de Controle.
 
@@ -54,12 +60,16 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço da AWS que fornece servidore
 
 <br></br>
 
+---
+
 6. Após digitar a senha, clique em "Sign in" para entrar no Painel de Controle AWS.
 
 <p align="center"> <img src="images/ec2-img006.png" alt="Entrando no Painel de Controle AWS"> </p>
 <p align="right"><i>(Imagem 06: Entrando no Painel de Controle AWS)</i>
 
 <br></br>
+
+---
 
 7. Com o Painel de Controle aberto, agora precisamos acessar a área do EC2 para criar o servidor virtual.
 
@@ -68,12 +78,16 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço da AWS que fornece servidore
 
 <br></br>
 
+---
+
 8. Na barra de pesquisa no topo da página, digite `EC2` e selecione o serviço correspondente.
 
 <p align="center"> <img src="images/ec2-img008.png" alt="Painel de Controle / Pesquisando EC2"> </p>
 <p align="right"><i>(Imagem 08: Painel de Controle / Pesquisando EC2)</i>
 
 <br></br>
+
+---
 
 
 # ABAIXO (EM DESENVOLVIMENTO) / TESTES
