@@ -6,6 +6,8 @@ Aqui ficam os guias que explicam como montar, configurar e usar uma máquina vir
 
 ---
 
+<br></br>
+
 ## Por que o VirtualBox
 
 O VirtualBox permite rodar um sistema operacional completo dentro do computador físico, de forma isolada, sem precisar formatar a máquina ou alterar o sistema principal.
