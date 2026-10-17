@@ -22,6 +22,8 @@ Isso cria um ambiente seguro para testes. Se algo quebrar, basta recriar a máqu
 
 ---
 
+<br></br>
+
 ## Estrutura dos Documentos
 
 ```
@@ -35,6 +37,8 @@ Cada arquivo cobre uma etapa do laboratório. O número no começo do nome indic
 
 ---
 
+<br></br>
+
 ## Documentos Disponíveis
 
 ### Windows (sistema hospedeiro)
@@ -45,6 +49,8 @@ Cada arquivo cobre uma etapa do laboratório. O número no começo do nome indic
 | [02-instalando-virtualbox-e-ubuntu.md](windows/02-instalando-virtualbox-e-ubuntu.md) | Instalação do VirtualBox, criação da VM e instalação do Ubuntu Server |
 
 ---
+
+<br></br>
 
 ## Documentos Planejados
 
@@ -59,6 +65,8 @@ Conforme o laboratório for evoluindo, novos documentos serão adicionados:
   
 ---
 
+<br></br>
+
 ## Outros sistemas hospedeiros
 
 No momento, o foco é o Windows como sistema principal. Tutoriais para Linux e macOS como host serão adicionados futuramente, mantendo o mesmo padrão de diretórios:
@@ -72,6 +80,8 @@ docs/virtualbox/
 
 ---
 
+<br></br>
+
 ## Como ler
 
 Sugestão de ordem para quem está começando:
@@ -83,6 +93,8 @@ Sugestão de ordem para quem está começando:
 Os documentos foram escritos para serem seguidos em sequência, mas também podem ser consultados separadamente conforme a necessidade.
 
 ---
+
+<br></br>
 
 ## Referências
 
