@@ -7,6 +7,8 @@ Aqui ficam os guias relacionados ao acesso remoto a servidores Linux, autentica�
 
 ---
 
+<br></br>
+
 ## SSH
 
 O SSH permite acessar e administrar um sistema Linux remotamente por meio de uma conexão segura.
@@ -16,6 +18,8 @@ Durante os estudos, ele será utilizado para acessar diferentes ambientes, como 
 A ideia é utilizar o mesmo conhecimento de acesso remoto em ambientes diferentes, praticando conceitos que fazem parte da administração de servidores e ambientes DevOps.
 
 ---
+
+<br></br>
 
 ## Ambientes utilizados
 
@@ -40,6 +44,8 @@ A instância EC2 será utilizada como ambiente na nuvem para os exercícios do c
 
 ---
 
+<br></br>
+
 ## Conteúdos
 
 Os documentos desta seção serão organizados conforme os conceitos forem estudados.
@@ -50,6 +56,8 @@ Os documentos desta seção serão organizados conforme os conceitos forem estud
 
 
 ---
+
+<br></br>
 
 ## Chaves SSH
 
@@ -76,6 +84,8 @@ Depois da configuração, o acesso pode ser realizado utilizando a chave SSH em 
 
 ---
 
+<br></br>
+
 ## SSH no laboratório
 
 No primeiro capítulo do curso, o SSH será utilizado para preparar um ambiente híbrido formado por uma VM local e uma instância EC2 na AWS.
@@ -94,6 +104,8 @@ A configuração será utilizada novamente em capítulos posteriores sempre que 
 
 ---
 
+<br></br>
+
 ## Estrutura dos documentos
 
 ```text
@@ -107,6 +119,8 @@ A numeração indica a ordem em que os assuntos foram documentados durante os es
 A estrutura poderá crescer conforme novos conceitos de SSH forem apresentados no curso.
 
 ---
+
+<br></br>
 
 ## Referências
 
