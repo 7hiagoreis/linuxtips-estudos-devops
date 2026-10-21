@@ -91,7 +91,7 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço da AWS que fornece servidore
 
 <br></br>
 
-9.
+9. Dica: Você pode utilizar as teclas <kdb>Alt</kdb> + <kdb>S</kdb> para ativar o acesso rápido ao menu Pesquisar...
 
 <p align="center"> <img src="images/ec2-img009.png" alt="Painel de Controle / Criando EC2"> </p>
 <p align="right"><i>(Imagem 09: Painel de Controle / Criando EC2)</i>
@@ -100,7 +100,7 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço da AWS que fornece servidore
 
 <br></br>
 
-10.
+10. Clique em EC2 para acessar a parte de criação de servidores virtuais.
 
 <p align="center"> <img src="images/ec2-img010.png" alt="Painel de Controle / Criando EC2"> </p>
 <p align="right"><i>(Imagem 10: Painel de Controle / Criando EC2)</i>
@@ -109,7 +109,7 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço da AWS que fornece servidore
 
 <br></br>
 
-11.
+11. Este é o Painel do Elastic Compute Cloud (EC2), onde podemos criar o servidor virtual na AWS.
 
 <p align="center"> <img src="images/ec2-img011.png" alt="Painel de Controle / Criando EC2"> </p>
 <p align="right"><i>(Imagem 11: Painel de Controle / Criando EC2)</i>
@@ -118,7 +118,7 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço da AWS que fornece servidore
 
 <br></br>
 
-12.
+12. No canto superior direito, verifique e selecione a região onde deseja hospedar o servidor, como Norte da Virgínia (us-east-1) ou São Paulo (sa-east-1).
 
 <p align="center"> <img src="images/ec2-img012.png" alt="Painel de Controle / Criando EC2"> </p>
 <p align="right"><i>(Imagem 12: Painel de Controle / Criando EC2)</i>
@@ -127,7 +127,7 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço da AWS que fornece servidore
 
 <br></br>
 
-13.
+13. Neste laboratório, utilizaremos a região padrão da conta, Ohio (us-east-2).
 
 <p align="center"> <img src="images/ec2-img013.png" alt="Painel de Controle / Criando EC2"> </p>
 <p align="right"><i>(Imagem 13: Painel de Controle / Criando EC2)</i>
@@ -136,7 +136,9 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço da AWS que fornece servidore
 
 <br></br>
 
-14.
+### Passo 2. Acessar o Painel do EC2
+
+1. No painel do EC2, clique em Executar instância (Launch instance).
 
 <p align="center"> <img src="images/ec2-img014.png" alt="Painel de Controle / Criando EC2"> </p>
 <p align="right"><i>(Imagem 14: Painel de Controle / Criando EC2)</i>
@@ -145,7 +147,7 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço da AWS que fornece servidore
 
 <br></br>
 
-15.
+2. Em Guia oficial da AWS, pularemos esta etapa. Este guia é recomendado para novas contas na AWS.
 
 <p align="center"> <img src="images/ec2-img015.png" alt="Painel de Controle / Criando EC2"> </p>
 <p align="right"><i>(Imagem 15: Painel de Controle / Criando EC2)</i>
@@ -154,7 +156,7 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço da AWS que fornece servidore
 
 <br></br>
 
-16.
+3. Para ignorar a etapa do Guia oficial da AWS, clique em "Launch without a walkthrough"
 
 <p align="center"> <img src="images/ec2-img016.png" alt="Painel de Controle / Criando EC2"> </p>
 <p align="right"><i>(Imagem 16: Painel de Controle / Criando EC2)</i>
@@ -163,7 +165,18 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço da AWS que fornece servidore
 
 <br></br>
 
-17.
+### Passo 3. Configurar os atributos principais
+
+1. Preencha as seções do assistente de criação conforme as orientações abaixo.
+
+| Seção | O que selecionar ou preencher | Observações |
+|---|---|---|
+| Nome e tags | Informe um nome para identificar a máquina, como `MeuServidor-DevOps`. | Ajuda na organização dos recursos. |
+| Imagens de aplicativos e sistema operacional (AMI) | Selecione o sistema operacional desejado, como Ubuntu ou Amazon Linux. | Verifique as imagens disponíveis e as condições de elegibilidade para o plano da AWS. |
+| Tipo de instância | Selecione `t3.micro` ou a instancia disponível no Free Tier | A disponibilidade e as condições de cobrança dependem da região e do plano da conta. |
+| Par de chaves (login) | Clique em **Criar novo par de chaves**, informe um nome e selecione o tipo de chave e o formato do arquivo. | Use `.pem` para OpenSSH ou `.ppk` para PuTTY. Guarde a chave privada em local seguro, pois ela não poderá ser baixada novamente. |
+
+<br></br>
 
 <p align="center"> <img src="images/ec2-img017.png" alt="Painel de Controle / Criando EC2"> </p>
 <p align="right"><i>(Imagem 17: Painel de Controle / Criando EC2)</i>
@@ -172,7 +185,7 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço da AWS que fornece servidore
 
 <br></br>
 
-18.
+2. No campo `Name and tags`, defina o nome da sua instância. Neste exemplo, nome da instância é `MeuServidor-DevOps`.
 
 <p align="center"> <img src="images/ec2-img018.png" alt="Painel de Controle / Criando EC2"> </p>
 <p align="right"><i>(Imagem 18: Painel de Controle / Criando EC2)</i>
@@ -183,16 +196,16 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço da AWS que fornece servidore
 
 ---
 
-19.
+3. Selecione a imagem do sistema operacional que será instalado na instância. Neste exemplo, foi selecionado o Ubuntu Server.
 
-<p align="center"> <img src="images/ec2-img019.png" alt="Painel de Controle / Criando EC2"> </p>
-<p align="right"><i>(Imagem 19: Painel de Controle / Criando EC2)</i>
+<p align="center"> <img src="images/ec2-img019.png" alt="Selecionando a imagem do sistema operacional"> </p>
+<p align="right"><i>(Imagem 19: Selecionando a imagem do sistema operacional)</i>
 
 ---
 
 <br></br>
 
-20.
+4. Em Tipo de Instância (Instance type), é possível escolher as configurações do servidor virtual e consultar os custos da infraestrutura.
 
 <p align="center"> <img src="images/ec2-img020.png" alt="Painel de Controle / Criando EC2"> </p>
 <p align="right"><i>(Imagem 20: Painel de Controle / Criando EC2)</i>
@@ -201,16 +214,16 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço da AWS que fornece servidore
 
 <br></br>
 
-21.
+5. Para este exemplo, iremos utilizar a instância `t3.micro` (disponível no plano Free Tier).
 
-<p align="center"> <img src="images/ec2-img021.png" alt="Painel de Controle / Criando EC2"> </p>
-<p align="right"><i>(Imagem 21: Painel de Controle / Criando EC2)</i>
+<p align="center"> <img src="images/ec2-img021.png" alt="Definindo a Instância / Criando EC2> </p>
+<p align="right"><i>(Imagem 21: Definindo a Instância / Criando EC2)</i>
 
 ---
 
 <br></br>
 
-22.
+6. Key pair (login): Permite criar Par de chaves para acesso a instância EC2. 
 
 <p align="center"> <img src="images/ec2-img022.png" alt="Painel de Controle / Criando EC2"> </p>
 <p align="right"><i>(Imagem 22: Painel de Controle / Criando EC2)</i>
@@ -219,7 +232,7 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço da AWS que fornece servidore
 
 <br></br>
 
-23.
+7. Clique em  <kdb>Create new key par</kdb> (Criar novo par de chaves). 
 
 <p align="center"> <img src="images/ec2-img023.png" alt="Painel de Controle / Criando EC2"> </p>
 <p align="right"><i>(Imagem 23: Painel de Controle / Criando EC2)</i>
@@ -228,7 +241,7 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço da AWS que fornece servidore
 
 <br></br>
 
-24.
+8. A tela exibida a seguir é a "Create key par", nesta etapa é possível definir o tipo de chave e formato.
 
 <p align="center"> <img src="images/ec2-img024.png" alt="Painel de Controle / Criando EC2"> </p>
 <p align="right"><i>(Imagem 24: Painel de Controle / Criando EC2)</i>
@@ -237,7 +250,7 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço da AWS que fornece servidore
 
 <br></br>
 
-25.
+9.
 
 <p align="center"> <img src="images/ec2-img025.png" alt="Painel de Controle / Criando EC2"> </p>
 <p align="right"><i>(Imagem 25: Painel de Controle / Criando EC2)</i>
@@ -246,7 +259,7 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço da AWS que fornece servidore
 
 <br></br>
 
-26.
+10.
 
 <p align="center"> <img src="images/ec2-img026.png" alt="Painel de Controle / Criando EC2"> </p>
 <p align="right"><i>(Imagem 26: Painel de Controle / Criando EC2)</i>
@@ -338,8 +351,6 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço da AWS que fornece servidore
 
 
 # ABAIXO (EM DESENVOLVIMENTO) / TESTES
-
-. No canto superior direito, verifique e selecione a região onde deseja hospedar o servidor, como Norte da Virgínia (`us-east-1`) ou São Paulo (`sa-east-1`).
 
 <br></br>
 
