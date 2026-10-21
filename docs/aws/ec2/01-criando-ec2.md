@@ -91,7 +91,7 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço da AWS que fornece servidore
 
 <br></br>
 
-9. Dica: Você pode utilizar as teclas <kdb>Alt</kdb> + <kdb>S</kdb> para ativar o acesso rápido ao menu Pesquisar...
+9. Dica: Você pode utilizar as teclas <kbd>Alt</kbd> + <kbd>S</kbd> para ativar o acesso rápido ao menu Pesquisar...
 
 <p align="center"> <img src="images/ec2-img009.png" alt="Painel de Controle / Criando EC2"> </p>
 <p align="right"><i>(Imagem 09: Painel de Controle / Criando EC2)</i>
@@ -118,7 +118,7 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço da AWS que fornece servidore
 
 <br></br>
 
-12. No canto superior direito, verifique e selecione a região onde deseja hospedar o servidor, como Norte da Virgínia (us-east-1) ou São Paulo (sa-east-1).
+12. No canto superior direito, verifique e selecione a região onde deseja hospedar o servidor, como Norte da Virgínia `(us-east-1)` ou São Paulo `(sa-east-1)`.
 
 <p align="center"> <img src="images/ec2-img012.png" alt="Painel de Controle / Criando EC2"> </p>
 <p align="right"><i>(Imagem 12: Painel de Controle / Criando EC2)</i>
@@ -127,7 +127,7 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço da AWS que fornece servidore
 
 <br></br>
 
-13. Neste laboratório, utilizaremos a região padrão da conta, Ohio (us-east-2).
+13. Neste laboratório, utilizaremos a região padrão da conta, Ohio `(us-east-2)`.
 
 <p align="center"> <img src="images/ec2-img013.png" alt="Painel de Controle / Criando EC2"> </p>
 <p align="right"><i>(Imagem 13: Painel de Controle / Criando EC2)</i>
@@ -196,7 +196,7 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço da AWS que fornece servidore
 
 ---
 
-3. Selecione a imagem do sistema operacional que será instalado na instância. Neste exemplo, foi selecionado o Ubuntu Server.
+3. Selecione a imagem do sistema operacional que será instalado na instância. Neste exemplo, foi selecionado o `Ubuntu Server`.
 
 <p align="center"> <img src="images/ec2-img019.png" alt="Selecionando a imagem do sistema operacional"> </p>
 <p align="right"><i>(Imagem 19: Selecionando a imagem do sistema operacional)</i>
@@ -232,7 +232,7 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço da AWS que fornece servidore
 
 <br></br>
 
-7. Clique em  <kdb>Create new key par</kdb> (Criar novo par de chaves). 
+7. Clique em <kbd>Create new key par</kbd> (Criar novo par de chaves). 
 
 <p align="center"> <img src="images/ec2-img023.png" alt="Painel de Controle / Criando EC2"> </p>
 <p align="right"><i>(Imagem 23: Painel de Controle / Criando EC2)</i>
@@ -250,7 +250,15 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço da AWS que fornece servidore
 
 <br></br>
 
-9.
+9. Em Key pair name, defina um nome para a sua chave. Mantemos as configurações, apenas definindo um nome para a chave.
+
+Exemplo:
+
+Key pair name = nomedasuachave-ec2
+Key pair type = RSA
+Private Key file format = .pem
+
+Definida as configurações da chave, clique em "Create key pair"
 
 <p align="center"> <img src="images/ec2-img025.png" alt="Painel de Controle / Criando EC2"> </p>
 <p align="right"><i>(Imagem 25: Painel de Controle / Criando EC2)</i>
@@ -259,7 +267,18 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço da AWS que fornece servidore
 
 <br></br>
 
-10.
+10. Network settings (Configurações de Rede), aqui mantemos as configurações padrão para a criação de rede. Habilitando apenas a opção Allow SSH traffic from, de acordo com a imagem a seguir.
+
+Os grupos de segurança funcionam como um firewall virtual, controlando o tráfego de entrada e saída da instância.
+
+| Configuração | Opção recomendada | Finalidade |
+|---|---|---|
+| Grupo de segurança | Crie um novo grupo ou selecione um existente. | Define as regras de acesso à instância. |
+| Tráfego SSH (porta 22) | Selecione **Meu IP**. | Permite o acesso remoto ao terminal a partir do endereço IP autorizado. |
+| Tráfego HTTP/HTTPS | Habilite as portas 80 e 443 somente se necessário. | Permite o acesso a serviços web. |
+
+Evite liberar o SSH para qualquer endereço IP (`0.0.0.0/0`) sem necessidade, pois isso expõe a porta de acesso remoto à internet.
+
 
 <p align="center"> <img src="images/ec2-img026.png" alt="Painel de Controle / Criando EC2"> </p>
 <p align="right"><i>(Imagem 26: Painel de Controle / Criando EC2)</i>
@@ -268,7 +287,7 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço da AWS que fornece servidore
 
 <br></br>
 
-27.
+11. Em "Configure storage" é possível definir os discos virtuais e o tipo de volume para a instância.
 
 <p align="center"> <img src="images/ec2-img027.png" alt="Painel de Controle / Criando EC2"> </p>
 <p align="right"><i>(Imagem 27: Painel de Controle / Criando EC2)</i>
@@ -277,7 +296,9 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço da AWS que fornece servidore
 
 <br></br>
 
-28.
+12. Neste laboratório, optamos por utilizar o disco padrão de acordo com o plano gratuito (Free Tier). Confira as condições de armazenamento inclusas no plano da AWS antes de iniciar a instância. 
+
+Os limites e as condições de gratuidade podem variar conforme a data de criação da conta e o plano disponível. Verifique os valores atuais para evitar cobranças inesperadas.
 
 <p align="center"> <img src="images/ec2-img028.png" alt="Painel de Controle / Criando EC2"> </p>
 <p align="right"><i>(Imagem 28: Painel de Controle / Criando EC2)</i>
@@ -286,7 +307,11 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço da AWS que fornece servidore
 
 <br></br>
 
-29.
+### Passo 4. Revisar e executar a instância
+
+1. Nesta parte, podemos ver o resumo da nossa instância antes de prosseguir. A aba "Advanced details" (Detalhes Avançados) não será explorada nesta documentação, visto que é apenas um laboratório para iniciantes, escolhendo sempre o padrão e o básico para criar a instância EC2. 
+
+Com as informações revisadas e tudo certo com a configuração, clique em "Launch instance"
 
 <p align="center"> <img src="images/ec2-img029.png" alt="Painel de Controle / Criando EC2"> </p>
 <p align="right"><i>(Imagem 29: Painel de Controle / Criando EC2)</i>
@@ -295,7 +320,7 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço da AWS que fornece servidore
 
 <br></br>
 
-30.
+2. Aguarde enquanto o sistema carrega a instância...
 
 <p align="center"> <img src="images/ec2-img030.png" alt="Painel de Controle / Criando EC2"> </p>
 <p align="right"><i>(Imagem 30: Painel de Controle / Criando EC2)</i>
@@ -304,7 +329,7 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço da AWS que fornece servidore
 
 <br></br>
 
-31.
+3. Pronto! A instancia foi inicializada.
 
 <p align="center"> <img src="images/ec2-img031.png" alt="Painel de Controle / Criando EC2"> </p>
 <p align="right"><i>(Imagem 31: Painel de Controle / Criando EC2)</i>
@@ -313,7 +338,7 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço da AWS que fornece servidore
 
 <br></br>
 
-32.
+4. 
 
 <p align="center"> <img src="images/ec2-img032.png" alt="Painel de Controle / Criando EC2"> </p>
 <p align="right"><i>(Imagem 32: Painel de Controle / Criando EC2)</i>
@@ -322,7 +347,7 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço da AWS que fornece servidore
 
 <br></br>
 
-33.
+5.
 
 <p align="center"> <img src="images/ec2-img033.png" alt="Painel de Controle / Criando EC2"> </p>
 <p align="right"><i>(Imagem 33: Painel de Controle / Criando EC2)</i>
@@ -331,7 +356,7 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço da AWS que fornece servidore
 
 <br></br>
 
-34.
+6.
 
 <p align="center"> <img src="images/ec2-img034.png" alt="Painel de Controle / Criando EC2"> </p>
 <p align="right"><i>(Imagem 34: Painel de Controle / Criando EC2)</i>
@@ -340,7 +365,7 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço da AWS que fornece servidore
 
 <br></br>
 
-35.
+7.
 
 <p align="center"> <img src="images/ec2-img035.png" alt="Painel de Controle / Criando EC2"> </p>
 <p align="right"><i>(Imagem 35: Painel de Controle / Criando EC2)</i>
@@ -354,53 +379,6 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço da AWS que fornece servidore
 
 <br></br>
 
-### Passo 2. Iniciar a criação da instância
-
-1. No painel do EC2, clique em **Executar instância** (*Launch instance*).
-
-<br></br>
-
-### Passo 3. Configurar os atributos principais
-
-Preencha as seções do assistente de criação conforme as orientações abaixo.
-
-| Seção | O que selecionar ou preencher | Observações |
-|---|---|---|
-| Nome e tags | Informe um nome para identificar a máquina, como `MeuServidor-DevOps`. | Ajuda na organização dos recursos. |
-| Imagens de aplicativos e sistema operacional (AMI) | Selecione o sistema operacional desejado, como Ubuntu ou Amazon Linux. | Verifique as imagens disponíveis e as condições de elegibilidade para o plano da AWS. |
-| Tipo de instância | Selecione `t3.micro` ou a instancia disponível no Free Tier | A disponibilidade e as condições de cobrança dependem da região e do plano da conta. |
-| Par de chaves (login) | Clique em **Criar novo par de chaves**, informe um nome e selecione o tipo de chave e o formato do arquivo. | Use `.pem` para OpenSSH ou `.ppk` para PuTTY. Guarde a chave privada em local seguro, pois ela não poderá ser baixada novamente. |
-
-<br></br>
-
-### Passo 4. Configurar a rede e o grupo de segurança
-
-Os grupos de segurança funcionam como um firewall virtual, controlando o tráfego de entrada e saída da instância.
-
-| Configuração | Opção recomendada | Finalidade |
-|---|---|---|
-| Grupo de segurança | Crie um novo grupo ou selecione um existente. | Define as regras de acesso à instância. |
-| Tráfego SSH (porta 22) | Selecione **Meu IP**. | Permite o acesso remoto ao terminal a partir do endereço IP autorizado. |
-| Tráfego HTTP/HTTPS | Habilite as portas 80 e 443 somente se necessário. | Permite o acesso a serviços web. |
-
-Evite liberar o SSH para qualquer endereço IP (`0.0.0.0/0`) sem necessidade, pois isso expõe a porta de acesso remoto à internet.
-
-<br></br>
-
-### Passo 5. Configurar o armazenamento (volumes EBS)
-
-1. Defina o tamanho do disco virtual e o tipo de volume.
-2. Confira as condições de armazenamento incluídas no plano da AWS antes de iniciar a instância.
-
-Os limites e as condições de gratuidade podem variar conforme a data de criação da conta e o plano disponível. Verifique os valores atuais para evitar cobranças inesperadas.
-
-<br></br>
-
-### Passo 6. Revisar e executar a instância
-
-1. No painel de resumo, confirme as configurações e selecione uma instância.
-2. Clique em **Executar instância** (*Launch instance*).
-3. Após a confirmação, clique em **Visualizar todas as instâncias** para acompanhar o estado da máquina.
 
 ---
 
