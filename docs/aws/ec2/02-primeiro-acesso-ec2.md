@@ -36,6 +36,8 @@ Na tela de detalhes, localize as seguintes informações:
 | AMI | Imagem do sistema operacional instalado |
 | Key pair name | Nome do par de chaves selecionado na criação |
 
+<br></br>
+
 O endereço IPv4 público será utilizado na configuração do PuTTY.
 
 <p align="center"> <img src="images/acesso-ec2-img001.png" alt="Painel de Controle EC2"> </p>
