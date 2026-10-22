@@ -77,23 +77,33 @@ A chave privada deve permanecer protegida. Somente a chave pública, identificad
 
 <br></br>
 
-## 4. Transferir a chave privada da AWS para a VM
+## 4. Preparar a chave privada da AWS na VM
 
-A chave `.pem` selecionada durante a criação da EC2 será utilizada para autenticar o primeiro acesso a partir da VM.
+A chave privada `.pem`, selecionada durante a criação da instância EC2, já está disponível na VM Ubuntu Server e será utilizada para autenticar o primeiro acesso.
 
-Transfira o arquivo da chave privada do Windows para a VM por um método seguro. Evite armazená-la em diretórios públicos ou em repositórios Git.
+Considere que o arquivo esteja localizado em `~/chaves/chave-aws.pem`. Ajuste o caminho e o nome conforme a localização real do arquivo.
 
-Considere que o arquivo foi transferido para `~/chaves/chave-aws.pem`. Ajuste o caminho e o nome conforme o local utilizado:
+Crie o diretório SSH, caso ainda não exista:
 
 ```bash
 mkdir -p ~/.ssh
+```
+
+Copie a chave privada para o diretório SSH:
+
+```bash
 cp ~/chaves/chave-aws.pem ~/.ssh/
+```
+
+Restrinja as permissões do arquivo:
+
+```bash
 chmod 400 ~/.ssh/chave-aws.pem
 ```
 
-O comando `chmod 400` restringe a leitura do arquivo ao proprietário.
+O comando `chmod 400` permite que somente o proprietário leia a chave privada.
 
-**Importante:** Nunca publique ou compartilhe a chave privada `.pem`.
+**Importante:** Nunca publique ou compartilhe a chave privada `.pem` em repositórios Git ou outros locais públicos.
 
 ---
 
