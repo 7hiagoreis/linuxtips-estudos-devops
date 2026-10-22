@@ -12,6 +12,10 @@ Antes de iniciar, é necessário ter:
 - O PuTTY e o PuTTYgen instalados no Windows.
 - Uma regra de entrada no Security Group permitindo SSH pela porta `22`, preferencialmente restrita ao IP público do computador utilizado para o acesso.
 
+---
+
+<br></br>
+
 ## 2. Consultar os dados da instância
 
 Acesse o [console da AWS](https://console.aws.amazon.com/) e navegue até:
@@ -30,24 +34,114 @@ Na tela de detalhes, localize as seguintes informações:
 
 O endereço IPv4 público será utilizado na configuração do PuTTY.
 
+<p align="center"> <img src="images/acesso-ec2-img001.png" alt="Painel de Controle EC2"> </p>
+<p align="right"><i>(Imagem 01: Painel de Controle EC2 / Instâncias)</i>
+
+---
+
+<br></br>
+
 ## 3. Converter a chave PEM para PPK
 
 O PuTTY utiliza normalmente o formato `.ppk` para autenticação por chave privada. Caso a versão instalada não aceite diretamente o arquivo `.pem`, será necessário convertê-lo utilizando o PuTTYgen.
 
 1. Abra o PuTTYgen.
-2. Clique em **Load**.
-3. Selecione o arquivo `.pem` baixado durante a criação da instância.
-4. Caso necessário, altere o filtro de arquivos para exibir todos os tipos.
-5. Após carregar a chave, clique em **Save private key**.
-6. Salve o arquivo no formato `.ppk`.
+
+<p align="center"> <img src="images/acesso-ec2-img002.png" alt="Tela principal do PuTTYgen"> </p>
+<p align="right"><i>(Imagem 02: PuTTYgen / Tela Principal)</i>
+
+---
+
+<br></br>
+
+
+2. Clique em **Load** para carregar a chave privada.
+
+<p align="center"> <img src="images/acesso-ec2-img003.png" alt="Carregando a chave privada no PuTTYgen"> </p>
+<p align="right"><i>(Imagem 03: Carregando a chave privada no PuTTYgen)</i>
+
+---
+
+<br></br>
+
+3. No canto  inferior direito da janela, altere o filtro de arquivos para exibir todos os tipos. 
+
+<p align="center"> <img src="images/acesso-ec2-img004.png" alt="Alterando o filtro de arquivos"> </p>
+<p align="right"><i>(Imagem 04: Alterando o filtro de arquivos)</i>
+
+---
+
+<br></br>
+
+4. Navegue até a pasta onde foi salva a chave e selecione o arquivo com a extensão `.pem` que foi baixado durante a criação da instância. Após selecionar a chave, clique em <kbd>Abrir</kbd>
+
+<p align="center"> <img src="images/acesso-ec2-img005.png" alt="Selecionando a chave privada"> </p>
+<p align="right"><i>(Imagem 05: Selecionando a chave privada)</i>
+
+---
+
+<br></br>
+
+5. O PuTTYgen vai confirmar se a chave privada foi importada. Clique em <kbd>OK</kbd> para continuar...
+
+<p align="center"> <img src="images/acesso-ec2-img006.png" alt="Alterando o filtro de arquivos"> </p>
+<p align="right"><i>(Imagem 06: Alterando o filtro de arquivos)</i>
+
+---
+
+<br></br>
+
+6. Com a importação da chave privada para o PuTTYgen, é possível definir uma senha (passphrase) para acesso a chave.
+
+<p align="center"> <img src="images/acesso-ec2-img007.png" alt="PuTTYgen com chave privada importada"> </p>
+<p align="right"><i>(Imagem 07: PuTTYgen com chave privada importada")</i>
+
+---
+
+<br></br>
+
+7. Neste exemplo foi definada a passphrase, se preferir, pode continuar o processo sem senha (passphrase).
+
+<p align="center"> <img src="images/acesso-ec2-img008.png" alt="Definindo a passphrase no PuTTYgen"> </p>
+<p align="right"><i>(Imagem 08: Definindo a passphrase no PuTTYgen / Chave Privada")</i>
+
+---
+
+<br></br>
+
+8. Após carregar a chave, clique em **Save private key**.
+
+<p align="center"> <img src="images/acesso-ec2-img009.png" alt="Definindo a passphrase no PuTTYgen"> </p>
+<p align="right"><i>(Imagem 09: Definindo a passphrase no PuTTYgen / Chave Privada")</i>
+
+---
+
+<br></br>
+
+9. Defina um nome para a chave e salve no formato `.ppk`.
+
+<p align="center"> <img src="images/acesso-ec2-img010.png" alt="Salvando a chave"> </p>
+<p align="right"><i>(Imagem 10: Salvando a chave")</i>
 
 Guarde a chave privada em um local seguro. Ela não deve ser compartilhada nem enviada para repositórios no GitHub.
+
+---
+
+<br></br>
+
 
 ## 4. Configurar o PuTTY
 
 Abra o PuTTY e configure os parâmetros da conexão.
 
-### 4.1. Informar o endereço da instância
+<p align="center"> <img src="images/acesso-ec2-img011.png" alt="Tela principal do PuTTY"> </p>
+<p align="right"><i>(Imagem 11: Tela principal do PuTTY")</i>
+
+---
+
+<br></br>
+
+### Informar o endereço da instância
 
 Na categoria **Session**, preencha:
 
@@ -57,21 +151,70 @@ Na categoria **Session**, preencha:
 
 Para uma instância Ubuntu Server, o formato do endereço será:
 
-`ubuntu@IP_PUBLICO_DA_EC2`
+`IP_PUBLICO_DA_EC2`
 
 Substitua `IP_PUBLICO_DA_EC2` pelo endereço real da instância.
 
 
+<p align="center"> <img src="images/acesso-ec2-img012.png" alt="Configuração do PuTTY"> </p>
+<p align="right"><i>(Imagem 12: Configuração do PuTTY")</i>
 
-### 4.2. Selecionar a chave privada
+---
+
+<br></br>
+
+
+### Selecionar a chave privada
 
 No menu lateral, navegue até:
 
 **Connection → SSH → Auth → Credentials**
 
-No campo de arquivo da chave privada, selecione o arquivo `.ppk` gerado anteriormente.
+
+<p align="center"> <img src="images/acesso-ec2-img013.png" alt="Configurando credenciais no PuTTY"> </p>
+<p align="right"><i>(Imagem 13: Configurando credenciais no PuTTY")</i>
+
+---
+
+<br></br>
+
+No campo de arquivo da chave privada, clique em <kbd>Browse</kbd> 
+
+<p align="center"> <img src="images/acesso-ec2-img014.png" alt="Configurando credenciais no PuTTY"> </p>
+<p align="right"><i>(Imagem 14: Configurando credenciais no PuTTY")</i>
+
+---
+
+<br></br>
+
+
+Selecione o arquivo `.ppk` gerado anteriormente e clique em <kbd>Abrir</kbd>
+
+<p align="center"> <img src="images/acesso-ec2-img015.png" alt="Configurando credenciais no PuTTY"> </p>
+<p align="right"><i>(Imagem 15: Configurando credenciais no PuTTY")</i>
+
+---
+
+<br></br>
+
+Feito isso o caminho da chave no sistema operacional vai aparecer no campo "Private key file for authentication"
+
+<p align="center"> <img src="images/acesso-ec2-img016.png" alt="Configurando credenciais no PuTTY"> </p>
+<p align="right"><i>(Imagem 16: Configurando credenciais no PuTTY")</i>
+
+---
+
+<br></br>
 
 Volte à categoria **Session** para iniciar a conexão.
+
+<p align="center"> <img src="images/acesso-ec2-img017.png" alt="Tela principal do PuTTY"> </p>
+<p align="right"><i>(Imagem 17: Tela principal do PuTTY / Session")</i>
+
+---
+
+<br></br>
+
 
 ## 5. Realizar o primeiro acesso
 
