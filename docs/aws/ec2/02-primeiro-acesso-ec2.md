@@ -38,7 +38,7 @@ Na tela de detalhes, localize as seguintes informações:
 
 <br></br>
 
-O endereço IPv4 público será utilizado na configuração do PuTTY.
+O endereço IPv4 público será utilizado na configuração do PuTTY. Neste exemplo o endereço IP da instância é `3.145.4.156`
 
 <p align="center"> <img src="images/acesso-ec2-img001.png" alt="Painel de Controle EC2"> </p>
 <p align="right"><i>(Imagem 01: Painel de Controle EC2 / Instâncias)</i>
