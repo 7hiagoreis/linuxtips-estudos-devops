@@ -151,7 +151,7 @@ Abra o PuTTY e configure os parâmetros da conexão.
 
 Na categoria **Session**, preencha:
 
-- **Host Name (or IP address):** usuário SSH seguido do endereço IPv4 público.
+- **Host Name (or IP address):** endereço IPv4 público da instância.
 - **Port:** `22`.
 - **Connection type:** `SSH`.
 
