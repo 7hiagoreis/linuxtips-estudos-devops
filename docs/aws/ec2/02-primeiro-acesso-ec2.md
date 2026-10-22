@@ -2,6 +2,10 @@
 
 Este documento apresenta os procedimentos para realizar o primeiro acesso a uma instância Amazon EC2 utilizando o PuTTY no Windows, com autenticação por chave SSH.
 
+---
+
+<br></br>
+
 ## 1. Pré-requisitos
 
 Antes de iniciar, é necessário ter:
