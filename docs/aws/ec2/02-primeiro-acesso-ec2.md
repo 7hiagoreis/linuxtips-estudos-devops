@@ -61,7 +61,7 @@ O PuTTY utiliza normalmente o formato `.ppk` para autenticação por chave priva
 <br></br>
 
 
-2. Clique em **Load** para carregar a chave privada.
+2. Clique em <kbd>Load</kbd> para carregar a chave privada.
 
 <p align="center"> <img src="images/acesso-ec2-img003.png" alt="Carregando a chave privada no PuTTYgen"> </p>
 <p align="right"><i>(Imagem 03: Carregando a chave privada no PuTTYgen)</i>
@@ -115,7 +115,7 @@ O PuTTY utiliza normalmente o formato `.ppk` para autenticação por chave priva
 
 <br></br>
 
-8. Após carregar a chave, clique em **Save private key**.
+8. Após carregar a chave, clique em <kbd>Save private key</kbd>.
 
 <p align="center"> <img src="images/acesso-ec2-img009.png" alt="Definindo a passphrase no PuTTYgen"> </p>
 <p align="right"><i>(Imagem 09: Definindo a passphrase no PuTTYgen / Chave Privada")</i>
@@ -224,7 +224,7 @@ Volte à categoria **Session** para iniciar a conexão.
 
 ## 5. Realizar o primeiro acesso
 
-Clique em **Open** para abrir a sessão SSH.
+Clique no botão <kbd>Open</kbd> para abrir a sessão SSH.
 
 Na primeira conexão, o PuTTY poderá exibir um aviso sobre a chave de identificação do servidor. Confira a impressão digital (*fingerprint*) por um meio confiável antes de aceitar. Essa chave identifica o servidor remoto e é diferente da chave privada utilizada para autenticação.
 
@@ -235,7 +235,7 @@ Na primeira conexão, o PuTTY poderá exibir um aviso sobre a chave de identific
 
 <br></br>
 
-Clique em <kbd>Accept</kbd> para autorizar a conexão
+Clique em <kbd>Accept</kbd> para autorizar a conexão.
 
 <p align="center"> <img src="images/acesso-ec2-img019.png" alt="Primeiro acesso ao EC2 com PuTTY"> </p>
 <p align="right"><i>(Imagem 19: Primeiro acesso ao EC2 com PuTTY)</i>
