@@ -6,6 +6,8 @@ O processo utiliza o comando `ssh-copy-id` para instalar uma chave pública SSH 
 
 ---
 
+<br></br>
+
 ## 1. Pré-requisitos
 
 Antes de iniciar, é necessário ter:
@@ -18,6 +20,8 @@ Antes de iniciar, é necessário ter:
 - Acesso a internet a partir da VM Ubuntu Server.
 
 ---
+
+<br></br>
 
 ## 2. Verificar o cliente SSH
 
@@ -44,6 +48,8 @@ sudo apt install openssh-client
 
 ---
 
+<br></br>
+
 ## 3. Verificar as chaves SSH da VM
 
 Liste os arquivos existentes no diretório SSH do usuário:
@@ -69,6 +75,8 @@ A chave privada deve permanecer protegida. Somente a chave pública, identificad
 
 ---
 
+<br></br>
+
 ## 4. Transferir a chave privada da AWS para a VM
 
 A chave `.pem` selecionada durante a criação da EC2 será utilizada para autenticar o primeiro acesso a partir da VM.
@@ -88,6 +96,8 @@ O comando `chmod 400` restringe a leitura do arquivo ao proprietário.
 **Importante:** Nunca publique ou compartilhe a chave privada `.pem`.
 
 ---
+
+<br></br>
 
 ## 5. Acesso inicial à EC2
 
@@ -109,6 +119,8 @@ exit
 
 ---
 
+<br></br>
+
 ## 6. Instalar a chave pública da VM na EC2
 
 Com o acesso inicial validado, execute na VM Ubuntu Server:
@@ -128,6 +140,8 @@ O comando utiliza a chave privada da AWS para autenticar a conexão inicial e in
 Caso seja solicitada uma confirmação da identidade do servidor, confira a chave apresentada antes de aceitar.
 
 ---
+
+<br></br>
 
 ## 7. Testar o acesso com a chave pessoal
 
@@ -152,6 +166,8 @@ exit
 ```
 
 ---
+
+<br></br>
 
 ## 8. Configurar um alias SSH
 
@@ -191,6 +207,8 @@ O alias permite utilizar um nome curto para a conexão, sem precisar informar o 
 
 ---
 
+<br></br>
+
 ## 9. Observações de segurança
 
 - Nunca compartilhe ou publique chaves privadas `.pem` ou `id_ed25519`.
@@ -201,6 +219,8 @@ O alias permite utilizar um nome curto para a conexão, sem precisar informar o 
 - Para instâncias Amazon Linux, o usuário padrão geralmente é `ec2-user`, em vez de `ubuntu`.
 
 ---
+
+<br></br>
 
 ## Referências
 
