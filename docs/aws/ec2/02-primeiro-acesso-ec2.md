@@ -209,7 +209,7 @@ Feito isso o caminho da chave no sistema operacional vai aparecer no campo "Priv
 Volte à categoria **Session** para iniciar a conexão.
 
 <p align="center"> <img src="images/acesso-ec2-img017.png" alt="Tela principal do PuTTY"> </p>
-<p align="right"><i>(Imagem 17: Tela principal do PuTTY / Session")</i>
+<p align="right"><i>(Imagem 17: Tela principal do PuTTY / Session)</i>
 
 ---
 
@@ -222,7 +222,50 @@ Clique em **Open** para abrir a sessão SSH.
 
 Na primeira conexão, o PuTTY poderá exibir um aviso sobre a chave de identificação do servidor. Confira a impressão digital (*fingerprint*) por um meio confiável antes de aceitar. Essa chave identifica o servidor remoto e é diferente da chave privada utilizada para autenticação.
 
-Após a conexão, o terminal solicitará a autenticação por chave. Com a configuração correta, o acesso será realizado sem a necessidade de informar uma senha de usuário.
+<p align="center"> <img src="images/acesso-ec2-img018.png" alt="Primeiro acesso ao EC2 com PuTTY"> </p>
+<p align="right"><i>(Imagem 18: Primeiro acesso ao EC2 com PuTTY)</i>
+
+---
+
+<br></br>
+
+Clique em <kbd>Accept</kbd> para autorizar a conexão
+
+<p align="center"> <img src="images/acesso-ec2-img019.png" alt="Primeiro acesso ao EC2 com PuTTY"> </p>
+<p align="right"><i>(Imagem 19: Primeiro acesso ao EC2 com PuTTY)</i>
+
+---
+
+<br></br>
+
+Digite o nome de usuário e pressione <kbd>Enter</kbd>, neste exemplo o nome de usuário é: ubuntu
+
+<p align="center"> <img src="images/acesso-ec2-img020.png" alt="Primeiro acesso ao EC2 com PuTTY"> </p>
+<p align="right"><i>(Imagem 20: Primeiro acesso ao EC2 com PuTTY)</i>
+
+---
+
+<br></br>
+
+Em seguida, é necessário digitar a senha (passpharse) para acesso a chave privada.
+
+<p align="center"> <img src="images/acesso-ec2-img022.png" alt="Primeiro acesso ao EC2 com PuTTY"> </p>
+<p align="right"><i>(Imagem 21: Primeiro acesso ao EC2 com PuTTY)</i>
+
+---
+
+<br></br>
+
+Pronto! O acesso a instancia EC2 foi realizado com sucesso! Após a conexão, o terminal solicitará a autenticação por chave. Com a configuração correta, o acesso será realizado sem a necessidade de informar uma senha de usuário.
+
+<p align="center"> <img src="images/acesso-ec2-img023.png" alt="Primeiro acesso ao EC2 com PuTTY"> </p>
+<p align="right"><i>(Imagem 22: Primeiro acesso ao EC2 com PuTTY)</i>
+
+---
+
+<br></br>
+
+
 
 ## 6. Validar a conexão
 
@@ -234,11 +277,26 @@ Após entrar na instância, execute os comandos abaixo para verificar o ambiente
 whoami
 ```
 
+<p align="center"> <img src="images/acesso-ec2-img024.png" alt="Executando o comando whoami"> </p>
+<p align="right"><i>(Imagem 23: Executando o comando whoami)</i>
+
+---
+
+<br></br>
+
+
 ### Identificar o nome do servidor
 
 ```bash
 hostname
 ```
+
+<p align="center"> <img src="images/acesso-ec2-img025.png" alt="Executando o comando hostname"> </p>
+<p align="right"><i>(Imagem 23: Executando o comando hostname)</i>
+
+---
+
+<br></br>
 
 ### Atualizar a lista de pacotes
 
@@ -248,7 +306,14 @@ Em uma instância Ubuntu Server, execute:
 sudo apt update
 ```
 
+<p align="center"> <img src="images/acesso-ec2-img026.png" alt="Executando o comando update"> </p>
+<p align="right"><i>(Imagem 24: Executando o comando update)</i>
+
 O comando atualiza os índices dos pacotes disponíveis nos repositórios configurados, sem realizar a atualização dos pacotes instalados.
+
+---
+
+<br></br>
 
 ## 7. Encerrar a sessão
 
@@ -258,6 +323,13 @@ Para finalizar a conexão SSH, execute:
 exit
 ```
 
+<p align="center"> <img src="images/acesso-ec2-img027.png" alt="Saindo da instância EC2"> </p>
+<p align="right"><i>(Imagem 25: Saindo da instância EC2)</i>
+
+---
+
+<br></br>
+
 ## 8. Observações de segurança
 
 - Mantenha a chave privada `.pem` ou `.ppk` protegida.
@@ -265,6 +337,10 @@ exit
 - Permita conexões SSH somente a partir de endereços IP confiáveis sempre que possível.
 - O acesso depende das regras de rede, do estado da instância e da configuração do sistema operacional.
 - O endereço IPv4 público pode mudar após a interrupção e a inicialização da instância, dependendo da configuração utilizada.
+
+---
+
+<br></br>
 
 ## Referências
 
