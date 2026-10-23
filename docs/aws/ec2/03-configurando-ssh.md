@@ -303,7 +303,7 @@ ls -l ~/.ssh/
 
 <br></br>
 
-Restrinja as permissões do arquivo:
+Restrinja as permissões da chave com o seguinte comando:
 
 ```bash
 chmod 400 ~/.ssh/chave-ec2-aws.pem
@@ -311,8 +311,6 @@ chmod 400 ~/.ssh/chave-ec2-aws.pem
 
 <p align="center"> <img src="images/ssh-ec2-img020.png" alt="Alterando as permissões da chave"> </p>
 <p align="right"><i>(Imagem 20: Alterando as permissões da chave</i>
-
----
 
 <br></br>
 
