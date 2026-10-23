@@ -223,6 +223,8 @@ Caso ocorra um erro de permissão ao tentar acessar a pasta compartilhada...
 
 ---
 
+<br></br>
+
 Verifique se o usuário da VM pertence ao grupo `vboxsf`. 
 
 ```bash
