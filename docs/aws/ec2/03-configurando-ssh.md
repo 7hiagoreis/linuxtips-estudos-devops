@@ -145,7 +145,7 @@ Crie a pasta `C:\VM-Compartilhada` no Windows e copie para ela o arquivo `.pem` 
 
 ### 4.2. Configurar a pasta compartilhada no VirtualBox
 
-No VirtualBox, selecione a VM Ubuntu Server e acesse **Configurações → Pastas Compartilhadas**.
+No VirtualBox, selecione a VM Ubuntu Server, clique com o botão direito do mouse e acesse **Configurações**.
 
 <p align="center"> <img src="images/ssh-ec2-img008.png" alt="Pastas Compartilhadas / VirtualBox"> </p>
 <p align="right"><i>(Imagem 08: Pastas Compartilhadas / VirtualBox)</i>
@@ -154,21 +154,56 @@ No VirtualBox, selecione a VM Ubuntu Server e acesse **Configurações → Pasta
 
 <br></br>
 
+Na tela de Configurações, clique em **Pastas Compartilhadas**
+
+<p align="center"> <img src="images/ssh-ec2-img009.png" alt="Pastas Compartilhadas / VirtualBox"> </p>
+<p align="right"><i>(Imagem 09: Pastas Compartilhadas / VirtualBox)</i>
+
+---
+
+<br></br>
+
+Clique no ícone para adiciona uma nova pasta compartilhada.
+
+<p align="center"> <img src="images/ssh-ec2-img010.png" alt="Pastas Compartilhadas / VirtualBox"> </p>
+<p align="right"><i>(Imagem 10: Pastas Compartilhadas / VirtualBox)</i>
+
+---
+
+<br></br>
+
 Adicione uma pasta com os seguintes parâmetros:**
 
-- **Caminho da pasta:** `C:\VM-Compartilhada`
-- **Nome da pasta:** `Compartilhada`
-- **Montagem automática:** habilitada
-- **Make Machine-permanent:** habilitada
+- **Caminho da Pasta:** `C:\VM-Compartilhada`
+- **Nome da Pasta:** `Compartilhada`
+- **Montagem Automática:** Habilitada
+- **Make Machine-permanent:** Habilitada
 
-Confirme as configurações.
+Com os campos preenchidos, clique em <kbd>OK</kbd>
+
+<p align="center"> <img src="images/ssh-ec2-img011.png" alt="Pastas Compartilhadas / VirtualBox"> </p>
+<p align="right"><i>(Imagem 11: Pastas Compartilhadas / VirtualBox)</i>
+
+---
+
+<br></br>
+
+Após adicionar a pasta compartilhada clique em <kbd>OK</kbd> para salvar as alterações.
+
+<p align="center"> <img src="images/ssh-ec2-img012.png" alt="Pastas Compartilhadas / VirtualBox"> </p>
+<p align="right"><i>(Imagem 12: Pastas Compartilhadas / VirtualBox)</i>
+
+---
+
+<br></br>
+
 
 ### 4.3. Acessar a pasta compartilhada na VM
 
-Na VM Ubuntu Server, verifique se a pasta foi montada:
+Na máquina virtual (VM) Ubuntu Server, verifique se a pasta foi montada:
 
 ```bash
-ls /media/sf_VM-Compartilhada/
+ls /mnt/Compartilhada/
 ```
 
 O arquivo `.pem` deverá aparecer na listagem.
@@ -181,6 +216,8 @@ sudo usermod -aG vboxsf "$USER"
 
 Encerre a sessão e entre novamente para que a alteração tenha efeito.
 
+
+
 ### 4.4. Copiar e proteger a chave privada
 
 Crie o diretório SSH, caso ainda não exista:
@@ -192,19 +229,19 @@ mkdir -p ~/.ssh
 Copie a chave para o diretório SSH, substituindo `nome-da-chave.pem` pelo nome real do arquivo:
 
 ```bash
-cp /media/sf_VM-Compartilhada/nome-da-chave.pem ~/.ssh/chave-aws.pem
+cp /mnt/Compartilhada/nome-da-chave.pem ~/.ssh/chave-ec2-aws.pem
 ```
 
 Restrinja as permissões do arquivo:
 
 ```bash
-chmod 400 ~/.ssh/chave-aws.pem
+chmod 400 ~/.ssh/chave-ec2-aws.pem
 ```
 
 Confira se a chave foi copiada:
 
 ```bash
-ls -l ~/.ssh/chave-aws.pem
+ls -l ~/.ssh/chave-ec2-aws.pem
 ```
 
 O comando `chmod 400` permite que somente o proprietário leia a chave privada.
@@ -220,7 +257,7 @@ O comando `chmod 400` permite que somente o proprietário leia a chave privada.
 Para uma instância Ubuntu Server, execute na VM:
 
 ```bash
-ssh -i ~/.ssh/chave-aws.pem ubuntu@IP_PUBLICO_DA_EC2
+ssh -i ~/.ssh/chave-ec2-aws.pem ubuntu@IP_PUBLICO_DA_EC2
 ```
 
 Substitua `IP_PUBLICO_DA_EC2` pelo endereço IPv4 público da instância.
