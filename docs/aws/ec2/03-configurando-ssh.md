@@ -216,22 +216,32 @@ O arquivo `.pem` deverá aparecer na listagem.
 
 <br></br>
 
-Caso ocorra um erro de permissão ao tentar acessar a pasta compartilhada, verifique se o usuário da VM pertence ao grupo `vboxsf`. 
+Caso ocorra um erro de permissão ao tentar acessar a pasta compartilhada...
 
-```bash
-sudo usermod -aG vboxsf "$USER"
-```
 <p align="center"> <img src="images/ssh-ec2-img014.png" alt="Erro de permissão"> </p>
 <p align="right"><i>(Imagem 14: Erro de permissão</i>
 
 ---
 
+Verifique se o usuário da VM pertence ao grupo `vboxsf`. 
+
+```bash
+groups "$USER"
+```
+
+<p align="center"> <img src="images/ssh-ec2-img014a.png" alt="Verificando grupos"> </p>
+<p align="right"><i>(Imagem 15: Verificando grupos</i>
+
 <br></br>
 
 Adicione o seu usuário atual ao grupo `vboxsf`, usado pelo VirtualBox para controlar o acesso as pastas compartilhadas entre o Windows e a máquina virtual (VM).
 
+```bash
+sudo usermod -aG vboxsf "$USER"
+```
+
 <p align="center"> <img src="images/ssh-ec2-img015.png" alt="Adicionando o usuário atual ao grupo vboxsf"> </p>
-<p align="right"><i>(Imagem 15: Adicionando o usuário atual ao grupo vboxsf</i>
+<p align="right"><i>(Imagem 16: Adicionando o usuário atual ao grupo vboxsf</i>
 
 ---
 
@@ -240,7 +250,7 @@ Adicione o seu usuário atual ao grupo `vboxsf`, usado pelo VirtualBox para cont
 Digite a senha do usuário com permissão administrativa (sudo).
 
 <p align="center"> <img src="images/ssh-ec2-img016.png" alt="Digite a senha do usuário"> </p>
-<p align="right"><i>(Imagem 16: Digite a senha do usuário</i>
+<p align="right"><i>(Imagem 17: Digite a senha do usuário</i>
 
 ---
 
@@ -253,7 +263,7 @@ logout
 ```
 
 <p align="center"> <img src="images/ssh-ec2-img017.png" alt="Saindo da sessão no terminal"> </p>
-<p align="right"><i>(Imagem 17: Saindo da sessão no terminal</i>
+<p align="right"><i>(Imagem 18: Saindo da sessão no terminal</i>
 
 ---
 
