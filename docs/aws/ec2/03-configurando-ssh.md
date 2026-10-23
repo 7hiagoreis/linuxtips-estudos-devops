@@ -95,7 +95,7 @@ Caso ainda não exista uma chave pessoal, gere uma:
 ssh-keygen -t ed25519
 ```
 
-<p align="center"> <img src="images/ssh-ec2-img004.png" alt="Confirmando a existência das chaves na VM"> </p>
+<p align="center"> <img src="images/ssh-ec2-img003a.png" alt="Confirmando a existência das chaves na VM"> </p>
 <p align="right"><i>(Imagem 04: Confirmando a existência das chaves na VM)</i>
 
 ---
@@ -104,12 +104,30 @@ ssh-keygen -t ed25519
 
 Aceite o caminho padrão para utilizar `~/.ssh/id_ed25519`, caso seja adequado ao ambiente.
 
-A chave privada deve permanecer protegida. Somente a chave pública, identificada pela extensão `.pub`, será instalada na EC2.
+<p align="center"> <img src="images/ssh-ec2-img004.png" alt="Confirmando o caminho para salvar as chaves na VM"> </p>
+<p align="right"><i>(Imagem 05: Confirmando o caminho para salvar as chaves na VM)</i>
 
 ---
 
 <br></br>
 
+Defina uma senha (passpharse) para a chave privada.
+
+<p align="center"> <img src="images/ssh-ec2-img005.png" alt="Passpharse / Chave Privada"> </p>
+<p align="right"><i>(Imagem 06: Passpharse / Chave Privada)</i>
+
+---
+
+As chaves foram criadas! A chave privada deve permanecer protegida. Somente a chave pública, identificada pela extensão `.pub`, será instalada na instância EC2.
+
+<p align="center"> <img src="images/ssh-ec2-img006.png" alt="Passpharse / Chave Privada"> </p>
+<p align="right"><i>(Imagem 06: Passpharse / Chave Privada)</i>
+
+---
+
+<br></br>
+
+(EM DESENVOLVIMENTO)
 ## 4. Preparar a chave privada da AWS na VM
 
 A chave privada `.pem`, selecionada durante a criação da instância EC2, já está disponível na VM Ubuntu Server e será utilizada para autenticar o primeiro acesso.
