@@ -136,15 +136,30 @@ A chave privada `.pem`, baixada durante a criação da instância EC2, está no 
 
 Crie a pasta `C:\VM-Compartilhada` no Windows e copie para ela o arquivo `.pem` baixado da AWS.
 
+<p align="center"> <img src="images/ssh-ec2-img007.png" alt="Pasta compartilhada no Windows com a máquina virtual"> </p>
+<p align="right"><i>(Imagem 07: Pasta compartilhada no Windows com a máquina virtual)</i>
+
+---
+
+<br></br>
+
 ### 4.2. Configurar a pasta compartilhada no VirtualBox
 
 No VirtualBox, selecione a VM Ubuntu Server e acesse **Configurações → Pastas Compartilhadas**.
 
-Adicione uma pasta com os seguintes parâmetros:
+<p align="center"> <img src="images/ssh-ec2-img008.png" alt="Pastas Compartilhadas / VirtualBox"> </p>
+<p align="right"><i>(Imagem 08: Pastas Compartilhadas / VirtualBox)</i>
+
+---
+
+<br></br>
+
+Adicione uma pasta com os seguintes parâmetros:**
 
 - **Caminho da pasta:** `C:\VM-Compartilhada`
-- **Nome da pasta:** `VM-Compartilhada`
+- **Nome da pasta:** `Compartilhada`
 - **Montagem automática:** habilitada
+- **Make Machine-permanent:** habilitada
 
 Confirme as configurações.
 
