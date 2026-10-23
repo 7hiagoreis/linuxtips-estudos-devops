@@ -118,6 +118,8 @@ Defina uma senha (passpharse) para a chave privada.
 
 ---
 
+<br></br>
+
 As chaves foram criadas! A chave privada deve permanecer protegida. Somente a chave pública, identificada pela extensão `.pub`, será instalada na instância EC2.
 
 <p align="center"> <img src="images/ssh-ec2-img006.png" alt="Passpharse / Chave Privada"> </p>
