@@ -176,6 +176,7 @@ Adicione uma pasta com os seguintes parâmetros:**
 
 - **Caminho da Pasta:** `C:\VM-Compartilhada`
 - **Nome da Pasta:** `Compartilhada`
+- **Mount Point:** `/mnt/Compartilhada`
 - **Montagem Automática:** Habilitada
 - **Make Machine-permanent:** Habilitada
 
