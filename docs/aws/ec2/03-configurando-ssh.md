@@ -128,11 +128,45 @@ As chaves foram criadas! A chave privada deve permanecer protegida. Somente a ch
 <br></br>
 
 (EM DESENVOLVIMENTO)
-## 4. Preparar a chave privada da AWS na VM
+## 4. Transferir a chave privada da AWS do Windows para a VM
 
-A chave privada `.pem`, selecionada durante a criação da instância EC2, já está disponível na VM Ubuntu Server e será utilizada para autenticar o primeiro acesso.
+A chave privada `.pem`, baixada durante a criação da instância EC2, está no Windows. Como a configuração do SSH será realizada a partir da VM Ubuntu Server, é necessário transferir esse arquivo para a máquina virtual.
 
-Considere que o arquivo esteja localizado em `~/chaves/chave-aws.pem`. Ajuste o caminho e o nome conforme a localização real do arquivo.
+### 4.1. Preparar a pasta compartilhada no Windows
+
+Crie a pasta `C:\VM-Compartilhada` no Windows e copie para ela o arquivo `.pem` baixado da AWS.
+
+### 4.2. Configurar a pasta compartilhada no VirtualBox
+
+No VirtualBox, selecione a VM Ubuntu Server e acesse **Configurações → Pastas Compartilhadas**.
+
+Adicione uma pasta com os seguintes parâmetros:
+
+- **Caminho da pasta:** `C:\VM-Compartilhada`
+- **Nome da pasta:** `VM-Compartilhada`
+- **Montagem automática:** habilitada
+
+Confirme as configurações.
+
+### 4.3. Acessar a pasta compartilhada na VM
+
+Na VM Ubuntu Server, verifique se a pasta foi montada:
+
+```bash
+ls /media/sf_VM-Compartilhada/
+```
+
+O arquivo `.pem` deverá aparecer na listagem.
+
+Caso ocorra um erro de permissão, verifique se o usuário da VM pertence ao grupo `vboxsf`. Se necessário, adicione-o:
+
+```bash
+sudo usermod -aG vboxsf "$USER"
+```
+
+Encerre a sessão e entre novamente para que a alteração tenha efeito.
+
+### 4.4. Copiar e proteger a chave privada
 
 Crie o diretório SSH, caso ainda não exista:
 
@@ -140,10 +174,10 @@ Crie o diretório SSH, caso ainda não exista:
 mkdir -p ~/.ssh
 ```
 
-Copie a chave privada para o diretório SSH:
+Copie a chave para o diretório SSH, substituindo `nome-da-chave.pem` pelo nome real do arquivo:
 
 ```bash
-cp ~/chaves/chave-aws.pem ~/.ssh/
+cp /media/sf_VM-Compartilhada/nome-da-chave.pem ~/.ssh/chave-aws.pem
 ```
 
 Restrinja as permissões do arquivo:
@@ -152,9 +186,15 @@ Restrinja as permissões do arquivo:
 chmod 400 ~/.ssh/chave-aws.pem
 ```
 
+Confira se a chave foi copiada:
+
+```bash
+ls -l ~/.ssh/chave-aws.pem
+```
+
 O comando `chmod 400` permite que somente o proprietário leia a chave privada.
 
-**Importante:** Nunca publique ou compartilhe a chave privada `.pem` em repositórios Git ou outros locais públicos.
+**Importante:** Nunca publique ou compartilhe a chave privada `.pem` em repositórios Git ou outros locais públicos. Após confirmar a transferência, remova a cópia da chave da pasta compartilhada do Windows.
 
 ---
 
