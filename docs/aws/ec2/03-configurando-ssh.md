@@ -234,7 +234,9 @@ groups "$USER"
 
 <br></br>
 
-Adicione o seu usuário atual ao grupo `vboxsf`, usado pelo VirtualBox para controlar o acesso as pastas compartilhadas entre o Windows e a máquina virtual (VM).
+Na imagem anterior (imagem 15), o exemplo mostra que usuário não está no grupo `vboxsf`. Caso o usuário já pertença ao grupo `vboxsf`, reinicie o sistema ou saia da sessão atual com `logout` e acesse novamente.
+
+Para adicionar o seu usuário atual ao grupo `vboxsf`, usado pelo VirtualBox para controlar o acesso as pastas compartilhadas entre o Windows e a máquina virtual (VM), utilize o comando:
 
 ```bash
 sudo usermod -aG vboxsf "$USER"
