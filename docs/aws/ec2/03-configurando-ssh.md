@@ -73,7 +73,7 @@ sudo apt install openssh-client
 Liste os arquivos existentes no diretório SSH do usuário:
 
 ```bash
-ls -la ~/.ssh/
+ls -lha ~/.ssh/
 ```
 
 <p align="center"> <img src="images/ssh-ec2-img003.png" alt="Confirmando a existência das chaves na VM"> </p>
