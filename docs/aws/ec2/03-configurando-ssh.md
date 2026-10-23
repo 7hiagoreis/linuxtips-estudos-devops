@@ -330,8 +330,6 @@ ls -l ~/.ssh/chave-ec2-aws.pem
 <p align="center"> <img src="images/ssh-ec2-img021.png" alt="Consultando as permissões da chave"> </p>
 <p align="right"><i>(Imagem 21: Consultando as permissões da chave</i>
 
-<br></br>
-
 ---
 
 <br></br>
