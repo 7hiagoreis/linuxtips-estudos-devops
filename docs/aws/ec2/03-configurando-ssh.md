@@ -209,6 +209,13 @@ ls /mnt/Compartilhada/
 
 O arquivo `.pem` deverá aparecer na listagem.
 
+<p align="center"> <img src="images/ssh-ec2-img013.png" alt="Verificando a chave na pasta compartilhada"> </p>
+<p align="right"><i>(Imagem 13: Verificando a chave na pasta compartilhada)</i>
+
+---
+
+<br></br>
+
 Caso ocorra um erro de permissão, verifique se o usuário da VM pertence ao grupo `vboxsf`. Se necessário, adicione-o:
 
 ```bash
@@ -216,7 +223,6 @@ sudo usermod -aG vboxsf "$USER"
 ```
 
 Encerre a sessão e entre novamente para que a alteração tenha efeito.
-
 
 
 ### 4.4. Copiar e proteger a chave privada
