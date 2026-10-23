@@ -31,13 +31,31 @@ Na VM Ubuntu Server, execute:
 ssh -V
 ```
 
+<br></br>
+
 O comando exibe a versão do cliente SSH instalado.
+
+<p align="center"> <img src="images/ssh-ec2-img001.png" alt="Verificando a versão do SSH"> </p>
+<p align="right"><i>(Imagem 01: Verificando a versão do SSH)</i>
+
+---
+
+<br></br>
 
 Verifique se o comando `ssh-copy-id` está disponível:
 
 ```bash
 which ssh-copy-id
 ```
+
+<br></br>
+
+<p align="center"> <img src="images/ssh-ec2-img002.png" alt="Verificando se existe o binário do ssh-copy-id"> </p>
+<p align="right"><i>(Imagem 02: Verificando se existe o binário do ssh-copy-id)</i>
+
+---
+
+<br></br>
 
 Caso não esteja instalado, execute:
 
@@ -58,6 +76,14 @@ Liste os arquivos existentes no diretório SSH do usuário:
 ls -la ~/.ssh/
 ```
 
+<p align="center"> <img src="images/ssh-ec2-img003.png" alt="Confirmando a existência das chaves na VM"> </p>
+<p align="right"><i>(Imagem 03: Confirmando a existência das chaves na VM)</i>
+
+---
+
+<br></br>
+
+
 Uma chave pessoal ed25519 utiliza normalmente dois arquivos:
 
 - `id_ed25519`: chave privada.
@@ -68,6 +94,13 @@ Caso ainda não exista uma chave pessoal, gere uma:
 ```bash
 ssh-keygen -t ed25519
 ```
+
+<p align="center"> <img src="images/ssh-ec2-img004.png" alt="Confirmando a existência das chaves na VM"> </p>
+<p align="right"><i>(Imagem 04: Confirmando a existência das chaves na VM)</i>
+
+---
+
+<br></br>
 
 Aceite o caminho padrão para utilizar `~/.ssh/id_ed25519`, caso seja adequado ao ambiente.
 
