@@ -216,18 +216,53 @@ O arquivo `.pem` deverá aparecer na listagem.
 
 <br></br>
 
-Caso ocorra um erro de permissão, verifique se o usuário da VM pertence ao grupo `vboxsf`. Se necessário, adicione-o:
+Caso ocorra um erro de permissão ao tentar acessar a pasta compartilhada, verifique se o usuário da VM pertence ao grupo `vboxsf`. 
 
 ```bash
 sudo usermod -aG vboxsf "$USER"
 ```
+<p align="center"> <img src="images/ssh-ec2-img014.png" alt="Erro de permissão"> </p>
+<p align="right"><i>(Imagem 14: Erro de permissão</i>
 
-Encerre a sessão e entre novamente para que a alteração tenha efeito.
+---
+
+<br></br>
+
+Adicione o seu usuário atual ao grupo `vboxsf`, usado pelo VirtualBox para controlar o acesso as pastas compartilhadas entre o Windows e a máquina virtual (VM).
+
+<p align="center"> <img src="images/ssh-ec2-img015.png" alt="Adicionando o usuário atual ao grupo vboxsf"> </p>
+<p align="right"><i>(Imagem 15: Adicionando o usuário atual ao grupo vboxsf</i>
+
+---
+
+<br></br>
+
+Digite a senha do usuário com permissão administrativa (sudo).
+
+<p align="center"> <img src="images/ssh-ec2-img016.png" alt="Digite a senha do usuário"> </p>
+<p align="right"><i>(Imagem 16: Digite a senha do usuário</i>
+
+---
+
+<br></br>
+
+Encerre a sessão atual do terminal e entre novamente para que a alteração tenha efeito.
+
+```bash
+logout
+```
+
+<p align="center"> <img src="images/ssh-ec2-img017.png" alt="Saindo da sessão no terminal"> </p>
+<p align="right"><i>(Imagem 17: Saindo da sessão no terminal</i>
+
+---
+
+<br></br>
 
 
 ### 4.4. Copiar e proteger a chave privada
 
-Crie o diretório SSH, caso ainda não exista:
+Crie o diretório `.ssh`, caso ainda não exista:
 
 ```bash
 mkdir -p ~/.ssh
@@ -253,7 +288,7 @@ ls -l ~/.ssh/chave-ec2-aws.pem
 
 O comando `chmod 400` permite que somente o proprietário leia a chave privada.
 
-**Importante:** Nunca publique ou compartilhe a chave privada `.pem` em repositórios Git ou outros locais públicos. Após confirmar a transferência, remova a cópia da chave da pasta compartilhada do Windows.
+**Importante:** Nunca publique ou compartilhe a chave privada `.pem` em repositórios Git ou outros locais públicos. Após confirmar a transferência, remova a cópia da chave da pasta compartilhada do Windows, se necessário.
 
 ---
 
