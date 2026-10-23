@@ -278,17 +278,30 @@ logout
 
 ### 4.4. Copiar e proteger a chave privada
 
-Crie o diretório `.ssh`, caso ainda não exista:
-
-```bash
-mkdir -p ~/.ssh
-```
-
 Copie a chave para o diretório SSH, substituindo `nome-da-chave.pem` pelo nome real do arquivo:
 
 ```bash
 cp /mnt/Compartilhada/nome-da-chave.pem ~/.ssh/chave-ec2-aws.pem
 ```
+<p align="center"> <img src="images/ssh-ec2-img018.png" alt="Copiando a chave para a máquina virtual"> </p>
+<p align="right"><i>(Imagem 18: Copiando a chave para a máquina virtual</i>
+
+---
+
+<br></br>
+
+Para confirmar, veja se a chave foi copiada com o comando:
+
+```bash
+ls -l ~/.ssh/
+```
+
+<p align="center"> <img src="images/ssh-ec2-img019.png" alt="Copiando a chave para a máquina virtual"> </p>
+<p align="right"><i>(Imagem 19: Copiando a chave para a máquina virtual</i>
+
+---
+
+<br></br>
 
 Restrinja as permissões do arquivo:
 
@@ -296,11 +309,6 @@ Restrinja as permissões do arquivo:
 chmod 400 ~/.ssh/chave-ec2-aws.pem
 ```
 
-Confira se a chave foi copiada:
-
-```bash
-ls -l ~/.ssh/chave-ec2-aws.pem
-```
 
 O comando `chmod 400` permite que somente o proprietário leia a chave privada.
 
