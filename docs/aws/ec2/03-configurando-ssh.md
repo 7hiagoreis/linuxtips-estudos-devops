@@ -309,6 +309,12 @@ Restrinja as permissões do arquivo:
 chmod 400 ~/.ssh/chave-ec2-aws.pem
 ```
 
+<p align="center"> <img src="images/ssh-ec2-img020.png" alt="Alterando as permissões da chave"> </p>
+<p align="right"><i>(Imagem 20: Alterando as permissões da chave</i>
+
+---
+
+<br></br>
 
 O comando `chmod 400` permite que somente o proprietário leia a chave privada.
 
