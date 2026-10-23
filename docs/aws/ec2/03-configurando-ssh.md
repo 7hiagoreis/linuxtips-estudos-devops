@@ -318,6 +318,20 @@ O comando `chmod 400` permite que somente o proprietário leia a chave privada.
 
 **Importante:** Nunca publique ou compartilhe a chave privada `.pem` em repositórios Git ou outros locais públicos. Após confirmar a transferência, remova a cópia da chave da pasta compartilhada do Windows, se necessário.
 
+<br></br>
+
+Confirme a alteração das permissões da chave com o comando:
+
+
+```bash
+ls -l ~/.ssh/chave-ec2-aws.pem
+```
+
+<p align="center"> <img src="images/ssh-ec2-img021.png" alt="Consultando as permissões da chave"> </p>
+<p align="right"><i>(Imagem 21: Consultando as permissões da chave</i>
+
+<br></br>
+
 ---
 
 <br></br>
