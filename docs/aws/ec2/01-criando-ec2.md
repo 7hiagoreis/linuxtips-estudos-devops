@@ -374,16 +374,6 @@ Com as informações revisadas e tudo certo com a configuração, clique em "Lau
 
 <br></br>
 
-
-# ABAIXO (EM DESENVOLVIMENTO) / TESTES
-
-<br></br>
-
-
----
-
-<br></br>
-
 ## Como conectar a instância EC2
 
 Quando a instância estiver no estado **Em execução**, siga as etapas abaixo para acessá-la por SSH.
