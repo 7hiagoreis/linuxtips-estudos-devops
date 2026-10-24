@@ -134,7 +134,7 @@ As chaves foram criadas! A chave privada deve permanecer protegida. Somente a ch
 
 A chave privada `.pem`, baixada durante a criação da instância EC2, está no Windows. Como a configuração do SSH será realizada a partir da VM Ubuntu Server, é necessário transferir esse arquivo para a máquina virtual.
 
-### 4.1. Preparar a pasta compartilhada no Windows
+### Preparar a pasta compartilhada no Windows
 
 Crie a pasta `C:\VM-Compartilhada` no Windows e copie para ela o arquivo `.pem` baixado da AWS.
 
@@ -145,7 +145,7 @@ Crie a pasta `C:\VM-Compartilhada` no Windows e copie para ela o arquivo `.pem` 
 
 <br></br>
 
-### 4.2. Configurar a pasta compartilhada no VirtualBox
+### Configurar a pasta compartilhada no VirtualBox
 
 No VirtualBox, selecione a VM Ubuntu Server, clique com o botão direito do mouse e acesse **Configurações**.
 
@@ -201,7 +201,7 @@ Após adicionar a pasta compartilhada clique em <kbd>OK</kbd> para salvar as alt
 <br></br>
 
 
-### 4.3. Acessar a pasta compartilhada na VM
+### Acessar a pasta compartilhada na VM
 
 Na máquina virtual (VM) Ubuntu Server, verifique se a pasta foi montada:
 
@@ -276,7 +276,7 @@ logout
 <br></br>
 
 
-### 4.4. Copiar e proteger a chave privada
+### Copiar e proteger a chave privada
 
 Copie a chave para o diretório SSH, substituindo `nome-da-chave.pem` pelo nome real do arquivo:
 
