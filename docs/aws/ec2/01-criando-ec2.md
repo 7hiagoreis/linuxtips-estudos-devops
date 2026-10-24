@@ -248,13 +248,15 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço da AWS que fornece servidore
 
 <br></br>
 
-9. Em Key pair name, defina um nome para a sua chave. Mantemos as configurações, apenas definindo um nome para a chave.
+9. Em `Key pair name`, defina um nome para a sua chave. Mantemos as configurações, apenas definindo um nome para a chave.
 
 Exemplo:
 
-Key pair name = nomedasuachave-ec2
-Key pair type = RSA
-Private Key file format = .pem
+**Key pair name** = `nome-da-sua-chave-ec2`
+
+**Key pair type** = `RSA`
+
+**Private Key file format** = `.pem`
 
 Definida as configurações da chave, clique em "Create key pair"
 
