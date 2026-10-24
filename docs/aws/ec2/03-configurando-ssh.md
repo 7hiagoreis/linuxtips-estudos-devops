@@ -447,7 +447,26 @@ ssh -i ~/.ssh/id_ed25519 ubuntu@IP_PUBLICO_DA_EC2
 
 <br></br>
 
+---
+
+Digite a senha (passphrase) da chave e pressione <kbd>Enter</kbd>
+
+<p align="center"> <img src="images/ssh-ec2-img031.png" alt="Digite a senha (passphrase)"> </p>
+<p align="right"><i>(Imagem 31: Digite a senha / Passphrase)</i>
+
+---
+
+<br></br>
+
 Caso a conexão seja estabelecida, a chave pessoal está funcionando para autenticação na EC2.
+
+<p align="center"> <img src="images/ssh-ec2-img032.png" alt="Conectado na EC2"> </p>
+<p align="right"><i>(Imagem 32: Conectado na EC2)</i>
+
+---
+
+<br></br>
+
 
 Para verificar o usuário conectado, execute:
 
@@ -455,11 +474,21 @@ Para verificar o usuário conectado, execute:
 whoami
 ```
 
+<p align="center"> <img src="images/ssh-ec2-img-whoami.png" alt="Conectado na EC2"> </p>
+<p align="right"><i>(Imagem 33: Conectado na EC2)</i>
+
+---
+
+<br></br>
+
 Para encerrar a sessão:
 
 ```bash
 exit
 ```
+
+<p align="center"> <img src="images/ssh-ec2-img-exit.png" alt="Desonectando da EC2"> </p>
+<p align="right"><i>(Imagem 34: Desonectando da EC2)</i>
 
 ---
 
@@ -475,6 +504,13 @@ Abra o arquivo de configuração SSH:
 vim ~/.ssh/config
 ```
 
+<p align="center"> <img src="images/ssh-ec2-img033.png" alt="Editando o arquivo config"> </p>
+<p align="right"><i>(Imagem 35: Editando o arquivo config)</i>
+
+---
+
+<br></br>
+
 Adicione a configuração abaixo:
 
 ```sshconfig
@@ -487,11 +523,25 @@ Host ec2-lab
 
 Substitua `IP_PUBLICO_DA_EC2` pelo endereço IPv4 público da instância.
 
+<p align="center"> <img src="images/ssh-ec2-img034.png" alt="Editando o arquivo config"> </p>
+<p align="right"><i>(Imagem 36: Editando o arquivo config)</i>
+
+---
+
+<br></br>
+
 Salve o arquivo e ajuste suas permissões:
 
 ```bash
 chmod 600 ~/.ssh/config
 ```
+
+<p align="center"> <img src="images/ssh-ec2-img-config.png" alt="Editando o arquivo config"> </p>
+<p align="right"><i>(Imagem 37: Editando o arquivo config)</i>
+
+---
+
+<br></br>
 
 Para conectar utilizando o alias, execute:
 
@@ -499,7 +549,17 @@ Para conectar utilizando o alias, execute:
 ssh ec2-lab
 ```
 
+<p align="center"> <img src="images/ssh-ec2-img035.png" alt="Conectando na EC2 com chave e alias"> </p>
+<p align="right"><i>(Imagem 36: Conectando na EC2 com chave e alias)</i>
+
+---
+
+<br></br>
+
 O alias permite utilizar um nome curto para a conexão, sem precisar informar o endereço IP e o caminho da chave em cada comando.
+
+<p align="center"> <img src="images/ssh-ec2-img036.png" alt="Conectado na EC2 com chave e alias"> </p>
+<p align="right"><i>(Imagem 37: Conectado na EC2 com chave e alias)</i>
 
 ---
 
