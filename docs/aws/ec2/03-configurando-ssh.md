@@ -580,7 +580,7 @@ O alias permite utilizar um nome curto para a conexão, sem precisar informar o 
 
 ## Referências
 
-- [OpenSSH](https://www.openssh.com/)
-- [Manual do ssh-copy-id](https://manpages.ubuntu.com/manpages/noble/en/man1/ssh-copy-id.1.html)
-- [Documentação da AWS: conexão SSH com instâncias Linux](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/connect-linux-inst-ssh.html)
+[OpenSSH](https://www.openssh.com/)
+[Manual do ssh-copy-id](https://manpages.ubuntu.com/manpages/noble/en/man1/ssh-copy-id.1.html)
+[Documentação da AWS: conexão SSH com instâncias Linux](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/connect-linux-inst-ssh.html)
 
