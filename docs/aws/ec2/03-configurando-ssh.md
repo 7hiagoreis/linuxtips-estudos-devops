@@ -342,7 +342,14 @@ Para uma instância Ubuntu Server, execute na VM:
 ssh -i ~/.ssh/chave-ec2-aws.pem ubuntu@IP_PUBLICO_DA_EC2
 ```
 
-Substitua `IP_PUBLICO_DA_EC2` pelo endereço IPv4 público da instância.
+Substitua o `IP_PUBLICO_DA_EC2` pelo endereço IPv4 público da instância.
+
+<p align="center"> <img src="images/ssh-ec2-img022.png" alt="Conectando via SSH / EC2"> </p>
+<p align="right"><i>(Imagem 21: Conectando via SSH / EC2</i>
+
+---
+
+<br></br>
 
 Na primeira conexão, confira a identidade do servidor antes de aceitar a sua chave de identificação.
 
