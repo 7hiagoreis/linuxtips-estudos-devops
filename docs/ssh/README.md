@@ -124,5 +124,6 @@ A estrutura poderá crescer conforme novos conceitos de SSH forem apresentados n
 
 ## Referências
 
-- [OpenSSH](https://www.openssh.com/)
-- [OpenSSH Manual](https://man.openbsd.org/ssh)
+[OpenSSH](https://www.openssh.com/)
+
+[OpenSSH Manual](https://man.openbsd.org/ssh)
