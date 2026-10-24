@@ -396,7 +396,7 @@ Com o acesso inicial validado, execute na VM Ubuntu Server:
 ```bash
 ssh-copy-id \
   -i ~/.ssh/id_ed25519.pub \
-  -o "IdentityFile=$HOME/.ssh/chave-aws.pem" \
+  -o "IdentityFile=$HOME/.ssh/chave-ec2-aws.pem" \
   -o "IdentitiesOnly=yes" \
   ubuntu@IP_PUBLICO_DA_EC2
 ```
@@ -408,9 +408,27 @@ Substitua `IP_PUBLICO_DA_EC2` pelo endereço IPv4 público da instância.
 
 <br></br>
 
+O comando a seguir é o mesmo do passo anterior. Se preferir utilizar um comando único:
+
+```bash
+ssh-copy-id -f -i ~/.ssh/id_ed25519.pub -o "IdentityFile=$HOME/.ssh/chave-ec2-aws.pem" -o "IdentitiesOnly=yes" ubuntu@IP_PUBLICO_DA_EC2
+```bash
+
+<p align="center"> <img src="images/ssh-ec2-img028.png" alt="Executando o comando ssh-copy-id"> </p>
+<p align="right"><i>(Imagem 28: Executando o comando ssh-copy-id)</i>
+
+<br></br>
+
+
 O comando utiliza a chave privada da AWS para autenticar a conexão inicial e instala a chave pública pessoal da VM no arquivo `~/.ssh/authorized_keys` do usuário remoto.
 
 Caso seja solicitada uma confirmação da identidade do servidor, confira a chave apresentada antes de aceitar.
+
+<p align="center"> <img src="images/ssh-ec2-img029.png" alt="Executando o comando ssh-copy-id"> </p>
+<p align="right"><i>(Imagem 29: Executando o comando ssh-copy-id)</i>
+
+<br></br>
+
 
 ---
 
@@ -423,6 +441,11 @@ Após instalar a chave pública, teste uma nova conexão utilizando a chave priv
 ```bash
 ssh -i ~/.ssh/id_ed25519 ubuntu@IP_PUBLICO_DA_EC2
 ```
+
+<p align="center"> <img src="images/ssh-ec2-img030.png" alt="Conectando na EC2"> </p>
+<p align="right"><i>(Imagem 30: Conectando na EC2)</i>
+
+<br></br>
 
 Caso a conexão seja estabelecida, a chave pessoal está funcionando para autenticação na EC2.
 
