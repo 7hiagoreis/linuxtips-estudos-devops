@@ -365,7 +365,7 @@ Com as informações revisadas e tudo certo com a configuração, clique em "Lau
 
 <br></br>
 
-7. Pronto! Acesso ao terminal do servidor virtual.
+7. Pronto! Acesso ao terminal do servidor virtual (EC2).
 
 <p align="center"> <img src="images/ec2-img035.png" alt="Painel de Controle / Criando EC2"> </p>
 <p align="right"><i>(Imagem 35: Painel de Controle / Criando EC2)</i>
