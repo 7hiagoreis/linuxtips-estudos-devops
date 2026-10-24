@@ -1003,7 +1003,11 @@ Além de facilitar os estudos, a virtualização permite reproduzir ambientes, t
 
 ## Referências
 
-- [Oracle VirtualBox Downloads](https://www.virtualbox.org/wiki/Downloads)
-- [Oracle VirtualBox Documentation](https://www.virtualbox.org/manual/)
-- [Oracle VirtualBox Installation Guide](https://www.virtualbox.org/manual/ch01.html)
-- [Ubuntu Server Downloads](https://ubuntu.com/download/server)
+[Oracle VirtualBox Downloads](https://www.virtualbox.org/wiki/Downloads)
+
+[Oracle VirtualBox Documentation](https://www.virtualbox.org/manual/)
+
+[Oracle VirtualBox Installation Guide](https://www.virtualbox.org/manual/ch01.html)
+
+[Ubuntu Server Downloads](https://ubuntu.com/download/server)
+
