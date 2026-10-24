@@ -384,9 +384,9 @@ exit
 <p align="center"> <img src="images/ssh-ec2-img026.png" alt="Conectado / EC2"> </p>
 <p align="right"><i>(Imagem 26: Conectado / EC2)</i>
 
-<br></br>
-
 ---
+
+<br></br>
 
 ## 6. Instalar a chave pública da VM na EC2
 
