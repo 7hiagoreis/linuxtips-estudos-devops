@@ -376,7 +376,7 @@ Com acesso autorizado será exibida a mensagem de boas vindas a instância EC2 U
 
 <br></br>
 
-Encerre a sessão:
+Após a confirmação de acesso, encerre a sessão:
 
 ```bash
 exit
@@ -402,6 +402,11 @@ ssh-copy-id \
 ```
 
 Substitua `IP_PUBLICO_DA_EC2` pelo endereço IPv4 público da instância.
+
+<p align="center"> <img src="images/ssh-ec2-img027.png" alt="Executando o comando ssh-copy-id"> </p>
+<p align="right"><i>(Imagem 27: Executando o comando ssh-copy-id)</i>
+
+<br></br>
 
 O comando utiliza a chave privada da AWS para autenticar a conexão inicial e instala a chave pública pessoal da VM no arquivo `~/.ssh/authorized_keys` do usuário remoto.
 
