@@ -345,21 +345,47 @@ ssh -i ~/.ssh/chave-ec2-aws.pem ubuntu@IP_PUBLICO_DA_EC2
 Substitua o `IP_PUBLICO_DA_EC2` pelo endereço IPv4 público da instância.
 
 <p align="center"> <img src="images/ssh-ec2-img022.png" alt="Conectando via SSH / EC2"> </p>
-<p align="right"><i>(Imagem 21: Conectando via SSH / EC2</i>
+<p align="right"><i>(Imagem 22: Conectando via SSH / EC2)</i>
 
 ---
 
 <br></br>
 
-Na primeira conexão, confira a identidade do servidor antes de aceitar a sua chave de identificação.
+Na primeira conexão, confira a identidade do servidor antes de aceitar a sua chave de identificação. 
 
-Após confirmar que o acesso funciona, encerre a sessão:
+<p align="center"> <img src="images/ssh-ec2-img023.png" alt="Confirmação da Identidade / EC2"> </p>
+<p align="right"><i>(Imagem 23: Confirmação da Identidade / EC2)</i>
+
+---
+
+<br></br>
+
+Digite "yes" para prosseguir.
+
+<p align="center"> <img src="images/ssh-ec2-img024.png" alt="Aguardando a confirmação / EC2"> </p>
+<p align="right"><i>(Imagem 24: Aguardando a confirmação / EC2)</i>
+
+---
+
+<br></br>
+
+Com acesso autorizado será exibida a mensagem de boas vindas a instância EC2 Ubuntu Server.
+
+<p align="center"> <img src="images/ssh-ec2-img025.png" alt="Conectado / EC2"> </p>
+<p align="right"><i>(Imagem 25: Conectado / EC2)</i>
+
+<br></br>
+
+Encerre a sessão:
 
 ```bash
 exit
 ```
 
 ---
+
+<p align="center"> <img src="images/ssh-ec2-img026.png" alt="Conectado / EC2"> </p>
+<p align="right"><i>(Imagem 26: Conectado / EC2)</i>
 
 <br></br>
 
