@@ -338,7 +338,7 @@ Com as informações revisadas e tudo certo com a configuração, clique em "Lau
 
 <br></br>
 
-4. 
+4. Neste painel é possível gerenciar a instância EC2 criada. No Console do EC2, clique no ID da instância para abrir a tela de detalhes, onde está localizado o endereço IP e se o status está como 'running'.
 
 <p align="center"> <img src="images/ec2-img032.png" alt="Painel de Controle / Criando EC2"> </p>
 <p align="right"><i>(Imagem 32: Painel de Controle / Criando EC2)</i>
@@ -347,7 +347,7 @@ Com as informações revisadas e tudo certo com a configuração, clique em "Lau
 
 <br></br>
 
-5.
+5. Esta é a página de detalhes da instância, onde ficam centralizadas todas as informações de rede, segurança e status do seu servidor. Neste primeiro momento é possível conectar à instância através do navegador WEB, ao clicar em <kbd>Connect</kbd>, o navegador abrirá um terminal.
 
 <p align="center"> <img src="images/ec2-img033.png" alt="Painel de Controle / Criando EC2"> </p>
 <p align="right"><i>(Imagem 33: Painel de Controle / Criando EC2)</i>
@@ -356,7 +356,7 @@ Com as informações revisadas e tudo certo com a configuração, clique em "Lau
 
 <br></br>
 
-6.
+6. Aguarde enquanto a conexão é estabelecida na instância EC2...
 
 <p align="center"> <img src="images/ec2-img034.png" alt="Painel de Controle / Criando EC2"> </p>
 <p align="right"><i>(Imagem 34: Painel de Controle / Criando EC2)</i>
@@ -365,7 +365,7 @@ Com as informações revisadas e tudo certo com a configuração, clique em "Lau
 
 <br></br>
 
-7.
+7. Pronto! Acesso ao terminal do servidor virtual.
 
 <p align="center"> <img src="images/ec2-img035.png" alt="Painel de Controle / Criando EC2"> </p>
 <p align="right"><i>(Imagem 35: Painel de Controle / Criando EC2)</i>
