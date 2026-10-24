@@ -129,7 +129,6 @@ As chaves foram criadas! A chave privada deve permanecer protegida. Somente a ch
 
 <br></br>
 
-(EM DESENVOLVIMENTO)
 ## 4. Transferir a chave privada da AWS do Windows para a VM
 
 A chave privada `.pem`, baixada durante a criação da instância EC2, está no Windows. Como a configuração do SSH será realizada a partir da VM Ubuntu Server, é necessário transferir esse arquivo para a máquina virtual.
