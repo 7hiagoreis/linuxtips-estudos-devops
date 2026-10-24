@@ -350,6 +350,8 @@ exit
 
 ## Referências
 
-- [Amazon EC2](https://aws.amazon.com/ec2/)
-- [Documentação do PuTTY](https://www.putty.org/)
-- [Conectar-se à instância Linux usando SSH](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/connect-linux-inst-ssh.html)
+[Amazon EC2](https://aws.amazon.com/ec2/)
+
+[Documentação do PuTTY](https://www.putty.org/)
+
+[Conectar-se à instância Linux usando SSH](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/connect-linux-inst-ssh.html)
