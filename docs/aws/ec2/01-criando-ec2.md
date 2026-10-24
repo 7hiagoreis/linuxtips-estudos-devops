@@ -194,8 +194,6 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço da AWS que fornece servidore
 
 <br></br>
 
----
-
 3. Selecione a imagem do sistema operacional que será instalado na instância. Neste exemplo, foi selecionado o `Ubuntu Server`.
 
 <p align="center"> <img src="images/ec2-img019.png" alt="Selecionando a imagem do sistema operacional"> </p>
