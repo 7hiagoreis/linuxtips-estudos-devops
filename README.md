@@ -2,11 +2,15 @@
 
 Repositório de estudos DevOps, referente ao curso na LINUXtips.
 
+<br></br>
+
 ## Estrutura
 
 - [`blog/`](blog/) / anotações do dia a dia (o que eu aprendi)
 - [`docs/`](docs/) / referência atemporal (guia, teoria etc)
 - [`labs/`](labs/) / ambientes práticos (VMs, containers)
+
+<br></br>
 
 ## Labs
 
