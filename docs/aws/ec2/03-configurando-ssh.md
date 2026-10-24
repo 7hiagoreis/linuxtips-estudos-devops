@@ -444,9 +444,9 @@ ssh -i ~/.ssh/id_ed25519 ubuntu@IP_PUBLICO_DA_EC2
 <p align="center"> <img src="images/ssh-ec2-img030.png" alt="Conectando na EC2"> </p>
 <p align="right"><i>(Imagem 30: Conectando na EC2)</i>
 
-<br></br>
-
 ---
+
+<br></br>
 
 Digite a senha (passphrase) da chave e pressione <kbd>Enter</kbd>
 
