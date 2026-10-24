@@ -100,6 +100,10 @@ Os documentos foram escritos para serem seguidos em sequência, mas também pode
 
 ## Referências
 
-- [Oracle VirtualBox Downloads](https://www.virtualbox.org/wiki/Downloads)
-- [Oracle VirtualBox Documentation](https://www.virtualbox.org/manual/)
-- [Ubuntu Server Downloads](https://ubuntu.com/download/server)
+[Oracle VirtualBox Downloads](https://www.virtualbox.org/wiki/Downloads)
+
+[Oracle VirtualBox Documentation](https://www.virtualbox.org/manual/)
+
+[Ubuntu Server Downloads](https://ubuntu.com/download/server)
+
+
