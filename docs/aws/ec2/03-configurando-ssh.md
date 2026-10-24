@@ -412,7 +412,7 @@ O comando a seguir é o mesmo do passo anterior. Se preferir utilizar um comando
 
 ```bash
 ssh-copy-id -f -i ~/.ssh/id_ed25519.pub -o "IdentityFile=$HOME/.ssh/chave-ec2-aws.pem" -o "IdentitiesOnly=yes" ubuntu@IP_PUBLICO_DA_EC2
-```bash
+```
 
 <p align="center"> <img src="images/ssh-ec2-img028.png" alt="Executando o comando ssh-copy-id"> </p>
 <p align="right"><i>(Imagem 28: Executando o comando ssh-copy-id)</i>
