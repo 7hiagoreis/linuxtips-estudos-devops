@@ -201,29 +201,29 @@ Servidor SSH
 #### Passo a Passo da Configuração do NAT
 1. Com a VM desligada, abra as **Configurações** dela no VirtualBox.
 
-<p align="center"> <img src="images/17-redirecionamento-portas-02.png" alt="Tela de configuração da rede no VirtualBox"> </p>
-<p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
+<p align="center"> <img src="images/17-redirecionamento-portas-02.png" alt="Acessando as configurações da máquina virtual"> </p>
+<p align="right"><i>(Imagem: Acessando as configurações da máquina virtual)</i>
 
 <br></br>
 
 2. Após clicar em configurações o VirtualBox exibe uma nova janela com as opções da máquina virtual do lado esquerdo da tela...
 
-<p align="center"> <img src="images/18-redirecionamento-portas-03.png" alt="Tela de configuração da rede no VirtualBox"> </p>
-<p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
+<p align="center"> <img src="images/18-redirecionamento-portas-03.png" alt="Painel de Configuração / VirtualBox"> </p>
+<p align="right"><i>(Imagem: Painel de Configuração / VirtualBox)</i>
 
 <br></br>
 
 3. Clique na aba **Rede** > **Adaptador 1** (Garantir que a opção "Ligado a: NAT" está selecionada).
 
 <p align="center"> <img src="images/18-redirecionamento-portas-04.png" alt="Tela de configuração da rede no VirtualBox"> </p>
-<p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
+<p align="right"><i>(Imagem: Painel de Configuração da Rede / VirtualBox)</i>
 
 <br></br>
 
 4. Clique no botão **Redirecionamento de Portas**.
 
 <p align="center"> <img src="images/18-redirecionamento-portas-05.png" alt="Tela de configuração da rede no VirtualBox"> </p>
-<p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
+<p align="right"><i>(Imagem: Painel de Configuração da Rede / VirtualBox)</i>
 
 <br></br>
 
@@ -257,8 +257,8 @@ A imagem abaixo é um exemplo de como preencher os campos da Regra de Redirecion
 7. **PuTTY:** Abra o PuTTY e digite no campo *Host Name (or IP address)* o endereço `127.0.0.1`, e no campo *Port*, altere para `2222`. Mantenha a opção padrão no Tipo de Conexão (Connection Type): SSH
 Clique em ´Open´ para conectar a máquina virtual.
 
-<p align="center"> <img src="images/18-redirecionamento-portas-09.png" alt="Tela de configuração da rede no VirtualBox"> </p>
-<p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
+<p align="center"> <img src="images/18-redirecionamento-portas-09.png" alt="PuTTY"> </p>
+<p align="right"><i>(Imagem: PuTTY)</i>
 
 <br></br>
 
@@ -268,8 +268,8 @@ Na primeira conexão ao servidor, o PuTTY exibirá um aviso de segurança chamad
 
 Isso acontece porque o PuTTY ainda não conhece a chave de identificação criptográfica (*host key*) da máquina virtual (VM). Esse comportamento é padrão e serve para garantir que a conexão está correta ao servidor.
 
-<p align="center"> <img src="images/primeiro-acesso-putty-red-portas.png" alt="Tela de configuração da rede no VirtualBox"> </p>
-<p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
+<p align="center"> <img src="images/primeiro-acesso-putty-red-portas.png" alt="Alerta de segurança do PuTTY"> </p>
+<p align="right"><i>(Imagem: Alerta de segurança do PuTTY)</i>
 
 <br></br>
 
@@ -286,22 +286,22 @@ Isso acontece porque o PuTTY ainda não conhece a chave de identificação cript
 
 Ao conectar no Ubuntu Server, digite o nome de usuário.
 
-<p align="center"> <img src="images/primeiro-acesso-putty-red-portas-02.png" alt="Tela de configuração da rede no VirtualBox"> </p>
-<p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
+<p align="center"> <img src="images/primeiro-acesso-putty-red-portas-02.png" alt="Digite o nome do usuário do Ubuntu Server"> </p>
+<p align="right"><i>(Imagem: Digite o nome do usuário do Ubuntu Server)</i>
 
 <br></br>
 
 Digite a senha do usuário. OBS: O campo da senha não exibe caracteres. Após digitar a senha pressione <kbd>ENTER</kbd>
 
-<p align="center"> <img src="images/primeiro-acesso-putty-red-portas-03.png" alt="Tela de configuração da rede no VirtualBox"> </p>
-<p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
+<p align="center"> <img src="images/primeiro-acesso-putty-red-portas-03.png" alt="Digite a senha do usuário do Ubuntu Server"> </p>
+<p align="right"><i>(Imagem: Digite a senha do usuário do Ubuntu Server)</i>
 
 <br></br>
 
 Pronto! A conexão SSH foi estabelecida no Ubuntu Server.
 
-<p align="center"> <img src="images/primeiro-acesso-putty-red-portas-04.png" alt="Tela de configuração da rede no VirtualBox"> </p>
-<p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
+<p align="center"> <img src="images/primeiro-acesso-putty-red-portas-04.png" alt="Representação do terminal, conectado no Ubuntu Server"> </p>
+<p align="right"><i>(Imagem: Representação do terminal, conectado no Ubuntu Server)</i>
 
 <br></br>
 
@@ -336,22 +336,22 @@ Nesse modo, o VirtualBox faz com que a máquina virtual participe diretamente da
 
 3. Inicie a máquina virtual.
 
-<p align="center"> <img src="images/modo-bridge-04.png" alt="Tela de configuração da rede no VirtualBox"> </p>
-<p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
+<p align="center"> <img src="images/modo-bridge-04.png" alt="Painel do VirtualBox"> </p>
+<p align="right"><i>(Imagem: Painel do VirtualBox)</i>
 
 <br></br>
 
 4. No terminal do Ubuntu Server, execute o comando `ip addr` ou `ip a` para identificar o endereço IP recebido via DHCP (ex: `192.168.15.4`).
 
-<p align="center"> <img src="images/modo-bridge-05.png" alt="Tela de configuração da rede no VirtualBox"> </p>
-<p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
+<p align="center"> <img src="images/modo-bridge-05.png" alt="ip addr"> </p>
+<p align="right"><i>(Imagem: Execução do comando "ip addr")</i>
 
 <br></br>
 
 5. **No PuTTY:** Digite o IP da máquina virtual (VM), obtido com o comando `ip addr` e mantenha a porta padrão `22`. Clique em "Open" para conectar a máquina virtual.
 
-<p align="center"> <img src="images/modo-bridge-06.png" alt="Tela de configuração da rede no VirtualBox"> </p>
-<p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
+<p align="center"> <img src="images/modo-bridge-06.png" alt="PuTTY"> </p>
+<p align="right"><i>(Imagem: PuTTY)</i>
 
 <br></br>
 
@@ -361,8 +361,8 @@ Na primeira conexão ao servidor, o PuTTY exibirá um aviso de segurança chamad
 
 Isso acontece porque o PuTTY ainda não conhece a chave de identificação criptográfica (*host key*) da máquina virtual (VM). Esse comportamento é padrão e serve para garantir que a conexão está correta ao servidor.
 
-<p align="center"> <img src="images/modo-bridge-07.png" alt="Tela de configuração da rede no VirtualBox"> </p>
-<p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
+<p align="center"> <img src="images/modo-bridge-07.png" alt="Alerta de segurança do PuTTY"> </p>
+<p align="right"><i>(Imagem: Alerta de segurança do PuTTY)</i>
 
 <br></br>
 
@@ -379,36 +379,36 @@ Isso acontece porque o PuTTY ainda não conhece a chave de identificação cript
 
 Sempre que conectar ao PuTTY neste método, ele vai solicitar o nome de usuario e senha cadastrados no Ubuntu Server.
 
-<p align="center"> <img src="images/modo-bridge-08.png" alt="Tela de configuração da rede no VirtualBox"> </p>
-<p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
+<p align="center"> <img src="images/modo-bridge-08.png" alt="Conectando no servidor com o PuTTY"> </p>
+<p align="right"><i>(Imagem: Conectando no servidor com o PuTTY)</i>
 
 <br></br>
 
 Digite o nome de usuário.
 
-<p align="center"> <img src="images/modo-bridge-09.png" alt="Tela de configuração da rede no VirtualBox"> </p>
-<p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
+<p align="center"> <img src="images/modo-bridge-09.png" alt="Digite o nome de usuário do Ubuntu Server"> </p>
+<p align="right"><i>(Imagem: Digite o nome de usuário do Ubuntu Server)</i>
 
 <br></br>
 
 Digite a senha do usuário. OBS: O campo da senha não exibe caracteres. Após digitar a senha pressione <kbd>ENTER</kbd>
 
-<p align="center"> <img src="images/modo-bridge-10.png" alt="Tela de configuração da rede no VirtualBox"> </p>
-<p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
+<p align="center"> <img src="images/modo-bridge-10.png" alt="Digite a senha do usuário do Ubuntu Server"> </p>
+<p align="right"><i>(Imagem: Digite a senha do usuário do Ubuntu Server)</i>
 
 <br></br>
 
 Pronto! A conexão SSH foi estabelecida no Ubuntu Server.
 
-<p align="center"> <img src="images/modo-bridge-11.png" alt="Tela de configuração da rede no VirtualBox"> </p>
-<p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
+<p align="center"> <img src="images/modo-bridge-11.png" alt="Conectado ao Ubuntu Server via PuTTY"> </p>
+<p align="right"><i>(Imagem: Conectado ao Ubuntu Server via PuTTY)</i>
 
 <br></br>
 
 Abaixo, a imagem é uma representação do terminal com o comando `ls -lha` para listar todo o conteúdo do diretório incluindo os arquivos ocultos.
 
-<p align="center"> <img src="images/modo-bridge-12.png" alt="Tela de configuração da rede no VirtualBox"> </p>
-<p align="right"><i>(Imagem: Representação do Terminal / Ubuntu Server)</i>
+<p align="center"> <img src="images/modo-bridge-12.png" alt="Comando ls -lha executado no servidor"> </p>
+<p align="right"><i>(Imagem: Comando ls -lha executado no servidor)</i>
 
 <br></br>
 
@@ -432,8 +432,8 @@ Durante os testes em outro computador, um Dell XPS 8700, foram encontradas dific
 
 * **Causa Raiz:** O computador físico estava conectado à rede exclusivamente via **Wi-Fi**. O padrão técnico de redes sem fio (IEEE 802.11) foi projetado para associar apenas **um endereço MAC por conexão**. Quando o VirtualBox tenta simular um segundo endereço MAC (da máquina virtual / VM) através da placa Wi-Fi do hospedeiro, a maioria dos roteadores residenciais e placas de rede rejeita essa requisição por segurança ou limitação de hardware, impedindo a comunicação direta em Modo Bridge.
 
-<p align="center"> <img src="images/desativa-rede-wi-fi-001.png" alt="Tela de configuração da rede no VirtualBox"> </p>
-<p align="right"><i>(Imagem: Representação do Terminal / Ubuntu Server)</i>
+<p align="center"> <img src="images/desativa-rede-wi-fi-001.png" alt="Painel de Controle do Windows / Redes"> </p>
+<p align="right"><i>(Imagem: Painel de Controle do Windows / Redes)</i>
 
 <br></br>
 
@@ -478,15 +478,15 @@ Para contornar o problema de conectividade sem abrir mão da facilidade do acess
 ### Configuração com o Adaptador Correto no VirtualBox:
 1. **Modo de Conexão:** A máquina virtual foi configurada mantendo o anexo em **Placa em modo Bridge**, permitindo que ela opere como um dispositivo autônomo e visível na rede local física.
 
-<p align="center"> <img src="images/seleciona-placa-de-rede-001.png" alt="Tela de configuração da rede no VirtualBox"> </p>
-<p align="right"><i>(Imagem: Representação do Terminal / Ubuntu Server)</i>
+<p align="center"> <img src="images/seleciona-placa-de-rede-001.png" alt="Configuração de Rede / VirtualBox"> </p>
+<p align="right"><i>(Imagem: Configuração de Rede / VirtualBox)</i>
 
 <br></br>
 
 2. **Seleção do Adaptador (Nome):** Foi selecionada manualmente a placa de rede física **Realtek (Ethernet)** que estava conectada via cabo. Essa alteração evitou as restrições e incompatibilidades de pacotes que ocorrem ao tentar forçar o Modo Bridge usando a interface Wi-Fi do computador.
 
-<p align="center"> <img src="images/seleciona-placa-de-rede-002.png" alt="Tela de configuração da rede no VirtualBox"> </p>
-<p align="right"><i>(Imagem: Representação do Terminal / Ubuntu Server)</i>
+<p align="center"> <img src="images/seleciona-placa-de-rede-002.png" alt="Configuração de Rede / VirtualBox"> </p>
+<p align="right"><i>(Imagem: Configuração de Rede / VirtualBox)</i>
 
 ---
 
@@ -518,8 +518,8 @@ O Windows possui o cliente OpenSSH, que permite gerar chaves SSH pelo PowerShell
 
 Para abrir o PowerShell, clique no menu iniciar no canto inferior esquerdo. 
 
-<p align="center"> <img src="images/powershell-00.png" alt="Abrindo o PowerShell"> </p>
-<p align="right"><i>(Imagem: Representação para abrir o PowerShell / Windows)</i>
+<p align="center"> <img src="images/powershell-00.png" alt="Área de Trabalho / Windows"> </p>
+<p align="right"><i>(Imagem: Área de Trabalho / Windows)</i>
 
 <br></br>
 
