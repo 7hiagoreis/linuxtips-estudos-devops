@@ -173,7 +173,7 @@ Clique no ícone para adicionar uma nova pasta compartilhada.
 
 <br></br>
 
-Adicione uma pasta com os seguintes parâmetros:**
+Adicione uma pasta com os seguintes parâmetros:
 
 - **Caminho da Pasta:** `C:\VM-Compartilhada`
 - **Nome da Pasta:** `Compartilhada`
