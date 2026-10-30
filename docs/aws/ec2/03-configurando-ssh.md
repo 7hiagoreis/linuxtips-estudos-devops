@@ -164,7 +164,7 @@ Na tela de Configurações, clique em **Pastas Compartilhadas**
 
 <br></br>
 
-Clique no ícone para adiciona uma nova pasta compartilhada.
+Clique no ícone para adicionar uma nova pasta compartilhada.
 
 <p align="center"> <img src="images/ssh-ec2-img010.png" alt="Pastas Compartilhadas / VirtualBox"> </p>
 <p align="right"><i>(Imagem 10: Pastas Compartilhadas / VirtualBox)</i>
