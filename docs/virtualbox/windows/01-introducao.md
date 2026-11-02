@@ -451,9 +451,10 @@ A estrutura de arquivos do nosso repositório está dividida entre conceitos ger
 docs/
 ├── aws/
 ├── ssh/
-└── windows/
-    ├── 01-introdução.md
-    └── 02-instalando-virtualbox-e-ubuntu.md
+└── virtualbox/
+        └── windows/
+                ├── 01-introdução.md
+                └── 02-instalando-virtualbox-e-ubuntu.md
 ```
 
 ---
