@@ -445,7 +445,7 @@ Ao final dessa sequência, teremos um laboratório limpo e funcional para os pr�
 
 ## Organização dos Arquivos de Documentação
 
-A estrutura de arquivos do nosso repositório está dividida entre conceitos gerais e os passos práticos por sistema operacional:
+A estrutura de arquivos do repositório está dividida entre conceitos gerais e os passos práticos por assunto ou sistema operacional:
 
 ```text
 docs/
