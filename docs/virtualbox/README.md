@@ -75,9 +75,9 @@ No momento, o foco é o Windows como sistema principal. Tutoriais para Linux e m
 
 ```
 docs/virtualbox/
-├── windows/
-├── linux/
-└── macos/
+        ├── windows/
+        ├── linux/
+        └── macos/
 ```
 
 ---
