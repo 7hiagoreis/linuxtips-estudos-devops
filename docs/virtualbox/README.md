@@ -30,9 +30,9 @@ Isso cria um ambiente seguro para testes. Se algo quebrar, basta recriar a máqu
 
 ```
 docs/virtualbox/
-└── windows/
-    ├── 01-introducao.md
-    └── 02-instalando-virtualbox-e-ubuntu.md
+        └── windows/
+         ├── 01-introducao.md
+         └── 02-instalando-virtualbox-e-ubuntu.md
 ```
 
 Cada arquivo cobre uma etapa do laboratório. O número no começo do nome indica a ordem de leitura.
