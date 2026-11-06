@@ -105,6 +105,13 @@ A imagem abaixo é um exemplo de ativação do Hypervisor na Bios. Após habilit
 
 <hr size="1" color="gray">
 
+Exemplo de ativação do Hypervisor na Bios em um PC Dell. Após habilitar o Hypervisor aperte a tecla F10 para sair e salvar a alteração. Observe que a tecla para salvar e sair da Bios depende do modelo da sua placa-mãe.
+
+![Representação do computador físico](images/01c-bios-dell-img001.png)
+<p align="right"><i>(Imagem: Ativando Hypervisor na Bios / Dell)</i>
+
+<hr size="1" color="gray">
+
 <h3>Mensagem de Erro (Caso a Virtualização esteja Desativada):</h3>
 
 <pre>
