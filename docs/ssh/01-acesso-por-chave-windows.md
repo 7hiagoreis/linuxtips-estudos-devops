@@ -161,7 +161,7 @@ Abaixo imagem da tela principal do PuTTY.
 Inicialmente, a máquina virtual estava configurada com a opção NAT nas configurações de rede do VirtualBox.
 
 <p align="center"> <img src="images/16-redirecionamento-portas-01.png" alt="Tela de configuração da rede no VirtualBox"> </p>
-<p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
+<p align="right"><i>(Imagem 16: Tela de configuração da rede no VirtualBox)</i>
 
 <br></br>
 
@@ -202,35 +202,35 @@ Servidor SSH
 1. Com a VM desligada, abra as **Configurações** dela no VirtualBox.
 
 <p align="center"> <img src="images/17-redirecionamento-portas-02.png" alt="Acessando as configurações da máquina virtual"> </p>
-<p align="right"><i>(Imagem: Acessando as configurações da máquina virtual)</i>
+<p align="right"><i>(Imagem 17: Acessando as configurações da máquina virtual)</i>
 
 <br></br>
 
 2. Após clicar em configurações o VirtualBox exibe uma nova janela com as opções da máquina virtual do lado esquerdo da tela...
 
 <p align="center"> <img src="images/18-redirecionamento-portas-03.png" alt="Painel de Configuração / VirtualBox"> </p>
-<p align="right"><i>(Imagem: Painel de Configuração / VirtualBox)</i>
+<p align="right"><i>(Imagem 18: Painel de Configuração / VirtualBox)</i>
 
 <br></br>
 
 3. Clique na aba **Rede** > **Adaptador 1** (Garantir que a opção "Ligado a: NAT" está selecionada).
 
 <p align="center"> <img src="images/18-redirecionamento-portas-04.png" alt="Tela de configuração da rede no VirtualBox"> </p>
-<p align="right"><i>(Imagem: Painel de Configuração da Rede / VirtualBox)</i>
+<p align="right"><i>(Imagem 19: Painel de Configuração da Rede / VirtualBox)</i>
 
 <br></br>
 
 4. Clique no botão **Redirecionamento de Portas**.
 
 <p align="center"> <img src="images/18-redirecionamento-portas-05.png" alt="Tela de configuração da rede no VirtualBox"> </p>
-<p align="right"><i>(Imagem: Painel de Configuração da Rede / VirtualBox)</i>
+<p align="right"><i>(Imagem 20: Painel de Configuração da Rede / VirtualBox)</i>
 
 <br></br>
 
 5. Adicione uma nova regra com os seguintes parâmetros:
 
 <p align="center"> <img src="images/18-redirecionamento-portas-06.png" alt="Tela de configuração da rede no VirtualBox"> </p>
-<p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
+<p align="right"><i>(Imagem 21: Tela de configuração da rede no VirtualBox)</i>
 
 <br></br>
 
@@ -243,14 +243,14 @@ Servidor SSH
 A imagem abaixo é um exemplo de como preencher os campos da Regra de Redirecionamento.   
 
 <p align="center"> <img src="images/18-redirecionamento-portas-07.png" alt="Tela de configuração da rede no VirtualBox"> </p>
-<p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
+<p align="right"><i>(Imagem 22: Tela de configuração da rede no VirtualBox)</i>
 
 <br></br>
    
 6. Clique em **OK** e inicie a máquina virtual.
 
 <p align="center"> <img src="images/18-redirecionamento-portas-08.png" alt="Tela de configuração da rede no VirtualBox"> </p>
-<p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
+<p align="right"><i>(Imagem 23: Tela de configuração da rede no VirtualBox)</i>
 
 <br></br>
 
@@ -258,7 +258,7 @@ A imagem abaixo é um exemplo de como preencher os campos da Regra de Redirecion
 Clique em ´Open´ para conectar a máquina virtual.
 
 <p align="center"> <img src="images/18-redirecionamento-portas-09.png" alt="PuTTY"> </p>
-<p align="right"><i>(Imagem: PuTTY)</i>
+<p align="right"><i>(Imagem 24: PuTTY)</i>
 
 <br></br>
 
@@ -269,7 +269,7 @@ Na primeira conexão ao servidor, o PuTTY exibirá um aviso de segurança chamad
 Isso acontece porque o PuTTY ainda não conhece a chave de identificação criptográfica (*host key*) da máquina virtual (VM). Esse comportamento é padrão e serve para garantir que a conexão está correta ao servidor.
 
 <p align="center"> <img src="images/primeiro-acesso-putty-red-portas.png" alt="Alerta de segurança do PuTTY"> </p>
-<p align="right"><i>(Imagem: Alerta de segurança do PuTTY)</i>
+<p align="right"><i>(Imagem 25: Alerta de segurança do PuTTY)</i>
 
 <br></br>
 
@@ -287,21 +287,21 @@ Isso acontece porque o PuTTY ainda não conhece a chave de identificação cript
 Ao conectar no Ubuntu Server, digite o nome de usuário.
 
 <p align="center"> <img src="images/primeiro-acesso-putty-red-portas-02.png" alt="Digite o nome do usuário do Ubuntu Server"> </p>
-<p align="right"><i>(Imagem: Digite o nome do usuário do Ubuntu Server)</i>
+<p align="right"><i>(Imagem 26: Digite o nome do usuário do Ubuntu Server)</i>
 
 <br></br>
 
 Digite a senha do usuário. OBS: O campo da senha não exibe caracteres. Após digitar a senha pressione <kbd>ENTER</kbd>
 
 <p align="center"> <img src="images/primeiro-acesso-putty-red-portas-03.png" alt="Digite a senha do usuário do Ubuntu Server"> </p>
-<p align="right"><i>(Imagem: Digite a senha do usuário do Ubuntu Server)</i>
+<p align="right"><i>(Imagem 27: Digite a senha do usuário do Ubuntu Server)</i>
 
 <br></br>
 
 Pronto! A conexão SSH foi estabelecida no Ubuntu Server.
 
 <p align="center"> <img src="images/primeiro-acesso-putty-red-portas-04.png" alt="Representação do terminal, conectado no Ubuntu Server"> </p>
-<p align="right"><i>(Imagem: Representação do terminal, conectado no Ubuntu Server)</i>
+<p align="right"><i>(Imagem 28: Representação do terminal, conectado no Ubuntu Server)</i>
 
 <br></br>
 
@@ -313,7 +313,7 @@ Pronto! A conexão SSH foi estabelecida no Ubuntu Server.
 Como alternativa para simplificar o acesso e não depender de mapeamento de portas individuais para cada novo serviço, a interface de rede da máquina virtual pode ser alterada de NAT para **Bridge** (Placa em modo Bridge).
 
 <p align="center"> <img src="images/modo-bridge-01.png" alt="Tela de configuração da rede no VirtualBox"> </p>
-<p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
+<p align="right"><i>(Imagem 29: Tela de configuração da rede no VirtualBox)</i>
 
 <br></br>
 
@@ -323,35 +323,35 @@ Nesse modo, o VirtualBox faz com que a máquina virtual participe diretamente da
 1. Nas configurações de **Rede** da VM, mude o campo "Conectado a:" de NAT para **Placa em modo Bridge**.
 
 <p align="center"> <img src="images/modo-bridge-02.png" alt="Tela de configuração da rede no VirtualBox"> </p>
-<p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
+<p align="right"><i>(Imagem 30: Tela de configuração da rede no VirtualBox)</i>
 
 <br></br>
 
 2. No campo **Nome**, selecione a placa de rede ativa do seu computador físico (ex: sua placa de rede (Ethernet) conectada por cabo).
 
 <p align="center"> <img src="images/modo-bridge-03.png" alt="Tela de configuração da rede no VirtualBox"> </p>
-<p align="right"><i>(Imagem: Tela de configuração da rede no VirtualBox)</i>
+<p align="right"><i>(Imagem 31: Tela de configuração da rede no VirtualBox)</i>
 
 <br></br>
 
 3. Inicie a máquina virtual.
 
 <p align="center"> <img src="images/modo-bridge-04.png" alt="Painel do VirtualBox"> </p>
-<p align="right"><i>(Imagem: Painel do VirtualBox)</i>
+<p align="right"><i>(Imagem 32: Painel do VirtualBox)</i>
 
 <br></br>
 
 4. No terminal do Ubuntu Server, execute o comando `ip addr` ou `ip a` para identificar o endereço IP recebido via DHCP (ex: `192.168.15.4`).
 
 <p align="center"> <img src="images/modo-bridge-05.png" alt="ip addr"> </p>
-<p align="right"><i>(Imagem: Execução do comando "ip addr")</i>
+<p align="right"><i>(Imagem 33: Execução do comando "ip addr")</i>
 
 <br></br>
 
 5. **No PuTTY:** Digite o IP da máquina virtual (VM), obtido com o comando `ip addr` e mantenha a porta padrão `22`. Clique em "Open" para conectar a máquina virtual.
 
 <p align="center"> <img src="images/modo-bridge-06.png" alt="PuTTY"> </p>
-<p align="right"><i>(Imagem: PuTTY)</i>
+<p align="right"><i>(Imagem 34: PuTTY)</i>
 
 <br></br>
 
@@ -362,7 +362,7 @@ Na primeira conexão ao servidor, o PuTTY exibirá um aviso de segurança chamad
 Isso acontece porque o PuTTY ainda não conhece a chave de identificação criptográfica (*host key*) da máquina virtual (VM). Esse comportamento é padrão e serve para garantir que a conexão está correta ao servidor.
 
 <p align="center"> <img src="images/modo-bridge-07.png" alt="Alerta de segurança do PuTTY"> </p>
-<p align="right"><i>(Imagem: Alerta de segurança do PuTTY)</i>
+<p align="right"><i>(Imagem 35: Alerta de segurança do PuTTY)</i>
 
 <br></br>
 
@@ -380,35 +380,35 @@ Isso acontece porque o PuTTY ainda não conhece a chave de identificação cript
 Sempre que conectar ao PuTTY neste método, ele vai solicitar o nome de usuario e senha cadastrados no Ubuntu Server.
 
 <p align="center"> <img src="images/modo-bridge-08.png" alt="Conectando no servidor com o PuTTY"> </p>
-<p align="right"><i>(Imagem: Conectando no servidor com o PuTTY)</i>
+<p align="right"><i>(Imagem 36: Conectando no servidor com o PuTTY)</i>
 
 <br></br>
 
 Digite o nome de usuário.
 
 <p align="center"> <img src="images/modo-bridge-09.png" alt="Digite o nome de usuário do Ubuntu Server"> </p>
-<p align="right"><i>(Imagem: Digite o nome de usuário do Ubuntu Server)</i>
+<p align="right"><i>(Imagem 37: Digite o nome de usuário do Ubuntu Server)</i>
 
 <br></br>
 
 Digite a senha do usuário. OBS: O campo da senha não exibe caracteres. Após digitar a senha pressione <kbd>ENTER</kbd>
 
 <p align="center"> <img src="images/modo-bridge-10.png" alt="Digite a senha do usuário do Ubuntu Server"> </p>
-<p align="right"><i>(Imagem: Digite a senha do usuário do Ubuntu Server)</i>
+<p align="right"><i>(Imagem 38: Digite a senha do usuário do Ubuntu Server)</i>
 
 <br></br>
 
 Pronto! A conexão SSH foi estabelecida no Ubuntu Server.
 
 <p align="center"> <img src="images/modo-bridge-11.png" alt="Conectado ao Ubuntu Server via PuTTY"> </p>
-<p align="right"><i>(Imagem: Conectado ao Ubuntu Server via PuTTY)</i>
+<p align="right"><i>(Imagem 39: Conectado ao Ubuntu Server via PuTTY)</i>
 
 <br></br>
 
 Abaixo, a imagem é uma representação do terminal com o comando `ls -lha` para listar todo o conteúdo do diretório incluindo os arquivos ocultos.
 
 <p align="center"> <img src="images/modo-bridge-12.png" alt="Comando ls -lha executado no servidor"> </p>
-<p align="right"><i>(Imagem: Comando ls -lha executado no servidor)</i>
+<p align="right"><i>(Imagem 40: Comando ls -lha executado no servidor)</i>
 
 <br></br>
 
@@ -433,7 +433,7 @@ Durante os testes em outro computador, um Dell XPS 8700, foram encontradas dific
 * **Causa Raiz:** O computador físico estava conectado à rede exclusivamente via **Wi-Fi**. O padrão técnico de redes sem fio (IEEE 802.11) foi projetado para associar apenas **um endereço MAC por conexão**. Quando o VirtualBox tenta simular um segundo endereço MAC (da máquina virtual / VM) através da placa Wi-Fi do hospedeiro, a maioria dos roteadores residenciais e placas de rede rejeita essa requisição por segurança ou limitação de hardware, impedindo a comunicação direta em Modo Bridge.
 
 <p align="center"> <img src="images/desativa-rede-wi-fi-001.png" alt="Painel de Controle do Windows / Redes"> </p>
-<p align="right"><i>(Imagem: Painel de Controle do Windows / Redes)</i>
+<p align="right"><i>(Imagem 41: Painel de Controle do Windows / Redes)</i>
 
 <br></br>
 
@@ -479,14 +479,14 @@ Para contornar o problema de conectividade sem abrir mão da facilidade do acess
 1. **Modo de Conexão:** A máquina virtual foi configurada mantendo o anexo em **Placa em modo Bridge**, permitindo que ela opere como um dispositivo autônomo e visível na rede local física.
 
 <p align="center"> <img src="images/seleciona-placa-de-rede-001.png" alt="Configuração de Rede / VirtualBox"> </p>
-<p align="right"><i>(Imagem: Configuração de Rede / VirtualBox)</i>
+<p align="right"><i>(Imagem 42: Configuração de Rede / VirtualBox)</i>
 
 <br></br>
 
 2. **Seleção do Adaptador (Nome):** Foi selecionada manualmente a placa de rede física **Realtek (Ethernet)** que estava conectada via cabo. Essa alteração evitou as restrições e incompatibilidades de pacotes que ocorrem ao tentar forçar o Modo Bridge usando a interface Wi-Fi do computador.
 
 <p align="center"> <img src="images/seleciona-placa-de-rede-002.png" alt="Configuração de Rede / VirtualBox"> </p>
-<p align="right"><i>(Imagem: Configuração de Rede / VirtualBox)</i>
+<p align="right"><i>(Imagem 43: Configuração de Rede / VirtualBox)</i>
 
 ---
 
@@ -519,21 +519,21 @@ O Windows possui o cliente OpenSSH, que permite gerar chaves SSH pelo PowerShell
 Para abrir o PowerShell, clique no menu iniciar no canto inferior esquerdo. 
 
 <p align="center"> <img src="images/powershell-00.png" alt="Área de Trabalho / Windows"> </p>
-<p align="right"><i>(Imagem: Área de Trabalho / Windows)</i>
+<p align="right"><i>(Imagem 44: Área de Trabalho / Windows)</i>
 
 <br></br>
 
 Na lista de programas, vá até a letra "W" e clique em "Windows PowerShell".
 
 <p align="center"> <img src="images/powershell-01.png" alt="Abrindo o PowerShell"> </p>
-<p align="right"><i>(Imagem: Representação para abrir o PowerShell / Windows)</i>
+<p align="right"><i>(Imagem 45: Representação para abrir o PowerShell / Windows)</i>
 
 <br></br>
 
 Outra forma de abrir o PowerShell é digitando seu nome diretamente na barra de `Pesquisar` do Windows, conforme imagem abaixo:
 
 <p align="center"> <img src="images/powershell-02.png" alt="Abrindo o PowerShell"> </p>
-<p align="right"><i>(Imagem: Representação para abrir o PowerShell / Windows)</i>
+<p align="right"><i>(Imagem 46: Representação para abrir o PowerShell / Windows)</i>
 
 <br></br>
 
@@ -544,7 +544,7 @@ ssh-keygen -t ed25519
 ```
 
 <p align="center"> <img src="images/powershell-03.png" alt="Executando comando no PowerShell"> </p>
-<p align="right"><i>(Imagem: Executando comando no PowerShell / Windows)</i>
+<p align="right"><i>(Imagem 47: Executando comando no PowerShell / Windows)</i>
 
 <br></br>
 
@@ -557,14 +557,14 @@ C:\Users\SEU_USUARIO_WIN/.ssh/id_ed25519
 O nome `SEU_USUARIO_WIN` é apenas um exemplo. O Windows utilizará automaticamente o nome do usuário atual.
 
 <p align="center"> <img src="images/powershell-04.png" alt="Executando comando no PowerShell"> </p>
-<p align="right"><i>(Imagem: Executando comando no PowerShell / Windows)</i>
+<p align="right"><i>(Imagem 48: Executando comando no PowerShell / Windows)</i>
 
 <br></br>
 
 Em seguida, será solicitada uma senha (*passphrase*) para proteger a chave privada. É possível definir uma senha ou pressionar <kbd>Enter</kbd> duas vezes para continuar sem ela. Neste laboratório não foi definida uma senha passphrase para a chave privada. Em ambientes de produção é recomendado definir uma senha passphrase.
 
 <p align="center"> <img src="images/powershell-05.png" alt="Representação Passphrase no PowerShell"> </p>
-<p align="right"><i>(Imagem: Representação Passphrase no PowerShell / Windows)</i>
+<p align="right"><i>(Imagem 49: Representação Passphrase no PowerShell / Windows)</i>
 
 <br></br>
 
@@ -585,7 +585,7 @@ O arquivo `id_ed25519` contém a chave privada, utilizada pelo cliente SSH duran
 Esse arquivo deve permanecer protegido no computador local e nunca deve ser compartilhado ou enviado ao GitHub.
 
 <p align="center"> <img src="images/powershell-06.png" alt="Representação das chaves criadas no PowerShell"> </p>
-<p align="right"><i>(Imagem: Representação das chaves criadas no PowerShell / Windows)</i>
+<p align="right"><i>(Imagem 50: Representação das chaves criadas no PowerShell / Windows)</i>
 
 <br></br>
 
@@ -598,14 +598,14 @@ Get-ChildItem "$env:USERPROFILE\.ssh"
 ```
 
 <p align="center"> <img src="images/powershell-07.png" alt="Verificando as chaves criadas no PowerShell"> </p>
-<p align="right"><i>(Imagem: Verificando as chaves criadas no PowerShell / Windows)</i>
+<p align="right"><i>(Imagem 51: Verificando as chaves criadas no PowerShell / Windows)</i>
 
 <br></br>
 
 O diretório deverá conter os arquivos `id_ed25519` e `id_ed25519.pub`, além de quaisquer outros arquivos SSH que já existam.
 
 <p align="center"> <img src="images/powershell-08.png" alt="Chaves criadas PowerShell"> </p>
-<p align="right"><i>(Imagem: Chaves criadas PowerShell / Windows)</i>
+<p align="right"><i>(Imagem 52: Chaves criadas PowerShell / Windows)</i>
 
 <br></br>
 
@@ -623,35 +623,35 @@ Por este motivo, utilizaremos o seguinte comando:
 Get-Content "$env:USERPROFILE\.ssh\id_ed25519.pub" | ssh usuario@ip_do_servidor "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys && chmod 700 ~/.ssh && chmod 600 ~/.ssh/authorized_keys"
 ```
 <p align="center"> <img src="images/powershell-09.png" alt="Chaves criadas PowerShell"> </p>
-<p align="right"><i>(Imagem: Copiando a chave no PowerShell / Windows)</i>
+<p align="right"><i>(Imagem 53: Copiando a chave no PowerShell / Windows)</i>
 
 <br></br>
 
 Após pressionar <kbd>Enter</kbd> , o PowerShell vai perguntar se deseja continuar...
 
 <p align="center"> <img src="images/powershell-10.png" alt="Chaves criadas PowerShell"> </p>
-<p align="right"><i>(Imagem: Copiando a chave no PowerShell / Windows)</i>
+<p align="right"><i>(Imagem 54: Copiando a chave no PowerShell / Windows)</i>
 
 <br></br>
 
 Digite `yes` e pressione <kbd>Enter</kbd>
 
 <p align="center"> <img src="images/powershell-11.png" alt="Chaves criadas PowerShell"> </p>
-<p align="right"><i>(Imagem: Copiando a chave no PowerShell / Windows)</i>
+<p align="right"><i>(Imagem 55: Copiando a chave no PowerShell / Windows)</i>
 
 <br></br>
 
 Em seguida digite a senha do usuário cadastrado na máquina virtual (VM).
 
 <p align="center"> <img src="images/powershell-12.png" alt="Chaves criadas PowerShell"> </p>
-<p align="right"><i>(Imagem: Copiando a chave no PowerShell / Windows)</i>
+<p align="right"><i>(Imagem 56: Copiando a chave no PowerShell / Windows)</i>
 
 <br></br>
 
 Pronto, a chave foi copiada para a máquina virtual.
 
 <p align="center"> <img src="images/powershell-13.png" alt="Chaves criadas PowerShell"> </p>
-<p align="right"><i>(Imagem: Copiando a chave no PowerShell / Windows)</i>
+<p align="right"><i>(Imagem 57: Copiando a chave no PowerShell / Windows)</i>
 
 <br></br>
 
@@ -666,14 +666,14 @@ ssh seu_usuario@ip_do_servidor
 ```
 
 <p align="center"> <img src="images/powershell-13a.png" alt="Conectando via SSH no PowerShell"> </p>
-<p align="right"><i>(Imagem: Conectando via SSH no PowerShell / Windows)</i>
+<p align="right"><i>(Imagem 58: Conectando via SSH no PowerShell / Windows)</i>
 
 <br></br>
 
 A imagem abaixo é uma representação da conexão estabelecida com sucesso a máquina virtual.
 
 <p align="center"> <img src="images/powershell-13b.png" alt="Conectado via SSH no PowerShell"> </p>
-<p align="right"><i>(Imagem: Conectando via SSH no PowerShell / Windows)</i>
+<p align="right"><i>(Imagem 59: Conectando via SSH no PowerShell / Windows)</i>
 
 ---
 
@@ -698,14 +698,14 @@ notepad "$env:USERPROFILE\.ssh\config"
 ```
 
 <p align="center"> <img src="images/powershell-14.png" alt="Abrindo o bloco de notas"> </p>
-<p align="right"><i>(Imagem: Abrindo o bloco de notas via PowerShell / Windows)</i>
+<p align="right"><i>(Imagem 60: Abrindo o bloco de notas via PowerShell / Windows)</i>
 
 <br></br>
 
 Após digitar o comando e pressionar a tecla <kbd>Enter</kbd>, o Windows pode exibir uma tela de confirmação para criar um novo arquivo, caso o `config` não exista no sistema. Clique em <kbd>"Sim"</kbd> para criar o novo arquivo.
 
 <p align="center"> <img src="images/powershell-15.png" alt="Confirmação do novo arquivo config via PowerShell"> </p>
-<p align="right"><i>(Imagem: Tela de confirmação para criar um novo arquivo config / Windows)</i>
+<p align="right"><i>(Imagem 61: Tela de confirmação para criar um novo arquivo config / Windows)</i>
 
 <br></br>
 
@@ -719,7 +719,7 @@ Exemplo de configuração para a máquina virtual Ubuntu:
 ```
 
 <p align="center"> <img src="images/config-000.png" alt="Exemplo do arquivo config"> </p>
-<p align="right"><i>(Imagem: Exemplo do arquivo config / Windows)</i>
+<p align="right"><i>(Imagem 62: Exemplo do arquivo config / Windows)</i>
 
 <br></br>
 
@@ -732,14 +732,14 @@ Com essa configuração, a conexão poderá ser iniciada utilizando o alias:
 ```
 
 <p align="center"> <img src="images/ps-001.png" alt="Acessando o Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: Acessando o Ubuntu via PowerShell / Windows)</i>
+<p align="right"><i>(Imagem 63: Acessando o Ubuntu via PowerShell / Windows)</i>
 
 <br></br>
 
 Agora temos o acesso a máquina virtual Ubuntu Server com o alias e chave.
 
 <p align="center"> <img src="images/ps-002.png" alt="Acessando o Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: Acessando o Ubuntu via PowerShell / Windows)</i>
+<p align="right"><i>(Imagem 64: Acessando o Ubuntu via PowerShell / Windows)</i>
 
 ---
 
@@ -754,7 +754,7 @@ Remove-Item "$env:USERPROFILE\.ssh\config*" -force
 ```
 
 <p align="center"> <img src="images/config-001.png" alt="Acessando o Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: Acessando o Ubuntu via PowerShell / Windows)</i>
+<p align="right"><i>(Imagem 65: Acessando o Ubuntu via PowerShell / Windows)</i>
 
 <br></br>
 
@@ -768,7 +768,7 @@ Host ubuntu-lab
 ```
 
 <p align="center"> <img src="images/config-002.png" alt="Acessando o Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: Acessando o Ubuntu via PowerShell / Windows)</i>
+<p align="right"><i>(Imagem 66: Acessando o Ubuntu via PowerShell / Windows)</i>
 
 <br></br>
 
@@ -779,14 +779,14 @@ Get-ChildItem "$env:USERPROFILE\.ssh"
 ```
 
 <p align="center"> <img src="images/config-003.png" alt="Acessando o Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: Acessando o Ubuntu via PowerShell / Windows)</i>
+<p align="right"><i>(Imagem 67: Acessando o Ubuntu via PowerShell / Windows)</i>
 
 <br></br>
 
 O PowerShell deve exibir as chaves...
 
 <p align="center"> <img src="images/config-004.png" alt="Acessando o Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: Acessando o Ubuntu via PowerShell / Windows)</i>
+<p align="right"><i>(Imagem 68: Acessando o Ubuntu via PowerShell / Windows)</i>
 
 <br></br>
 
@@ -797,7 +797,7 @@ Get-Content $env:USERPROFILE\.ssh\id_ed25519.pub | ssh ubuntu-lab "mkdir -p ~/.s
 ```
 
 <p align="center"> <img src="images/config-005.png" alt="Acessando o Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: Acessando o Ubuntu via PowerShell / Windows)</i>
+<p align="right"><i>(Imagem 69: Acessando o Ubuntu via PowerShell / Windows)</i>
 
 ---
 
@@ -810,63 +810,63 @@ Por padrão, chaves criadas via terminal através do comando `ssh-keygen` no Pow
 Para converter a chave, abra o PuTTYgen digitando no campo de Pesquisar do sistema operacional Windows, conforme a imagem abaixo.
 
 <p align="center"> <img src="images/puttygen-001.png" alt="Convertendo chave com o PuTTYgen"> </p>
-<p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
+<p align="right"><i>(Imagem 70: Convertendo chave com o PuTTYgen / Windows)</i>
 
 <br></br>
 
 Com o PuTTYgen aberto, clique na opção <kbd>File</kbd> que está localizada no menu superior.
 
 <p align="center"> <img src="images/puttygen-002.png" alt="Convertendo chave com o PuTTYgen"> </p>
-<p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
+<p align="right"><i>(Imagem 71: Convertendo chave com o PuTTYgen / Windows)</i>
 
 <br></br>
 
 Em seguida, clique em <kbd>"Load private key"</kbd>
 
 <p align="center"> <img src="images/puttygen-003.png" alt="Convertendo chave com o PuTTYgen"> </p>
-<p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
+<p align="right"><i>(Imagem 72: Convertendo chave com o PuTTYgen / Windows)</i>
 
 <br></br>
 
 Na caixa de seleção, altere o tipo de arquivo selecionando a opção <kbd>"All Files"</kbd>
 
 <p align="center"> <img src="images/puttygen-004.png" alt="Convertendo chave com o PuTTYgen"> </p>
-<p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
+<p align="right"><i>(Imagem 73: Convertendo chave com o PuTTYgen / Windows)</i>
 
 <br></br>
 
 Acesse o `C:\` e depois a pasta `Usuários`
 
 <p align="center"> <img src="images/puttygen-005.png" alt="Convertendo chave com o PuTTYgen"> </p>
-<p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
+<p align="right"><i>(Imagem 74: Convertendo chave com o PuTTYgen / Windows)</i>
 
 <br></br>
 
 Acesse a pasta `.ssh`
 
 <p align="center"> <img src="images/puttygen-006.png" alt="Convertendo chave com o PuTTYgen"> </p>
-<p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
+<p align="right"><i>(Imagem 75: Convertendo chave com o PuTTYgen / Windows)</i>
 
 <br></br>
 
 Localize a sua chave privada, selecione-a e clique em <kbd>"Abrir"</kbd>. Se você colocou uma senha (passphrase) na chave, o PuTTYgen vai solicitar para você digitá-la.
 
 <p align="center"> <img src="images/puttygen-007.png" alt="Convertendo chave com o PuTTYgen"> </p>
-<p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
+<p align="right"><i>(Imagem 76: Convertendo chave com o PuTTYgen / Windows)</i>
 
 <br></br>
 
 Se tudo estiver correto, o PuTTYgen vai exibir uma tela confirmando a importação da chave.
 
 <p align="center"> <img src="images/puttygen-008.png" alt="Convertendo chave com o PuTTYgen"> </p>
-<p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
+<p align="right"><i>(Imagem 77: Convertendo chave com o PuTTYgen / Windows)</i>
 
 <br></br>
 
 Agora, clique no botão <kbd>"Save private key"</kbd> e salve o arquivo com o nome `id_ed25519.ppk` dentro da mesma pasta.
 
 <p align="center"> <img src="images/puttygen-009.png" alt="Convertendo chave com o PuTTYgen"> </p>
-<p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
+<p align="right"><i>(Imagem 78: Convertendo chave com o PuTTYgen / Windows)</i>
 
 <br></br>
 
@@ -875,56 +875,56 @@ Quando a chave não tem uma senha (passphrase), o PuTTYgen exige a confirmação
 OBS: Recomendação, criar uma `passphrase` para as chaves em ambiente de produção. Nunca envie para o repositório do GitHub chaves privadas!
 
 <p align="center"> <img src="images/puttygen-010.png" alt="Convertendo chave com o PuTTYgen"> </p>
-<p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
+<p align="right"><i>(Imagem 79: Convertendo chave com o PuTTYgen / Windows)</i>
 
 <br></br>
 
 Matenha o local padrão para salvar o arquivo e clique em <kbd>"Salvar"</kbd>.
 
 <p align="center"> <img src="images/puttygen-011.png" alt="Convertendo chave com o PuTTYgen"> </p>
-<p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
+<p align="right"><i>(Imagem 80: Convertendo chave com o PuTTYgen / Windows)</i>
 
 <br></br>
 
 Depois de salvar a chave, abra o PuTTY.
 
 <p align="center"> <img src="images/puttygen-012.png" alt="Convertendo chave com o PuTTYgen"> </p>
-<p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
+<p align="right"><i>(Imagem 81: Convertendo chave com o PuTTYgen / Windows)</i>
 
 <br></br>
 
 No menu lateral a esquerda do PuTTY, vá em Connection -> SSH -> Credentials / Auth, clique em Browse... e selecione esse novo arquivo `.ppk` gerado pelo PuTTYgen.
 
 <p align="center"> <img src="images/puttygen-013.png" alt="Convertendo chave com o PuTTYgen"> </p>
-<p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
+<p align="right"><i>(Imagem 82: Convertendo chave com o PuTTYgen / Windows)</i>
 
 <br></br>
 
 Acesse a pasta `C:\Usuários\SEU_USUARIO_WIN\.ssh\`
 
 <p align="center"> <img src="images/puttygen-014.png" alt="Convertendo chave com o PuTTYgen"> </p>
-<p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
+<p align="right"><i>(Imagem 83: Convertendo chave com o PuTTYgen / Windows)</i>
 
 <br></br>
 
 E selecione a chave convertida através do PuTTYgen.
 
 <p align="center"> <img src="images/puttygen-015.png" alt="Convertendo chave com o PuTTYgen"> </p>
-<p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
+<p align="right"><i>(Imagem 84: Convertendo chave com o PuTTYgen / Windows)</i>
 
 <br></br>
 
 A tela de configuração das credenciais deve ficar semelhante a imagem:
 
 <p align="center"> <img src="images/puttygen-016.png" alt="Convertendo chave com o PuTTYgen"> </p>
-<p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
+<p align="right"><i>(Imagem 85: Convertendo chave com o PuTTYgen / Windows)</i>
 
 <br></br>
 
 No menu lateral do PuTTY, clique em <kbd>"Session"</kbd> 
 
 <p align="center"> <img src="images/puttygen-018.png" alt="Convertendo chave com o PuTTYgen"> </p>
-<p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
+<p align="right"><i>(Imagem 86: Convertendo chave com o PuTTYgen / Windows)</i>
 
 <br></br>
 
@@ -939,14 +939,14 @@ seu_usuario_vm@IP_da_VM
 Substitua as informações de `usuário` e `IP` de acordo com seu o ambiente e clique em <kbd>"Open"</kbd>.
 
 <p align="center"> <img src="images/puttygen-019.png" alt="Convertendo chave com o PuTTYgen"> </p>
-<p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
+<p align="right"><i>(Imagem 87: Convertendo chave com o PuTTYgen / Windows)</i>
 
 <br></br>
 
 O PuTTY vai conectar a máquina virtual sem a necessidade de senha.
 
 <p align="center"> <img src="images/puttygen-020.png" alt="Convertendo chave com o PuTTYgen"> </p>
-<p align="right"><i>(Imagem: Convertendo chave com o PuTTYgen / Windows)</i>
+<p align="right"><i>(Imagem 88: Convertendo chave com o PuTTYgen / Windows)</i>
 
 <br></br>
 
@@ -957,7 +957,7 @@ WSL (Windows Subsystem for Linux) permite executar um ambiente Linux diretamente
 Vamos ver agora como instalar o WSL/Ubuntu no Windows, para isso abra o PowerShell.
 
 <p align="center"> <img src="images/wsl-001.png" alt="Acessando o Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
+<p align="right"><i>(Imagem 89: Instalando WSL/Ubuntu no Windows)</i>
 
 <br></br>
 
@@ -969,7 +969,7 @@ wsl --install
 
 
 <p align="center"> <img src="images/wsl-002.png" alt="Acessando o Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
+<p align="right"><i>(Imagem 90: Instalando WSL/Ubuntu no Windows)</i>
 
 <br></br>
 
@@ -978,14 +978,14 @@ Atenção, durante a etapa de instalação do WSL, o sistema operacional Windows
 Após a confirmação, o PowerShell vai iniciar a instalação do WSL.
 
 <p align="center"> <img src="images/wsl-004.png" alt="Acessando o Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
+<p align="right"><i>(Imagem 91: Instalando WSL/Ubuntu no Windows)</i>
 
 <br></br>
 
 Aguarde o processo de instalação. Durante essa fase o Windows pode solicitar a confirmação para continuar.
 
 <p align="center"> <img src="images/wsl-005.png" alt="Acessando o Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
+<p align="right"><i>(Imagem 92: Instalando WSL/Ubuntu no Windows)</i>
 
 <br></br>
 
@@ -996,77 +996,77 @@ Nesta etapa, durante a instalação do WSL, o sistema operacional Windows vai ab
 O sistema vai continuar com a instalação.
 
 <p align="center"> <img src="images/wsl-007.png" alt="Acessando o Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
+<p align="right"><i>(Imagem 93: Instalando WSL/Ubuntu no Windows)</i>
 
 <br></br>
 
 Aguarde este processo enquanto o Windows instala o WSL...
 
 <p align="center"> <img src="images/wsl-008.png" alt="Acessando o Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
+<p align="right"><i>(Imagem 94: Instalando WSL/Ubuntu no Windows)</i>
 
 <br></br>
 
 Abaixo a imagem é uma representação da instalação do WSL/Ubuntu no Windows.
 
 <p align="center"> <img src="images/wsl-009.png" alt="Acessando o Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
+<p align="right"><i>(Imagem 95: Instalando WSL/Ubuntu no Windows)</i>
 
 <br></br>
 
 Após terminar o processo de instalação, o PowerShell informa para **reiniciar** o sistema operacional e concluir as alterações.
 
 <p align="center"> <img src="images/wsl-010.png" alt="Acessando o Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
+<p align="right"><i>(Imagem 96: Instalando WSL/Ubuntu no Windows)</i>
 
 <br></br>
 
 Clique no icone principal do Windows no canto inferior esquerdo do menu iniciar e reinicie o sistema.
 
 <p align="center"> <img src="images/wsl-011.png" alt="Acessando o Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
+<p align="right"><i>(Imagem 97: Instalando WSL/Ubuntu no Windows)</i>
 
 <br></br>
 
 Após reiniciar o sistema o processo de instalação do WSL é aberto e continua...
 
 <p align="center"> <img src="images/wsl-012.png" alt="Acessando o Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
+<p align="right"><i>(Imagem 98: Instalando WSL/Ubuntu no Windows)</i>
 
 <br></br>
 
 Quando o processo de instalação finalizar, o Windows vai exibir a tela de boas vindas ao WSL.
 
 <p align="center"> <img src="images/wsl-013.png" alt="Acessando o Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
+<p align="right"><i>(Imagem 99: Instalando WSL/Ubuntu no Windows)</i>
 
 <br></br>
 
 Neste momento, podemos fechar a tela de boas vindas do WSL.
 
 <p align="center"> <img src="images/wsl-014.png" alt="Acessando o Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
+<p align="right"><i>(Imagem 100: Instalando WSL/Ubuntu no Windows)</i>
 
 <br></br>
 
 Defina um nome de usuário para o WSL.
 
 <p align="center"> <img src="images/wsl-015.png" alt="Acessando o Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
+<p align="right"><i>(Imagem 101: Instalando WSL/Ubuntu no Windows)</i>
 
 <br></br>
 
 Digite a senha para o usuário do WSL.
 
 <p align="center"> <img src="images/wsl-016.png" alt="Acessando o Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
+<p align="right"><i>(Imagem 102: Instalando WSL/Ubuntu no Windows)</i>
 
 <br></br>
 
 Confirme a senha cadastrada do usuário do WSL.
 
 <p align="center"> <img src="images/wsl-017.png" alt="Acessando o Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
+<p align="right"><i>(Imagem 103: Instalando WSL/Ubuntu no Windows)</i>
 
 <br></br>
 
@@ -1080,7 +1080,7 @@ n = não
 ```
 
 <p align="center"> <img src="images/wsl-018.png" alt="Acessando o Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
+<p align="right"><i>(Imagem 104: Instalando WSL/Ubuntu no Windows)</i>
 
 <br></br>
 
@@ -1091,14 +1091,14 @@ n
 ```
 
 <p align="center"> <img src="images/wsl-019.png" alt="Acessando o Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
+<p align="right"><i>(Imagem 105: Instalando WSL/Ubuntu no Windows)</i>
 
 <br></br>
 
 Pronto! O WSL foi instalado com sucesso...
 
 <p align="center"> <img src="images/wsl-020.png" alt="Acessando o Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
+<p align="right"><i>(Imagem 106: Instalando WSL/Ubuntu no Windows)</i>
 
 <br></br>
 
@@ -1107,7 +1107,7 @@ Pronto! O WSL foi instalado com sucesso...
 Para utilizar o WSL, abra o PowerShell.
 
 <p align="center"> <img src="images/wsl-021.png" alt="Acessando o Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
+<p align="right"><i>(Imagem 107: Instalando WSL/Ubuntu no Windows)</i>
 
 <br></br>
 
@@ -1120,14 +1120,14 @@ wsl
 Após digitar o comando, pressione <kbd>Enter</kbd>; o WSL será carregado dentro do PowerShell.
 
 <p align="center"> <img src="images/wsl-022.png" alt="Acessando o Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
+<p align="right"><i>(Imagem 108: Instalando WSL/Ubuntu no Windows)</i>
 
 <br></br>
 
 Com isso o Windows vai carregar um sistema Linux virtualizado usando como recurso o WSL.
 
 <p align="center"> <img src="images/wsl-023.png" alt="Acessando o Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: Instalando WSL/Ubuntu no Windows)</i>
+<p align="right"><i>(Imagem 109: Instalando WSL/Ubuntu no Windows)</i>
 
 <br></br>
 
@@ -1140,21 +1140,21 @@ Com isso o Windows vai carregar um sistema Linux virtualizado usando como recurs
 Esta etapa demonstra como criar as chaves no WSL (Windows), primeiro abra o PowerShell.
 
 <p align="center"> <img src="images/chave-wsl-0001.png" alt="WSL/Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: WSL/Ubuntu via PowerShell)</i>
+<p align="right"><i>(Imagem 110: WSL/Ubuntu via PowerShell)</i>
 
 <br></br>
 
 No PowerShell digite wsl e pressione Enter.
 
 <p align="center"> <img src="images/chave-wsl-0002.png" alt="WSL/Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: WSL/Ubuntu via PowerShell)</i>
+<p align="right"><i>(Imagem 111: WSL/Ubuntu via PowerShell)</i>
 
 <br></br>
 
 Perceba que o terminal indica que agora está utilizando o WSL.
 
 <p align="center"> <img src="images/chave-wsl-0003.png" alt="WSL/Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: WSL/Ubuntu via PowerShell)</i>
+<p align="right"><i>(Imagem 112: WSL/Ubuntu via PowerShell)</i>
 
 <br></br>
 
@@ -1163,35 +1163,35 @@ O processo para criar as chaves no WSL/Ubuntu é semelhante a etapa do PowerShel
 No terminal digite o comando:
 
 <p align="center"> <img src="images/chave-wsl-0004.png" alt="WSL/Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: WSL/Ubuntu via PowerShell)</i>
+<p align="right"><i>(Imagem 113: WSL/Ubuntu via PowerShell)</i>
 
 <br></br>
 
 O terminal questina se deseja salvar as chaves no diretório padrão, pressione <kbd>Enter</kbd> para avançar sem alterar o caminho.
 
 <p align="center"> <img src="images/chave-wsl-0005.png" alt="WSL/Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: WSL/Ubuntu via PowerShell)</i>
+<p align="right"><i>(Imagem 114: WSL/Ubuntu via PowerShell)</i>
 
 <br></br>
 
 Neste momento o terminal informa se desenha criar uma senha (Passphrase) para acesso a chave. Defina a senha ou deixe em branco e pressione Enter.
 
 <p align="center"> <img src="images/chave-wsl-0006.png" alt="WSL/Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: WSL/Ubuntu via PowerShell)</i>
+<p align="right"><i>(Imagem 115: WSL/Ubuntu via PowerShell)</i>
 
 <br></br>
 
 Confirme a Passphrase e pressione <kbd>Enter</kbd>.
 
 <p align="center"> <img src="images/chave-wsl-0007.png" alt="WSL/Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: WSL/Ubuntu via PowerShell)</i>
+<p align="right"><i>(Imagem 116: WSL/Ubuntu via PowerShell)</i>
 
 <br></br>
 
 Com as chaves criadas, o terminal exibe as confirmações...
 
 <p align="center"> <img src="images/chave-wsl-0008.png" alt="WSL/Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: WSL/Ubuntu via PowerShell)</i>
+<p align="right"><i>(Imagem 117: WSL/Ubuntu via PowerShell)</i>
 
 <br></br>
 
@@ -1200,21 +1200,21 @@ Com as chaves criadas, o terminal exibe as confirmações...
 O comando `ssh-copy-id` permite copiar a chave pública para um servidor remoto, facilitando a configuração da autenticação por chave SSH.
 
 <p align="center"> <img src="images/chave-wsl-0009.png" alt="WSL/Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: WSL/Ubuntu via PowerShell)</i>
+<p align="right"><i>(Imagem 118: WSL/Ubuntu via PowerShell)</i>
 
 <br></br>
 
 Digite a senha do usuário da máquina virtual (VM) para confirmar o acesso.
 
 <p align="center"> <img src="images/chave-wsl-0010.png" alt="WSL/Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: WSL/Ubuntu via PowerShell)</i>
+<p align="right"><i>(Imagem 119: WSL/Ubuntu via PowerShell)</i>
 
 <br></br>
 
 Pronto, após a cópia da chave o terminal exibe as informações.
 
 <p align="center"> <img src="images/chave-wsl-0011.png" alt="WSL/Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: WSL/Ubuntu via PowerShell)</i>
+<p align="right"><i>(Imagem 120: WSL/Ubuntu via PowerShell)</i>
 
 <br></br>
 
@@ -1223,7 +1223,7 @@ Pronto, após a cópia da chave o terminal exibe as informações.
 O arquivo config
 
 <p align="center"> <img src="images/chave-wsl-0012.png" alt="WSL/Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: WSL/Ubuntu via PowerShell)</i>
+<p align="right"><i>(Imagem 121: WSL/Ubuntu via PowerShell)</i>
 
 <br></br>
 
@@ -1237,7 +1237,7 @@ No arquivo insira:
 
 
 <p align="center"> <img src="images/chave-wsl-0013.png" alt="WSL/Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: WSL/Ubuntu via PowerShell)</i>
+<p align="right"><i>(Imagem 122: WSL/Ubuntu via PowerShell)</i>
 
 <br></br>
 
@@ -1251,21 +1251,21 @@ ssh ubuntu-lab
 ```
 
 <p align="center"> <img src="images/chave-wsl-0014.png" alt="WSL/Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: WSL/Ubuntu via PowerShell)</i>
+<p align="right"><i>(Imagem 123: WSL/Ubuntu via PowerShell)</i>
 
 <br></br>
 
 Para o primeiro acesso, digite a senha do usuário da máquina virtual...
 
 <p align="center"> <img src="images/chave-wsl-0015.png" alt="WSL/Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: WSL/Ubuntu via PowerShell)</i>
+<p align="right"><i>(Imagem 124: WSL/Ubuntu via PowerShell)</i>
 
 <br></br>
 
 Ao conectar na máquina virtual, o terminal exibe a mensagem de boas vindas.
 
 <p align="center"> <img src="images/chave-wsl-0016.png" alt="WSL/Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: WSL/Ubuntu via PowerShell)</i>
+<p align="right"><i>(Imagem 125: WSL/Ubuntu via PowerShell)</i>
 
 <br></br>
 
@@ -1278,7 +1278,7 @@ apt-get update
 ```
 
 <p align="center"> <img src="images/chave-wsl-0017.png" alt="WSL/Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: WSL/Ubuntu via PowerShell)</i>
+<p align="right"><i>(Imagem 126: WSL/Ubuntu via PowerShell)</i>
 
 <br></br>
 
@@ -1287,7 +1287,7 @@ apt-get upgrade
 ```
 
 <p align="center"> <img src="images/chave-wsl-0018.png" alt="WSL/Ubuntu via PowerShell"> </p>
-<p align="right"><i>(Imagem: WSL/Ubuntu via PowerShell)</i>
+<p align="right"><i>(Imagem 127: WSL/Ubuntu via PowerShell)</i>
 
 <br></br>
 
